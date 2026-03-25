@@ -29,10 +29,68 @@ There are also newer numbered problems from LeetCode, for example:
 - `3370. Smallest Number With All Set Bits.py`
 - `3607. Power Grid Maintenance.py`
 
+### Problem Index
+
+Below is a quick index of the current Python solution files in this repository:
+
+- `2. Add Two Numbers.py`
+- `3. Longest Substring Without Repeating Characters.py`
+- `3Sum.py`
+- `3Sum Closest.py`
+- `4Sum.py`
+- `5. Longest Palindromic Substring.py`
+- `6. Zigzag Conversion.py`
+- `7. Reverse Integer.py`
+- `8. String to Integer (atoi).py`
+- `9. Palindrome Number.py`
+- `10. Regular Expression Matching.py`
+- `12. Integer to Roman.py`
+- `13. Roman to Integer.py`
+- `56. Merge Intervals.py`
+- `57. Insert Interval.py`
+- `58. Length of Last Word.py`
+- `59. Spiral Matrix II.py`
+- `60. Permutation Sequence.py`
+- `61. Rotate List.py`
+- `1526. Minimum Number of Increments on Subarrays to Form a Target Array.py`
+- `1578. Minimum Time to Make Rope Colorful.py`
+- `1886. Determine Whether Matrix Can Be Obtained By Rotation.py`
+- `2043. Simple Bank System.py`
+- `2048. Next Greater Numerically Balanced Number.py`
+- `2125. Number of Laser Beams in a Bank.py`
+- `2257. Count Unguarded Cells in the Grid.py`
+- `2906. Construct Product Matrix.py`
+- `3217. Delete Nodes From Linked List Present in Array.py`
+- `3289. The Two Sneaky Numbers of Digitville.py`
+- `3318. Find X-Sum of All K-Long Subarrays I.py`
+- `3354. Make Array Elements Equal to Zero.py`
+- `3370. Smallest Number With All Set Bits.py`
+- `3546. Equal Sum Grid Partition I.py`
+- `3607. Power Grid Maintenance.py`
+- `Combination Sum.py`
+- `Combination Sum II.py`
+- `Container With Most Water.py`
+- `find-first-and-last-position-of-element-in-sorted-array.py`
+- `First Missing Positive.py`
+- `Jump Game II.py`
+- `Longest Common Prefix.py`
+- `Median of Two Sorted Arrays.py`
+- `Next Permutation.py`
+- `Prob.3212.py`
+- `Remove Duplicates from Sorted Array.py`
+- `Remove Element.py`
+- `Search in Rotated Sorted Array.py`
+- `Search Insert Position.py`
+- `Sudoku Solver.py`
+- `Trapping Rain Water.py`
+- `Two Sum.py`
+- `Valid Sudoku.py`
+
 ### How to Use
 
+- Ensure you have Python 3 installed locally.
 - Open any problem file to view the Python solution and approach.
-- You can run an individual file directly with `python "<file name>.py"` to experiment or debug.
+- Run an individual file directly with a command like `python "Two Sum.py"` from the repository root to experiment or debug.
 - Use this repo as a reference for patterns such as:
 	- Two‑pointers
 	- Sliding window
