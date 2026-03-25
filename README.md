@@ -52,6 +52,7 @@ Below is a quick index of the current Python solution files in this repository:
 - `59. Spiral Matrix II.py`
 - `60. Permutation Sequence.py`
 - `61. Rotate List.py`
+ - `62. Unique Paths.py`
 - `1526. Minimum Number of Increments on Subarrays to Form a Target Array.py`
 - `1578. Minimum Time to Make Rope Colorful.py`
 - `1886. Determine Whether Matrix Can Be Obtained By Rotation.py`
