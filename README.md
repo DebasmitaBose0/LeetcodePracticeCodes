@@ -27,6 +27,7 @@ There are also newer numbered problems from LeetCode, for example:
 - `3318. Find X-Sum of All K-Long Subarrays I.py`
 - `3354. Make Array Elements Equal to Zero.py`
 - `3370. Smallest Number With All Set Bits.py`
+ - `3548. Equal Sum Grid Partition II.py`
 - `3607. Power Grid Maintenance.py`
 
 ### Problem Index
@@ -67,6 +68,7 @@ Below is a quick index of the current Python solution files in this repository:
 - `3354. Make Array Elements Equal to Zero.py`
 - `3370. Smallest Number With All Set Bits.py`
 - `3546. Equal Sum Grid Partition I.py`
+ - `3548. Equal Sum Grid Partition II.py`
 - `3607. Power Grid Maintenance.py`
 - `Combination Sum.py`
 - `Combination Sum II.py`
