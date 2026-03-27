@@ -34,60 +34,72 @@ There are also newer numbered problems from LeetCode, for example:
 
 Below is a quick index of the current Python solution files in this repository:
 
-- `2. Add Two Numbers.py`
-- `3. Longest Substring Without Repeating Characters.py`
-- `3Sum.py`
-- `3Sum Closest.py`
-- `4Sum.py`
-- `5. Longest Palindromic Substring.py`
-- `6. Zigzag Conversion.py`
-- `7. Reverse Integer.py`
-- `8. String to Integer (atoi).py`
-- `9. Palindrome Number.py`
-- `10. Regular Expression Matching.py`
-- `12. Integer to Roman.py`
-- `13. Roman to Integer.py`
-- `56. Merge Intervals.py`
-- `57. Insert Interval.py`
-- `58. Length of Last Word.py`
-- `59. Spiral Matrix II.py`
-- `60. Permutation Sequence.py`
-- `61. Rotate List.py`
+ - `2. Add Two Numbers.py`
+ - `3. Longest Substring Without Repeating Characters.py`
+ - `3Sum.py`
+ - `3Sum Closest.py`
+ - `4Sum.py`
+ - `5. Longest Palindromic Substring.py`
+ - `6. Zigzag Conversion.py`
+ - `7. Reverse Integer.py`
+ - `8. String to Integer (atoi).py`
+ - `9. Palindrome Number.py`
+ - `10. Regular Expression Matching.py`
+ - `12. Integer to Roman.py`
+ - `13. Roman to Integer.py`
+ - `19. Remove Nth Node From End of List.py`
+ - `20. Valid Parentheses.py`
+ - `21. Merge Two Sorted Lists.py`
+ - `22. Generate Parentheses.py`
+ - `23. Merge k Sorted Lists.py`
+ - `24. Swap Nodes in Pairs.py`
+ - `25. Reverse Nodes in k-Group.py`
+ - `28. Find the Index of the First Occurrence in a String.py`
+ - `29. Divide Two Integers.py`
+ - `30. Substring with Concatenation of All Words.py`
+ - `38. Count and Say.py`
+ - `56. Merge Intervals.py`
+ - `57. Insert Interval.py`
+ - `58. Length of Last Word.py`
+ - `59. Spiral Matrix II.py`
+ - `60. Permutation Sequence.py`
+ - `61. Rotate List.py`
  - `62. Unique Paths.py`
-- `1526. Minimum Number of Increments on Subarrays to Form a Target Array.py`
-- `1578. Minimum Time to Make Rope Colorful.py`
-- `1886. Determine Whether Matrix Can Be Obtained By Rotation.py`
-- `2043. Simple Bank System.py`
-- `2048. Next Greater Numerically Balanced Number.py`
-- `2125. Number of Laser Beams in a Bank.py`
-- `2257. Count Unguarded Cells in the Grid.py`
-- `2906. Construct Product Matrix.py`
-- `3217. Delete Nodes From Linked List Present in Array.py`
-- `3289. The Two Sneaky Numbers of Digitville.py`
-- `3318. Find X-Sum of All K-Long Subarrays I.py`
-- `3354. Make Array Elements Equal to Zero.py`
-- `3370. Smallest Number With All Set Bits.py`
-- `3546. Equal Sum Grid Partition I.py`
+ - `1526. Minimum Number of Increments on Subarrays to Form a Target Array.py`
+ - `1578. Minimum Time to Make Rope Colorful.py`
+ - `1886. Determine Whether Matrix Can Be Obtained By Rotation.py`
+ - `2043. Simple Bank System.py`
+ - `2048. Next Greater Numerically Balanced Number.py`
+ - `2125. Number of Laser Beams in a Bank.py`
+ - `2257. Count Unguarded Cells in the Grid.py`
+ - `2906. Construct Product Matrix.py`
+ - `2946. Matrix Similarity After Cyclic Shifts.py`
+ - `3217. Delete Nodes From Linked List Present in Array.py`
+ - `3289. The Two Sneaky Numbers of Digitville.py`
+ - `3318. Find X-Sum of All K-Long Subarrays I.py`
+ - `3354. Make Array Elements Equal to Zero.py`
+ - `3370. Smallest Number With All Set Bits.py`
+ - `3546. Equal Sum Grid Partition I.py`
  - `3548. Equal Sum Grid Partition II.py`
-- `3607. Power Grid Maintenance.py`
-- `Combination Sum.py`
-- `Combination Sum II.py`
-- `Container With Most Water.py`
-- `find-first-and-last-position-of-element-in-sorted-array.py`
-- `First Missing Positive.py`
-- `Jump Game II.py`
-- `Longest Common Prefix.py`
-- `Median of Two Sorted Arrays.py`
-- `Next Permutation.py`
-- `Prob.3212.py`
-- `Remove Duplicates from Sorted Array.py`
-- `Remove Element.py`
-- `Search in Rotated Sorted Array.py`
-- `Search Insert Position.py`
-- `Sudoku Solver.py`
-- `Trapping Rain Water.py`
-- `Two Sum.py`
-- `Valid Sudoku.py`
+ - `3607. Power Grid Maintenance.py`
+ - `Combination Sum.py`
+ - `Combination Sum II.py`
+ - `Container With Most Water.py`
+ - `find-first-and-last-position-of-element-in-sorted-array.py`
+ - `First Missing Positive.py`
+ - `Jump Game II.py`
+ - `Longest Common Prefix.py`
+ - `Median of Two Sorted Arrays.py`
+ - `Next Permutation.py`
+ - `Prob.3212.py`
+ - `Remove Duplicates from Sorted Array.py`
+ - `Remove Element.py`
+ - `Search in Rotated Sorted Array.py`
+ - `Search Insert Position.py`
+ - `Sudoku Solver.py`
+ - `Trapping Rain Water.py`
+ - `Two Sum.py`
+ - `Valid Sudoku.py`
 
 ### How to Use
 
