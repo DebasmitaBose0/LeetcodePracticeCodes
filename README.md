@@ -13,6 +13,11 @@ Each file generally corresponds to a single LeetCode problem. Many follow the Le
 - `Median of Two Sorted Arrays.py` – Binary search over partitions of two arrays.
 - `Container With Most Water.py` – Two‑pointer approach to maximize area.
 - `Trapping Rain Water.py` – Prefix/suffix max arrays or two‑pointer solution to compute trapped water.
+- `46. Permutations.py` – Backtracking to generate all permutations of a list.
+- `47. Permutations II.py` – Backtracking with duplicates handling for unique permutations.
+- `48. Rotate Image.py` – In-place matrix rotation by 90 degrees.
+- `49. Group Anagrams.py` – Grouping strings by their sorted characters using hash maps.
+- `2573. Find the String with LCP.py` – Finding the string with longest common prefix using trie or sorting.
 
 There are also newer numbered problems from LeetCode, for example:
 
@@ -58,6 +63,10 @@ Below is a quick index of the current Python solution files in this repository:
  - `29. Divide Two Integers.py`
  - `30. Substring with Concatenation of All Words.py`
  - `38. Count and Say.py`
+ - `46. Permutations.py`
+ - `47. Permutations II.py`
+ - `48. Rotate Image.py`
+ - `49. Group Anagrams.py`
  - `56. Merge Intervals.py`
  - `57. Insert Interval.py`
  - `58. Length of Last Word.py`
@@ -72,6 +81,7 @@ Below is a quick index of the current Python solution files in this repository:
  - `2048. Next Greater Numerically Balanced Number.py`
  - `2125. Number of Laser Beams in a Bank.py`
  - `2257. Count Unguarded Cells in the Grid.py`
+ - `2573. Find the String with LCP.py`
  - `2906. Construct Product Matrix.py`
  - `2946. Matrix Similarity After Cyclic Shifts.py`
  - `3217. Delete Nodes From Linked List Present in Array.py`
