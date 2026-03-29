@@ -1,10 +1,10 @@
-## LeetCode Practice Codes
+# LeetCode Practice Codes
 
 [![LeetCode Profile](https://img.shields.io/badge/LeetCode-Debasmita_Bose-blue?style=for-the-badge&logo=leetcode)](https://leetcode.com/u/Debasmita_Bose/)
 
 This repository contains my personal solutions to a variety of LeetCode problems. The goal is to practice different algorithms, data structures, and problem‑solving patterns in Python.
 
-### Repository Structure
+# Repository Structure
 
 Each file generally corresponds to a single LeetCode problem. Many follow the LeetCode numbering and title format, for example:
 
@@ -37,7 +37,7 @@ There are also newer numbered problems from LeetCode, for example:
  - `3548. Equal Sum Grid Partition II.py`
 - `3607. Power Grid Maintenance.py`
 
-### Problem Index
+# Problem Index
 
 Below is a comprehensive index of all Python solution files in this repository, sorted numerically where applicable:
 
@@ -137,7 +137,7 @@ Below is a comprehensive index of all Python solution files in this repository, 
  - `Two Sum.py`
  - `Valid Sudoku.py`
 
-### How to Use
+# How to Use
 
 - Ensure you have Python 3 installed locally.
 - Open any problem file to view the Python solution and approach.
@@ -150,6 +150,6 @@ Below is a comprehensive index of all Python solution files in this repository, 
 	- Greedy algorithms
 	- Hash‑map / set based solutions
 
-### Notes
+# Notes
 
 These solutions are primarily for learning and self‑improvement. They may not always be the most optimal or canonical solution, but they reflect my current understanding and progress on LeetCode.
