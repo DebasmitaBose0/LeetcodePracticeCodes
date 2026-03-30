@@ -4,6 +4,25 @@
 
 This repository contains my personal solutions to a variety of LeetCode problems. The goal is to practice different algorithms, data structures, and problem‑solving patterns in Python.
 
+# Progress
+
+- Currently contains solutions for 107 LeetCode problems in Python.
+- Continuously updated as I solve new problems on LeetCode.
+
+# Topics Covered
+
+These problems span a wide range of common interview topics, including:
+
+- Arrays and strings (two‑pointers, sliding window, prefix sums)
+- Linked lists (reversal, partitioning, merging, k‑group operations)
+- Trees and graphs (traversals, validation, reconstruction)
+- Backtracking and recursion (permutations, combinations, N‑Queens, Sudoku)
+- Dynamic programming (subsequences, partitioning, counting, matching)
+- Greedy algorithms (interval scheduling, local optimal choices)
+- Binary search and search in sorted/rotated arrays
+- Hash‑map / set based problems (frequency counting, lookups, grouping)
+- Matrix problems (rotation, traversal, prefix computations)
+
 # Repository Structure
 
 Each file generally corresponds to a single LeetCode problem. Many follow the LeetCode numbering and title format, for example:
@@ -43,9 +62,6 @@ Below is a comprehensive index of all Python solution files in this repository, 
 
  - `2. Add Two Numbers.py`
  - `3. Longest Substring Without Repeating Characters.py`
- - `3Sum Closest.py`
- - `3Sum.py`
- - `4Sum.py`
  - `5. Longest Palindromic Substring.py`
  - `6. Zigzag Conversion.py`
  - `7. Reverse Integer.py`
@@ -100,6 +116,16 @@ Below is a comprehensive index of all Python solution files in this repository, 
  - `80. Remove Duplicates from Sorted Array II.py`
  - `81. Search in Rotated Sorted Array II.py`
  - `82. Remove Duplicates from Sorted List II.py`
+ - `86. Partition List.py`
+ - `87. Scramble String.py`
+ - `88. Merge Sorted Array.py`
+ - `89. Gray Code.py`
+ - `90. Subsets II.py`
+ - `92. Reverse Linked List II.py`
+ - `93. Restore IP Addresses.py`
+ - `94. Binary Tree Inorder Traversal.py`
+ - `98. Validate Binary Search Tree.py`
+ - `99. Recover Binary Search Tree.py`
  - `1526. Minimum Number of Increments on Subarrays to Form a Target Array.py`
  - `1578. Minimum Time to Make Rope Colorful.py`
  - `1886. Determine Whether Matrix Can Be Obtained By Rotation.py`
@@ -109,7 +135,9 @@ Below is a comprehensive index of all Python solution files in this repository, 
  - `2257. Count Unguarded Cells in the Grid.py`
  - `2573. Find the String with LCP.py`
  - `2839. Check if Strings Can be Made Equal With Operations I.py`
+ - `2840. Check if Strings Can be Made Equal With Operations II.py`
  - `2906. Construct Product Matrix.py`
+ - `2946. Matrix Similarity After Cyclic Shifts.py`
  - `3217. Delete Nodes From Linked List Present in Array.py`
  - `3289. The Two Sneaky Numbers of Digitville.py`
  - `3318. Find X-Sum of All K-Long Subarrays I.py`
@@ -118,6 +146,9 @@ Below is a comprehensive index of all Python solution files in this repository, 
  - `3546. Equal Sum Grid Partition I.py`
  - `3548. Equal Sum Grid Partition II.py`
  - `3607. Power Grid Maintenance.py`
+ - `3Sum Closest.py`
+ - `3Sum.py`
+ - `4Sum.py`
  - `Combination Sum II.py`
  - `Combination Sum.py`
  - `Container With Most Water.py`
