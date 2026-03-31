@@ -6,7 +6,7 @@ This repository contains my personal solutions to a variety of LeetCode problems
 
 # Progress
 
-- Currently contains solutions for 107 LeetCode problems in Python.
+- Currently contains solutions for 120+ LeetCode problems in Python.
 - Continuously updated as I solve new problems on LeetCode.
 
 # Topics Covered
@@ -126,6 +126,25 @@ Below is a comprehensive index of all Python solution files in this repository, 
  - `94. Binary Tree Inorder Traversal.py`
  - `98. Validate Binary Search Tree.py`
  - `99. Recover Binary Search Tree.py`
+ - `100. Same Tree.py`
+ - `101. Symmetric Tree.py`
+ - `102. Binary Tree Level Order Traversal.py`
+ - `103. Binary Tree Zigzag Level Order Traversal.py`
+ - `105. Construct Binary Tree from Preorder and Inorder Traversal.py`
+ - `106. Construct Binary Tree from Inorder and Postorder Traversal.py`
+ - `107. Binary Tree Level Order Traversal II.py`
+ - `108. Convert Sorted Array to Binary Search Tree.py`
+ - `109. Convert Sorted List to Binary Search Tree.py`
+ - `110. Balanced Binary Tree.py`
+ - `111. Minimum Depth of Binary Tree.py`
+ - `112. Path Sum.py`
+ - `113. Path Sum II.py`
+ - `114. Flatten Binary Tree to Linked List.py`
+ - `115. Distinct Subsequences.py`
+ - `116. Populating Next Right Pointers in Each Node.py`
+ - `117. Populating Next Right Pointers in Each Node II.py`
+ - `123. Best Time to Buy and Sell Stock III.py`
+ - `124. Binary Tree Maximum Path Sum.py`
  - `1526. Minimum Number of Increments on Subarrays to Form a Target Array.py`
  - `1578. Minimum Time to Make Rope Colorful.py`
  - `1886. Determine Whether Matrix Can Be Obtained By Rotation.py`
@@ -143,6 +162,7 @@ Below is a comprehensive index of all Python solution files in this repository, 
  - `3318. Find X-Sum of All K-Long Subarrays I.py`
  - `3354. Make Array Elements Equal to Zero.py`
  - `3370. Smallest Number With All Set Bits.py`
+ - `3474. Lexicographically Smallest Generated String.py`
  - `3546. Equal Sum Grid Partition I.py`
  - `3548. Equal Sum Grid Partition II.py`
  - `3607. Power Grid Maintenance.py`
@@ -155,6 +175,7 @@ Below is a comprehensive index of all Python solution files in this repository, 
  - `find-first-and-last-position-of-element-in-sorted-array.py`
  - `First Missing Positive.py`
  - `Jump Game II.py`
+ - `Max. Depth Of Binary Tree.py`
  - `Longest Common Prefix.py`
  - `Median of Two Sorted Arrays.py`
  - `Next Permutation.py`
