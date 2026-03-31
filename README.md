@@ -56,6 +56,30 @@ There are also newer numbered problems from LeetCode, for example:
  - `3548. Equal Sum Grid Partition II.py`
 - `3607. Power Grid Maintenance.py`
 
+Recently added problems (latest codes) include:
+
+- `100. Same Tree.py` – Recursively compare corresponding nodes in two trees.
+- `101. Symmetric Tree.py` – Check mirror symmetry using DFS on left/right subtrees.
+- `102. Binary Tree Level Order Traversal.py` – BFS traversal returning node values level by level.
+- `103. Binary Tree Zigzag Level Order Traversal.py` – Level order traversal with alternating left/right order.
+- `105. Construct Binary Tree from Preorder and Inorder Traversal.py` – Rebuild tree using preorder root positions and inorder splits.
+- `106. Construct Binary Tree from Inorder and Postorder Traversal.py` – Rebuild tree using postorder roots and inorder partitions.
+- `107. Binary Tree Level Order Traversal II.py` – Bottom‑up variant of level order traversal using a queue.
+- `108. Convert Sorted Array to Binary Search Tree.py` – Build height‑balanced BST via recursive middle‑element selection.
+- `109. Convert Sorted List to Binary Search Tree.py` – Find list midpoints to recursively construct a balanced BST.
+- `110. Balanced Binary Tree.py` – Post‑order DFS computing subtree heights and checking balance in one pass.
+- `111. Minimum Depth of Binary Tree.py` – DFS handling single‑child nodes to compute the true minimum depth.
+- `112. Path Sum.py` – DFS tracking remaining target sum down each root‑to‑leaf path.
+- `113. Path Sum II.py` – Backtracking to collect all root‑to‑leaf paths that meet the target sum.
+- `114. Flatten Binary Tree to Linked List.py` – In‑place transformation of the tree into a right‑skewed list.
+- `115. Distinct Subsequences.py` – 1D dynamic programming counting ways to form target as a subsequence.
+- `116. Populating Next Right Pointers in Each Node.py` – Use already‑set next pointers to connect perfect‑tree levels.
+- `117. Populating Next Right Pointers in Each Node II.py` – Level‑by‑level traversal using a dummy head for arbitrary trees.
+- `123. Best Time to Buy and Sell Stock III.py` – Track two buys and two sells for at most two transactions.
+- `124. Binary Tree Maximum Path Sum.py` – DFS returning max gain per node while tracking global best path.
+- `3474. Lexicographically Smallest Generated String.py` – Construct a minimal string consistent with T/F pattern constraints.
+- `Max. Depth Of Binary Tree.py` – Simple recursive computation of maximum root‑to‑leaf depth.
+
 # Problem Index
 
 Below is a comprehensive index of all Python solution files in this repository, sorted numerically where applicable:
