@@ -44,16 +44,31 @@ There are also newer numbered problems from LeetCode, for example:
 
 - `1526. Minimum Number of Increments on Subarrays to Form a Target Array.py`
 - `1578. Minimum Time to Make Rope Colorful.py`
+- `1611. Minimum One Bit Operations to Make Integers Zero.py`
 - `1886. Determine Whether Matrix Can Be Obtained By Rotation.py`
 - `2043. Simple Bank System.py`
+- `2048. Next Greater Numerically Balanced Number.py`
 - `2125. Number of Laser Beams in a Bank.py`
+- `2169. Count Operations to Obtain Zero.py`
 - `2257. Count Unguarded Cells in the Grid.py`
+- `2528. Maximize the Minimum Powered City.py`
+- `2536. Increment Submatrices by One.py`
+- `2573. Find the String with LCP.py`
+- `2654. Minimum Number of Operations to Make All Array Elements Equal to 1.py`
+- `2751. Robot Collisions.py`
+- `2839. Check if Strings Can be Made Equal With Operations I.py`
+- `2840. Check if Strings Can be Made Equal With Operations II.py`
 - `2906. Construct Product Matrix.py`
+- `2946. Matrix Similarity After Cyclic Shifts.py`
 - `3217. Delete Nodes From Linked List Present in Array.py`
+- `3234. Count the Number of Substrings With Dominant Ones.py`
+- `3289. The Two Sneaky Numbers of Digitville.py`
 - `3318. Find X-Sum of All K-Long Subarrays I.py`
 - `3354. Make Array Elements Equal to Zero.py`
 - `3370. Smallest Number With All Set Bits.py`
- - `3548. Equal Sum Grid Partition II.py`
+- `3474. Lexicographically Smallest Generated String.py`
+- `3546. Equal Sum Grid Partition I.py`
+- `3548. Equal Sum Grid Partition II.py`
 - `3607. Power Grid Maintenance.py`
 
 Recently added problems (latest codes) include:
@@ -79,6 +94,15 @@ Recently added problems (latest codes) include:
 - `124. Binary Tree Maximum Path Sum.py` – DFS returning max gain per node while tracking global best path.
 - `3474. Lexicographically Smallest Generated String.py` – Construct a minimal string consistent with T/F pattern constraints.
 - `Max. Depth Of Binary Tree.py` – Simple recursive computation of maximum root‑to‑leaf depth.
+ - `1611. Minimum One Bit Operations to Make Integers Zero.py` – Bit-manipulation/DP to reduce an integer to zero with minimal 1-bit operations.
+ - `2169. Count Operations to Obtain Zero.py` – Repeatedly subtract the smaller from the larger until one number becomes zero.
+ - `2528. Maximize the Minimum Powered City.py` – Binary search on answer combined with a prefix/difference array to model power ranges.
+ - `2536. Increment Submatrices by One.py` – 2D difference array to apply many submatrix +1 operations efficiently.
+ - `2654. Minimum Number of Operations to Make All Array Elements Equal to 1.py` – Use GCD properties to find minimal operations to introduce and spread a 1.
+ - `2751. Robot Collisions.py` – Stack-based sweep to simulate robot movement and resolve collisions and survivals.
+ - `2839. Check if Strings Can be Made Equal With Operations I.py` – Check feasibility under swaps restricted by index parity.
+ - `2840. Check if Strings Can be Made Equal With Operations II.py` – Compare character multisets within index classes induced by allowed operations.
+ - `3234. Count the Number of Substrings With Dominant Ones.py` – Prefix sums plus counting to track substrings where 1s dominate 0s by a margin.
 
 # Problem Index
 
@@ -171,17 +195,24 @@ Below is a comprehensive index of all Python solution files in this repository, 
  - `124. Binary Tree Maximum Path Sum.py`
  - `1526. Minimum Number of Increments on Subarrays to Form a Target Array.py`
  - `1578. Minimum Time to Make Rope Colorful.py`
+ - `1611. Minimum One Bit Operations to Make Integers Zero.py`
  - `1886. Determine Whether Matrix Can Be Obtained By Rotation.py`
  - `2043. Simple Bank System.py`
  - `2048. Next Greater Numerically Balanced Number.py`
  - `2125. Number of Laser Beams in a Bank.py`
+ - `2169. Count Operations to Obtain Zero.py`
  - `2257. Count Unguarded Cells in the Grid.py`
+ - `2528. Maximize the Minimum Powered City.py`
+ - `2536. Increment Submatrices by One.py`
  - `2573. Find the String with LCP.py`
+ - `2654. Minimum Number of Operations to Make All Array Elements Equal to 1.py`
+ - `2751. Robot Collisions.py`
  - `2839. Check if Strings Can be Made Equal With Operations I.py`
  - `2840. Check if Strings Can be Made Equal With Operations II.py`
  - `2906. Construct Product Matrix.py`
  - `2946. Matrix Similarity After Cyclic Shifts.py`
  - `3217. Delete Nodes From Linked List Present in Array.py`
+ - `3234. Count the Number of Substrings With Dominant Ones.py`
  - `3289. The Two Sneaky Numbers of Digitville.py`
  - `3318. Find X-Sum of All K-Long Subarrays I.py`
  - `3354. Make Array Elements Equal to Zero.py`
