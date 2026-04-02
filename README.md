@@ -6,7 +6,7 @@ This repository contains my personal solutions to a variety of LeetCode problems
 
 # Progress
 
-- Currently contains solutions for 120+ LeetCode problems in Python.
+- Currently contains solutions for 152 LeetCode problems in Python.
 - Continuously updated as I solve new problems on LeetCode.
 
 # Topics Covered
@@ -94,86 +94,43 @@ Recently added problems (latest codes) include:
 - `124. Binary Tree Maximum Path Sum.py` – DFS returning max gain per node while tracking global best path.
 - `3474. Lexicographically Smallest Generated String.py` – Construct a minimal string consistent with T/F pattern constraints.
 - `Max. Depth Of Binary Tree.py` – Simple recursive computation of maximum root‑to‑leaf depth.
- - `1611. Minimum One Bit Operations to Make Integers Zero.py` – Bit-manipulation/DP to reduce an integer to zero with minimal 1-bit operations.
- - `2169. Count Operations to Obtain Zero.py` – Repeatedly subtract the smaller from the larger until one number becomes zero.
- - `2528. Maximize the Minimum Powered City.py` – Binary search on answer combined with a prefix/difference array to model power ranges.
- - `2536. Increment Submatrices by One.py` – 2D difference array to apply many submatrix +1 operations efficiently.
- - `2654. Minimum Number of Operations to Make All Array Elements Equal to 1.py` – Use GCD properties to find minimal operations to introduce and spread a 1.
- - `2751. Robot Collisions.py` – Stack-based sweep to simulate robot movement and resolve collisions and survivals.
- - `2839. Check if Strings Can be Made Equal With Operations I.py` – Check feasibility under swaps restricted by index parity.
- - `2840. Check if Strings Can be Made Equal With Operations II.py` – Compare character multisets within index classes induced by allowed operations.
- - `3234. Count the Number of Substrings With Dominant Ones.py` – Prefix sums plus counting to track substrings where 1s dominate 0s by a margin.
+- `1611. Minimum One Bit Operations to Make Integers Zero.py` – Bit-manipulation/DP to reduce an integer to zero with minimal 1-bit operations.
+- `2169. Count Operations to Obtain Zero.py` – Repeatedly subtract the smaller from the larger until one number becomes zero.
+- `2528. Maximize the Minimum Powered City.py` – Binary search on answer combined with a prefix/difference array to model power ranges.
+- `2536. Increment Submatrices by One.py` – 2D difference array to apply many submatrix +1 operations efficiently.
+- `2654. Minimum Number of Operations to Make All Array Elements Equal to 1.py` – Use GCD properties to find minimal operations to introduce and spread a 1.
+- `2751. Robot Collisions.py` – Stack-based sweep to simulate robot movement and resolve collisions and survivals.
+- `2839. Check if Strings Can be Made Equal With Operations I.py` – Check feasibility under swaps restricted by index parity.
+- `2840. Check if Strings Can be Made Equal With Operations II.py` – Compare character multisets within index classes induced by allowed operations.
+- `3234. Count the Number of Substrings With Dominant Ones.py` – Prefix sums plus counting to track substrings where 1s dominate 0s by a margin.
+- `3289. The Two Sneaky Numbers of Digitville.py` – Digit-wise equation search to identify special pair from sum and product constraints.
+- `3318. Find X-Sum of All K-Long Subarrays I.py` – Sliding window and prefix-sum by blocks to compute X-sum efficiently.
+- `3354. Make Array Elements Equal to Zero.py` – Bitwise operations and greedy reduce loop to flatten values to zero.
+- `3370. Smallest Number With All Set Bits.py` – Mathematical construction with powers of two to achieve minimal number size.
+- `3418. Maximum Amount of Money Robot Can Earn.py` – Greedy path selection with reversal/score calculation to maximize earnings.
+- `3546. Equal Sum Grid Partition I.py` – Partitioning and prefix usage to test feasible equal splits.
+- `3548. Equal Sum Grid Partition II.py` – Fast partition search with cumulative sums for 2D grid.
+- `3607. Power Grid Maintenance.py` – Graph connectivity and edge role analysis for maintenance minimization.
+- `3803. Count Residue Prefixes.py` – Prefix math with residue classes to count valid substrings.
+- `3804. Number of Centered Subarrays.py` – For each center extend valid subarray counting with even/odd handling.
+- `3805. Count Caesar Cipher Pairs.py` – Alphabet mapping and modular pair counting to compute Caesar match pairs.
+- `3809. Best Reachable Tower.py` – BFS from each reachable point to find max tower height less travel cost.
+- `3810. Minimum Operations to Reach Target Array.py` – Increment/merge operations to convert base array into target minimal steps.
+- `3811. Number of Alternating XOR Partitions.py` – DP partitions tracking alternating XOR requirements.
+- `3812. Minimum Edge Toggles on a Tree.py` – Tree DP on edge directions with cost toggles to match desired paths.
+- `3813. Vowel-Consonant Score.py` – String scoring with vowel/consonant balance and sliding windows.
+- `3815. Design Auction System.py` – Priority queue simulation for dynamic bidding and matching.
+- `3818. Minimum Prefix Removal to Make Array Strictly Increasing.py` – Binary search for smallest removal prefix.
+- `3819. Rotate Non Negative Elements.py` – Rotating non-negative values while preserving negative positions.
+- `3820. Pythagorean Distance Nodes in a Tree.py` – Distance computation and Pythagorean checks over tree pairs.
+- `3821. Find Nth Smallest Integer With K One Bits.py` – Combination counting and direct selection for K-bit values.
+- `3823. Reverse Letters Then Special Characters in a String.py` – String rebuilding with reversed letters and fixed special positions.
 
 # Problem Index
 
 Below is a comprehensive index of all Python solution files in this repository, sorted numerically where applicable:
 
- - `2. Add Two Numbers.py`
- - `3. Longest Substring Without Repeating Characters.py`
- - `5. Longest Palindromic Substring.py`
- - `6. Zigzag Conversion.py`
- - `7. Reverse Integer.py`
- - `8. String to Integer (atoi).py`
- - `9. Palindrome Number.py`
  - `10. Regular Expression Matching.py`
- - `12. Integer to Roman.py`
- - `13. Roman to Integer.py`
- - `19. Remove Nth Node From End of List.py`
- - `20. Valid Parentheses.py`
- - `21. Merge Two Sorted Lists.py`
- - `22. Generate Parentheses.py`
- - `23. Merge k Sorted Lists.py`
- - `24. Swap Nodes in Pairs.py`
- - `25. Reverse Nodes in k-Group.py`
- - `28. Find the Index of the First Occurrence in a String.py`
- - `29. Divide Two Integers.py`
- - `30. Substring with Concatenation of All Words.py`
- - `38. Count and Say.py`
- - `41. First Missing Positive.py`
- - `43. Multiply Strings.py`
- - `44. Wildcard Matching.py`
- - `46. Permutations.py`
- - `47. Permutations II.py`
- - `48. Rotate Image.py`
- - `49. Group Anagrams.py`
- - `50. Pow(x, n).py`
- - `51. N-Queens.py`
- - `52. N-Queens II.py`
- - `54. Spiral Matrix.py`
- - `56. Merge Intervals.py`
- - `57. Insert Interval.py`
- - `58. Length of Last Word.py`
- - `59. Spiral Matrix II.py`
- - `60. Permutation Sequence.py`
- - `61. Rotate List.py`
- - `62. Unique Paths.py`
- - `63. Unique Paths II.py`
- - `65. Valid Number.py`
- - `66. Plus One.py`
- - `67. Add Binary.py`
- - `68. Text Justification.py`
- - `69. Sqrt(x).py`
- - `71. Simplify Path.py`
- - `73. Set Matrix Zeroes.py`
- - `74. Search a 2D Matrix.py`
- - `75. Sort Colors.py`
- - `76. Minimum Window Substring.py`
- - `77. Combinations.py`
- - `78. Subsets.py`
- - `79. Word Search.py`
- - `80. Remove Duplicates from Sorted Array II.py`
- - `81. Search in Rotated Sorted Array II.py`
- - `82. Remove Duplicates from Sorted List II.py`
- - `86. Partition List.py`
- - `87. Scramble String.py`
- - `88. Merge Sorted Array.py`
- - `89. Gray Code.py`
- - `90. Subsets II.py`
- - `92. Reverse Linked List II.py`
- - `93. Restore IP Addresses.py`
- - `94. Binary Tree Inorder Traversal.py`
- - `98. Validate Binary Search Tree.py`
- - `99. Recover Binary Search Tree.py`
  - `100. Same Tree.py`
  - `101. Symmetric Tree.py`
  - `102. Binary Tree Level Order Traversal.py`
@@ -191,58 +148,140 @@ Below is a comprehensive index of all Python solution files in this repository, 
  - `115. Distinct Subsequences.py`
  - `116. Populating Next Right Pointers in Each Node.py`
  - `117. Populating Next Right Pointers in Each Node II.py`
+ - `12. Integer to Roman.py`
  - `123. Best Time to Buy and Sell Stock III.py`
  - `124. Binary Tree Maximum Path Sum.py`
+ - `125. Valid Palindrome.py`
+ - `126. Word Ladder II.py`
+ - `13. Roman to Integer.py`
  - `1526. Minimum Number of Increments on Subarrays to Form a Target Array.py`
  - `1578. Minimum Time to Make Rope Colorful.py`
  - `1611. Minimum One Bit Operations to Make Integers Zero.py`
  - `1886. Determine Whether Matrix Can Be Obtained By Rotation.py`
+ - `19. Remove Nth Node From End of List.py`
+ - `2. Add Two Numbers.py`
+ - `20. Valid Parentheses.py`
  - `2043. Simple Bank System.py`
  - `2048. Next Greater Numerically Balanced Number.py`
+ - `21. Merge Two Sorted Lists.py`
  - `2125. Number of Laser Beams in a Bank.py`
  - `2169. Count Operations to Obtain Zero.py`
+ - `22. Generate Parentheses.py`
  - `2257. Count Unguarded Cells in the Grid.py`
+ - `23. Merge k Sorted Lists.py`
+ - `24. Swap Nodes in Pairs.py`
+ - `25. Reverse Nodes in k-Group.py`
  - `2528. Maximize the Minimum Powered City.py`
  - `2536. Increment Submatrices by One.py`
  - `2573. Find the String with LCP.py`
  - `2654. Minimum Number of Operations to Make All Array Elements Equal to 1.py`
  - `2751. Robot Collisions.py`
+ - `28. Find the Index of the First Occurrence in a String.py`
  - `2839. Check if Strings Can be Made Equal With Operations I.py`
  - `2840. Check if Strings Can be Made Equal With Operations II.py`
+ - `29. Divide Two Integers.py`
  - `2906. Construct Product Matrix.py`
  - `2946. Matrix Similarity After Cyclic Shifts.py`
+ - `3. Longest Substring Without Repeating Characters.py`
+ - `30. Substring with Concatenation of All Words.py`
  - `3217. Delete Nodes From Linked List Present in Array.py`
  - `3234. Count the Number of Substrings With Dominant Ones.py`
  - `3289. The Two Sneaky Numbers of Digitville.py`
  - `3318. Find X-Sum of All K-Long Subarrays I.py`
  - `3354. Make Array Elements Equal to Zero.py`
  - `3370. Smallest Number With All Set Bits.py`
+ - `3418. Maximum Amount of Money Robot Can Earn.py`
  - `3474. Lexicographically Smallest Generated String.py`
  - `3546. Equal Sum Grid Partition I.py`
  - `3548. Equal Sum Grid Partition II.py`
  - `3607. Power Grid Maintenance.py`
+ - `38. Count and Say.py`
+ - `3803. Count Residue Prefixes.py`
+ - `3804. Number of Centered Subarrays.py`
+ - `3805. Count Caesar Cipher Pairs.py`
+ - `3809. Best Reachable Tower.py`
+ - `3810. Minimum Operations to Reach Target Array.py`
+ - `3811. Number of Alternating XOR Partitions.py`
+ - `3812. Minimum Edge Toggles on a Tree.py`
+ - `3813. Vowel-Consonant Score.py`
+ - `3815. Design Auction System.py`
+ - `3818. Minimum Prefix Removal to Make Array Strictly Increasing.py`
+ - `3819. Rotate Non Negative Elements.py`
+ - `3820. Pythagorean Distance Nodes in a Tree.py`
+ - `3821. Find Nth Smallest Integer With K One Bits.py`
+ - `3823. Reverse Letters Then Special Characters in a String.py`
  - `3Sum Closest.py`
  - `3Sum.py`
+ - `41. First Missing Positive.py`
+ - `43. Multiply Strings.py`
+ - `44. Wildcard Matching.py`
+ - `46. Permutations.py`
+ - `47. Permutations II.py`
+ - `48. Rotate Image.py`
+ - `49. Group Anagrams.py`
  - `4Sum.py`
+ - `5. Longest Palindromic Substring.py`
+ - `50. Pow(x, n).py`
+ - `51. N-Queens.py`
+ - `52. N-Queens II.py`
+ - `54. Spiral Matrix.py`
+ - `56. Merge Intervals.py`
+ - `57. Insert Interval.py`
+ - `58. Length of Last Word.py`
+ - `59. Spiral Matrix II.py`
+ - `6. Zigzag Conversion.py`
+ - `60. Permutation Sequence.py`
+ - `61. Rotate List.py`
+ - `62. Unique Paths.py`
+ - `63. Unique Paths II.py`
+ - `65. Valid Number.py`
+ - `66. Plus One.py`
+ - `67. Add Binary.py`
+ - `68. Text Justification.py`
+ - `69. Sqrt(x).py`
+ - `7. Reverse Integer.py`
+ - `71. Simplify Path.py`
+ - `73. Set Matrix Zeroes.py`
+ - `74. Search a 2D Matrix.py`
+ - `75. Sort Colors.py`
+ - `76. Minimum Window Substring.py`
+ - `77. Combinations.py`
+ - `78. Subsets.py`
+ - `79. Word Search.py`
+ - `8. String to Integer (atoi).py`
+ - `80. Remove Duplicates from Sorted Array II.py`
+ - `81. Search in Rotated Sorted Array II.py`
+ - `82. Remove Duplicates from Sorted List II.py`
+ - `86. Partition List.py`
+ - `87. Scramble String.py`
+ - `88. Merge Sorted Array.py`
+ - `89. Gray Code.py`
+ - `9. Palindrome Number.py`
+ - `90. Subsets II.py`
+ - `92. Reverse Linked List II.py`
+ - `93. Restore IP Addresses.py`
+ - `94. Binary Tree Inorder Traversal.py`
+ - `98. Validate Binary Search Tree.py`
+ - `99. Recover Binary Search Tree.py`
  - `Combination Sum II.py`
  - `Combination Sum.py`
  - `Container With Most Water.py`
- - `find-first-and-last-position-of-element-in-sorted-array.py`
  - `First Missing Positive.py`
  - `Jump Game II.py`
- - `Max. Depth Of Binary Tree.py`
  - `Longest Common Prefix.py`
+ - `Max. Depth Of Binary Tree.py`
  - `Median of Two Sorted Arrays.py`
  - `Next Permutation.py`
  - `Prob.3212.py`
  - `Remove Duplicates from Sorted Array.py`
  - `Remove Element.py`
- - `Search in Rotated Sorted Array.py`
  - `Search Insert Position.py`
+ - `Search in Rotated Sorted Array.py`
  - `Sudoku Solver.py`
  - `Trapping Rain Water.py`
  - `Two Sum.py`
  - `Valid Sudoku.py`
+ - `find-first-and-last-position-of-element-in-sorted-array.py`
 
 # How to Use
 
@@ -250,12 +289,12 @@ Below is a comprehensive index of all Python solution files in this repository, 
 - Open any problem file to view the Python solution and approach.
 - Run an individual file directly with a command like `python "Two Sum.py"` from the repository root to experiment or debug.
 - Use this repo as a reference for patterns such as:
-	- Two‑pointers
-	- Sliding window
-	- Binary search
-	- Dynamic programming
-	- Greedy algorithms
-	- Hash‑map / set based solutions
+  - Two‑pointers
+  - Sliding window
+  - Binary search
+  - Dynamic programming
+  - Greedy algorithms
+  - Hash‑map / set based solutions
 
 # Notes
 
