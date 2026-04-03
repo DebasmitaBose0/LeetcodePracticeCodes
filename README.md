@@ -6,7 +6,7 @@ This repository contains my personal solutions to a variety of LeetCode problems
 
 # Progress
 
-- Currently contains solutions for 152 LeetCode problems in Python.
+- Currently contains solutions for 175 LeetCode problems in Python.
 - Continuously updated as I solve new problems on LeetCode.
 
 # Topics Covered
@@ -128,11 +128,13 @@ Recently added problems (latest codes) include:
 
 # Problem Index
 
-Below is a comprehensive index of all Python solution files in this repository, sorted numerically where applicable:
+Below is a comprehensive index of all Python solution files in this repository, sorted alphabetically:
 
  - `10. Regular Expression Matching.py`
  - `100. Same Tree.py`
  - `101. Symmetric Tree.py`
+ - `1015. Smallest Integer Divisible by K.py`
+ - `1018. Binary Prefix Divisible By 5.py`
  - `102. Binary Tree Level Order Traversal.py`
  - `103. Binary Tree Zigzag Level Order Traversal.py`
  - `105. Construct Binary Tree from Preorder and Inorder Traversal.py`
@@ -153,23 +155,33 @@ Below is a comprehensive index of all Python solution files in this repository, 
  - `124. Binary Tree Maximum Path Sum.py`
  - `125. Valid Palindrome.py`
  - `126. Word Ladder II.py`
+ - `1262. Greatest Sum Divisible by Three.py`
  - `13. Roman to Integer.py`
+ - `1437. Check If All 1's Are at Least Length K Places Away.py`
+ - `1513. Number of Substrings With Only 1s.py`
+ - `1523. Count Odd Numbers in an Interval Range.py`
  - `1526. Minimum Number of Increments on Subarrays to Form a Target Array.py`
  - `1578. Minimum Time to Make Rope Colorful.py`
+ - `1590. Make Sum Divisible by P.py`
  - `1611. Minimum One Bit Operations to Make Integers Zero.py`
  - `1886. Determine Whether Matrix Can Be Obtained By Rotation.py`
  - `19. Remove Nth Node From End of List.py`
+ - `1930. Unique Length-3 Palindromic Subsequences.py`
  - `2. Add Two Numbers.py`
  - `20. Valid Parentheses.py`
  - `2043. Simple Bank System.py`
  - `2048. Next Greater Numerically Balanced Number.py`
  - `21. Merge Two Sorted Lists.py`
  - `2125. Number of Laser Beams in a Bank.py`
+ - `2141. Maximum Running Time of N Computers.py`
+ - `2154. Keep Multiplying Found Values by Two.py`
  - `2169. Count Operations to Obtain Zero.py`
  - `22. Generate Parentheses.py`
+ - `2211. Count Collisions on a Road.py`
  - `2257. Count Unguarded Cells in the Grid.py`
  - `23. Merge k Sorted Lists.py`
  - `24. Swap Nodes in Pairs.py`
+ - `2435. Paths in Matrix Whose Sum Is Divisible by K.py`
  - `25. Reverse Nodes in k-Group.py`
  - `2528. Maximize the Minimum Powered City.py`
  - `2536. Increment Submatrices by One.py`
@@ -179,22 +191,31 @@ Below is a comprehensive index of all Python solution files in this repository, 
  - `28. Find the Index of the First Occurrence in a String.py`
  - `2839. Check if Strings Can be Made Equal With Operations I.py`
  - `2840. Check if Strings Can be Made Equal With Operations II.py`
+ - `2872. Maximum Number of K-Divisible Components.py`
  - `29. Divide Two Integers.py`
  - `2906. Construct Product Matrix.py`
  - `2946. Matrix Similarity After Cyclic Shifts.py`
  - `3. Longest Substring Without Repeating Characters.py`
  - `30. Substring with Concatenation of All Words.py`
+ - `3190. Find Minimum Operations to Make All Elements Divisible by Three.py`
  - `3217. Delete Nodes From Linked List Present in Array.py`
  - `3234. Count the Number of Substrings With Dominant Ones.py`
  - `3289. The Two Sneaky Numbers of Digitville.py`
  - `3318. Find X-Sum of All K-Long Subarrays I.py`
  - `3354. Make Array Elements Equal to Zero.py`
  - `3370. Smallest Number With All Set Bits.py`
+ - `3381. Maximum Subarray Sum With Length Divisible by K.py`
  - `3418. Maximum Amount of Money Robot Can Earn.py`
+ - `3432. Count Partitions with Even Sum Difference.py`
  - `3474. Lexicographically Smallest Generated String.py`
+ - `3512. Minimum Operations to Make Array Sum Divisible by K.py`
  - `3546. Equal Sum Grid Partition I.py`
  - `3548. Equal Sum Grid Partition II.py`
+ - `3578. Count Partitions With Max-Min Difference at Most K.py`
  - `3607. Power Grid Maintenance.py`
+ - `3623. Count Number of Trapezoids I.py`
+ - `3625. Count Number of Trapezoids II.py`
+ - `3661. Maximum Walls Destroyed by Robots.py`
  - `38. Count and Say.py`
  - `3803. Count Residue Prefixes.py`
  - `3804. Number of Centered Subarrays.py`
@@ -241,9 +262,11 @@ Below is a comprehensive index of all Python solution files in this repository, 
  - `69. Sqrt(x).py`
  - `7. Reverse Integer.py`
  - `71. Simplify Path.py`
+ - `717. 1-bit and 2-bit Characters.py`
  - `73. Set Matrix Zeroes.py`
  - `74. Search a 2D Matrix.py`
  - `75. Sort Colors.py`
+ - `757. Set Intersection Size At Least Two.py`
  - `76. Minimum Window Substring.py`
  - `77. Combinations.py`
  - `78. Subsets.py`
@@ -282,20 +305,3 @@ Below is a comprehensive index of all Python solution files in this repository, 
  - `Two Sum.py`
  - `Valid Sudoku.py`
  - `find-first-and-last-position-of-element-in-sorted-array.py`
-
-# How to Use
-
-- Ensure you have Python 3 installed locally.
-- Open any problem file to view the Python solution and approach.
-- Run an individual file directly with a command like `python "Two Sum.py"` from the repository root to experiment or debug.
-- Use this repo as a reference for patterns such as:
-  - Two‑pointers
-  - Sliding window
-  - Binary search
-  - Dynamic programming
-  - Greedy algorithms
-  - Hash‑map / set based solutions
-
-# Notes
-
-These solutions are primarily for learning and self‑improvement. They may not always be the most optimal or canonical solution, but they reflect my current understanding and progress on LeetCode.
