@@ -2,133 +2,62 @@
 
 [![LeetCode Profile](https://img.shields.io/badge/LeetCode-Debasmita_Bose-blue?style=for-the-badge&logo=leetcode)](https://leetcode.com/u/Debasmita_Bose/)
 
-This repository contains my personal solutions to a variety of LeetCode problems. The goal is to practice different algorithms, data structures, and problem‑solving patterns in Python.
+This repository contains my personal LeetCode solutions in Python. It is focused on improving algorithmic thinking, data structure usage, and interview-style problem solving.
 
-# Progress
+# Snapshot
 
-- Currently contains solutions for 212 LeetCode problems in Python.
-- Continuously updated as I solve new problems on LeetCode.
+- Python solution files in this repo: **251**
+- Repository status: actively updated with new solved problems
+- Main language: Python (with a few SQL problems in separate files)
 
-# Topics Covered
+# What Is Covered
 
-These problems span a wide range of common interview topics, including:
+- Arrays and strings (two pointers, sliding window, prefix sums)
+- Linked lists (reverse, merge, partition, k-group)
+- Trees and graphs (DFS, BFS, traversal variants, reconstruction)
+- Dynamic programming (matching, counting, optimization)
+- Greedy algorithms and constructive techniques
+- Binary search and search on answer
+- Hashing and frequency-based methods
+- Matrix and grid transformations
+- Backtracking and recursion
 
-- Arrays and strings (two‑pointers, sliding window, prefix sums)
-- Linked lists (reversal, partitioning, merging, k‑group operations)
-- Trees and graphs (traversals, validation, reconstruction)
-- Backtracking and recursion (permutations, combinations, N‑Queens, Sudoku)
-- Dynamic programming (subsequences, partitioning, counting, matching)
-- Greedy algorithms (interval scheduling, local optimal choices)
-- Binary search and search in sorted/rotated arrays
-- Hash‑map / set based problems (frequency counting, lookups, grouping)
-- Matrix problems (rotation, traversal, prefix computations)
+# Latest Codes
 
-# Repository Structure
+Most recent commit addition:
 
-Each file generally corresponds to a single LeetCode problem. Many follow the LeetCode numbering and title format, for example:
+- `187. Repeated DNA Sequences.py` - find repeated 10-letter DNA patterns using hashing/set tracking.
 
-- `Two Sum.py` – Classic hash‑map solution to find two numbers that add up to a target.
-- `3. Longest Substring Without Repeating Characters.py` – Sliding window technique to track a window with unique characters.
-- `5. Longest Palindromic Substring.py` – Center‑expansion (and/or DP) to find the longest palindromic substring.
-- `10. Regular Expression Matching.py` – Dynamic programming for pattern matching with `.` and `*` operators.
-- `Median of Two Sorted Arrays.py` – Binary search over partitions of two arrays.
-- `Container With Most Water.py` – Two‑pointer approach to maximize area.
-- `Trapping Rain Water.py` – Prefix/suffix max arrays or two‑pointer solution to compute trapped water.
-- `46. Permutations.py` – Backtracking to generate all permutations of a list.
-- `47. Permutations II.py` – Backtracking with duplicates handling for unique permutations.
-- `48. Rotate Image.py` – In-place matrix rotation by 90 degrees.
-- `49. Group Anagrams.py` – Grouping strings by their sorted characters using hash maps.
-- `2573. Find the String with LCP.py` – Finding the string with longest common prefix using trie or sorting.
+Recent higher-numbered solved problems:
 
-There are also newer numbered problems from LeetCode, for example:
+- `3823. Reverse Letters Then Special Characters in a String.py`
+- `3821. Find Nth Smallest Integer With K One Bits.py`
+- `3820. Pythagorean Distance Nodes in a Tree.py`
+- `3819. Rotate Non Negative Elements.py`
+- `3818. Minimum Prefix Removal to Make Array Strictly Increasing.py`
+- `3815. Design Auction System.py`
+- `3813. Vowel-Consonant Score.py`
+- `3812. Minimum Edge Toggles on a Tree.py`
+- `3811. Number of Alternating XOR Partitions.py`
+- `3810. Minimum Operations to Reach Target Array.py`
+- `3809. Best Reachable Tower.py`
+- `3805. Count Caesar Cipher Pairs.py`
 
-- `1526. Minimum Number of Increments on Subarrays to Form a Target Array.py`
-- `1578. Minimum Time to Make Rope Colorful.py`
-- `1611. Minimum One Bit Operations to Make Integers Zero.py`
-- `1886. Determine Whether Matrix Can Be Obtained By Rotation.py`
-- `2043. Simple Bank System.py`
-- `2048. Next Greater Numerically Balanced Number.py`
-- `2125. Number of Laser Beams in a Bank.py`
-- `2169. Count Operations to Obtain Zero.py`
-- `2257. Count Unguarded Cells in the Grid.py`
-- `2528. Maximize the Minimum Powered City.py`
-- `2536. Increment Submatrices by One.py`
-- `2573. Find the String with LCP.py`
-- `2654. Minimum Number of Operations to Make All Array Elements Equal to 1.py`
-- `2751. Robot Collisions.py`
-- `2839. Check if Strings Can be Made Equal With Operations I.py`
-- `2840. Check if Strings Can be Made Equal With Operations II.py`
-- `2906. Construct Product Matrix.py`
-- `2946. Matrix Similarity After Cyclic Shifts.py`
-- `3217. Delete Nodes From Linked List Present in Array.py`
-- `3234. Count the Number of Substrings With Dominant Ones.py`
-- `3289. The Two Sneaky Numbers of Digitville.py`
-- `3318. Find X-Sum of All K-Long Subarrays I.py`
-- `3354. Make Array Elements Equal to Zero.py`
-- `3370. Smallest Number With All Set Bits.py`
-- `3474. Lexicographically Smallest Generated String.py`
-- `3546. Equal Sum Grid Partition I.py`
-- `3548. Equal Sum Grid Partition II.py`
-- `3607. Power Grid Maintenance.py`
+# Repository Layout
 
-Recently added problems (latest codes) include:
+- Most files are named as `<problem_number>. <problem_title>.py`.
+- Some older files use title-only names, for example `Two Sum.py`.
+- `README.md` provides progress and a complete index.
 
-- `100. Same Tree.py` – Recursively compare corresponding nodes in two trees.
-- `101. Symmetric Tree.py` – Check mirror symmetry using DFS on left/right subtrees.
-- `102. Binary Tree Level Order Traversal.py` – BFS traversal returning node values level by level.
-- `103. Binary Tree Zigzag Level Order Traversal.py` – Level order traversal with alternating left/right order.
-- `105. Construct Binary Tree from Preorder and Inorder Traversal.py` – Rebuild tree using preorder root positions and inorder splits.
-- `106. Construct Binary Tree from Inorder and Postorder Traversal.py` – Rebuild tree using postorder roots and inorder partitions.
-- `107. Binary Tree Level Order Traversal II.py` – Bottom‑up variant of level order traversal using a queue.
-- `108. Convert Sorted Array to Binary Search Tree.py` – Build height‑balanced BST via recursive middle‑element selection.
-- `109. Convert Sorted List to Binary Search Tree.py` – Find list midpoints to recursively construct a balanced BST.
-- `110. Balanced Binary Tree.py` – Post‑order DFS computing subtree heights and checking balance in one pass.
-- `111. Minimum Depth of Binary Tree.py` – DFS handling single‑child nodes to compute the true minimum depth.
-- `112. Path Sum.py` – DFS tracking remaining target sum down each root‑to‑leaf path.
-- `113. Path Sum II.py` – Backtracking to collect all root‑to‑leaf paths that meet the target sum.
-- `114. Flatten Binary Tree to Linked List.py` – In‑place transformation of the tree into a right‑skewed list.
-- `115. Distinct Subsequences.py` – 1D dynamic programming counting ways to form target as a subsequence.
-- `116. Populating Next Right Pointers in Each Node.py` – Use already‑set next pointers to connect perfect‑tree levels.
-- `117. Populating Next Right Pointers in Each Node II.py` – Level‑by‑level traversal using a dummy head for arbitrary trees.
-- `123. Best Time to Buy and Sell Stock III.py` – Track two buys and two sells for at most two transactions.
-- `124. Binary Tree Maximum Path Sum.py` – DFS returning max gain per node while tracking global best path.
-- `3474. Lexicographically Smallest Generated String.py` – Construct a minimal string consistent with T/F pattern constraints.
-- `Max. Depth Of Binary Tree.py` – Simple recursive computation of maximum root‑to‑leaf depth.
-- `1611. Minimum One Bit Operations to Make Integers Zero.py` – Bit-manipulation/DP to reduce an integer to zero with minimal 1-bit operations.
-- `2169. Count Operations to Obtain Zero.py` – Repeatedly subtract the smaller from the larger until one number becomes zero.
-- `2528. Maximize the Minimum Powered City.py` – Binary search on answer combined with a prefix/difference array to model power ranges.
-- `2536. Increment Submatrices by One.py` – 2D difference array to apply many submatrix +1 operations efficiently.
-- `2654. Minimum Number of Operations to Make All Array Elements Equal to 1.py` – Use GCD properties to find minimal operations to introduce and spread a 1.
-- `2751. Robot Collisions.py` – Stack-based sweep to simulate robot movement and resolve collisions and survivals.
-- `2839. Check if Strings Can be Made Equal With Operations I.py` – Check feasibility under swaps restricted by index parity.
-- `2840. Check if Strings Can be Made Equal With Operations II.py` – Compare character multisets within index classes induced by allowed operations.
-- `3234. Count the Number of Substrings With Dominant Ones.py` – Prefix sums plus counting to track substrings where 1s dominate 0s by a margin.
-- `3289. The Two Sneaky Numbers of Digitville.py` – Digit-wise equation search to identify special pair from sum and product constraints.
-- `3318. Find X-Sum of All K-Long Subarrays I.py` – Sliding window and prefix-sum by blocks to compute X-sum efficiently.
-- `3354. Make Array Elements Equal to Zero.py` – Bitwise operations and greedy reduce loop to flatten values to zero.
-- `3370. Smallest Number With All Set Bits.py` – Mathematical construction with powers of two to achieve minimal number size.
-- `3418. Maximum Amount of Money Robot Can Earn.py` – Greedy path selection with reversal/score calculation to maximize earnings.
-- `3546. Equal Sum Grid Partition I.py` – Partitioning and prefix usage to test feasible equal splits.
-- `3548. Equal Sum Grid Partition II.py` – Fast partition search with cumulative sums for 2D grid.
-- `3607. Power Grid Maintenance.py` – Graph connectivity and edge role analysis for maintenance minimization.
-- `3803. Count Residue Prefixes.py` – Prefix math with residue classes to count valid substrings.
-- `3804. Number of Centered Subarrays.py` – For each center extend valid subarray counting with even/odd handling.
-- `3805. Count Caesar Cipher Pairs.py` – Alphabet mapping and modular pair counting to compute Caesar match pairs.
-- `3809. Best Reachable Tower.py` – BFS from each reachable point to find max tower height less travel cost.
-- `3810. Minimum Operations to Reach Target Array.py` – Increment/merge operations to convert base array into target minimal steps.
-- `3811. Number of Alternating XOR Partitions.py` – DP partitions tracking alternating XOR requirements.
-- `3812. Minimum Edge Toggles on a Tree.py` – Tree DP on edge directions with cost toggles to match desired paths.
-- `3813. Vowel-Consonant Score.py` – String scoring with vowel/consonant balance and sliding windows.
-- `3815. Design Auction System.py` – Priority queue simulation for dynamic bidding and matching.
-- `3818. Minimum Prefix Removal to Make Array Strictly Increasing.py` – Binary search for smallest removal prefix.
-- `3819. Rotate Non Negative Elements.py` – Rotating non-negative values while preserving negative positions.
-- `3820. Pythagorean Distance Nodes in a Tree.py` – Distance computation and Pythagorean checks over tree pairs.
-- `3821. Find Nth Smallest Integer With K One Bits.py` – Combination counting and direct selection for K-bit values.
-- `3823. Reverse Letters Then Special Characters in a String.py` – String rebuilding with reversed letters and fixed special positions.
+# How To Use This Repo
+
+- Open any problem file directly to see the implementation.
+- Use the index below to quickly find a specific problem.
+- Compare patterns across files to study multiple approaches.
 
 # Problem Index
 
-Below is a comprehensive index of all Python solution files in this repository, sorted alphabetically:
+Below is a comprehensive index of solution files in this repository, sorted alphabetically:
 
  - `10. Regular Expression Matching.py`
  - `100. Same Tree.py`
@@ -200,6 +129,7 @@ Below is a comprehensive index of all Python solution files in this repository, 
  - `172. Factorial Trailing Zeroes.py`
  - `173. Binary Search Tree Iterator.py`
  - `174. Dungeon Game.py`
+ - `187. Repeated DNA Sequences.py`
  - `1886. Determine Whether Matrix Can Be Obtained By Rotation.py`
  - `19. Remove Nth Node From End of List.py`
  - `1930. Unique Length-3 Palindromic Subsequences.py`
