@@ -6,7 +6,7 @@ This repository contains my personal solutions to a variety of LeetCode problems
 
 # Progress
 
-- Currently contains solutions for 175 LeetCode problems in Python.
+- Currently contains solutions for 212 LeetCode problems in Python.
 - Continuously updated as I solve new problems on LeetCode.
 
 # Topics Covered
@@ -156,14 +156,50 @@ Below is a comprehensive index of all Python solution files in this repository, 
  - `125. Valid Palindrome.py`
  - `126. Word Ladder II.py`
  - `1262. Greatest Sum Divisible by Three.py`
+ - `127. Word Ladder.py`
+ - `128. Longest Consecutive Sequence.py`
  - `13. Roman to Integer.py`
+ - `130. Surrounded Regions.py`
+ - `132. Palindrome Partitioning II.py`
+ - `133. Clone Graph.py`
+ - `134. Gas Station.py`
+ - `135. Candy.py`
+ - `136. Single Number.py`
+ - `137. Single Number II.py`
+ - `138. Copy List with Random Pointer.py`
+ - `140. Word Break II.py`
+ - `141. Linked List Cycle.py`
+ - `142. Linked List Cycle II.py`
+ - `143. Reorder List.py`
  - `1437. Check If All 1's Are at Least Length K Places Away.py`
+ - `144. Binary Tree Preorder Traversal.py`
+ - `145. Binary Tree Postorder Traversal.py`
+ - `146. LRU Cache.py`
+ - `147. Insertion Sort List.py`
+ - `148. Sort List.py`
+ - `149. Max Points on a Line.py`
+ - `150. Evaluate Reverse Polish Notation.py`
+ - `151. Reverse Words in a String.py`
  - `1513. Number of Substrings With Only 1s.py`
  - `1523. Count Odd Numbers in an Interval Range.py`
  - `1526. Minimum Number of Increments on Subarrays to Form a Target Array.py`
+ - `153. Find Minimum in Rotated Sorted Array.py`
+ - `154. Find Minimum in Rotated Sorted Array II.py`
+ - `155. Min Stack.py`
  - `1578. Minimum Time to Make Rope Colorful.py`
  - `1590. Make Sum Divisible by P.py`
  - `1611. Minimum One Bit Operations to Make Integers Zero.py`
+ - `162. Find Peak Element.py`
+ - `164. Maximum Gap.py`
+ - `165. Compare Version Numbers.py`
+ - `166. Fraction to Recurring Decimal.py`
+ - `167. Two Sum II - Input Array Is Sorted.py`
+ - `168. Excel Sheet Column Title.py`
+ - `169. Majority Element.py`
+ - `171. Excel Sheet Column Number.py`
+ - `172. Factorial Trailing Zeroes.py`
+ - `173. Binary Search Tree Iterator.py`
+ - `174. Dungeon Game.py`
  - `1886. Determine Whether Matrix Can Be Obtained By Rotation.py`
  - `19. Remove Nth Node From End of List.py`
  - `1930. Unique Length-3 Palindromic Subsequences.py`
@@ -171,6 +207,7 @@ Below is a comprehensive index of all Python solution files in this repository, 
  - `20. Valid Parentheses.py`
  - `2043. Simple Bank System.py`
  - `2048. Next Greater Numerically Balanced Number.py`
+ - `2075. Decode the Slanted Ciphertext.py`
  - `21. Merge Two Sorted Lists.py`
  - `2125. Number of Laser Beams in a Bank.py`
  - `2141. Maximum Running Time of N Computers.py`
