@@ -6,7 +6,9 @@ This repository contains my personal LeetCode solutions in Python. It is focused
 
 # Snapshot
 
-- Python solution files in this repo: **251**
+- Python solution files in this repo: **275**
+- SQL practice files in this repo: **13**
+- Text problem files in this repo: **4**
 - Repository status: actively updated with new solved problems
 - Main language: Python (with a few SQL problems in separate files)
 
@@ -24,12 +26,11 @@ This repository contains my personal LeetCode solutions in Python. It is focused
 
 # Latest Codes
 
-Most recent commit addition:
+Most recent solved problems include:
 
-- `187. Repeated DNA Sequences.py` - find repeated 10-letter DNA patterns using hashing/set tracking.
-
-Recent higher-numbered solved problems:
-
+- `184. Department Highest Salary.sql` — SQL query for the highest salary in each department.
+- `295. Find Median from Data Stream.py` — maintain a real-time median using heaps.
+- `3808. Find Emotionally Consistent Users.sql` — SQL solution for user engagement metrics.
 - `3823. Reverse Letters Then Special Characters in a String.py`
 - `3821. Find Nth Smallest Integer With K One Bits.py`
 - `3820. Pythagorean Distance Nodes in a Tree.py`
@@ -47,6 +48,7 @@ Recent higher-numbered solved problems:
 
 - Most files are named as `<problem_number>. <problem_title>.py`.
 - Some older files use title-only names, for example `Two Sum.py`.
+- The repo also includes SQL practice files and text-format problem files.
 - `README.md` provides progress and a complete index.
 
 # How To Use This Repo
