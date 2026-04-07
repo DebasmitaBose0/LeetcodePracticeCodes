@@ -6,7 +6,7 @@ This repository contains my personal LeetCode solutions in Python. It is focused
 
 # Snapshot
 
-- Python solution files in this repo: **275**
+- Python solution files in this repo: **284**
 - SQL practice files in this repo: **13**
 - Text problem files in this repo: **4**
 - Repository status: actively updated with new solved problems
@@ -28,21 +28,21 @@ This repository contains my personal LeetCode solutions in Python. It is focused
 
 Most recent solved problems include:
 
-- `184. Department Highest Salary.sql` — SQL query for the highest salary in each department.
-- `295. Find Median from Data Stream.py` — maintain a real-time median using heaps.
-- `3808. Find Emotionally Consistent Users.sql` — SQL solution for user engagement metrics.
-- `3823. Reverse Letters Then Special Characters in a String.py`
-- `3821. Find Nth Smallest Integer With K One Bits.py`
-- `3820. Pythagorean Distance Nodes in a Tree.py`
-- `3819. Rotate Non Negative Elements.py`
-- `3818. Minimum Prefix Removal to Make Array Strictly Increasing.py`
-- `3815. Design Auction System.py`
-- `3813. Vowel-Consonant Score.py`
-- `3812. Minimum Edge Toggles on a Tree.py`
-- `3811. Number of Alternating XOR Partitions.py`
-- `3810. Minimum Operations to Reach Target Array.py`
-- `3809. Best Reachable Tower.py`
-- `3805. Count Caesar Cipher Pairs.py`
+- `262. Trips and Users.sql`
+- `196. Delete Duplicate Emails.sql`
+- `197. Rising Temperature.sql`
+- `185. Department Top Three Salaries.sql`
+- `184. Department Highest Salary.sql`
+- `335. Self Crossing.py`
+- `334. Increasing Triplet Subsequence.py`
+- `331. Verify Preorder Serialization of a Binary Tree.py`
+- `330. Patching Array.py`
+- `329. Longest Increasing Path in a Matrix.py`
+- `328. Odd Even Linked List.py`
+- `327. Count of Range Sum.py`
+- `326. Power of Three.py`
+- `2069. Walking Robot Simulation II.py`
+- `295. Find Median from Data Stream.py`
 
 # Repository Layout
 
@@ -59,7 +59,7 @@ Most recent solved problems include:
 
 # Problem Index
 
-Below is a comprehensive index of solution files in this repository, sorted alphabetically:
+Below is a comprehensive index of all Python solution files in this repository, sorted alphabetically:
 
  - `10. Regular Expression Matching.py`
  - `100. Same Tree.py`
@@ -131,46 +131,115 @@ Below is a comprehensive index of solution files in this repository, sorted alph
  - `172. Factorial Trailing Zeroes.py`
  - `173. Binary Search Tree Iterator.py`
  - `174. Dungeon Game.py`
+ - `179. Largest Number.py`
  - `187. Repeated DNA Sequences.py`
+ - `188. Best Time to Buy and Sell Stock IV.py`
  - `1886. Determine Whether Matrix Can Be Obtained By Rotation.py`
+ - `189. Rotate Array.py`
  - `19. Remove Nth Node From End of List.py`
+ - `190. Reverse Bits.py`
  - `1930. Unique Length-3 Palindromic Subsequences.py`
+ - `198. House Robber.py`
+ - `199. Binary Tree Right Side View.py`
  - `2. Add Two Numbers.py`
  - `20. Valid Parentheses.py`
+ - `200. Number of Islands.py`
+ - `201. Bitwise AND of Numbers Range.py`
+ - `202. Happy Number.py`
+ - `203. Remove Linked List Elements.py`
+ - `204. Count Primes.py`
  - `2043. Simple Bank System.py`
  - `2048. Next Greater Numerically Balanced Number.py`
+ - `205. Isomorphic Strings.py`
+ - `206. Reverse Linked List.py`
+ - `2069. Walking Robot Simulation II.py`
+ - `207. Course Schedule.py`
  - `2075. Decode the Slanted Ciphertext.py`
+ - `208. Implement Trie (Prefix Tree).py`
+ - `209. Minimum Size Subarray Sum.py`
  - `21. Merge Two Sorted Lists.py`
+ - `210. Course Schedule II.py`
+ - `211. Design Add and Search Words Data Structure.py`
+ - `212. Word Search II.py`
  - `2125. Number of Laser Beams in a Bank.py`
+ - `214. Shortest Palindrome.py`
  - `2141. Maximum Running Time of N Computers.py`
+ - `215. Kth Largest Element in an Array.py`
  - `2154. Keep Multiplying Found Values by Two.py`
+ - `216. Combination Sum III.py`
  - `2169. Count Operations to Obtain Zero.py`
+ - `217. Contains Duplicate.py`
+ - `218. The Skyline Problem.py`
  - `22. Generate Parentheses.py`
+ - `220. Contains Duplicate III.py`
  - `2211. Count Collisions on a Road.py`
+ - `222. Count Complete Tree Nodes.py`
+ - `223. Rectangle Area.py`
+ - `224. Basic Calculator.py`
+ - `225. Implement Stack using Queues.py`
  - `2257. Count Unguarded Cells in the Grid.py`
+ - `226. Invert Binary Tree.py`
+ - `228. Summary Ranges.py`
+ - `229. Majority Element II.py`
  - `23. Merge k Sorted Lists.py`
+ - `230. Kth Smallest Element in a BST.py`
+ - `231. Power of Two.py`
+ - `232. Implement Queue using Stacks.py`
+ - `233. Number of Digit One.py`
+ - `234. Palindrome Linked List.py`
+ - `235. Lowest Common Ancestor of a Binary Search Tree.py`
+ - `236. Lowest Common Ancestor of a Binary Tree.py`
+ - `237. Delete Node in a Linked List.py`
+ - `238. Product of Array Except Self.py`
+ - `239. Sliding Window Maximum.py`
  - `24. Swap Nodes in Pairs.py`
+ - `240. Search a 2D Matrix II.py`
+ - `242. Valid Anagram.py`
  - `2435. Paths in Matrix Whose Sum Is Divisible by K.py`
  - `25. Reverse Nodes in k-Group.py`
  - `2528. Maximize the Minimum Powered City.py`
  - `2536. Increment Submatrices by One.py`
+ - `257. Binary Tree Paths.py`
  - `2573. Find the String with LCP.py`
+ - `258. Add Digits.py`
+ - `260. Single Number III.py`
+ - `263. Ugly Number.py`
  - `2654. Minimum Number of Operations to Make All Array Elements Equal to 1.py`
+ - `268. Missing Number.py`
+ - `274. H-Index.py`
+ - `275. H-Index II.py`
  - `2751. Robot Collisions.py`
+ - `278. First Bad Version.py`
  - `28. Find the Index of the First Occurrence in a String.py`
+ - `282. Expression Add Operators.py`
+ - `283. Move Zeroes.py`
  - `2839. Check if Strings Can be Made Equal With Operations I.py`
+ - `284. Peeking Iterator.py`
  - `2840. Check if Strings Can be Made Equal With Operations II.py`
+ - `287. Find the Duplicate Number.py`
  - `2872. Maximum Number of K-Divisible Components.py`
+ - `289. Game of Life.py`
  - `29. Divide Two Integers.py`
+ - `290. Word Pattern.py`
  - `2906. Construct Product Matrix.py`
+ - `292. Nim Game.py`
  - `2946. Matrix Similarity After Cyclic Shifts.py`
+ - `295. Find Median from Data Stream.py`
  - `3. Longest Substring Without Repeating Characters.py`
  - `30. Substring with Concatenation of All Words.py`
  - `3190. Find Minimum Operations to Make All Elements Divisible by Three.py`
  - `3217. Delete Nodes From Linked List Present in Array.py`
  - `3234. Count the Number of Substrings With Dominant Ones.py`
+ - `326. Power of Three.py`
+ - `327. Count of Range Sum.py`
+ - `328. Odd Even Linked List.py`
  - `3289. The Two Sneaky Numbers of Digitville.py`
+ - `329. Longest Increasing Path in a Matrix.py`
+ - `330. Patching Array.py`
+ - `331. Verify Preorder Serialization of a Binary Tree.py`
  - `3318. Find X-Sum of All K-Long Subarrays I.py`
+ - `334. Increasing Triplet Subsequence.py`
+ - `335. Self Crossing.py`
  - `3354. Make Array Elements Equal to Zero.py`
  - `3370. Smallest Number With All Set Bits.py`
  - `3381. Maximum Subarray Sum With Length Divisible by K.py`
@@ -225,6 +294,7 @@ Below is a comprehensive index of solution files in this repository, sorted alph
  - `62. Unique Paths.py`
  - `63. Unique Paths II.py`
  - `65. Valid Number.py`
+ - `657. Robot Return to Origin.py`
  - `66. Plus One.py`
  - `67. Add Binary.py`
  - `68. Text Justification.py`
@@ -246,6 +316,7 @@ Below is a comprehensive index of solution files in this repository, sorted alph
  - `82. Remove Duplicates from Sorted List II.py`
  - `86. Partition List.py`
  - `87. Scramble String.py`
+ - `874. Walking Robot Simulation.py`
  - `88. Merge Sorted Array.py`
  - `89. Gray Code.py`
  - `9. Palindrome Number.py`
