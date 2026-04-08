@@ -6,7 +6,7 @@ This repository contains my personal LeetCode solutions in Python. It is focused
 
 # Snapshot
 
-- Python solution files in this repo: **284**
+- Python solution files in this repo: **296**
 - SQL practice files in this repo: **13**
 - Text problem files in this repo: **4**
 - Repository status: actively updated with new solved problems
@@ -33,16 +33,16 @@ Most recent solved problems include:
 - `197. Rising Temperature.sql`
 - `185. Department Top Three Salaries.sql`
 - `184. Department Highest Salary.sql`
-- `335. Self Crossing.py`
-- `334. Increasing Triplet Subsequence.py`
-- `331. Verify Preorder Serialization of a Binary Tree.py`
-- `330. Patching Array.py`
-- `329. Longest Increasing Path in a Matrix.py`
-- `328. Odd Even Linked List.py`
-- `327. Count of Range Sum.py`
-- `326. Power of Three.py`
-- `2069. Walking Robot Simulation II.py`
-- `295. Find Median from Data Stream.py`
+- `315. Count of Smaller Numbers After Self.py`
+- `314. Burst Balloons.py`
+- `312. Burst Balloons.py`
+- `310. Minimum Height Trees.py`
+- `307. Range Sum Query - Mutable.py`
+- `306. Additive Number.py`
+- `304. Range Sum Query 2D - Immutable.py`
+- `303. Range Sum Query - Immutable.py`
+- `301. Remove Invalid Parentheses.py`
+- `3653. XOR After Range Multiplication Queries I streak code.py`
 
 # Repository Layout
 
@@ -225,8 +225,19 @@ Below is a comprehensive index of all Python solution files in this repository, 
  - `292. Nim Game.py`
  - `2946. Matrix Similarity After Cyclic Shifts.py`
  - `295. Find Median from Data Stream.py`
+ - `297. Serialize and Deserialize Binary Tree.py`
+ - `299. Bulls and Cows.py`
  - `3. Longest Substring Without Repeating Characters.py`
  - `30. Substring with Concatenation of All Words.py`
+ - `301. Remove Invalid Parentheses.py`
+ - `303. Range Sum Query - Immutable.py`
+ - `304. Range Sum Query 2D - Immutable.py`
+ - `306. Additive Number.py`
+ - `307. Range Sum Query - Mutable.py`
+ - `310. Minimum Height Trees.py`
+ - `312. Burst Balloons.py`
+ - `314. Burst Balloons.py`
+ - `315. Count of Smaller Numbers After Self.py`
  - `3190. Find Minimum Operations to Make All Elements Divisible by Three.py`
  - `3217. Delete Nodes From Linked List Present in Array.py`
  - `3234. Count the Number of Substrings With Dominant Ones.py`
@@ -253,6 +264,7 @@ Below is a comprehensive index of all Python solution files in this repository, 
  - `3607. Power Grid Maintenance.py`
  - `3623. Count Number of Trapezoids I.py`
  - `3625. Count Number of Trapezoids II.py`
+ - `3653. XOR After Range Multiplication Queries I streak code.py`
  - `3661. Maximum Walls Destroyed by Robots.py`
  - `38. Count and Say.py`
  - `3803. Count Residue Prefixes.py`
