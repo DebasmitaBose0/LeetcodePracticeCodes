@@ -6,7 +6,7 @@ This repository contains my personal LeetCode solutions in Python. It is focused
 
 # Snapshot
 
-- Python solution files in this repo: **296**
+- Python solution files in this repo: **303**
 - SQL practice files in this repo: **13**
 - Text problem files in this repo: **4**
 - Repository status: actively updated with new solved problems
@@ -33,16 +33,16 @@ Most recent solved problems include:
 - `197. Rising Temperature.sql`
 - `185. Department Top Three Salaries.sql`
 - `184. Department Highest Salary.sql`
+- `381. Insert Delete GetRandom O(1) - Duplicates allowed.py`
+- `380. Insert Delete GetRandom O(1).py`
+- `378. Kth Smallest Element in a Sorted Matrix.py`
+- `373. Find K Pairs with Smallest Sums.py`
+- `372. Super Pow.py`
+- `371. Sum of Two Integers.py`
+- `3655. XOR After Range Multiplication Queries II.py`
 - `315. Count of Smaller Numbers After Self.py`
 - `314. Burst Balloons.py`
 - `312. Burst Balloons.py`
-- `310. Minimum Height Trees.py`
-- `307. Range Sum Query - Mutable.py`
-- `306. Additive Number.py`
-- `304. Range Sum Query 2D - Immutable.py`
-- `303. Range Sum Query - Immutable.py`
-- `301. Remove Invalid Parentheses.py`
-- `3653. XOR After Range Multiplication Queries I streak code.py`
 
 # Repository Layout
 
@@ -265,12 +265,19 @@ Below is a comprehensive index of all Python solution files in this repository, 
  - `3623. Count Number of Trapezoids I.py`
  - `3625. Count Number of Trapezoids II.py`
  - `3653. XOR After Range Multiplication Queries I streak code.py`
+ - `3655. XOR After Range Multiplication Queries II.py`
  - `3661. Maximum Walls Destroyed by Robots.py`
+ - `371. Sum of Two Integers.py`
+ - `372. Super Pow.py`
+ - `373. Find K Pairs with Smallest Sums.py`
+ - `378. Kth Smallest Element in a Sorted Matrix.py`
  - `38. Count and Say.py`
+ - `380. Insert Delete GetRandom O(1).py`
  - `3803. Count Residue Prefixes.py`
  - `3804. Number of Centered Subarrays.py`
  - `3805. Count Caesar Cipher Pairs.py`
  - `3809. Best Reachable Tower.py`
+ - `381. Insert Delete GetRandom O(1) - Duplicates allowed.py`
  - `3810. Minimum Operations to Reach Target Array.py`
  - `3811. Number of Alternating XOR Partitions.py`
  - `3812. Minimum Edge Toggles on a Tree.py`
