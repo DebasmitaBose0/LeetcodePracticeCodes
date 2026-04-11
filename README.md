@@ -1,366 +1,443 @@
-# LeetCode Practice Codes
+﻿# LeetCode Practice Codes
 
 [![LeetCode Profile](https://img.shields.io/badge/LeetCode-Debasmita_Bose-blue?style=for-the-badge&logo=leetcode)](https://leetcode.com/u/Debasmita_Bose/)
 
-This repository contains my personal LeetCode solutions in Python. It is focused on improving algorithmic thinking, data structure usage, and interview-style problem solving.
+Personal LeetCode solution archive focused on data structures, algorithms, and interview-style problem solving.
 
-# Snapshot
+## Repository Snapshot
 
-- Python solution files in this repo: **303**
-- SQL practice files in this repo: **13**
-- Text problem files in this repo: **4**
-- Repository status: actively updated with new solved problems
-- Main language: Python (with a few SQL problems in separate files)
+- Last updated: **2026-04-11**
+- Python solution files: **356**
+- SQL practice files: **13**
+- Text problem files: **4**
+- Status: **actively updated**
 
-# What Is Covered
+## Recent Progress (Latest 20 Files)
 
-- Arrays and strings (two pointers, sliding window, prefix sums)
-- Linked lists (reverse, merge, partition, k-group)
-- Trees and graphs (DFS, BFS, traversal variants, reconstruction)
-- Dynamic programming (matching, counting, optimization)
-- Greedy algorithms and constructive techniques
-- Binary search and search on answer
-- Hashing and frequency-based methods
-- Matrix and grid transformations
+- `415. Add Strings.py`  _(updated: 2026-04-11 20:45)_
+- `414. Third Maximum Number.py`  _(updated: 2026-04-11 20:23)_
+- `412. Fizz Buzz.py`  _(updated: 2026-04-11 20:19)_
+- `410. Split Array Largest Sum.py`  _(updated: 2026-04-11 20:18)_
+- `409. Longest Palindrome.py`  _(updated: 2026-04-11 20:16)_
+- `407. Trapping Rain Water II.py`  _(updated: 2026-04-11 20:13)_
+- `406. Queue Reconstruction by Height.py`  _(updated: 2026-04-11 20:01)_
+- `405. Convert a Number to Hexadecimal.py`  _(updated: 2026-04-11 19:47)_
+- `404. Sum of Left Leaves.py`  _(updated: 2026-04-11 19:45)_
+- `403. Frog Jump.py`  _(updated: 2026-04-11 19:41)_
+- `342. Power of Four.py`  _(updated: 2026-04-11 19:37)_
+- `341. Flatten Nested List Iterator.py`  _(updated: 2026-04-11 19:36)_
+- `337. House Robber III.py`  _(updated: 2026-04-11 19:35)_
+- `336. Palindrome Pairs.py`  _(updated: 2026-04-11 19:32)_
+- `324. Wiggle Sort II.py`  _(updated: 2026-04-11 19:30)_
+- `321. Create Maximum Number.py`  _(updated: 2026-04-11 19:29)_
+- `319. Bulb Switcher.py`  _(updated: 2026-04-11 19:28)_
+- `318. Maximum Product of Word Lengths.py`  _(updated: 2026-04-11 19:25)_
+- `316. Remove Duplicate Letters.py`  _(updated: 2026-04-11 19:24)_
+- `315.Count of Smaller Numbers After Self.py`  _(updated: 2026-04-11 18:53)_
+
+## What I Have Solved So Far
+
+- Arrays and strings: sliding window, two pointers, prefix/suffix ideas
+- Linked lists: reverse, merge, partition, cycle detection, k-group operations
+- Trees and graphs: BFS, DFS, traversal variants, reconstruction, shortest paths
+- Dynamic programming: classic 1D/2D DP, subsequence, interval DP, optimization DP
+- Greedy and constructive algorithms
+- Binary search and search-on-answer patterns
+- Hash map / set based counting and frequency techniques
+- Matrix and grid simulation / transformation
 - Backtracking and recursion
 
-# Latest Codes
+## Repository Structure
 
-Most recent solved problems include:
+- Most files follow: `<problem_number>. <problem_title>.py`
+- Some earlier files use title-only naming, for example `Two Sum.py`
+- SQL solutions are stored as `.sql` files
+- Text-format practice problems are stored as `.txt` files
 
-- `262. Trips and Users.sql`
+## How To Use This Repository
+
+- Open a specific file by problem number or title to view the code directly
+- Use the full indexes below to quickly locate any solved problem
+- Track newly solved problems from the Recent Progress section
+
+## Python Problem Index (A-Z)
+
+- `10. Regular Expression Matching.py`
+- `100. Same Tree.py`
+- `101. Symmetric Tree.py`
+- `1015. Smallest Integer Divisible by K.py`
+- `1018. Binary Prefix Divisible By 5.py`
+- `102. Binary Tree Level Order Traversal.py`
+- `103. Binary Tree Zigzag Level Order Traversal.py`
+- `105. Construct Binary Tree from Preorder and Inorder Traversal.py`
+- `106. Construct Binary Tree from Inorder and Postorder Traversal.py`
+- `107. Binary Tree Level Order Traversal II.py`
+- `108. Convert Sorted Array to Binary Search Tree.py`
+- `109. Convert Sorted List to Binary Search Tree.py`
+- `110. Balanced Binary Tree.py`
+- `111. Minimum Depth of Binary Tree.py`
+- `112. Path Sum.py`
+- `113. Path Sum II.py`
+- `114. Flatten Binary Tree to Linked List.py`
+- `115. Distinct Subsequences.py`
+- `116. Populating Next Right Pointers in Each Node.py`
+- `117. Populating Next Right Pointers in Each Node II.py`
+- `12. Integer to Roman.py`
+- `123. Best Time to Buy and Sell Stock III.py`
+- `124. Binary Tree Maximum Path Sum.py`
+- `125. Valid Palindrome.py`
+- `126. Word Ladder II.py`
+- `1262. Greatest Sum Divisible by Three.py`
+- `127. Word Ladder.py`
+- `128. Longest Consecutive Sequence.py`
+- `13. Roman to Integer.py`
+- `130. Surrounded Regions.py`
+- `132. Palindrome Partitioning II.py`
+- `133. Clone Graph.py`
+- `134. Gas Station.py`
+- `135. Candy.py`
+- `136. Single Number.py`
+- `137. Single Number II.py`
+- `138. Copy List with Random Pointer.py`
+- `140. Word Break II.py`
+- `141. Linked List Cycle.py`
+- `142. Linked List Cycle II.py`
+- `143. Reorder List.py`
+- `1437. Check If All 1's Are at Least Length K Places Away.py`
+- `144. Binary Tree Preorder Traversal.py`
+- `145. Binary Tree Postorder Traversal.py`
+- `146. LRU Cache.py`
+- `147. Insertion Sort List.py`
+- `148. Sort List.py`
+- `149. Max Points on a Line.py`
+- `150. Evaluate Reverse Polish Notation.py`
+- `151. Reverse Words in a String.py`
+- `1513. Number of Substrings With Only 1s.py`
+- `1523. Count Odd Numbers in an Interval Range.py`
+- `1526. Minimum Number of Increments on Subarrays to Form a Target Array.py`
+- `153. Find Minimum in Rotated Sorted Array.py`
+- `154. Find Minimum in Rotated Sorted Array II.py`
+- `155. Min Stack.py`
+- `1578. Minimum Time to Make Rope Colorful.py`
+- `1590. Make Sum Divisible by P.py`
+- `1611. Minimum One Bit Operations to Make Integers Zero.py`
+- `162. Find Peak Element.py`
+- `164. Maximum Gap.py`
+- `165. Compare Version Numbers.py`
+- `166. Fraction to Recurring Decimal.py`
+- `167. Two Sum II - Input Array Is Sorted.py`
+- `168. Excel Sheet Column Title.py`
+- `169. Majority Element.py`
+- `171. Excel Sheet Column Number.py`
+- `172. Factorial Trailing Zeroes.py`
+- `173. Binary Search Tree Iterator.py`
+- `174. Dungeon Game.py`
+- `179. Largest Number.py`
+- `187. Repeated DNA Sequences.py`
+- `188. Best Time to Buy and Sell Stock IV.py`
+- `1886. Determine Whether Matrix Can Be Obtained By Rotation.py`
+- `189. Rotate Array.py`
+- `19. Remove Nth Node From End of List.py`
+- `190. Reverse Bits.py`
+- `1930. Unique Length-3 Palindromic Subsequences.py`
+- `198. House Robber.py`
+- `199. Binary Tree Right Side View.py`
+- `2. Add Two Numbers.py`
+- `20. Valid Parentheses.py`
+- `200. Number of Islands.py`
+- `201. Bitwise AND of Numbers Range.py`
+- `202. Happy Number.py`
+- `203. Remove Linked List Elements.py`
+- `204. Count Primes.py`
+- `2043. Simple Bank System.py`
+- `2048. Next Greater Numerically Balanced Number.py`
+- `205. Isomorphic Strings.py`
+- `206. Reverse Linked List.py`
+- `2069. Walking Robot Simulation II.py`
+- `207. Course Schedule.py`
+- `2075. Decode the Slanted Ciphertext.py`
+- `208. Implement Trie (Prefix Tree).py`
+- `209. Minimum Size Subarray Sum.py`
+- `21. Merge Two Sorted Lists.py`
+- `210. Course Schedule II.py`
+- `211. Design Add and Search Words Data Structure.py`
+- `212. Word Search II.py`
+- `2125. Number of Laser Beams in a Bank.py`
+- `214. Shortest Palindrome.py`
+- `2141. Maximum Running Time of N Computers.py`
+- `215. Kth Largest Element in an Array.py`
+- `2154. Keep Multiplying Found Values by Two.py`
+- `216. Combination Sum III.py`
+- `2169. Count Operations to Obtain Zero.py`
+- `217. Contains Duplicate.py`
+- `218. The Skyline Problem.py`
+- `22. Generate Parentheses.py`
+- `220. Contains Duplicate III.py`
+- `2211. Count Collisions on a Road.py`
+- `222. Count Complete Tree Nodes.py`
+- `223. Rectangle Area.py`
+- `224. Basic Calculator.py`
+- `225. Implement Stack using Queues.py`
+- `2257. Count Unguarded Cells in the Grid.py`
+- `226. Invert Binary Tree.py`
+- `228. Summary Ranges.py`
+- `229. Majority Element II.py`
+- `23. Merge k Sorted Lists.py`
+- `230. Kth Smallest Element in a BST.py`
+- `231. Power of Two.py`
+- `232. Implement Queue using Stacks.py`
+- `233. Number of Digit One.py`
+- `234. Palindrome Linked List.py`
+- `235. Lowest Common Ancestor of a Binary Search Tree.py`
+- `236. Lowest Common Ancestor of a Binary Tree.py`
+- `237. Delete Node in a Linked List.py`
+- `238. Product of Array Except Self.py`
+- `239. Sliding Window Maximum.py`
+- `24. Swap Nodes in Pairs.py`
+- `240. Search a 2D Matrix II.py`
+- `242. Valid Anagram.py`
+- `2435. Paths in Matrix Whose Sum Is Divisible by K.py`
+- `25. Reverse Nodes in k-Group.py`
+- `2528. Maximize the Minimum Powered City.py`
+- `2536. Increment Submatrices by One.py`
+- `257. Binary Tree Paths.py`
+- `2573. Find the String with LCP.py`
+- `258. Add Digits.py`
+- `260. Single Number III.py`
+- `263. Ugly Number.py`
+- `2654. Minimum Number of Operations to Make All Array Elements Equal to 1.py`
+- `268. Missing Number.py`
+- `274. H-Index.py`
+- `275. H-Index II.py`
+- `2751. Robot Collisions.py`
+- `278. First Bad Version.py`
+- `28. Find the Index of the First Occurrence in a String.py`
+- `282. Expression Add Operators.py`
+- `283. Move Zeroes.py`
+- `2839. Check if Strings Can be Made Equal With Operations I.py`
+- `284. Peeking Iterator.py`
+- `2840. Check if Strings Can be Made Equal With Operations II.py`
+- `287. Find the Duplicate Number.py`
+- `2872. Maximum Number of K-Divisible Components.py`
+- `289. Game of Life.py`
+- `29. Divide Two Integers.py`
+- `290. Word Pattern.py`
+- `2906. Construct Product Matrix.py`
+- `292. Nim Game.py`
+- `2946. Matrix Similarity After Cyclic Shifts.py`
+- `295. Find Median from Data Stream.py`
+- `297. Serialize and Deserialize Binary Tree.py`
+- `299. Bulls and Cows.py`
+- `3. Longest Substring Without Repeating Characters.py`
+- `30. Substring with Concatenation of All Words.py`
+- `301. Remove Invalid Parentheses.py`
+- `303. Range Sum Query - Immutable.py`
+- `304. Range Sum Query 2D - Immutable.py`
+- `306. Additive Number.py`
+- `307. Range Sum Query - Mutable.py`
+- `310. Minimum Height Trees.py`
+- `312. Burst Balloons.py`
+- `314. Burst Balloons.py`
+- `315.Count of Smaller Numbers After Self.py`
+- `316. Remove Duplicate Letters.py`
+- `318. Maximum Product of Word Lengths.py`
+- `319. Bulb Switcher.py`
+- `3190. Find Minimum Operations to Make All Elements Divisible by Three.py`
+- `321. Create Maximum Number.py`
+- `3217. Delete Nodes From Linked List Present in Array.py`
+- `3228. Maximum Number of Operations to Move Ones to the End.PY`
+- `3234. Count the Number of Substrings With Dominant Ones.py`
+- `324. Wiggle Sort II.py`
+- `326. Power of Three.py`
+- `327. Count of Range Sum.py`
+- `328. Odd Even Linked List.py`
+- `3289. The Two Sneaky Numbers of Digitville.py`
+- `329. Longest Increasing Path in a Matrix.py`
+- `330. Patching Array.py`
+- `331. Verify Preorder Serialization of a Binary Tree.py`
+- `3318. Find X-Sum of All K-Long Subarrays I.py`
+- `334. Increasing Triplet Subsequence.py`
+- `335. Self Crossing.py`
+- `3354. Make Array Elements Equal to Zero.py`
+- `336. Palindrome Pairs.py`
+- `337. House Robber III.py`
+- `3370. Smallest Number With All Set Bits.py`
+- `3381. Maximum Subarray Sum With Length Divisible by K.py`
+- `341. Flatten Nested List Iterator.py`
+- `3418. Maximum Amount of Money Robot Can Earn.py`
+- `342. Power of Four.py`
+- `3432. Count Partitions with Even Sum Difference.py`
+- `344. Reverse String.py`
+- `345. Reverse Vowels of a String.py`
+- `347. Top K Frequent Elements.py`
+- `3474. Lexicographically Smallest Generated String.py`
+- `349. Intersection of Two Arrays.py`
+- `350. Intersection of Two Arrays II.py`
+- `3512. Minimum Operations to Make Array Sum Divisible by K.py`
+- `352. Data Stream as Disjoint Intervals.py`
+- `354. Russian Doll Envelopes.py`
+- `3546. Equal Sum Grid Partition I.py`
+- `3548. Equal Sum Grid Partition II.py`
+- `355. Design Twitter.py`
+- `3578. Count Partitions With Max-Min Difference at Most K.py`
+- `3607. Power Grid Maintenance.py`
+- `3623. Count Number of Trapezoids I.py`
+- `3625. Count Number of Trapezoids II.py`
+- `363. Max Sum of Rectangle No Larger Than K.py`
+- `365. Water and Jug Problem.py`
+- `3653. XOR After Range Multiplication Queries I streak code.py`
+- `3655. XOR After Range Multiplication Queries II.py`
+- `3661. Maximum Walls Destroyed by Robots.py`
+- `367. Valid Perfect Square.py`
+- `371. Sum of Two Integers.py`
+- `372. Super Pow.py`
+- `373. Find K Pairs with Smallest Sums.py`
+- `374. Guess Number Higher or Lower.py`
+- `3740. Minimum Distance Between Three Equal Elements I.py`
+- `3741. Minimum Distance Between Three Equal Elements II.py`
+- `378. Kth Smallest Element in a Sorted Matrix.py`
+- `38. Count and Say.py`
+- `380. Insert Delete GetRandom O(1).py`
+- `3803. Count Residue Prefixes.py`
+- `3804. Number of Centered Subarrays.py`
+- `3805. Count Caesar Cipher Pairs.py`
+- `3809. Best Reachable Tower.py`
+- `381. Insert Delete GetRandom O(1) - Duplicates allowed.py`
+- `3810. Minimum Operations to Reach Target Array.py`
+- `3811. Number of Alternating XOR Partitions.py`
+- `3812. Minimum Edge Toggles on a Tree.py`
+- `3813. Vowel-Consonant Score.py`
+- `3815. Design Auction System.py`
+- `3818. Minimum Prefix Removal to Make Array Strictly Increasing.py`
+- `3819. Rotate Non Negative Elements.py`
+- `382. Linked List Random Node.py`
+- `3820. Pythagorean Distance Nodes in a Tree.py`
+- `3821. Find Nth Smallest Integer With K One Bits.py`
+- `3823. Reverse Letters Then Special Characters in a String.py`
+- `383. Ransom Note.py`
+- `384. Shuffle an Array.py`
+- `385. Mini Parser.py`
+- `386. Lexicographical Numbers.py`
+- `387. First Unique Character in a String.py`
+- `388. Longest Absolute File Path.py`
+- `389. Find the Difference.py`
+- `390. Elimination Game.py`
+- `391. Perfect Rectangle.py`
+- `393. UTF-8 Validation.py`
+- `394. Decode String.py`
+- `395. Longest Substring with At Least K Repeating Characters.py`
+- `398. Random Pick Index.py`
+- `399. Evaluate Division.py`
+- `3Sum Closest.py`
+- `3Sum.py`
+- `400. Nth Digit.py`
+- `401. Binary Watch.py`
+- `402. Remove K Digits.py`
+- `403. Frog Jump.py`
+- `404. Sum of Left Leaves.py`
+- `405. Convert a Number to Hexadecimal.py`
+- `406. Queue Reconstruction by Height.py`
+- `407. Trapping Rain Water II.py`
+- `409. Longest Palindrome.py`
+- `41. First Missing Positive.py`
+- `410. Split Array Largest Sum.py`
+- `412. Fizz Buzz.py`
+- `414. Third Maximum Number.py`
+- `415. Add Strings.py`
+- `43. Multiply Strings.py`
+- `44. Wildcard Matching.py`
+- `46. Permutations.py`
+- `47. Permutations II.py`
+- `48. Rotate Image.py`
+- `49. Group Anagrams.py`
+- `4Sum.py`
+- `5. Longest Palindromic Substring.py`
+- `50. Pow(x, n).py`
+- `51. N-Queens.py`
+- `52. N-Queens II.py`
+- `54. Spiral Matrix.py`
+- `56. Merge Intervals.py`
+- `57. Insert Interval.py`
+- `58. Length of Last Word.py`
+- `59. Spiral Matrix II.py`
+- `6. Zigzag Conversion.py`
+- `60. Permutation Sequence.py`
+- `61. Rotate List.py`
+- `62. Unique Paths.py`
+- `63. Unique Paths II.py`
+- `65. Valid Number.py`
+- `657. Robot Return to Origin.py`
+- `66. Plus One.py`
+- `67. Add Binary.py`
+- `68. Text Justification.py`
+- `69. Sqrt(x).py`
+- `7. Reverse Integer.py`
+- `71. Simplify Path.py`
+- `717. 1-bit and 2-bit Characters.py`
+- `73. Set Matrix Zeroes.py`
+- `74. Search a 2D Matrix.py`
+- `75. Sort Colors.py`
+- `757. Set Intersection Size At Least Two.py`
+- `76. Minimum Window Substring.py`
+- `77. Combinations.py`
+- `78. Subsets.py`
+- `79. Word Search.py`
+- `8. String to Integer (atoi).py`
+- `80. Remove Duplicates from Sorted Array II.py`
+- `81. Search in Rotated Sorted Array II.py`
+- `82. Remove Duplicates from Sorted List II.py`
+- `86. Partition List.py`
+- `87. Scramble String.py`
+- `874. Walking Robot Simulation.py`
+- `88. Merge Sorted Array.py`
+- `89. Gray Code.py`
+- `9. Palindrome Number.py`
+- `90. Subsets II.py`
+- `92. Reverse Linked List II.py`
+- `93. Restore IP Addresses.py`
+- `94. Binary Tree Inorder Traversal.py`
+- `98. Validate Binary Search Tree.py`
+- `99. Recover Binary Search Tree.py`
+- `Combination Sum II.py`
+- `Combination Sum.py`
+- `Container With Most Water.py`
+- `find-first-and-last-position-of-element-in-sorted-array.py`
+- `First Missing Positive.py`
+- `Jump Game II.py`
+- `Longest Common Prefix.py`
+- `Max. Depth Of Binary Tree.py`
+- `Median of Two Sorted Arrays.py`
+- `Next Permutation.py`
+- `Prob.3212.py`
+- `Remove Duplicates from Sorted Array.py`
+- `Remove Element.py`
+- `Search in Rotated Sorted Array.py`
+- `Search Insert Position.py`
+- `Sudoku Solver.py`
+- `Trapping Rain Water.py`
+- `Two Sum.py`
+- `update_readme.py`
+- `Valid Sudoku.py`
+
+## SQL Problem Index
+
+- `175. Combine Two Tables.sql`
+- `176. Second Highest Salary.sql`
+- `178. Rank Scores.sql`
+- `180. Consecutive Numbers.sql`
+- `181. Employees Earning More Than Their Managers.sql`
+- `182. Duplicate Emails.sql`
+- `183. Customers Who Never Order.sql`
+- `184. Department Highest Salary.sql`
+- `185. Department Top Three Salaries.sql`
 - `196. Delete Duplicate Emails.sql`
 - `197. Rising Temperature.sql`
-- `185. Department Top Three Salaries.sql`
-- `184. Department Highest Salary.sql`
-- `381. Insert Delete GetRandom O(1) - Duplicates allowed.py`
-- `380. Insert Delete GetRandom O(1).py`
-- `378. Kth Smallest Element in a Sorted Matrix.py`
-- `373. Find K Pairs with Smallest Sums.py`
-- `372. Super Pow.py`
-- `371. Sum of Two Integers.py`
-- `3655. XOR After Range Multiplication Queries II.py`
-- `315. Count of Smaller Numbers After Self.py`
-- `314. Burst Balloons.py`
-- `312. Burst Balloons.py`
+- `262. Trips and Users.sql`
+- `3808. Find Emotionally Consistent Users.sql`
 
-# Repository Layout
+## Text Problem Index
 
-- Most files are named as `<problem_number>. <problem_title>.py`.
-- Some older files use title-only names, for example `Two Sum.py`.
-- The repo also includes SQL practice files and text-format problem files.
-- `README.md` provides progress and a complete index.
-
-# How To Use This Repo
-
-- Open any problem file directly to see the implementation.
-- Use the index below to quickly find a specific problem.
-- Compare patterns across files to study multiple approaches.
-
-# Problem Index
-
-Below is a comprehensive index of all Python solution files in this repository, sorted alphabetically:
-
- - `10. Regular Expression Matching.py`
- - `100. Same Tree.py`
- - `101. Symmetric Tree.py`
- - `1015. Smallest Integer Divisible by K.py`
- - `1018. Binary Prefix Divisible By 5.py`
- - `102. Binary Tree Level Order Traversal.py`
- - `103. Binary Tree Zigzag Level Order Traversal.py`
- - `105. Construct Binary Tree from Preorder and Inorder Traversal.py`
- - `106. Construct Binary Tree from Inorder and Postorder Traversal.py`
- - `107. Binary Tree Level Order Traversal II.py`
- - `108. Convert Sorted Array to Binary Search Tree.py`
- - `109. Convert Sorted List to Binary Search Tree.py`
- - `110. Balanced Binary Tree.py`
- - `111. Minimum Depth of Binary Tree.py`
- - `112. Path Sum.py`
- - `113. Path Sum II.py`
- - `114. Flatten Binary Tree to Linked List.py`
- - `115. Distinct Subsequences.py`
- - `116. Populating Next Right Pointers in Each Node.py`
- - `117. Populating Next Right Pointers in Each Node II.py`
- - `12. Integer to Roman.py`
- - `123. Best Time to Buy and Sell Stock III.py`
- - `124. Binary Tree Maximum Path Sum.py`
- - `125. Valid Palindrome.py`
- - `126. Word Ladder II.py`
- - `1262. Greatest Sum Divisible by Three.py`
- - `127. Word Ladder.py`
- - `128. Longest Consecutive Sequence.py`
- - `13. Roman to Integer.py`
- - `130. Surrounded Regions.py`
- - `132. Palindrome Partitioning II.py`
- - `133. Clone Graph.py`
- - `134. Gas Station.py`
- - `135. Candy.py`
- - `136. Single Number.py`
- - `137. Single Number II.py`
- - `138. Copy List with Random Pointer.py`
- - `140. Word Break II.py`
- - `141. Linked List Cycle.py`
- - `142. Linked List Cycle II.py`
- - `143. Reorder List.py`
- - `1437. Check If All 1's Are at Least Length K Places Away.py`
- - `144. Binary Tree Preorder Traversal.py`
- - `145. Binary Tree Postorder Traversal.py`
- - `146. LRU Cache.py`
- - `147. Insertion Sort List.py`
- - `148. Sort List.py`
- - `149. Max Points on a Line.py`
- - `150. Evaluate Reverse Polish Notation.py`
- - `151. Reverse Words in a String.py`
- - `1513. Number of Substrings With Only 1s.py`
- - `1523. Count Odd Numbers in an Interval Range.py`
- - `1526. Minimum Number of Increments on Subarrays to Form a Target Array.py`
- - `153. Find Minimum in Rotated Sorted Array.py`
- - `154. Find Minimum in Rotated Sorted Array II.py`
- - `155. Min Stack.py`
- - `1578. Minimum Time to Make Rope Colorful.py`
- - `1590. Make Sum Divisible by P.py`
- - `1611. Minimum One Bit Operations to Make Integers Zero.py`
- - `162. Find Peak Element.py`
- - `164. Maximum Gap.py`
- - `165. Compare Version Numbers.py`
- - `166. Fraction to Recurring Decimal.py`
- - `167. Two Sum II - Input Array Is Sorted.py`
- - `168. Excel Sheet Column Title.py`
- - `169. Majority Element.py`
- - `171. Excel Sheet Column Number.py`
- - `172. Factorial Trailing Zeroes.py`
- - `173. Binary Search Tree Iterator.py`
- - `174. Dungeon Game.py`
- - `179. Largest Number.py`
- - `187. Repeated DNA Sequences.py`
- - `188. Best Time to Buy and Sell Stock IV.py`
- - `1886. Determine Whether Matrix Can Be Obtained By Rotation.py`
- - `189. Rotate Array.py`
- - `19. Remove Nth Node From End of List.py`
- - `190. Reverse Bits.py`
- - `1930. Unique Length-3 Palindromic Subsequences.py`
- - `198. House Robber.py`
- - `199. Binary Tree Right Side View.py`
- - `2. Add Two Numbers.py`
- - `20. Valid Parentheses.py`
- - `200. Number of Islands.py`
- - `201. Bitwise AND of Numbers Range.py`
- - `202. Happy Number.py`
- - `203. Remove Linked List Elements.py`
- - `204. Count Primes.py`
- - `2043. Simple Bank System.py`
- - `2048. Next Greater Numerically Balanced Number.py`
- - `205. Isomorphic Strings.py`
- - `206. Reverse Linked List.py`
- - `2069. Walking Robot Simulation II.py`
- - `207. Course Schedule.py`
- - `2075. Decode the Slanted Ciphertext.py`
- - `208. Implement Trie (Prefix Tree).py`
- - `209. Minimum Size Subarray Sum.py`
- - `21. Merge Two Sorted Lists.py`
- - `210. Course Schedule II.py`
- - `211. Design Add and Search Words Data Structure.py`
- - `212. Word Search II.py`
- - `2125. Number of Laser Beams in a Bank.py`
- - `214. Shortest Palindrome.py`
- - `2141. Maximum Running Time of N Computers.py`
- - `215. Kth Largest Element in an Array.py`
- - `2154. Keep Multiplying Found Values by Two.py`
- - `216. Combination Sum III.py`
- - `2169. Count Operations to Obtain Zero.py`
- - `217. Contains Duplicate.py`
- - `218. The Skyline Problem.py`
- - `22. Generate Parentheses.py`
- - `220. Contains Duplicate III.py`
- - `2211. Count Collisions on a Road.py`
- - `222. Count Complete Tree Nodes.py`
- - `223. Rectangle Area.py`
- - `224. Basic Calculator.py`
- - `225. Implement Stack using Queues.py`
- - `2257. Count Unguarded Cells in the Grid.py`
- - `226. Invert Binary Tree.py`
- - `228. Summary Ranges.py`
- - `229. Majority Element II.py`
- - `23. Merge k Sorted Lists.py`
- - `230. Kth Smallest Element in a BST.py`
- - `231. Power of Two.py`
- - `232. Implement Queue using Stacks.py`
- - `233. Number of Digit One.py`
- - `234. Palindrome Linked List.py`
- - `235. Lowest Common Ancestor of a Binary Search Tree.py`
- - `236. Lowest Common Ancestor of a Binary Tree.py`
- - `237. Delete Node in a Linked List.py`
- - `238. Product of Array Except Self.py`
- - `239. Sliding Window Maximum.py`
- - `24. Swap Nodes in Pairs.py`
- - `240. Search a 2D Matrix II.py`
- - `242. Valid Anagram.py`
- - `2435. Paths in Matrix Whose Sum Is Divisible by K.py`
- - `25. Reverse Nodes in k-Group.py`
- - `2528. Maximize the Minimum Powered City.py`
- - `2536. Increment Submatrices by One.py`
- - `257. Binary Tree Paths.py`
- - `2573. Find the String with LCP.py`
- - `258. Add Digits.py`
- - `260. Single Number III.py`
- - `263. Ugly Number.py`
- - `2654. Minimum Number of Operations to Make All Array Elements Equal to 1.py`
- - `268. Missing Number.py`
- - `274. H-Index.py`
- - `275. H-Index II.py`
- - `2751. Robot Collisions.py`
- - `278. First Bad Version.py`
- - `28. Find the Index of the First Occurrence in a String.py`
- - `282. Expression Add Operators.py`
- - `283. Move Zeroes.py`
- - `2839. Check if Strings Can be Made Equal With Operations I.py`
- - `284. Peeking Iterator.py`
- - `2840. Check if Strings Can be Made Equal With Operations II.py`
- - `287. Find the Duplicate Number.py`
- - `2872. Maximum Number of K-Divisible Components.py`
- - `289. Game of Life.py`
- - `29. Divide Two Integers.py`
- - `290. Word Pattern.py`
- - `2906. Construct Product Matrix.py`
- - `292. Nim Game.py`
- - `2946. Matrix Similarity After Cyclic Shifts.py`
- - `295. Find Median from Data Stream.py`
- - `297. Serialize and Deserialize Binary Tree.py`
- - `299. Bulls and Cows.py`
- - `3. Longest Substring Without Repeating Characters.py`
- - `30. Substring with Concatenation of All Words.py`
- - `301. Remove Invalid Parentheses.py`
- - `303. Range Sum Query - Immutable.py`
- - `304. Range Sum Query 2D - Immutable.py`
- - `306. Additive Number.py`
- - `307. Range Sum Query - Mutable.py`
- - `310. Minimum Height Trees.py`
- - `312. Burst Balloons.py`
- - `314. Burst Balloons.py`
- - `315. Count of Smaller Numbers After Self.py`
- - `3190. Find Minimum Operations to Make All Elements Divisible by Three.py`
- - `3217. Delete Nodes From Linked List Present in Array.py`
- - `3234. Count the Number of Substrings With Dominant Ones.py`
- - `326. Power of Three.py`
- - `327. Count of Range Sum.py`
- - `328. Odd Even Linked List.py`
- - `3289. The Two Sneaky Numbers of Digitville.py`
- - `329. Longest Increasing Path in a Matrix.py`
- - `330. Patching Array.py`
- - `331. Verify Preorder Serialization of a Binary Tree.py`
- - `3318. Find X-Sum of All K-Long Subarrays I.py`
- - `334. Increasing Triplet Subsequence.py`
- - `335. Self Crossing.py`
- - `3354. Make Array Elements Equal to Zero.py`
- - `3370. Smallest Number With All Set Bits.py`
- - `3381. Maximum Subarray Sum With Length Divisible by K.py`
- - `3418. Maximum Amount of Money Robot Can Earn.py`
- - `3432. Count Partitions with Even Sum Difference.py`
- - `3474. Lexicographically Smallest Generated String.py`
- - `3512. Minimum Operations to Make Array Sum Divisible by K.py`
- - `3546. Equal Sum Grid Partition I.py`
- - `3548. Equal Sum Grid Partition II.py`
- - `3578. Count Partitions With Max-Min Difference at Most K.py`
- - `3607. Power Grid Maintenance.py`
- - `3623. Count Number of Trapezoids I.py`
- - `3625. Count Number of Trapezoids II.py`
- - `3653. XOR After Range Multiplication Queries I streak code.py`
- - `3655. XOR After Range Multiplication Queries II.py`
- - `3661. Maximum Walls Destroyed by Robots.py`
- - `371. Sum of Two Integers.py`
- - `372. Super Pow.py`
- - `373. Find K Pairs with Smallest Sums.py`
- - `378. Kth Smallest Element in a Sorted Matrix.py`
- - `38. Count and Say.py`
- - `380. Insert Delete GetRandom O(1).py`
- - `3803. Count Residue Prefixes.py`
- - `3804. Number of Centered Subarrays.py`
- - `3805. Count Caesar Cipher Pairs.py`
- - `3809. Best Reachable Tower.py`
- - `381. Insert Delete GetRandom O(1) - Duplicates allowed.py`
- - `3810. Minimum Operations to Reach Target Array.py`
- - `3811. Number of Alternating XOR Partitions.py`
- - `3812. Minimum Edge Toggles on a Tree.py`
- - `3813. Vowel-Consonant Score.py`
- - `3815. Design Auction System.py`
- - `3818. Minimum Prefix Removal to Make Array Strictly Increasing.py`
- - `3819. Rotate Non Negative Elements.py`
- - `3820. Pythagorean Distance Nodes in a Tree.py`
- - `3821. Find Nth Smallest Integer With K One Bits.py`
- - `3823. Reverse Letters Then Special Characters in a String.py`
- - `3Sum Closest.py`
- - `3Sum.py`
- - `41. First Missing Positive.py`
- - `43. Multiply Strings.py`
- - `44. Wildcard Matching.py`
- - `46. Permutations.py`
- - `47. Permutations II.py`
- - `48. Rotate Image.py`
- - `49. Group Anagrams.py`
- - `4Sum.py`
- - `5. Longest Palindromic Substring.py`
- - `50. Pow(x, n).py`
- - `51. N-Queens.py`
- - `52. N-Queens II.py`
- - `54. Spiral Matrix.py`
- - `56. Merge Intervals.py`
- - `57. Insert Interval.py`
- - `58. Length of Last Word.py`
- - `59. Spiral Matrix II.py`
- - `6. Zigzag Conversion.py`
- - `60. Permutation Sequence.py`
- - `61. Rotate List.py`
- - `62. Unique Paths.py`
- - `63. Unique Paths II.py`
- - `65. Valid Number.py`
- - `657. Robot Return to Origin.py`
- - `66. Plus One.py`
- - `67. Add Binary.py`
- - `68. Text Justification.py`
- - `69. Sqrt(x).py`
- - `7. Reverse Integer.py`
- - `71. Simplify Path.py`
- - `717. 1-bit and 2-bit Characters.py`
- - `73. Set Matrix Zeroes.py`
- - `74. Search a 2D Matrix.py`
- - `75. Sort Colors.py`
- - `757. Set Intersection Size At Least Two.py`
- - `76. Minimum Window Substring.py`
- - `77. Combinations.py`
- - `78. Subsets.py`
- - `79. Word Search.py`
- - `8. String to Integer (atoi).py`
- - `80. Remove Duplicates from Sorted Array II.py`
- - `81. Search in Rotated Sorted Array II.py`
- - `82. Remove Duplicates from Sorted List II.py`
- - `86. Partition List.py`
- - `87. Scramble String.py`
- - `874. Walking Robot Simulation.py`
- - `88. Merge Sorted Array.py`
- - `89. Gray Code.py`
- - `9. Palindrome Number.py`
- - `90. Subsets II.py`
- - `92. Reverse Linked List II.py`
- - `93. Restore IP Addresses.py`
- - `94. Binary Tree Inorder Traversal.py`
- - `98. Validate Binary Search Tree.py`
- - `99. Recover Binary Search Tree.py`
- - `Combination Sum II.py`
- - `Combination Sum.py`
- - `Container With Most Water.py`
- - `First Missing Positive.py`
- - `Jump Game II.py`
- - `Longest Common Prefix.py`
- - `Max. Depth Of Binary Tree.py`
- - `Median of Two Sorted Arrays.py`
- - `Next Permutation.py`
- - `Prob.3212.py`
- - `Remove Duplicates from Sorted Array.py`
- - `Remove Element.py`
- - `Search Insert Position.py`
- - `Search in Rotated Sorted Array.py`
- - `Sudoku Solver.py`
- - `Trapping Rain Water.py`
- - `Two Sum.py`
- - `Valid Sudoku.py`
- - `find-first-and-last-position-of-element-in-sorted-array.py`
+- `192. Word Frequency.txt`
+- `193. Valid Phone Numbers.txt`
+- `194. Transpose File.txt`
+- `195. Tenth Line.txt`
