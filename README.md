@@ -441,5 +441,3 @@ Personal LeetCode solution archive focused on data structures, algorithms, and i
 - `193. Valid Phone Numbers.txt`
 - `194. Transpose File.txt`
 - `195. Tenth Line.txt`
-
-_End of file README_
