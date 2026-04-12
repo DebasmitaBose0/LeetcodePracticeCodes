@@ -1,5 +1,6 @@
 import random
 from collections import defaultdict
+from typing import List
 
 class Solution:
     def __init__(self, nums: List[int]):
