@@ -1,59 +1,76 @@
 #!/usr/bin/env python3
-"""Update README.md progress, latest code summary, and problem index for LeetCode solutions."""
+"""Generate a clean README.md for LeetCode solutions with latest progress and a full index."""
 
 from pathlib import Path
+from datetime import datetime
 
 ROOT = Path(__file__).resolve().parent
 README = ROOT / "README.md"
 
-PY_FILES = sorted([p.name for p in ROOT.glob("*.py") if p.name != Path(__file__).name])
-SQL_FILES = sorted([p.name for p in ROOT.glob("*.sql")])
-TXT_FILES = sorted([p.name for p in ROOT.glob("*.txt")])
+EXCLUDE = {Path(__file__).name}
+PY_FILES = sorted([p for p in ROOT.glob("*.py") if p.name not in EXCLUDE], key=lambda p: p.name.lower())
+SQL_FILES = sorted(ROOT.glob("*.sql"), key=lambda p: p.name.lower())
+TXT_FILES = sorted(ROOT.glob("*.txt"), key=lambda p: p.name.lower())
 
 TOTAL_PY = len(PY_FILES)
 TOTAL_SQL = len(SQL_FILES)
 TOTAL_TXT = len(TXT_FILES)
+TOTAL_FILES = TOTAL_PY + TOTAL_SQL + TOTAL_TXT
 
-LATEST_PY = sorted(PY_FILES, key=lambda name: (ROOT / name).stat().st_mtime, reverse=True)[:10]
-LATEST_SQL = sorted(SQL_FILES, key=lambda name: (ROOT / name).stat().st_mtime, reverse=True)[:5]
+ALL_FILES = PY_FILES + SQL_FILES + TXT_FILES
+LATEST_FILES = sorted(ALL_FILES, key=lambda p: p.stat().st_mtime, reverse=True)[:20]
 
-text = README.read_text(encoding="utf-8")
-pre_latest, sep_latest, post_latest = text.partition("# Latest Codes")
-if sep_latest:
-    _, sep_repo, post_repo = post_latest.partition("# Repository Layout")
-    repo_section = sep_repo + post_repo
-else:
-    pre_latest, sep_repo, post_repo = text.partition("# Repository Layout")
-    repo_section = sep_repo + post_repo
+latest_lines = []
+for file_path in LATEST_FILES:
+    modified = datetime.fromtimestamp(file_path.stat().st_mtime).strftime("%Y-%m-%d %H:%M")
+    latest_lines.append(f"- `{file_path.name}` — {modified}")
 
-# update snapshot counts in the header
-lines = pre_latest.splitlines()
-updated_head = []
-for line in lines:
-    if line.startswith("- Python solution files in this repo:"):
-        updated_head.append(f"- Python solution files in this repo: **{TOTAL_PY}**")
-    elif line.startswith("- SQL practice files in this repo:"):
-        updated_head.append(f"- SQL practice files in this repo: **{TOTAL_SQL}**")
-    elif line.startswith("- Text problem files in this repo:"):
-        updated_head.append(f"- Text problem files in this repo: **{TOTAL_TXT}**")
-    else:
-        updated_head.append(line)
-
-latest_section = [
-    "# Latest Codes",
+readme_lines = [
+    "# LeetCode Practice Codes",
     "",
-    "Most recent solved problems include:",
+    "[![LeetCode Profile](https://img.shields.io/badge/LeetCode-Debasmita_Bose-blue?style=for-the-badge&logo=leetcode)](https://leetcode.com/u/Debasmita_Bose/)",
     "",
-] + [f"- `{name}`" for name in LATEST_SQL + LATEST_PY] + [""]
-
-index_lines = [
-    "# Problem Index",
+    "A compact and readable archive of LeetCode solutions, focused on algorithms, data structures, and interview-style practice.",
     "",
-    "Below is a comprehensive index of all Python solution files in this repository, sorted alphabetically:",
+    "## 🚀 Snapshot",
     "",
-] + [f" - `{name}`" for name in PY_FILES] + [""]
+    f"- **Last updated:** {datetime.now().strftime('%Y-%m-%d')}",
+    f"- **Python solutions:** {TOTAL_PY}",
+    f"- **SQL practice files:** {TOTAL_SQL}",
+    f"- **Text problem files:** {TOTAL_TXT}",
+    f"- **Total files:** {TOTAL_FILES}",
+    "- **Status:** actively updated",
+    "",
+    "## ✨ Latest Work",
+    "",
+] + latest_lines + [
+    "",
+    "## 🧠 Skills & Topics",
+    "",
+    "- Arrays/Strings: sliding window, two pointers, greedy",
+    "- Linked Lists: cycle detection, reversal, k-group, random pointer",
+    "- Trees/Graphs: traversals, reconstruction, shortest paths",
+    "- DP: subsequence, interval, 1D/2D, optimization",
+    "- Advanced: binary search, backtracking, matrix simulation, hashing",
+    "",
+    "## 📁 Repository Notes",
+    "",
+    "- File format: `<problem_number>. <title>.py`",
+    "- SQL solutions: `.sql`",
+    "- Extra practice: `.txt`",
+    "- Full Python index is tucked below to keep the page clean.",
+    "",
+    "<details>",
+    f"<summary>🗂 Full Python Problem Index ({TOTAL_PY} files)</summary>",
+    "",
+] + [f"- `{file_path.name}`" for file_path in PY_FILES] + [
+    "",
+    "</details>",
+    "",
+    "---",
+    "",
+    "*Generated automatically by update_readme.py.*",
+]
 
-new_text = "\n".join(updated_head).rstrip() + "\n\n" + "\n".join(latest_section) + "\n" + repo_section.split("# Problem Index", 1)[0].rstrip() + "\n\n" + "\n".join(index_lines)
-
-README.write_text(new_text, encoding="utf-8")
-print(f"Updated README.md: {TOTAL_PY} Python solutions indexed, {TOTAL_SQL} SQL files, {TOTAL_TXT} text files.")
+README.write_text("\n".join(readme_lines).strip() + "\n", encoding="utf-8")
+print(f"Updated README.md with {TOTAL_PY} Python solutions, {TOTAL_SQL} SQL files, and {TOTAL_TXT} text files.")

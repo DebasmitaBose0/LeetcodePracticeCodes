@@ -1,66 +1,58 @@
-﻿# LeetCode Practice Codes
+# LeetCode Practice Codes
 
 [![LeetCode Profile](https://img.shields.io/badge/LeetCode-Debasmita_Bose-blue?style=for-the-badge&logo=leetcode)](https://leetcode.com/u/Debasmita_Bose/)
 
-Personal LeetCode solution archive focused on data structures, algorithms, and interview-style problem solving.
+A compact and readable archive of LeetCode solutions, focused on algorithms, data structures, and interview-style practice.
 
-## Repository Snapshot
+## 🚀 Snapshot
 
-- Last updated: **2026-04-11**
-- Python solution files: **356**
-- SQL practice files: **13**
-- Text problem files: **4**
-- Status: **actively updated**
+- **Last updated:** 2026-04-12
+- **Python solutions:** 363
+- **SQL practice files:** 13
+- **Text problem files:** 4
+- **Total files:** 380
+- **Status:** actively updated
 
-## Recent Progress (Latest 20 Files)
+## ✨ Latest Work
 
-- `415. Add Strings.py`  _(updated: 2026-04-11 20:45)_
-- `414. Third Maximum Number.py`  _(updated: 2026-04-11 20:23)_
-- `412. Fizz Buzz.py`  _(updated: 2026-04-11 20:19)_
-- `410. Split Array Largest Sum.py`  _(updated: 2026-04-11 20:18)_
-- `409. Longest Palindrome.py`  _(updated: 2026-04-11 20:16)_
-- `407. Trapping Rain Water II.py`  _(updated: 2026-04-11 20:13)_
-- `406. Queue Reconstruction by Height.py`  _(updated: 2026-04-11 20:01)_
-- `405. Convert a Number to Hexadecimal.py`  _(updated: 2026-04-11 19:47)_
-- `404. Sum of Left Leaves.py`  _(updated: 2026-04-11 19:45)_
-- `403. Frog Jump.py`  _(updated: 2026-04-11 19:41)_
-- `342. Power of Four.py`  _(updated: 2026-04-11 19:37)_
-- `341. Flatten Nested List Iterator.py`  _(updated: 2026-04-11 19:36)_
-- `337. House Robber III.py`  _(updated: 2026-04-11 19:35)_
-- `336. Palindrome Pairs.py`  _(updated: 2026-04-11 19:32)_
-- `324. Wiggle Sort II.py`  _(updated: 2026-04-11 19:30)_
-- `321. Create Maximum Number.py`  _(updated: 2026-04-11 19:29)_
-- `319. Bulb Switcher.py`  _(updated: 2026-04-11 19:28)_
-- `318. Maximum Product of Word Lengths.py`  _(updated: 2026-04-11 19:25)_
-- `316. Remove Duplicate Letters.py`  _(updated: 2026-04-11 19:24)_
-- `315.Count of Smaller Numbers After Self.py`  _(updated: 2026-04-11 18:53)_
+- `430. Flatten a Multilevel Doubly Linked List.py` — 2026-04-12 20:56
+- `429. N-ary Tree Level Order Traversal.py` — 2026-04-12 20:55
+- `427. Construct Quad Tree.py` — 2026-04-12 20:52
+- `424. Longest Repeating Character Replacement.py` — 2026-04-12 20:17
+- `423. Reconstruct Original Digits from English.py` — 2026-04-12 20:16
+- `421. Maximum XOR of Two Numbers in an Array.py` — 2026-04-12 20:15
+- `420. Strong Password Checker.py` — 2026-04-12 20:13
+- `419. Battleships in a Board.py` — 2026-04-12 20:12
+- `417. Pacific Atlantic Water Flow.py` — 2026-04-12 20:11
+- `1320. Minimum Distance to Type a Word Using Two Fingers.py` — 2026-04-12 20:04
+- `415. Add Strings.py` — 2026-04-12 20:02
+- `412. Fizz Buzz.py` — 2026-04-12 20:02
+- `414. Third Maximum Number.py` — 2026-04-12 20:02
+- `410. Split Array Largest Sum.py` — 2026-04-12 20:02
+- `409. Longest Palindrome.py` — 2026-04-12 20:02
+- `407. Trapping Rain Water II.py` — 2026-04-12 20:02
+- `406. Queue Reconstruction by Height.py` — 2026-04-12 20:02
+- `404. Sum of Left Leaves.py` — 2026-04-12 20:02
+- `405. Convert a Number to Hexadecimal.py` — 2026-04-12 20:02
+- `403. Frog Jump.py` — 2026-04-12 20:02
 
-## What I Have Solved So Far
+## 🧠 Skills & Topics
 
-- Arrays and strings: sliding window, two pointers, prefix/suffix ideas
-- Linked lists: reverse, merge, partition, cycle detection, k-group operations
-- Trees and graphs: BFS, DFS, traversal variants, reconstruction, shortest paths
-- Dynamic programming: classic 1D/2D DP, subsequence, interval DP, optimization DP
-- Greedy and constructive algorithms
-- Binary search and search-on-answer patterns
-- Hash map / set based counting and frequency techniques
-- Matrix and grid simulation / transformation
-- Backtracking and recursion
+- Arrays/Strings: sliding window, two pointers, greedy
+- Linked Lists: cycle detection, reversal, k-group, random pointer
+- Trees/Graphs: traversals, reconstruction, shortest paths
+- DP: subsequence, interval, 1D/2D, optimization
+- Advanced: binary search, backtracking, matrix simulation, hashing
 
-## Repository Structure
+## 📁 Repository Notes
 
-- Most files follow: `<problem_number>. <problem_title>.py`
-- Some earlier files use title-only naming, for example `Two Sum.py`
-- SQL solutions are stored as `.sql` files
-- Text-format practice problems are stored as `.txt` files
+- File format: `<problem_number>. <title>.py`
+- SQL solutions: `.sql`
+- Extra practice: `.txt`
+- Full Python index is tucked below to keep the page clean.
 
-## How To Use This Repository
-
-- Open a specific file by problem number or title to view the code directly
-- Use the full indexes below to quickly locate any solved problem
-- Track newly solved problems from the Recent Progress section
-
-## Python Problem Index (A-Z)
+<details>
+<summary>🗂 Full Python Problem Index (363 files)</summary>
 
 - `10. Regular Expression Matching.py`
 - `100. Same Tree.py`
@@ -93,6 +85,7 @@ Personal LeetCode solution archive focused on data structures, algorithms, and i
 - `13. Roman to Integer.py`
 - `130. Surrounded Regions.py`
 - `132. Palindrome Partitioning II.py`
+- `1320. Minimum Distance to Type a Word Using Two Fingers.py`
 - `133. Clone Graph.py`
 - `134. Gas Station.py`
 - `135. Candy.py`
@@ -245,7 +238,6 @@ Personal LeetCode solution archive focused on data structures, algorithms, and i
 - `3190. Find Minimum Operations to Make All Elements Divisible by Three.py`
 - `321. Create Maximum Number.py`
 - `3217. Delete Nodes From Linked List Present in Array.py`
-- `3228. Maximum Number of Operations to Move Ones to the End.PY`
 - `3234. Count the Number of Substrings With Dominant Ones.py`
 - `324. Wiggle Sort II.py`
 - `326. Power of Three.py`
@@ -294,7 +286,6 @@ Personal LeetCode solution archive focused on data structures, algorithms, and i
 - `373. Find K Pairs with Smallest Sums.py`
 - `374. Guess Number Higher or Lower.py`
 - `3740. Minimum Distance Between Three Equal Elements I.py`
-- `3741. Minimum Distance Between Three Equal Elements II.py`
 - `378. Kth Smallest Element in a Sorted Matrix.py`
 - `38. Count and Say.py`
 - `380. Insert Delete GetRandom O(1).py`
@@ -344,7 +335,16 @@ Personal LeetCode solution archive focused on data structures, algorithms, and i
 - `412. Fizz Buzz.py`
 - `414. Third Maximum Number.py`
 - `415. Add Strings.py`
+- `417. Pacific Atlantic Water Flow.py`
+- `419. Battleships in a Board.py`
+- `420. Strong Password Checker.py`
+- `421. Maximum XOR of Two Numbers in an Array.py`
+- `423. Reconstruct Original Digits from English.py`
+- `424. Longest Repeating Character Replacement.py`
+- `427. Construct Quad Tree.py`
+- `429. N-ary Tree Level Order Traversal.py`
 - `43. Multiply Strings.py`
+- `430. Flatten a Multilevel Doubly Linked List.py`
 - `44. Wildcard Matching.py`
 - `46. Permutations.py`
 - `47. Permutations II.py`
@@ -416,28 +416,10 @@ Personal LeetCode solution archive focused on data structures, algorithms, and i
 - `Sudoku Solver.py`
 - `Trapping Rain Water.py`
 - `Two Sum.py`
-- `update_readme.py`
 - `Valid Sudoku.py`
 
-## SQL Problem Index
+</details>
 
-- `175. Combine Two Tables.sql`
-- `176. Second Highest Salary.sql`
-- `178. Rank Scores.sql`
-- `180. Consecutive Numbers.sql`
-- `181. Employees Earning More Than Their Managers.sql`
-- `182. Duplicate Emails.sql`
-- `183. Customers Who Never Order.sql`
-- `184. Department Highest Salary.sql`
-- `185. Department Top Three Salaries.sql`
-- `196. Delete Duplicate Emails.sql`
-- `197. Rising Temperature.sql`
-- `262. Trips and Users.sql`
-- `3808. Find Emotionally Consistent Users.sql`
+---
 
-## Text Problem Index
-
-- `192. Word Frequency.txt`
-- `193. Valid Phone Numbers.txt`
-- `194. Transpose File.txt`
-- `195. Tenth Line.txt`
+*Generated automatically by update_readme.py.*
