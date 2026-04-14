@@ -12,6 +12,7 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - **Text problem files:** 4
 - **Total files:** 417
 - **Status:** actively updated
+- **License:** MIT
 
 ## ✨ Latest Work
 
@@ -50,6 +51,11 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - SQL solutions: `.sql`
 - Extra practice: `.txt`
 - Full Python index is tucked below to keep the page clean.
+- License: MIT
+
+## 📜 License
+
+This repository is licensed under the MIT License. See [`LICENSE`](LICENSE) for details.
 
 <details>
 <summary>🗂 Full Python Problem Index (400 files)</summary>
