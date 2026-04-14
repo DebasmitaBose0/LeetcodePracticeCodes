@@ -6,15 +6,16 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-04-12
-- **Python solutions:** 363
+- **Last updated:** 2026-04-13
+- **Python solutions:** 364
 - **SQL practice files:** 13
 - **Text problem files:** 4
-- **Total files:** 380
+- **Total files:** 381
 - **Status:** actively updated
 
 ## ✨ Latest Work
 
+- `1848. Minimum Distance to the Target Element.py` — 2026-04-13 22:25
 - `430. Flatten a Multilevel Doubly Linked List.py` — 2026-04-12 20:56
 - `429. N-ary Tree Level Order Traversal.py` — 2026-04-12 20:55
 - `427. Construct Quad Tree.py` — 2026-04-12 20:52
@@ -34,7 +35,6 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `406. Queue Reconstruction by Height.py` — 2026-04-12 20:02
 - `404. Sum of Left Leaves.py` — 2026-04-12 20:02
 - `405. Convert a Number to Hexadecimal.py` — 2026-04-12 20:02
-- `403. Frog Jump.py` — 2026-04-12 20:02
 
 ## 🧠 Skills & Topics
 
@@ -52,7 +52,7 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - Full Python index is tucked below to keep the page clean.
 
 <details>
-<summary>🗂 Full Python Problem Index (363 files)</summary>
+<summary>🗂 Full Python Problem Index (364 files)</summary>
 
 - `10. Regular Expression Matching.py`
 - `100. Same Tree.py`
@@ -126,6 +126,7 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `173. Binary Search Tree Iterator.py`
 - `174. Dungeon Game.py`
 - `179. Largest Number.py`
+- `1848. Minimum Distance to the Target Element.py`
 - `187. Repeated DNA Sequences.py`
 - `188. Best Time to Buy and Sell Stock IV.py`
 - `1886. Determine Whether Matrix Can Be Obtained By Rotation.py`
