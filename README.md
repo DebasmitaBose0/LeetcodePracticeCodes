@@ -6,35 +6,35 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-04-13
-- **Python solutions:** 364
+- **Last updated:** 2026-04-14
+- **Python solutions:** 400
 - **SQL practice files:** 13
 - **Text problem files:** 4
-- **Total files:** 381
+- **Total files:** 417
 - **Status:** actively updated
 
 ## ✨ Latest Work
 
-- `1848. Minimum Distance to the Target Element.py` — 2026-04-13 22:25
-- `430. Flatten a Multilevel Doubly Linked List.py` — 2026-04-12 20:56
-- `429. N-ary Tree Level Order Traversal.py` — 2026-04-12 20:55
-- `427. Construct Quad Tree.py` — 2026-04-12 20:52
-- `424. Longest Repeating Character Replacement.py` — 2026-04-12 20:17
-- `423. Reconstruct Original Digits from English.py` — 2026-04-12 20:16
-- `421. Maximum XOR of Two Numbers in an Array.py` — 2026-04-12 20:15
-- `420. Strong Password Checker.py` — 2026-04-12 20:13
-- `419. Battleships in a Board.py` — 2026-04-12 20:12
-- `417. Pacific Atlantic Water Flow.py` — 2026-04-12 20:11
-- `1320. Minimum Distance to Type a Word Using Two Fingers.py` — 2026-04-12 20:04
-- `415. Add Strings.py` — 2026-04-12 20:02
-- `412. Fizz Buzz.py` — 2026-04-12 20:02
-- `414. Third Maximum Number.py` — 2026-04-12 20:02
-- `410. Split Array Largest Sum.py` — 2026-04-12 20:02
-- `409. Longest Palindrome.py` — 2026-04-12 20:02
-- `407. Trapping Rain Water II.py` — 2026-04-12 20:02
-- `406. Queue Reconstruction by Height.py` — 2026-04-12 20:02
-- `404. Sum of Left Leaves.py` — 2026-04-12 20:02
-- `405. Convert a Number to Hexadecimal.py` — 2026-04-12 20:02
+- `477. Total Hamming Distance.py` — 2026-04-14 20:16
+- `476. Number Complement.py` — 2026-04-14 14:21
+- `475. Heaters.py` — 2026-04-14 14:20
+- `472. Concatenated Words.py` — 2026-04-14 14:19
+- `470. Implement Rand10() Using Rand7().py` — 2026-04-14 14:18
+- `468. Validate IP Address.py` — 2026-04-14 14:17
+- `466. Count The Repetitions.py` — 2026-04-14 14:16
+- `463. Island Perimeter.py` — 2026-04-14 14:15
+- `462. Minimum Moves to Equal Array Elements II.py` — 2026-04-14 14:14
+- `461. Hamming Distance.py` — 2026-04-14 14:13
+- `460. LFU Cache.py` — 2026-04-14 14:13
+- `459. Repeated Substring Pattern.py` — 2026-04-14 14:12
+- `458. Poor Pigs.py` — 2026-04-14 14:11
+- `457. Circular Array Loop.py` — 2026-04-14 14:10
+- `456. 132 Pattern.py` — 2026-04-14 14:09
+- `455. Assign Cookies.py` — 2026-04-14 14:08
+- `454. 4Sum II.py` — 2026-04-14 14:07
+- `453. Minimum Moves to Equal Array Elements.py` — 2026-04-14 14:06
+- `452. Minimum Number of Arrows to Burst Balloons.py` — 2026-04-14 14:05
+- `451. Sort Characters By Frequency.py` — 2026-04-14 14:04
 
 ## 🧠 Skills & Topics
 
@@ -52,7 +52,7 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - Full Python index is tucked below to keep the page clean.
 
 <details>
-<summary>🗂 Full Python Problem Index (364 files)</summary>
+<summary>🗂 Full Python Problem Index (400 files)</summary>
 
 - `10. Regular Expression Matching.py`
 - `100. Same Tree.py`
@@ -191,6 +191,7 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `240. Search a 2D Matrix II.py`
 - `242. Valid Anagram.py`
 - `2435. Paths in Matrix Whose Sum Is Divisible by K.py`
+- `2463. Minimum Total Distance Traveled.py`
 - `25. Reverse Nodes in k-Group.py`
 - `2528. Maximize the Minimum Powered City.py`
 - `2536. Increment Submatrices by One.py`
@@ -346,9 +347,44 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `429. N-ary Tree Level Order Traversal.py`
 - `43. Multiply Strings.py`
 - `430. Flatten a Multilevel Doubly Linked List.py`
+- `432. All O`one Data Structure.py`
+- `433. Minimum Genetic Mutation.py`
+- `434. Number of Segments in a String.py`
+- `436. Find Right Interval.py`
+- `437. Path Sum III.py`
+- `438. Find All Anagrams in a String.py`
 - `44. Wildcard Matching.py`
+- `440. K-th Smallest in Lexicographical Order.py`
+- `441. Arranging Coins.py`
+- `442. Find All Duplicates in an Array.py`
+- `445. Add Two Numbers II.py`
+- `446. Arithmetic Slices II - Subsequence.py`
+- `447. Number of Boomerangs.py`
+- `448. Find All Numbers Disappeared in an Array.py`
+- `449. Serialize and Deserialize BST.py`
+- `450. Delete Node in a BST.py`
+- `451. Sort Characters By Frequency.py`
+- `452. Minimum Number of Arrows to Burst Balloons.py`
+- `453. Minimum Moves to Equal Array Elements.py`
+- `454. 4Sum II.py`
+- `455. Assign Cookies.py`
+- `456. 132 Pattern.py`
+- `457. Circular Array Loop.py`
+- `458. Poor Pigs.py`
+- `459. Repeated Substring Pattern.py`
 - `46. Permutations.py`
+- `460. LFU Cache.py`
+- `461. Hamming Distance.py`
+- `462. Minimum Moves to Equal Array Elements II.py`
+- `463. Island Perimeter.py`
+- `466. Count The Repetitions.py`
+- `468. Validate IP Address.py`
 - `47. Permutations II.py`
+- `470. Implement Rand10() Using Rand7().py`
+- `472. Concatenated Words.py`
+- `475. Heaters.py`
+- `476. Number Complement.py`
+- `477. Total Hamming Distance.py`
 - `48. Rotate Image.py`
 - `49. Group Anagrams.py`
 - `4Sum.py`
