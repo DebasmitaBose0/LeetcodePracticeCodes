@@ -6,16 +6,21 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-04-14
-- **Python solutions:** 400
+- **Last updated:** 2026-04-15
+- **Python solutions:** 404
 - **SQL practice files:** 13
 - **Text problem files:** 4
-- **Total files:** 417
+- **Total files:** 421
 - **Status:** actively updated
 - **License:** MIT
 
 ## ✨ Latest Work
 
+- `480. Sliding Window Median.py` — 2026-04-15 21:32
+- `479. Largest Palindrome Product.py` — 2026-04-15 21:31
+- `478. Generate Random Point in a Circle.py` — 2026-04-15 21:30
+- `2515. Shortest Distance to Target String in a Circular Array.py` — 2026-04-15 21:19
+- `434. Number of Segments in a String.py` — 2026-04-15 12:40
 - `477. Total Hamming Distance.py` — 2026-04-14 20:16
 - `476. Number Complement.py` — 2026-04-14 14:21
 - `475. Heaters.py` — 2026-04-14 14:20
@@ -31,11 +36,6 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `458. Poor Pigs.py` — 2026-04-14 14:11
 - `457. Circular Array Loop.py` — 2026-04-14 14:10
 - `456. 132 Pattern.py` — 2026-04-14 14:09
-- `455. Assign Cookies.py` — 2026-04-14 14:08
-- `454. 4Sum II.py` — 2026-04-14 14:07
-- `453. Minimum Moves to Equal Array Elements.py` — 2026-04-14 14:06
-- `452. Minimum Number of Arrows to Burst Balloons.py` — 2026-04-14 14:05
-- `451. Sort Characters By Frequency.py` — 2026-04-14 14:04
 
 ## 🧠 Skills & Topics
 
@@ -58,7 +58,7 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 This repository is licensed under the MIT License. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (400 files)</summary>
+<summary>🗂 Full Python Problem Index (404 files)</summary>
 
 - `10. Regular Expression Matching.py`
 - `100. Same Tree.py`
@@ -199,6 +199,7 @@ This repository is licensed under the MIT License. See [`LICENSE`](LICENSE) for 
 - `2435. Paths in Matrix Whose Sum Is Divisible by K.py`
 - `2463. Minimum Total Distance Traveled.py`
 - `25. Reverse Nodes in k-Group.py`
+- `2515. Shortest Distance to Target String in a Circular Array.py`
 - `2528. Maximize the Minimum Powered City.py`
 - `2536. Increment Submatrices by One.py`
 - `257. Binary Tree Paths.py`
@@ -391,7 +392,10 @@ This repository is licensed under the MIT License. See [`LICENSE`](LICENSE) for 
 - `475. Heaters.py`
 - `476. Number Complement.py`
 - `477. Total Hamming Distance.py`
+- `478. Generate Random Point in a Circle.py`
+- `479. Largest Palindrome Product.py`
 - `48. Rotate Image.py`
+- `480. Sliding Window Median.py`
 - `49. Group Anagrams.py`
 - `4Sum.py`
 - `5. Longest Palindromic Substring.py`
