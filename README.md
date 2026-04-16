@@ -6,16 +6,18 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-04-15
-- **Python solutions:** 404
+- **Last updated:** 2026-04-16
+- **Python solutions:** 407
 - **SQL practice files:** 13
 - **Text problem files:** 4
-- **Total files:** 421
+- **Total files:** 427
 - **Status:** actively updated
 - **License:** MIT
 
 ## ✨ Latest Work
 
+- `491. Non-decreasing Subsequences.py` — 2026-04-16 22:19
+- `3488. Closest Equal Element Queries.py` — 2026-04-16 21:59
 - `480. Sliding Window Median.py` — 2026-04-15 21:32
 - `479. Largest Palindrome Product.py` — 2026-04-15 21:31
 - `478. Generate Random Point in a Circle.py` — 2026-04-15 21:30
@@ -35,7 +37,6 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `459. Repeated Substring Pattern.py` — 2026-04-14 14:12
 - `458. Poor Pigs.py` — 2026-04-14 14:11
 - `457. Circular Array Loop.py` — 2026-04-14 14:10
-- `456. 132 Pattern.py` — 2026-04-14 14:09
 
 ## 🧠 Skills & Topics
 
@@ -58,7 +59,7 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 This repository is licensed under the MIT License. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (404 files)</summary>
+<summary>🗂 Full Python Problem Index (407 files)</summary>
 
 - `10. Regular Expression Matching.py`
 - `100. Same Tree.py`
