@@ -6,37 +6,36 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-04-16
-- **Python solutions:** 407
+- **Last updated:** 2026-04-17
+- **Python solutions:** 420
 - **SQL practice files:** 13
 - **Text problem files:** 4
-- **Total files:** 427
+- **Total files:** 437
 - **Status:** actively updated
 - **License:** MIT
 
 ## ✨ Latest Work
 
+- `507. Perfect Number.py` — 2026-04-17 22:23
+- `506. Relative Ranks.py` — 2026-04-17 22:20
+- `504. Base 7.py` — 2026-04-17 22:11
+- `503. Next Greater Element II.py` — 2026-04-17 22:03
+- `502. IPO.py` — 2026-04-17 22:00
+- `501. Find Mode in Binary Search Tree.py` — 2026-04-17 21:59
+- `500. Keyboard Row.py` — 2026-04-17 21:58
+- `Diagonal Traverse.py` — 2026-04-17 21:56
+- `497. Random Point in Non-overlapping Rectangles.py` — 2026-04-17 21:55
+- `496. Next Greater Element I.py` — 2026-04-17 21:52
+- `495. Teemo Attacking.py` — 2026-04-17 21:51
+- `493. Reverse Pairs.py` — 2026-04-17 21:50
+- `492. Construct the Rectangle.py` — 2026-04-17 21:49
+- `3761. Minimum Absolute Distance Between Mirror Pairs.py` — 2026-04-17 21:44
 - `491. Non-decreasing Subsequences.py` — 2026-04-16 22:19
 - `3488. Closest Equal Element Queries.py` — 2026-04-16 21:59
 - `480. Sliding Window Median.py` — 2026-04-15 21:32
 - `479. Largest Palindrome Product.py` — 2026-04-15 21:31
 - `478. Generate Random Point in a Circle.py` — 2026-04-15 21:30
 - `2515. Shortest Distance to Target String in a Circular Array.py` — 2026-04-15 21:19
-- `434. Number of Segments in a String.py` — 2026-04-15 12:40
-- `477. Total Hamming Distance.py` — 2026-04-14 20:16
-- `476. Number Complement.py` — 2026-04-14 14:21
-- `475. Heaters.py` — 2026-04-14 14:20
-- `472. Concatenated Words.py` — 2026-04-14 14:19
-- `470. Implement Rand10() Using Rand7().py` — 2026-04-14 14:18
-- `468. Validate IP Address.py` — 2026-04-14 14:17
-- `466. Count The Repetitions.py` — 2026-04-14 14:16
-- `463. Island Perimeter.py` — 2026-04-14 14:15
-- `462. Minimum Moves to Equal Array Elements II.py` — 2026-04-14 14:14
-- `461. Hamming Distance.py` — 2026-04-14 14:13
-- `460. LFU Cache.py` — 2026-04-14 14:13
-- `459. Repeated Substring Pattern.py` — 2026-04-14 14:12
-- `458. Poor Pigs.py` — 2026-04-14 14:11
-- `457. Circular Array Loop.py` — 2026-04-14 14:10
 
 ## 🧠 Skills & Topics
 
@@ -59,7 +58,7 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 This repository is licensed under the MIT License. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (407 files)</summary>
+<summary>🗂 Full Python Problem Index (420 files)</summary>
 
 - `10. Regular Expression Matching.py`
 - `100. Same Tree.py`
@@ -273,6 +272,7 @@ This repository is licensed under the MIT License. See [`LICENSE`](LICENSE) for 
 - `345. Reverse Vowels of a String.py`
 - `347. Top K Frequent Elements.py`
 - `3474. Lexicographically Smallest Generated String.py`
+- `3488. Closest Equal Element Queries.py`
 - `349. Intersection of Two Arrays.py`
 - `350. Intersection of Two Arrays II.py`
 - `3512. Minimum Operations to Make Array Sum Divisible by K.py`
@@ -296,6 +296,7 @@ This repository is licensed under the MIT License. See [`LICENSE`](LICENSE) for 
 - `373. Find K Pairs with Smallest Sums.py`
 - `374. Guess Number Higher or Lower.py`
 - `3740. Minimum Distance Between Three Equal Elements I.py`
+- `3761. Minimum Absolute Distance Between Mirror Pairs.py`
 - `378. Kth Smallest Element in a Sorted Matrix.py`
 - `38. Count and Say.py`
 - `380. Insert Delete GetRandom O(1).py`
@@ -398,9 +399,22 @@ This repository is licensed under the MIT License. See [`LICENSE`](LICENSE) for 
 - `48. Rotate Image.py`
 - `480. Sliding Window Median.py`
 - `49. Group Anagrams.py`
+- `491. Non-decreasing Subsequences.py`
+- `492. Construct the Rectangle.py`
+- `493. Reverse Pairs.py`
+- `495. Teemo Attacking.py`
+- `496. Next Greater Element I.py`
+- `497. Random Point in Non-overlapping Rectangles.py`
 - `4Sum.py`
 - `5. Longest Palindromic Substring.py`
 - `50. Pow(x, n).py`
+- `500. Keyboard Row.py`
+- `501. Find Mode in Binary Search Tree.py`
+- `502. IPO.py`
+- `503. Next Greater Element II.py`
+- `504. Base 7.py`
+- `506. Relative Ranks.py`
+- `507. Perfect Number.py`
 - `51. N-Queens.py`
 - `52. N-Queens II.py`
 - `54. Spiral Matrix.py`
@@ -449,6 +463,7 @@ This repository is licensed under the MIT License. See [`LICENSE`](LICENSE) for 
 - `Combination Sum II.py`
 - `Combination Sum.py`
 - `Container With Most Water.py`
+- `Diagonal Traverse.py`
 - `find-first-and-last-position-of-element-in-sorted-array.py`
 - `First Missing Positive.py`
 - `Jump Game II.py`
