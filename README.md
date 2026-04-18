@@ -6,16 +6,24 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-04-17
-- **Python solutions:** 420
+- **Last updated:** 2026-04-18
+- **Python solutions:** 428
 - **SQL practice files:** 13
 - **Text problem files:** 4
-- **Total files:** 437
+- **Total files:** 445
 - **Status:** actively updated
 - **License:** MIT
 
 ## ✨ Latest Work
 
+- `525. Contiguous Array.py` — 2026-04-18 22:34
+- `524. Longest Word in Dictionary through Deleting.py` — 2026-04-18 22:31
+- `523. Continuous Subarray Sum.py` — 2026-04-18 22:29
+- `522. Longest Uncommon Subsequence II.py` — 2026-04-18 22:27
+- `521. Longest Uncommon Subsequence I.py` — 2026-04-18 22:22
+- `520. Detect Capital.py` — 2026-04-18 22:21
+- `519. Random Flip Matrix.py` — 2026-04-18 22:19
+- `3783. Mirror Distance of an Integer.py` — 2026-04-18 22:14
 - `507. Perfect Number.py` — 2026-04-17 22:23
 - `506. Relative Ranks.py` — 2026-04-17 22:20
 - `504. Base 7.py` — 2026-04-17 22:11
@@ -28,14 +36,6 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `496. Next Greater Element I.py` — 2026-04-17 21:52
 - `495. Teemo Attacking.py` — 2026-04-17 21:51
 - `493. Reverse Pairs.py` — 2026-04-17 21:50
-- `492. Construct the Rectangle.py` — 2026-04-17 21:49
-- `3761. Minimum Absolute Distance Between Mirror Pairs.py` — 2026-04-17 21:44
-- `491. Non-decreasing Subsequences.py` — 2026-04-16 22:19
-- `3488. Closest Equal Element Queries.py` — 2026-04-16 21:59
-- `480. Sliding Window Median.py` — 2026-04-15 21:32
-- `479. Largest Palindrome Product.py` — 2026-04-15 21:31
-- `478. Generate Random Point in a Circle.py` — 2026-04-15 21:30
-- `2515. Shortest Distance to Target String in a Circular Array.py` — 2026-04-15 21:19
 
 ## 🧠 Skills & Topics
 
@@ -58,7 +58,7 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 This repository is licensed under the MIT License. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (420 files)</summary>
+<summary>🗂 Full Python Problem Index (428 files)</summary>
 
 - `10. Regular Expression Matching.py`
 - `100. Same Tree.py`
@@ -298,6 +298,7 @@ This repository is licensed under the MIT License. See [`LICENSE`](LICENSE) for 
 - `3740. Minimum Distance Between Three Equal Elements I.py`
 - `3761. Minimum Absolute Distance Between Mirror Pairs.py`
 - `378. Kth Smallest Element in a Sorted Matrix.py`
+- `3783. Mirror Distance of an Integer.py`
 - `38. Count and Say.py`
 - `380. Insert Delete GetRandom O(1).py`
 - `3803. Count Residue Prefixes.py`
@@ -416,7 +417,14 @@ This repository is licensed under the MIT License. See [`LICENSE`](LICENSE) for 
 - `506. Relative Ranks.py`
 - `507. Perfect Number.py`
 - `51. N-Queens.py`
+- `519. Random Flip Matrix.py`
 - `52. N-Queens II.py`
+- `520. Detect Capital.py`
+- `521. Longest Uncommon Subsequence I.py`
+- `522. Longest Uncommon Subsequence II.py`
+- `523. Continuous Subarray Sum.py`
+- `524. Longest Word in Dictionary through Deleting.py`
+- `525. Contiguous Array.py`
 - `54. Spiral Matrix.py`
 - `56. Merge Intervals.py`
 - `57. Insert Interval.py`
