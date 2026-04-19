@@ -6,36 +6,36 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-04-18
-- **Python solutions:** 428
-- **SQL practice files:** 13
+- **Last updated:** 2026-04-19
+- **Python solutions:** 445
+- **SQL practice files:** 14
 - **Text problem files:** 4
-- **Total files:** 445
+- **Total files:** 463
 - **Status:** actively updated
 - **License:** MIT
 
 ## ✨ Latest Work
 
+- `538. Convert BST to Greater Tree.py` — 2026-04-19 21:03
+- `537. Complex Number Multiplication.py` — 2026-04-19 21:02
+- `535. Encode and Decode TinyURL.py` — 2026-04-19 21:02
+- `532. K-diff Pairs in an Array.py` — 2026-04-19 21:01
+- `530. Minimum Absolute Difference in BST.py` — 2026-04-19 21:00
+- `529. Minesweeper.py` — 2026-04-19 20:59
+- `528. Random Pick with Weight.py` — 2026-04-19 20:58
+- `517. Super Washing Machines.py` — 2026-04-19 20:07
+- `515. Find Largest Value in Each Tree Row.py` — 2026-04-19 20:06
+- `514. Freedom Trail.py` — 2026-04-19 20:05
+- `513. Find Bottom Left Tree Value.py` — 2026-04-19 20:04
+- `511. Game Play Analysis I.sql` — 2026-04-19 19:33
+- `508. Most Frequent Subtree Sum.py` — 2026-04-19 13:22
+- `488. Zuma Game.py` — 2026-04-19 13:19
+- `485. Max Consecutive Ones.py` — 2026-04-19 13:18
+- `483. Smallest Good Base.py` — 2026-04-19 13:17
+- `481. Magical String.py` — 2026-04-19 13:12
+- `1855. Maximum Distance Between a Pair of Values.py` — 2026-04-19 13:00
 - `525. Contiguous Array.py` — 2026-04-18 22:34
 - `524. Longest Word in Dictionary through Deleting.py` — 2026-04-18 22:31
-- `523. Continuous Subarray Sum.py` — 2026-04-18 22:29
-- `522. Longest Uncommon Subsequence II.py` — 2026-04-18 22:27
-- `521. Longest Uncommon Subsequence I.py` — 2026-04-18 22:22
-- `520. Detect Capital.py` — 2026-04-18 22:21
-- `519. Random Flip Matrix.py` — 2026-04-18 22:19
-- `3783. Mirror Distance of an Integer.py` — 2026-04-18 22:14
-- `507. Perfect Number.py` — 2026-04-17 22:23
-- `506. Relative Ranks.py` — 2026-04-17 22:20
-- `504. Base 7.py` — 2026-04-17 22:11
-- `503. Next Greater Element II.py` — 2026-04-17 22:03
-- `502. IPO.py` — 2026-04-17 22:00
-- `501. Find Mode in Binary Search Tree.py` — 2026-04-17 21:59
-- `500. Keyboard Row.py` — 2026-04-17 21:58
-- `Diagonal Traverse.py` — 2026-04-17 21:56
-- `497. Random Point in Non-overlapping Rectangles.py` — 2026-04-17 21:55
-- `496. Next Greater Element I.py` — 2026-04-17 21:52
-- `495. Teemo Attacking.py` — 2026-04-17 21:51
-- `493. Reverse Pairs.py` — 2026-04-17 21:50
 
 ## 🧠 Skills & Topics
 
@@ -58,7 +58,7 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 This repository is licensed under the MIT License. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (428 files)</summary>
+<summary>🗂 Full Python Problem Index (445 files)</summary>
 
 - `10. Regular Expression Matching.py`
 - `100. Same Tree.py`
@@ -133,6 +133,7 @@ This repository is licensed under the MIT License. See [`LICENSE`](LICENSE) for 
 - `174. Dungeon Game.py`
 - `179. Largest Number.py`
 - `1848. Minimum Distance to the Target Element.py`
+- `1855. Maximum Distance Between a Pair of Values.py`
 - `187. Repeated DNA Sequences.py`
 - `188. Best Time to Buy and Sell Stock IV.py`
 - `1886. Determine Whether Matrix Can Be Obtained By Rotation.py`
@@ -399,6 +400,10 @@ This repository is licensed under the MIT License. See [`LICENSE`](LICENSE) for 
 - `479. Largest Palindrome Product.py`
 - `48. Rotate Image.py`
 - `480. Sliding Window Median.py`
+- `481. Magical String.py`
+- `483. Smallest Good Base.py`
+- `485. Max Consecutive Ones.py`
+- `488. Zuma Game.py`
 - `49. Group Anagrams.py`
 - `491. Non-decreasing Subsequences.py`
 - `492. Construct the Rectangle.py`
@@ -416,7 +421,12 @@ This repository is licensed under the MIT License. See [`LICENSE`](LICENSE) for 
 - `504. Base 7.py`
 - `506. Relative Ranks.py`
 - `507. Perfect Number.py`
+- `508. Most Frequent Subtree Sum.py`
 - `51. N-Queens.py`
+- `513. Find Bottom Left Tree Value.py`
+- `514. Freedom Trail.py`
+- `515. Find Largest Value in Each Tree Row.py`
+- `517. Super Washing Machines.py`
 - `519. Random Flip Matrix.py`
 - `52. N-Queens II.py`
 - `520. Detect Capital.py`
@@ -425,6 +435,13 @@ This repository is licensed under the MIT License. See [`LICENSE`](LICENSE) for 
 - `523. Continuous Subarray Sum.py`
 - `524. Longest Word in Dictionary through Deleting.py`
 - `525. Contiguous Array.py`
+- `528. Random Pick with Weight.py`
+- `529. Minesweeper.py`
+- `530. Minimum Absolute Difference in BST.py`
+- `532. K-diff Pairs in an Array.py`
+- `535. Encode and Decode TinyURL.py`
+- `537. Complex Number Multiplication.py`
+- `538. Convert BST to Greater Tree.py`
 - `54. Spiral Matrix.py`
 - `56. Merge Intervals.py`
 - `57. Insert Interval.py`
