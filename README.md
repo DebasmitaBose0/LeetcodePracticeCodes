@@ -6,36 +6,36 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-04-19
-- **Python solutions:** 445
+- **Last updated:** 2026-04-20
+- **Python solutions:** 465
 - **SQL practice files:** 14
 - **Text problem files:** 4
-- **Total files:** 463
+- **Other repository files:** 3
+- **Total files:** 486
 - **Status:** actively updated
 - **License:** MIT
 
 ## ✨ Latest Work
 
-- `538. Convert BST to Greater Tree.py` — 2026-04-19 21:03
-- `537. Complex Number Multiplication.py` — 2026-04-19 21:02
-- `535. Encode and Decode TinyURL.py` — 2026-04-19 21:02
-- `532. K-diff Pairs in an Array.py` — 2026-04-19 21:01
-- `530. Minimum Absolute Difference in BST.py` — 2026-04-19 21:00
-- `529. Minesweeper.py` — 2026-04-19 20:59
-- `528. Random Pick with Weight.py` — 2026-04-19 20:58
-- `517. Super Washing Machines.py` — 2026-04-19 20:07
-- `515. Find Largest Value in Each Tree Row.py` — 2026-04-19 20:06
-- `514. Freedom Trail.py` — 2026-04-19 20:05
-- `513. Find Bottom Left Tree Value.py` — 2026-04-19 20:04
-- `511. Game Play Analysis I.sql` — 2026-04-19 19:33
-- `508. Most Frequent Subtree Sum.py` — 2026-04-19 13:22
-- `488. Zuma Game.py` — 2026-04-19 13:19
-- `485. Max Consecutive Ones.py` — 2026-04-19 13:18
-- `483. Smallest Good Base.py` — 2026-04-19 13:17
-- `481. Magical String.py` — 2026-04-19 13:12
-- `1855. Maximum Distance Between a Pair of Values.py` — 2026-04-19 13:00
-- `525. Contiguous Array.py` — 2026-04-18 22:34
-- `524. Longest Word in Dictionary through Deleting.py` — 2026-04-18 22:31
+- `2483. Minimum Penalty for a Shop.py` — 2026-04-20 22:38
+- `3075. Maximize Happiness of Selected Children.py` — 2026-04-20 22:36
+- `3074. Apple Redistribution into Boxes.py` — 2026-04-20 22:35
+- `2054. Two Best Non-Overlapping Events.py` — 2026-04-20 22:34
+- `960. Delete Columns to Make Sorted III.py` — 2026-04-20 22:33
+- `955. Delete Columns to Make Sorted II.py` — 2026-04-20 22:32
+- `944. Delete Columns to Make Sorted.py` — 2026-04-20 22:31
+- `3652. Best Time to Buy and Sell Stock using Strategy.py` — 2026-04-20 22:28
+- `3573. Best Time to Buy and Sell Stock V.py` — 2026-04-20 22:24
+- `3562. Maximum Profit from Trading Stocks with Discounts.py` — 2026-04-20 22:22
+- `2110. Number of Smooth Descent Periods of a Stock.py` — 2026-04-20 22:16
+- `2147. Number of Ways to Divide a Long Corridor.py` — 2026-04-20 22:13
+- `3606. Coupon Code Validator.py` — 2026-04-20 22:11
+- `3531. Count Covered Buildings.py` — 2026-04-20 22:09
+- `3577. Count the Number of Computer Unlocking Permutations.py` — 2026-04-20 22:01
+- `3583. Count Special Triplets.py` — 2026-04-20 22:00
+- `1925. Count Square Sum Triples.py` — 2026-04-20 21:35
+- `3625.Count Number of Trapezoids II.py` — 2026-04-20 21:34
+- `2078. Two Furthest Houses With Different Colors.py` — 2026-04-20 21:18
 
 ## 🧠 Skills & Topics
 
@@ -58,7 +58,7 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 This repository is licensed under the MIT License. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (445 files)</summary>
+<summary>🗂 Full Python Problem Index (465 files)</summary>
 
 - `10. Regular Expression Matching.py`
 - `100. Same Tree.py`
