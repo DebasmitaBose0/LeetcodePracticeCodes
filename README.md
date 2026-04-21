@@ -13,7 +13,7 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - **Other repository files:** 3
 - **Total files:** 502
 - **Status:** actively updated
-- **License:** MIT
+- **License:** Proprietary (All Rights Reserved)
 
 ## ✨ Latest Work
 
@@ -57,11 +57,11 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - SQL solutions: `.sql`
 - Extra practice: `.txt`
 - Full Python index is tucked below to keep the page clean.
-- License: MIT
+- License: Proprietary (All Rights Reserved)
 
 ## 📜 License
 
-This repository is licensed under the MIT License. See [`LICENSE`](LICENSE) for details.
+This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) for details.
 
 <details>
 <summary>🗂 Full Python Problem Index (480 files)</summary>
