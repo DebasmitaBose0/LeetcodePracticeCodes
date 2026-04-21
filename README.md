@@ -6,17 +6,32 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-04-20
-- **Python solutions:** 465
-- **SQL practice files:** 14
+- **Last updated:** 2026-04-21
+- **Python solutions:** 480
+- **SQL practice files:** 15
 - **Text problem files:** 4
 - **Other repository files:** 3
-- **Total files:** 486
+- **Total files:** 502
 - **Status:** actively updated
 - **License:** MIT
 
 ## ✨ Latest Work
 
+- `561. Array Partition.py` — 2026-04-21 22:09
+- `560. Subarray Sum Equals K.py` — 2026-04-21 22:08
+- `559. Maximum Depth of N-ary Tree.py` — 2026-04-21 22:08
+- `558. Logical OR of Two Binary Grids Represented as Quad-Trees.py` — 2026-04-21 22:07
+- `557. Reverse Words in a String III.py` — 2026-04-21 22:05
+- `556. Next Greater Element III.py` — 2026-04-21 22:02
+- `554. Brick Wall.py` — 2026-04-21 22:01
+- `552. Student Attendance Record II.py` — 2026-04-21 21:56
+- `551. Student Attendance Record I.py` — 2026-04-21 21:55
+- `547. Number of Provinces.py` — 2026-04-21 21:49
+- `543. Diameter of Binary Tree.py` — 2026-04-21 21:47
+- `541. Reverse String II.py` — 2026-04-21 21:46
+- `540. Single Element in a Sorted Array.py` — 2026-04-21 21:44
+- `539. Minimum Time Difference.py` — 2026-04-21 21:41
+- `1722. Minimize Hamming Distance After Swap Operations.py` — 2026-04-21 21:30
 - `2483. Minimum Penalty for a Shop.py` — 2026-04-20 22:38
 - `3075. Maximize Happiness of Selected Children.py` — 2026-04-20 22:36
 - `3074. Apple Redistribution into Boxes.py` — 2026-04-20 22:35
@@ -27,15 +42,6 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `3652. Best Time to Buy and Sell Stock using Strategy.py` — 2026-04-20 22:28
 - `3573. Best Time to Buy and Sell Stock V.py` — 2026-04-20 22:24
 - `3562. Maximum Profit from Trading Stocks with Discounts.py` — 2026-04-20 22:22
-- `2110. Number of Smooth Descent Periods of a Stock.py` — 2026-04-20 22:16
-- `2147. Number of Ways to Divide a Long Corridor.py` — 2026-04-20 22:13
-- `3606. Coupon Code Validator.py` — 2026-04-20 22:11
-- `3531. Count Covered Buildings.py` — 2026-04-20 22:09
-- `3577. Count the Number of Computer Unlocking Permutations.py` — 2026-04-20 22:01
-- `3583. Count Special Triplets.py` — 2026-04-20 22:00
-- `1925. Count Square Sum Triples.py` — 2026-04-20 21:35
-- `3625.Count Number of Trapezoids II.py` — 2026-04-20 21:34
-- `2078. Two Furthest Houses With Different Colors.py` — 2026-04-20 21:18
 
 ## 🧠 Skills & Topics
 
@@ -58,7 +64,7 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 This repository is licensed under the MIT License. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (465 files)</summary>
+<summary>🗂 Full Python Problem Index (480 files)</summary>
 
 - `10. Regular Expression Matching.py`
 - `100. Same Tree.py`
