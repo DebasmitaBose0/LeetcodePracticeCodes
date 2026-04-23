@@ -14,6 +14,19 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - **Status:** actively updated
 - **License:** Proprietary (All Rights Reserved)
 
+## 📊 Coverage Breakdown
+
+- **1-99**: 69 solutions
+- **100-199**: 64 solutions
+- **200-299**: 57 solutions
+- **300-399**: 59 solutions
+- **400-499**: 70 solutions
+- **500-999**: 52 solutions
+- **1000-1999**: 17 solutions
+- **2000-2999**: 36 solutions
+- **3000-3999**: 49 solutions
+- **Other**: 22 solutions
+
 ## ✨ Latest Work
 
 - `2910. Minimum Number of Groups to Create a Valid Assignment.py` — 2026-04-23 22:22
@@ -52,6 +65,10 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - Extra practice: `.txt`
 - Full Python index is tucked below to keep the page clean.
 - License: Proprietary (All Rights Reserved)
+
+## 🛠️ Regenerate README
+
+Run `python update_readme.py` from the repository root to refresh counts and the latest work section.
 
 ## 📜 License
 
