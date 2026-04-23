@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate a clean README.md for LeetCode solutions with latest progress and a full index."""
+"""Generate a detailed README.md for LeetCode solutions with latest progress and repository metrics."""
 
 from pathlib import Path
 from datetime import datetime
@@ -19,6 +19,65 @@ TOTAL_FILES = TOTAL_PY + TOTAL_SQL + TOTAL_TXT
 
 ALL_FILES = PY_FILES + SQL_FILES + TXT_FILES
 LATEST_FILES = sorted(ALL_FILES, key=lambda p: p.stat().st_mtime, reverse=True)[:20]
+
+RANGE_LABELS = [
+    "1-99",
+    "100-199",
+    "200-299",
+    "300-399",
+    "400-499",
+    "500-999",
+    "1000-1999",
+    "2000-2999",
+    "3000-3999",
+    "Other",
+]
+
+range_counts = {label: 0 for label in RANGE_LABELS}
+
+
+def extract_problem_number(file_name: str):
+    number = ""
+    for ch in file_name:
+        if ch.isdigit():
+            number += ch
+        else:
+            break
+    return int(number) if number else None
+
+
+def problem_range_label(file_name: str):
+    number = extract_problem_number(file_name)
+    if number is None:
+        return "Other"
+    if 1 <= number <= 99:
+        return "1-99"
+    if 100 <= number <= 199:
+        return "100-199"
+    if 200 <= number <= 299:
+        return "200-299"
+    if 300 <= number <= 399:
+        return "300-399"
+    if 400 <= number <= 499:
+        return "400-499"
+    if 500 <= number <= 999:
+        return "500-999"
+    if 1000 <= number <= 1999:
+        return "1000-1999"
+    if 2000 <= number <= 2999:
+        return "2000-2999"
+    if 3000 <= number <= 3999:
+        return "3000-3999"
+    return "Other"
+
+for file_path in PY_FILES:
+    range_counts[problem_range_label(file_path.name)] += 1
+
+range_summary = [
+    f"- **{label}**: {range_counts[label]} solutions"
+    for label in RANGE_LABELS
+    if range_counts[label] > 0
+]
 
 latest_lines = []
 for file_path in LATEST_FILES:
@@ -42,6 +101,10 @@ readme_lines = [
     "- **Status:** actively updated",
     "- **License:** Proprietary (All Rights Reserved)",
     "",
+    "## 📊 Coverage Breakdown",
+    "",
+] + range_summary + [
+    "",
     "## ✨ Latest Work",
     "",
 ] + latest_lines + [
@@ -61,6 +124,10 @@ readme_lines = [
     "- Extra practice: `.txt`",
     "- Full Python index is tucked below to keep the page clean.",
     "- License: Proprietary (All Rights Reserved)",
+    "",
+    "## 🛠️ Regenerate README",
+    "",
+    "Run `python update_readme.py` from the repository root to refresh counts and the latest work section.",
     "",
     "## 📜 License",
     "",

@@ -6,42 +6,36 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-04-21
-- **Python solutions:** 480
-- **SQL practice files:** 15
+- **Last updated:** 2026-04-23
+- **Python solutions:** 495
+- **SQL practice files:** 16
 - **Text problem files:** 4
-- **Other repository files:** 3
-- **Total files:** 502
+- **Total files:** 515
 - **Status:** actively updated
 - **License:** Proprietary (All Rights Reserved)
 
 ## ✨ Latest Work
 
+- `2910. Minimum Number of Groups to Create a Valid Assignment.py` — 2026-04-23 22:22
+- `2909. Minimum Sum of Mountain Triplets II.py` — 2026-04-23 22:19
+- `2908. Minimum Sum of Mountain Triplets I.py` — 2026-04-23 22:17
+- `2905. Find Indices With Index and Value Difference II.py` — 2026-04-23 22:10
+- `2904. Shortest and Lexicographically Smallest Beautiful String.py` — 2026-04-23 22:06
+- `Find Indices With Index and Value Difference I problem.py` — 2026-04-23 22:01
+- `2903. Find Indices With Index and Value Difference I.py` — 2026-04-23 22:00
+- `572. Subtree of Another Tree.py` — 2026-04-23 21:59
+- `570. Managers with at Least 5 Direct Reports.sql` — 2026-04-23 21:53
+- `567. Permutation in String.py` — 2026-04-23 21:51
+- `566. Reshape the Matrix.py` — 2026-04-23 21:46
+- `565. Array Nesting.py` — 2026-04-23 21:46
+- `564. Find the Closest Palindrome.py` — 2026-04-23 21:44
+- `Binary Tilt.py` — 2026-04-23 21:42
+- `273. Integer to English Words.py` — 2026-04-23 21:29
+- `2615. Sum of Distances.py` — 2026-04-23 21:23
+- `2452. Words Within Two Edits of Dictionary.py` — 2026-04-23 21:16
 - `561. Array Partition.py` — 2026-04-21 22:09
 - `560. Subarray Sum Equals K.py` — 2026-04-21 22:08
 - `559. Maximum Depth of N-ary Tree.py` — 2026-04-21 22:08
-- `558. Logical OR of Two Binary Grids Represented as Quad-Trees.py` — 2026-04-21 22:07
-- `557. Reverse Words in a String III.py` — 2026-04-21 22:05
-- `556. Next Greater Element III.py` — 2026-04-21 22:02
-- `554. Brick Wall.py` — 2026-04-21 22:01
-- `552. Student Attendance Record II.py` — 2026-04-21 21:56
-- `551. Student Attendance Record I.py` — 2026-04-21 21:55
-- `547. Number of Provinces.py` — 2026-04-21 21:49
-- `543. Diameter of Binary Tree.py` — 2026-04-21 21:47
-- `541. Reverse String II.py` — 2026-04-21 21:46
-- `540. Single Element in a Sorted Array.py` — 2026-04-21 21:44
-- `539. Minimum Time Difference.py` — 2026-04-21 21:41
-- `1722. Minimize Hamming Distance After Swap Operations.py` — 2026-04-21 21:30
-- `2483. Minimum Penalty for a Shop.py` — 2026-04-20 22:38
-- `3075. Maximize Happiness of Selected Children.py` — 2026-04-20 22:36
-- `3074. Apple Redistribution into Boxes.py` — 2026-04-20 22:35
-- `2054. Two Best Non-Overlapping Events.py` — 2026-04-20 22:34
-- `960. Delete Columns to Make Sorted III.py` — 2026-04-20 22:33
-- `955. Delete Columns to Make Sorted II.py` — 2026-04-20 22:32
-- `944. Delete Columns to Make Sorted.py` — 2026-04-20 22:31
-- `3652. Best Time to Buy and Sell Stock using Strategy.py` — 2026-04-20 22:28
-- `3573. Best Time to Buy and Sell Stock V.py` — 2026-04-20 22:24
-- `3562. Maximum Profit from Trading Stocks with Discounts.py` — 2026-04-20 22:22
 
 ## 🧠 Skills & Topics
 
@@ -64,7 +58,7 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (480 files)</summary>
+<summary>🗂 Full Python Problem Index (495 files)</summary>
 
 - `10. Regular Expression Matching.py`
 - `100. Same Tree.py`
@@ -135,6 +129,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `169. Majority Element.py`
 - `171. Excel Sheet Column Number.py`
 - `172. Factorial Trailing Zeroes.py`
+- `1722. Minimize Hamming Distance After Swap Operations.py`
 - `173. Binary Search Tree Iterator.py`
 - `174. Dungeon Game.py`
 - `179. Largest Number.py`
@@ -146,6 +141,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `189. Rotate Array.py`
 - `19. Remove Nth Node From End of List.py`
 - `190. Reverse Bits.py`
+- `1925. Count Square Sum Triples.py`
 - `1930. Unique Length-3 Palindromic Subsequences.py`
 - `198. House Robber.py`
 - `199. Binary Tree Right Side View.py`
@@ -159,19 +155,23 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `2043. Simple Bank System.py`
 - `2048. Next Greater Numerically Balanced Number.py`
 - `205. Isomorphic Strings.py`
+- `2054. Two Best Non-Overlapping Events.py`
 - `206. Reverse Linked List.py`
 - `2069. Walking Robot Simulation II.py`
 - `207. Course Schedule.py`
 - `2075. Decode the Slanted Ciphertext.py`
+- `2078. Two Furthest Houses With Different Colors.py`
 - `208. Implement Trie (Prefix Tree).py`
 - `209. Minimum Size Subarray Sum.py`
 - `21. Merge Two Sorted Lists.py`
 - `210. Course Schedule II.py`
 - `211. Design Add and Search Words Data Structure.py`
+- `2110. Number of Smooth Descent Periods of a Stock.py`
 - `212. Word Search II.py`
 - `2125. Number of Laser Beams in a Bank.py`
 - `214. Shortest Palindrome.py`
 - `2141. Maximum Running Time of N Computers.py`
+- `2147. Number of Ways to Divide a Long Corridor.py`
 - `215. Kth Largest Element in an Array.py`
 - `2154. Keep Multiplying Found Values by Two.py`
 - `216. Combination Sum III.py`
@@ -204,7 +204,9 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `240. Search a 2D Matrix II.py`
 - `242. Valid Anagram.py`
 - `2435. Paths in Matrix Whose Sum Is Divisible by K.py`
+- `2452. Words Within Two Edits of Dictionary.py`
 - `2463. Minimum Total Distance Traveled.py`
+- `2483. Minimum Penalty for a Shop.py`
 - `25. Reverse Nodes in k-Group.py`
 - `2515. Shortest Distance to Target String in a Circular Array.py`
 - `2528. Maximize the Minimum Powered City.py`
@@ -213,9 +215,11 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `2573. Find the String with LCP.py`
 - `258. Add Digits.py`
 - `260. Single Number III.py`
+- `2615. Sum of Distances.py`
 - `263. Ugly Number.py`
 - `2654. Minimum Number of Operations to Make All Array Elements Equal to 1.py`
 - `268. Missing Number.py`
+- `273. Integer to English Words.py`
 - `274. H-Index.py`
 - `275. H-Index II.py`
 - `2751. Robot Collisions.py`
@@ -231,7 +235,13 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `289. Game of Life.py`
 - `29. Divide Two Integers.py`
 - `290. Word Pattern.py`
+- `2903. Find Indices With Index and Value Difference I.py`
+- `2904. Shortest and Lexicographically Smallest Beautiful String.py`
+- `2905. Find Indices With Index and Value Difference II.py`
 - `2906. Construct Product Matrix.py`
+- `2908. Minimum Sum of Mountain Triplets I.py`
+- `2909. Minimum Sum of Mountain Triplets II.py`
+- `2910. Minimum Number of Groups to Create a Valid Assignment.py`
 - `292. Nim Game.py`
 - `2946. Matrix Similarity After Cyclic Shifts.py`
 - `295. Find Median from Data Stream.py`
@@ -244,6 +254,8 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `304. Range Sum Query 2D - Immutable.py`
 - `306. Additive Number.py`
 - `307. Range Sum Query - Mutable.py`
+- `3074. Apple Redistribution into Boxes.py`
+- `3075. Maximize Happiness of Selected Children.py`
 - `310. Minimum Height Trees.py`
 - `312. Burst Balloons.py`
 - `314. Burst Balloons.py`
@@ -284,16 +296,24 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `350. Intersection of Two Arrays II.py`
 - `3512. Minimum Operations to Make Array Sum Divisible by K.py`
 - `352. Data Stream as Disjoint Intervals.py`
+- `3531. Count Covered Buildings.py`
 - `354. Russian Doll Envelopes.py`
 - `3546. Equal Sum Grid Partition I.py`
 - `3548. Equal Sum Grid Partition II.py`
 - `355. Design Twitter.py`
+- `3562. Maximum Profit from Trading Stocks with Discounts.py`
+- `3573. Best Time to Buy and Sell Stock V.py`
+- `3577. Count the Number of Computer Unlocking Permutations.py`
 - `3578. Count Partitions With Max-Min Difference at Most K.py`
+- `3583. Count Special Triplets.py`
+- `3606. Coupon Code Validator.py`
 - `3607. Power Grid Maintenance.py`
 - `3623. Count Number of Trapezoids I.py`
 - `3625. Count Number of Trapezoids II.py`
+- `3625.Count Number of Trapezoids II.py`
 - `363. Max Sum of Rectangle No Larger Than K.py`
 - `365. Water and Jug Problem.py`
+- `3652. Best Time to Buy and Sell Stock using Strategy.py`
 - `3653. XOR After Range Multiplication Queries I streak code.py`
 - `3655. XOR After Range Multiplication Queries II.py`
 - `3661. Maximum Walls Destroyed by Robots.py`
@@ -448,9 +468,28 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `535. Encode and Decode TinyURL.py`
 - `537. Complex Number Multiplication.py`
 - `538. Convert BST to Greater Tree.py`
+- `539. Minimum Time Difference.py`
 - `54. Spiral Matrix.py`
+- `540. Single Element in a Sorted Array.py`
+- `541. Reverse String II.py`
+- `543. Diameter of Binary Tree.py`
+- `547. Number of Provinces.py`
+- `551. Student Attendance Record I.py`
+- `552. Student Attendance Record II.py`
+- `554. Brick Wall.py`
+- `556. Next Greater Element III.py`
+- `557. Reverse Words in a String III.py`
+- `558. Logical OR of Two Binary Grids Represented as Quad-Trees.py`
+- `559. Maximum Depth of N-ary Tree.py`
 - `56. Merge Intervals.py`
+- `560. Subarray Sum Equals K.py`
+- `561. Array Partition.py`
+- `564. Find the Closest Palindrome.py`
+- `565. Array Nesting.py`
+- `566. Reshape the Matrix.py`
+- `567. Permutation in String.py`
 - `57. Insert Interval.py`
+- `572. Subtree of Another Tree.py`
 - `58. Length of Last Word.py`
 - `59. Spiral Matrix II.py`
 - `6. Zigzag Conversion.py`
@@ -489,12 +528,17 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `92. Reverse Linked List II.py`
 - `93. Restore IP Addresses.py`
 - `94. Binary Tree Inorder Traversal.py`
+- `944. Delete Columns to Make Sorted.py`
+- `955. Delete Columns to Make Sorted II.py`
+- `960. Delete Columns to Make Sorted III.py`
 - `98. Validate Binary Search Tree.py`
 - `99. Recover Binary Search Tree.py`
+- `Binary Tilt.py`
 - `Combination Sum II.py`
 - `Combination Sum.py`
 - `Container With Most Water.py`
 - `Diagonal Traverse.py`
+- `Find Indices With Index and Value Difference I problem.py`
 - `find-first-and-last-position-of-element-in-sorted-array.py`
 - `First Missing Positive.py`
 - `Jump Game II.py`
