@@ -8,9 +8,24 @@ ROOT = Path(__file__).resolve().parent
 README = ROOT / "README.md"
 
 EXCLUDE = {Path(__file__).name}
-PY_FILES = sorted([p for p in ROOT.glob("*.py") if p.name not in EXCLUDE], key=lambda p: p.name.lower())
-SQL_FILES = sorted(ROOT.glob("*.sql"), key=lambda p: p.name.lower())
-TXT_FILES = sorted(ROOT.glob("*.txt"), key=lambda p: p.name.lower())
+
+def extract_problem_number(file_name: str):
+    number = ""
+    for ch in file_name:
+        if ch.isdigit():
+            number += ch
+        else:
+            break
+    return int(number) if number else None
+
+
+def sort_key(p):
+    num = extract_problem_number(p.name)
+    return (num is None, num or 0, p.name.lower())
+
+PY_FILES = sorted([p for p in ROOT.glob("*.py") if p.name not in EXCLUDE], key=sort_key)
+SQL_FILES = sorted(ROOT.glob("*.sql"), key=sort_key)
+TXT_FILES = sorted(ROOT.glob("*.txt"), key=sort_key)
 
 TOTAL_PY = len(PY_FILES)
 TOTAL_SQL = len(SQL_FILES)
@@ -34,16 +49,6 @@ RANGE_LABELS = [
 ]
 
 range_counts = {label: 0 for label in RANGE_LABELS}
-
-
-def extract_problem_number(file_name: str):
-    number = ""
-    for ch in file_name:
-        if ch.isdigit():
-            number += ch
-        else:
-            break
-    return int(number) if number else None
 
 
 def problem_range_label(file_name: str):
