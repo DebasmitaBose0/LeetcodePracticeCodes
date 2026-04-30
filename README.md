@@ -6,11 +6,11 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-04-27
-- **Python solutions:** 499
+- **Last updated:** 2026-04-30
+- **Python solutions:** 502
 - **SQL practice files:** 16
 - **Text problem files:** 4
-- **Total files:** 519
+- **Total files:** 522
 - **Status:** actively updated
 - **License:** Proprietary (All Rights Reserved)
 
@@ -24,11 +24,14 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - **500-999**: 52 solutions
 - **1000-1999**: 19 solutions
 - **2000-2999**: 37 solutions
-- **3000-3999**: 50 solutions
-- **Other**: 22 solutions
+- **3000-3999**: 52 solutions
+- **Other**: 23 solutions
 
 ## ✨ Latest Work
 
+- `3225. Maximum Score From Grid Operations.py` — 2026-04-30 22:02
+- `3742. Maximum Path Score in a Grid.py` — 2026-04-30 22:01
+- `Minimum Operations to Make a Uni-Value Grid.py` — 2026-04-28 22:24
 - `1391. Check if There is a Valid Path in a Grid.py` — 2026-04-27 21:59
 - `1559. Detect Cycles in 2D Grid.py` — 2026-04-27 21:59
 - `3464. Maximize the Distance Between Points on a Square.py` — 2026-04-27 21:59
@@ -46,9 +49,6 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `566. Reshape the Matrix.py` — 2026-04-23 21:46
 - `565. Array Nesting.py` — 2026-04-23 21:46
 - `564. Find the Closest Palindrome.py` — 2026-04-23 21:44
-- `Binary Tilt.py` — 2026-04-23 21:42
-- `273. Integer to English Words.py` — 2026-04-23 21:29
-- `2615. Sum of Distances.py` — 2026-04-23 21:23
 
 ## 🧠 Skills & Topics
 
@@ -75,7 +75,7 @@ Run `python update_readme.py` from the repository root to refresh counts and the
 This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (499 files)</summary>
+<summary>🗂 Full Python Problem Index (502 files)</summary>
 
 - `2. Add Two Numbers.py`
 - `3. Longest Substring Without Repeating Characters.py`
@@ -508,6 +508,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `3075. Maximize Happiness of Selected Children.py`
 - `3190. Find Minimum Operations to Make All Elements Divisible by Three.py`
 - `3217. Delete Nodes From Linked List Present in Array.py`
+- `3225. Maximum Score From Grid Operations.py`
 - `3234. Count the Number of Substrings With Dominant Ones.py`
 - `3289. The Two Sneaky Numbers of Digitville.py`
 - `3318. Find X-Sum of All K-Long Subarrays I.py`
@@ -538,6 +539,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `3655. XOR After Range Multiplication Queries II.py`
 - `3661. Maximum Walls Destroyed by Robots.py`
 - `3740. Minimum Distance Between Three Equal Elements I.py`
+- `3742. Maximum Path Score in a Grid.py`
 - `3761. Minimum Absolute Distance Between Mirror Pairs.py`
 - `3783. Mirror Distance of an Integer.py`
 - `3803. Count Residue Prefixes.py`
@@ -566,6 +568,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `Longest Common Prefix.py`
 - `Max. Depth Of Binary Tree.py`
 - `Median of Two Sorted Arrays.py`
+- `Minimum Operations to Make a Uni-Value Grid.py`
 - `Next Permutation.py`
 - `Prob.3212.py`
 - `Remove Duplicates from Sorted Array.py`
