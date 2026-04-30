@@ -7,6 +7,15 @@ from datetime import datetime
 ROOT = Path(__file__).resolve().parent
 README = ROOT / "README.md"
 
+BANNER = r"""
+```
+ _                          _    ____                  _       ____            _      
+| |    ___  _ __ ___   ___ | |_ / ___| ___ _ __   __ _| | __  / ___| ___  _ __| | ___ 
+| |   / _ \| '_ ` _ \ / _ \| __| |  _ / _ \ '_ \ / _` | |/ / | |  _ / _ \| '__| |/ _ \
+| |__| (_) | | | | | | (_) | |_| |_| |  __/ | | | (_| |   <  | |_| | (_) | |  | |  __/
+|_____|___/|_| |_| |_\___/ \__|\____|\___|_| |_|\__,_|_|\_\  \____|\___/|_|  |_|\___|
+```
+"""
 EXCLUDE = {Path(__file__).name}
 
 def extract_problem_number(file_name: str):
@@ -91,6 +100,8 @@ for file_path in LATEST_FILES:
 
 readme_lines = [
     "# LeetCode Practice Codes",
+    "",
+] + BANNER.strip("\n").splitlines() + [
     "",
     "[![LeetCode Profile](https://img.shields.io/badge/LeetCode-Debasmita_Bose-blue?style=for-the-badge&logo=leetcode)](https://leetcode.com/u/Debasmita_Bose/)",
     "",
