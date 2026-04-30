@@ -1,5 +1,13 @@
 # LeetCode Practice Codes
 
+```
+ _                          _    ____                  _       ____            _      
+| |    ___  _ __ ___   ___ | |_ / ___| ___ _ __   __ _| | __  / ___| ___  _ __| | ___ 
+| |   / _ \| '_ ` _ \ / _ \| __| |  _ / _ \ '_ \ / _` | |/ / | |  _ / _ \| '__| |/ _ \
+| |__| (_) | | | | | | (_) | |_| |_| |  __/ | | | (_| |   <  | |_| | (_) | |  | |  __/
+|_____|___/|_| |_| |_\___/ \__|\____|\___|_| |_|\__,_|_|\_\  \____|\___/|_|  |_|\___|
+```
+
 [![LeetCode Profile](https://img.shields.io/badge/LeetCode-Debasmita_Bose-blue?style=for-the-badge&logo=leetcode)](https://leetcode.com/u/Debasmita_Bose/)
 
 A compact and readable archive of LeetCode solutions, focused on algorithms, data structures, and interview-style practice.
