@@ -1,11 +1,11 @@
 # LeetCode Practice Codes
 
 ```
- _                _            _          
-| |    ___   ___ | | ___   ___| |__  _ __ 
-| |   / _ \ / _ \| |/ _ \ / __| '_ \| '__|
-| |__| (_) | (_) | | (_) | (__| | | | |   
-|_____\___/ \___/|_|\___/ \___|_| |_|_|   
+ _                          _    ____                  _       ____            _      
+| |    ___  _ __ ___   ___ | |_ / ___| ___ _ __   __ _| | __  / ___| ___  _ __| | ___ 
+| |   / _ \| '_ ` _ \ / _ \| __| |  _ / _ \ '_ \ / _` | |/ / | |  _ / _ \| '__| |/ _ \
+| |__| (_) | | | | | | (_) | |_| |_| |  __/ | | | (_| |   <  | |_| | (_) | |  | |  __/
+|_____|___/|_| |_| |_\___/ \__|\____|\___|_| |_|\__,_|_|\_\  \____|\___/|_|  |_|\___|
 ```
 
 [![LeetCode Profile](https://img.shields.io/badge/LeetCode-Debasmita_Bose-blue?style=for-the-badge&logo=leetcode)](https://leetcode.com/u/Debasmita_Bose/)
@@ -14,11 +14,11 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-04-30
-- **Python solutions:** 502
+- **Last updated:** 2026-05-02
+- **Python solutions:** 503
 - **SQL practice files:** 16
 - **Text problem files:** 4
-- **Total files:** 522
+- **Total files:** 523
 - **Status:** actively updated
 - **License:** Proprietary (All Rights Reserved)
 
@@ -29,7 +29,7 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - **200-299**: 57 solutions
 - **300-399**: 59 solutions
 - **400-499**: 70 solutions
-- **500-999**: 52 solutions
+- **500-999**: 53 solutions
 - **1000-1999**: 19 solutions
 - **2000-2999**: 37 solutions
 - **3000-3999**: 52 solutions
@@ -37,6 +37,7 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## ✨ Latest Work
 
+- `788. Rotated Digits.py` — 2026-05-02 21:56
 - `3225. Maximum Score From Grid Operations.py` — 2026-04-30 22:02
 - `3742. Maximum Path Score in a Grid.py` — 2026-04-30 22:01
 - `Minimum Operations to Make a Uni-Value Grid.py` — 2026-04-28 22:24
@@ -56,7 +57,6 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `567. Permutation in String.py` — 2026-04-23 21:51
 - `566. Reshape the Matrix.py` — 2026-04-23 21:46
 - `565. Array Nesting.py` — 2026-04-23 21:46
-- `564. Find the Closest Palindrome.py` — 2026-04-23 21:44
 
 ## 🧠 Skills & Topics
 
@@ -83,7 +83,7 @@ Run `python update_readme.py` from the repository root to refresh counts and the
 This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (502 files)</summary>
+<summary>🗂 Full Python Problem Index (503 files)</summary>
 
 - `2. Add Two Numbers.py`
 - `3. Longest Substring Without Repeating Characters.py`
@@ -452,6 +452,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `657. Robot Return to Origin.py`
 - `717. 1-bit and 2-bit Characters.py`
 - `757. Set Intersection Size At Least Two.py`
+- `788. Rotated Digits.py`
 - `874. Walking Robot Simulation.py`
 - `944. Delete Columns to Make Sorted.py`
 - `955. Delete Columns to Make Sorted II.py`
