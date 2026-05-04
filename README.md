@@ -14,11 +14,11 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-05-02
-- **Python solutions:** 503
+- **Last updated:** 2026-05-04
+- **Python solutions:** 508
 - **SQL practice files:** 16
 - **Text problem files:** 4
-- **Total files:** 523
+- **Total files:** 528
 - **Status:** actively updated
 - **License:** Proprietary (All Rights Reserved)
 
@@ -33,10 +33,15 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - **1000-1999**: 19 solutions
 - **2000-2999**: 37 solutions
 - **3000-3999**: 52 solutions
-- **Other**: 23 solutions
+- **Other**: 28 solutions
 
 ## ✨ Latest Work
 
+- `Rotate String.py` — 2026-05-04 21:14
+- `Rotated Digits.py` — 2026-05-04 21:13
+- `Rotate Function.py` — 2026-05-04 21:13
+- `Maxiumum Path Score In A Grid.py` — 2026-05-04 21:12
+- `Maximum Score From Grid Operations.py` — 2026-05-04 21:10
 - `788. Rotated Digits.py` — 2026-05-02 21:56
 - `3225. Maximum Score From Grid Operations.py` — 2026-04-30 22:02
 - `3742. Maximum Path Score in a Grid.py` — 2026-04-30 22:01
@@ -52,11 +57,6 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `2904. Shortest and Lexicographically Smallest Beautiful String.py` — 2026-04-23 22:06
 - `Find Indices With Index and Value Difference I problem.py` — 2026-04-23 22:01
 - `2903. Find Indices With Index and Value Difference I.py` — 2026-04-23 22:00
-- `572. Subtree of Another Tree.py` — 2026-04-23 21:59
-- `570. Managers with at Least 5 Direct Reports.sql` — 2026-04-23 21:53
-- `567. Permutation in String.py` — 2026-04-23 21:51
-- `566. Reshape the Matrix.py` — 2026-04-23 21:46
-- `565. Array Nesting.py` — 2026-04-23 21:46
 
 ## 🧠 Skills & Topics
 
@@ -83,7 +83,7 @@ Run `python update_readme.py` from the repository root to refresh counts and the
 This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (503 files)</summary>
+<summary>🗂 Full Python Problem Index (508 files)</summary>
 
 - `2. Add Two Numbers.py`
 - `3. Longest Substring Without Repeating Characters.py`
@@ -576,12 +576,17 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `Jump Game II.py`
 - `Longest Common Prefix.py`
 - `Max. Depth Of Binary Tree.py`
+- `Maximum Score From Grid Operations.py`
+- `Maxiumum Path Score In A Grid.py`
 - `Median of Two Sorted Arrays.py`
 - `Minimum Operations to Make a Uni-Value Grid.py`
 - `Next Permutation.py`
 - `Prob.3212.py`
 - `Remove Duplicates from Sorted Array.py`
 - `Remove Element.py`
+- `Rotate Function.py`
+- `Rotate String.py`
+- `Rotated Digits.py`
 - `Search in Rotated Sorted Array.py`
 - `Search Insert Position.py`
 - `Sudoku Solver.py`
