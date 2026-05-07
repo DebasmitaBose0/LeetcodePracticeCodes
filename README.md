@@ -14,11 +14,11 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-05-04
-- **Python solutions:** 508
+- **Last updated:** 2026-05-07
+- **Python solutions:** 511
 - **SQL practice files:** 16
 - **Text problem files:** 4
-- **Total files:** 528
+- **Total files:** 531
 - **Status:** actively updated
 - **License:** Proprietary (All Rights Reserved)
 
@@ -28,15 +28,18 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - **100-199**: 64 solutions
 - **200-299**: 57 solutions
 - **300-399**: 59 solutions
-- **400-499**: 70 solutions
+- **400-499**: 71 solutions
 - **500-999**: 53 solutions
-- **1000-1999**: 19 solutions
+- **1000-1999**: 20 solutions
 - **2000-2999**: 37 solutions
-- **3000-3999**: 52 solutions
+- **3000-3999**: 53 solutions
 - **Other**: 28 solutions
 
 ## ✨ Latest Work
 
+- `3660. Jump Game IX.py` — 2026-05-07
+- `1861. Rotating the Box.py` — 2026-05-06
+- `482. License Key Formatting.py` — 2026-05-06
 - `Rotate String.py` — 2026-05-04 21:14
 - `Rotated Digits.py` — 2026-05-04 21:13
 - `Rotate Function.py` — 2026-05-04 21:13
@@ -55,8 +58,6 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `2908. Minimum Sum of Mountain Triplets I.py` — 2026-04-23 22:17
 - `2905. Find Indices With Index and Value Difference II.py` — 2026-04-23 22:10
 - `2904. Shortest and Lexicographically Smallest Beautiful String.py` — 2026-04-23 22:06
-- `Find Indices With Index and Value Difference I problem.py` — 2026-04-23 22:01
-- `2903. Find Indices With Index and Value Difference I.py` — 2026-04-23 22:00
 
 ## 🧠 Skills & Topics
 
@@ -83,7 +84,7 @@ Run `python update_readme.py` from the repository root to refresh counts and the
 This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (508 files)</summary>
+<summary>🗂 Full Python Problem Index (511 files)</summary>
 
 - `2. Add Two Numbers.py`
 - `3. Longest Substring Without Repeating Characters.py`
@@ -395,6 +396,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `479. Largest Palindrome Product.py`
 - `480. Sliding Window Median.py`
 - `481. Magical String.py`
+- `482. License Key Formatting.py`
 - `483. Smallest Good Base.py`
 - `485. Max Consecutive Ones.py`
 - `488. Zuma Game.py`
@@ -473,6 +475,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `1722. Minimize Hamming Distance After Swap Operations.py`
 - `1848. Minimum Distance to the Target Element.py`
 - `1855. Maximum Distance Between a Pair of Values.py`
+- `1861. Rotating the Box.py`
 - `1886. Determine Whether Matrix Can Be Obtained By Rotation.py`
 - `1925. Count Square Sum Triples.py`
 - `1930. Unique Length-3 Palindromic Subsequences.py`
@@ -546,6 +549,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `3652. Best Time to Buy and Sell Stock using Strategy.py`
 - `3653. XOR After Range Multiplication Queries I streak code.py`
 - `3655. XOR After Range Multiplication Queries II.py`
+- `3660. Jump Game IX.py`
 - `3661. Maximum Walls Destroyed by Robots.py`
 - `3740. Minimum Distance Between Three Equal Elements I.py`
 - `3742. Maximum Path Score in a Grid.py`
