@@ -1,11 +1,7 @@
 # LeetCode Practice Codes
-██╗     ███████╗███████╗████████╗ ██████╗ ██████╗ ██████╗ ███████╗
-██║     ██╔════╝██╔════╝╚══██╔══╝██╔════╝██╔═══██╗██╔══██╗██╔════╝
-██║     █████╗  █████╗     ██║   ██║     ██║   ██║██║  ██║█████╗  
-██║     ██╔══╝  ██╔══╝     ██║   ██║     ██║   ██║██║  ██║██╔══╝  
-███████╗███████╗███████╗   ██║   ╚██████╗╚██████╔╝██████╔╝███████╗
-╚══════╝╚══════╝╚══════╝   ╚═╝    ╚═════╝ ╚═════╝ ╚═════╝ ╚══════╝
-
+╔════════════════╗
+║ LEETCODE CODES ║
+╚════════════════╝
 [![LeetCode Profile](https://img.shields.io/badge/LeetCode-Debasmita_Bose-blue?style=for-the-badge&logo=leetcode)](https://leetcode.com/u/Debasmita_Bose/)
 
 A compact and readable archive of LeetCode solutions, focused on algorithms, data structures, and interview-style practice.
