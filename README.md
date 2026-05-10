@@ -73,6 +73,18 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 Run `python update_readme.py` from the repository root to refresh counts and the latest work section.
 
+## Quick helper: `gacp`
+
+I added a small helper script at `scripts/gacp.sh` and a local git alias `gacp`.
+Usage (from the repository root):
+
+```sh
+# show diff, enter commit message when prompted, then push
+git gacp
+```
+
+The script will show the diff, prompt for a commit message, and if provided will `git add -A`, `git commit -m "..."` and `git push`.
+
 ## 📜 License
 
 This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) for details.
