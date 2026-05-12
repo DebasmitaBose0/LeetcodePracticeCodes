@@ -138,7 +138,7 @@ readme_lines = [
     "- File format: `<problem_number>. <title>.py`",
     "- SQL solutions: `.sql`",
     "- Extra practice: `.txt`",
-    "- Full Python index is tucked below to keep the page clean.",
+    "- Full Python index is sequentially numbered below to keep the page clean.",
     "- License: Proprietary (All Rights Reserved)",
     "",
     "## 🛠️ Regenerate README",
@@ -152,7 +152,7 @@ readme_lines = [
     "<details>",
     f"<summary>🗂 Full Python Problem Index ({TOTAL_PY} files)</summary>",
     "",
-] + [f"- `{file_path.name}`" for file_path in PY_FILES] + [
+] + [f"{index}. 🧩 `{file_path.name}` — Python solution" for index, file_path in enumerate(PY_FILES, start=1)] + [
     "",
     "</details>",
     "",
