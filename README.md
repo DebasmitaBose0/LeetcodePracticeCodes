@@ -14,11 +14,11 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-05-11
-- **Python solutions:** 515
+- **Last updated:** 2026-05-13
+- **Python solutions:** 516
 - **SQL practice files:** 16
 - **Text problem files:** 4
-- **Total files:** 535
+- **Total files:** 536
 - **Status:** actively updated
 - **License:** Proprietary (All Rights Reserved)
 
@@ -33,11 +33,12 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - **1000-1999**: 21 solutions
 - **2000-2999**: 38 solutions
 - **3000-3999**: 56 solutions
-- **Other**: 28 solutions
+- **Other**: 29 solutions
 
 ## ✨ Latest Work
 
-- `2553. Separate the Digits in an Array.py` — 2026-05-11 19:58
+- `Separate the Digits in an Array.py` — 2026-05-13 13:10
+- `2553. Separate the Digits in an Array.py` — 2026-05-11 22:47
 - `2573. Find the String with LCP.py` — 2026-05-10 17:29
 - `3741. Minimum Distance Between Three Equal Elements II.py` — 2026-05-10 17:29
 - `3629. Minimum Jumps to Reach End via Prime Teleportation.py` — 2026-05-10 17:29
@@ -56,7 +57,6 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `Minimum Operations to Make a Uni-Value Grid.py` — 2026-04-28 22:24
 - `1391. Check if There is a Valid Path in a Grid.py` — 2026-04-27 21:59
 - `1559. Detect Cycles in 2D Grid.py` — 2026-04-27 21:59
-- `3464. Maximize the Distance Between Points on a Square.py` — 2026-04-27 21:59
 
 ## 🧠 Skills & Topics
 
@@ -83,7 +83,7 @@ Run `python update_readme.py` from the repository root to refresh counts and the
 This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (515 files)</summary>
+<summary>🗂 Full Python Problem Index (516 files)</summary>
 
 - `2. Add Two Numbers.py`
 - `3. Longest Substring Without Repeating Characters.py`
@@ -596,6 +596,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `Rotated Digits.py`
 - `Search in Rotated Sorted Array.py`
 - `Search Insert Position.py`
+- `Separate the Digits in an Array.py`
 - `Sudoku Solver.py`
 - `Trapping Rain Water.py`
 - `Two Sum.py`
