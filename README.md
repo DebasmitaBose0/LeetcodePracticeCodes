@@ -1,16 +1,24 @@
 # LeetCode Practice Codes
 
+```
+ _                          _    ____                  _       ____            _      
+| |    ___  _ __ ___   ___ | |_ / ___| ___ _ __   __ _| | __  / ___| ___  _ __| | ___ 
+| |   / _ \| '_ ` _ \ / _ \| __| |  _ / _ \ '_ \ / _` | |/ / | |  _ / _ \| '__| |/ _ \
+| |__| (_) | | | | | | (_) | |_| |_| |  __/ | | | (_| |   <  | |_| | (_) | |  | |  __/
+|_____|___/|_| |_| |_\___/ \__|\____|\___|_| |_|\__,_|_|\_\  \____|\___/|_|  |_|\___|
+```
+
 [![LeetCode Profile](https://img.shields.io/badge/LeetCode-Debasmita_Bose-blue?style=for-the-badge&logo=leetcode)](https://leetcode.com/u/Debasmita_Bose/)
 
 A compact and readable archive of LeetCode solutions, focused on algorithms, data structures, and interview-style practice.
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-05-13
-- **Python solutions:** 516
+- **Last updated:** 2026-05-14
+- **Python solutions:** 518
 - **SQL practice files:** 16
 - **Text problem files:** 4
-- **Total files:** 536
+- **Total files:** 538
 - **Status:** actively updated
 - **License:** Proprietary (All Rights Reserved)
 
@@ -22,13 +30,15 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - **300-399**: 59 solutions
 - **400-499**: 70 solutions
 - **500-999**: 53 solutions
-- **1000-1999**: 21 solutions
-- **2000-2999**: 38 solutions
+- **1000-1999**: 22 solutions
+- **2000-2999**: 39 solutions
 - **3000-3999**: 56 solutions
 - **Other**: 29 solutions
 
 ## ✨ Latest Work
 
+- `2784. Check if Array is Good.py` — 2026-05-14 10:09
+- `1674. Minimum Moves to Make Array Complementary.py` — 2026-05-13 18:48
 - `Separate the Digits in an Array.py` — 2026-05-13 13:10
 - `2553. Separate the Digits in an Array.py` — 2026-05-11 22:47
 - `2573. Find the String with LCP.py` — 2026-05-10 17:29
@@ -47,8 +57,6 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `3225. Maximum Score From Grid Operations.py` — 2026-04-30 22:02
 - `3742. Maximum Path Score in a Grid.py` — 2026-04-30 22:01
 - `Minimum Operations to Make a Uni-Value Grid.py` — 2026-04-28 22:24
-- `1391. Check if There is a Valid Path in a Grid.py` — 2026-04-27 21:59
-- `1559. Detect Cycles in 2D Grid.py` — 2026-04-27 21:59
 
 ## 🧠 Skills & Topics
 
@@ -75,7 +83,7 @@ Run `python update_readme.py` from the repository root to refresh counts and the
 This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (516 files)</summary>
+<summary>🗂 Full Python Problem Index (518 files)</summary>
 
 - `2. Add Two Numbers.py`
 - `3. Longest Substring Without Repeating Characters.py`
@@ -462,6 +470,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `1578. Minimum Time to Make Rope Colorful.py`
 - `1590. Make Sum Divisible by P.py`
 - `1611. Minimum One Bit Operations to Make Integers Zero.py`
+- `1674. Minimum Moves to Make Array Complementary.py`
 - `1722. Minimize Hamming Distance After Swap Operations.py`
 - `1848. Minimum Distance to the Target Element.py`
 - `1855. Maximum Distance Between a Pair of Values.py`
@@ -496,6 +505,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `2615. Sum of Distances.py`
 - `2654. Minimum Number of Operations to Make All Array Elements Equal to 1.py`
 - `2751. Robot Collisions.py`
+- `2784. Check if Array is Good.py`
 - `2833. Furthest Point From Origin.py`
 - `2839. Check if Strings Can be Made Equal With Operations I.py`
 - `2840. Check if Strings Can be Made Equal With Operations II.py`
