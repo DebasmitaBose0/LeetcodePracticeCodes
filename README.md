@@ -9,11 +9,11 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-05-17
-- **Python solutions:** 519
+- **Last updated:** 2026-05-18
+- **Python solutions:** 520
 - **SQL practice files:** 16
 - **Text problem files:** 4
-- **Total files:** 539
+- **Total files:** 540
 - **Status:** actively updated
 - **License:** Proprietary (All Rights Reserved)
 
@@ -25,13 +25,14 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - **300-399**: 59 solutions
 - **400-499**: 70 solutions
 - **500-999**: 53 solutions
-- **1000-1999**: 23 solutions
+- **1000-1999**: 24 solutions
 - **2000-2999**: 39 solutions
 - **3000-3999**: 56 solutions
 - **Other**: 29 solutions
 
 ## ✨ Latest Work
 
+- `1345. Jump Game IV.py` — 2026-05-18 11:50
 - `1306. Jump Game III.py` — 2026-05-17 11:03
 - `2784. Check if Array is Good.py` — 2026-05-14 10:09
 - `1674. Minimum Moves to Make Array Complementary.py` — 2026-05-13 18:48
@@ -51,7 +52,6 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `Maximum Score From Grid Operations.py` — 2026-05-04 21:10
 - `788. Rotated Digits.py` — 2026-05-02 21:56
 - `3225. Maximum Score From Grid Operations.py` — 2026-04-30 22:02
-- `3742. Maximum Path Score in a Grid.py` — 2026-04-30 22:01
 
 ## 🧠 Skills & Topics
 
@@ -78,7 +78,7 @@ Run `python update_readme.py` from the repository root to refresh counts and the
 This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (519 files)</summary>
+<summary>🗂 Full Python Problem Index (520 files)</summary>
 
 - `2. Add Two Numbers.py`
 - `3. Longest Substring Without Repeating Characters.py`
@@ -457,6 +457,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `1262. Greatest Sum Divisible by Three.py`
 - `1306. Jump Game III.py`
 - `1320. Minimum Distance to Type a Word Using Two Fingers.py`
+- `1345. Jump Game IV.py`
 - `1391. Check if There is a Valid Path in a Grid.py`
 - `1437. Check If All 1's Are at Least Length K Places Away.py`
 - `1513. Number of Substrings With Only 1s.py`
