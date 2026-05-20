@@ -9,11 +9,11 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-05-19
-- **Python solutions:** 521
+- **Last updated:** 2026-05-20
+- **Python solutions:** 522
 - **SQL practice files:** 16
 - **Text problem files:** 4
-- **Total files:** 541
+- **Total files:** 542
 - **Status:** actively updated
 - **License:** Proprietary (All Rights Reserved)
 
@@ -26,12 +26,13 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - **400-499**: 70 solutions
 - **500-999**: 53 solutions
 - **1000-1999**: 24 solutions
-- **2000-2999**: 40 solutions
+- **2000-2999**: 41 solutions
 - **3000-3999**: 56 solutions
 - **Other**: 29 solutions
 
 ## ✨ Latest Work
 
+- `2657. Find the Prefix Common Array of Two Arrays.py` — 2026-05-20 10:17
 - `2540. Minimum Common Value.py` — 2026-05-19 12:28
 - `1345. Jump Game IV.py` — 2026-05-18 11:50
 - `1306. Jump Game III.py` — 2026-05-17 11:03
@@ -51,7 +52,6 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `Rotate Function.py` — 2026-05-04 21:13
 - `Maxiumum Path Score In A Grid.py` — 2026-05-04 21:12
 - `Maximum Score From Grid Operations.py` — 2026-05-04 21:10
-- `788. Rotated Digits.py` — 2026-05-02 21:56
 
 ## 🧠 Skills & Topics
 
@@ -78,7 +78,7 @@ Run `python update_readme.py` from the repository root to refresh counts and the
 This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (521 files)</summary>
+<summary>🗂 Full Python Problem Index (522 files)</summary>
 
 - `2. Add Two Numbers.py`
 - `3. Longest Substring Without Repeating Characters.py`
@@ -502,6 +502,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `2573. Find the String with LCP.py`
 - `2615. Sum of Distances.py`
 - `2654. Minimum Number of Operations to Make All Array Elements Equal to 1.py`
+- `2657. Find the Prefix Common Array of Two Arrays.py`
 - `2751. Robot Collisions.py`
 - `2784. Check if Array is Good.py`
 - `2833. Furthest Point From Origin.py`
