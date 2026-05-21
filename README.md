@@ -9,7 +9,7 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-05-20
+- **Last updated:** 2026-05-21
 - **Python solutions:** 522
 - **SQL practice files:** 16
 - **Text problem files:** 4
