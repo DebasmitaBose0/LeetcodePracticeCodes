@@ -10,10 +10,10 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 ## 🚀 Snapshot
 
 - **Last updated:** 2026-05-21
-- **Python solutions:** 522
+- **Python solutions:** 523
 - **SQL practice files:** 16
 - **Text problem files:** 4
-- **Total files:** 542
+- **Total files:** 543
 - **Status:** actively updated
 - **License:** Proprietary (All Rights Reserved)
 
@@ -27,11 +27,12 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - **500-999**: 53 solutions
 - **1000-1999**: 24 solutions
 - **2000-2999**: 41 solutions
-- **3000-3999**: 56 solutions
+- **3000-3999**: 57 solutions
 - **Other**: 29 solutions
 
 ## ✨ Latest Work
 
+- `3043. Find the Length of the Longest Common Prefix.py` — 2026-05-21 12:39
 - `2657. Find the Prefix Common Array of Two Arrays.py` — 2026-05-20 10:17
 - `2540. Minimum Common Value.py` — 2026-05-19 12:28
 - `1345. Jump Game IV.py` — 2026-05-18 11:50
@@ -51,7 +52,6 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `Rotated Digits.py` — 2026-05-04 21:13
 - `Rotate Function.py` — 2026-05-04 21:13
 - `Maxiumum Path Score In A Grid.py` — 2026-05-04 21:12
-- `Maximum Score From Grid Operations.py` — 2026-05-04 21:10
 
 ## 🧠 Skills & Topics
 
@@ -78,7 +78,7 @@ Run `python update_readme.py` from the repository root to refresh counts and the
 This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (522 files)</summary>
+<summary>🗂 Full Python Problem Index (523 files)</summary>
 
 - `2. Add Two Numbers.py`
 - `3. Longest Substring Without Repeating Characters.py`
@@ -517,6 +517,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `2909. Minimum Sum of Mountain Triplets II.py`
 - `2910. Minimum Number of Groups to Create a Valid Assignment.py`
 - `2946. Matrix Similarity After Cyclic Shifts.py`
+- `3043. Find the Length of the Longest Common Prefix.py`
 - `3074. Apple Redistribution into Boxes.py`
 - `3075. Maximize Happiness of Selected Children.py`
 - `3190. Find Minimum Operations to Make All Elements Divisible by Three.py`
