@@ -9,17 +9,17 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-05-21
-- **Python solutions:** 523
+- **Last updated:** 2026-05-22
+- **Python solutions:** 524
 - **SQL practice files:** 16
 - **Text problem files:** 4
-- **Total files:** 543
+- **Total files:** 544
 - **Status:** actively updated
 - **License:** Proprietary (All Rights Reserved)
 
 ## 📊 Coverage Breakdown
 
-- **1-99**: 69 solutions
+- **1-99**: 70 solutions
 - **100-199**: 64 solutions
 - **200-299**: 57 solutions
 - **300-399**: 59 solutions
@@ -32,6 +32,7 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## ✨ Latest Work
 
+- `33. Search in Rotated Sorted Array.py` — 2026-05-22 11:38
 - `3043. Find the Length of the Longest Common Prefix.py` — 2026-05-21 12:39
 - `2657. Find the Prefix Common Array of Two Arrays.py` — 2026-05-20 10:17
 - `2540. Minimum Common Value.py` — 2026-05-19 12:28
@@ -51,7 +52,6 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `Rotate String.py` — 2026-05-04 21:14
 - `Rotated Digits.py` — 2026-05-04 21:13
 - `Rotate Function.py` — 2026-05-04 21:13
-- `Maxiumum Path Score In A Grid.py` — 2026-05-04 21:12
 
 ## 🧠 Skills & Topics
 
@@ -78,7 +78,7 @@ Run `python update_readme.py` from the repository root to refresh counts and the
 This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (523 files)</summary>
+<summary>🗂 Full Python Problem Index (524 files)</summary>
 
 - `2. Add Two Numbers.py`
 - `3. Longest Substring Without Repeating Characters.py`
@@ -103,6 +103,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `28. Find the Index of the First Occurrence in a String.py`
 - `29. Divide Two Integers.py`
 - `30. Substring with Concatenation of All Words.py`
+- `33. Search in Rotated Sorted Array.py`
 - `38. Count and Say.py`
 - `41. First Missing Positive.py`
 - `43. Multiply Strings.py`
