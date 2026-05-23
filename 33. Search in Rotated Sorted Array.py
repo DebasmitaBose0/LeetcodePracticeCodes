@@ -26,3 +26,4 @@ class Solution:
                     high = mid - 1  # Search left half
                     
         return -1
+    

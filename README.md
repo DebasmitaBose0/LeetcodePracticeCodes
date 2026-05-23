@@ -9,11 +9,11 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-05-22
-- **Python solutions:** 524
+- **Last updated:** 2026-05-23
+- **Python solutions:** 525
 - **SQL practice files:** 16
 - **Text problem files:** 4
-- **Total files:** 544
+- **Total files:** 545
 - **Status:** actively updated
 - **License:** Proprietary (All Rights Reserved)
 
@@ -25,14 +25,15 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - **300-399**: 59 solutions
 - **400-499**: 70 solutions
 - **500-999**: 53 solutions
-- **1000-1999**: 24 solutions
+- **1000-1999**: 25 solutions
 - **2000-2999**: 41 solutions
 - **3000-3999**: 57 solutions
 - **Other**: 29 solutions
 
 ## ✨ Latest Work
 
-- `33. Search in Rotated Sorted Array.py` — 2026-05-22 11:38
+- `1752. Check if Array Is Sorted and Rotated.py` — 2026-05-23 21:40
+- `33. Search in Rotated Sorted Array.py` — 2026-05-23 21:09
 - `3043. Find the Length of the Longest Common Prefix.py` — 2026-05-21 12:39
 - `2657. Find the Prefix Common Array of Two Arrays.py` — 2026-05-20 10:17
 - `2540. Minimum Common Value.py` — 2026-05-19 12:28
@@ -51,7 +52,6 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `1861. Rotating the Box.py` — 2026-05-06 22:11
 - `Rotate String.py` — 2026-05-04 21:14
 - `Rotated Digits.py` — 2026-05-04 21:13
-- `Rotate Function.py` — 2026-05-04 21:13
 
 ## 🧠 Skills & Topics
 
@@ -78,7 +78,7 @@ Run `python update_readme.py` from the repository root to refresh counts and the
 This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (524 files)</summary>
+<summary>🗂 Full Python Problem Index (525 files)</summary>
 
 - `2. Add Two Numbers.py`
 - `3. Longest Substring Without Repeating Characters.py`
@@ -470,6 +470,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `1611. Minimum One Bit Operations to Make Integers Zero.py`
 - `1674. Minimum Moves to Make Array Complementary.py`
 - `1722. Minimize Hamming Distance After Swap Operations.py`
+- `1752. Check if Array Is Sorted and Rotated.py`
 - `1848. Minimum Distance to the Target Element.py`
 - `1855. Maximum Distance Between a Pair of Values.py`
 - `1861. Rotating the Box.py`
