@@ -9,11 +9,11 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-05-23
-- **Python solutions:** 525
+- **Last updated:** 2026-05-25
+- **Python solutions:** 527
 - **SQL practice files:** 16
 - **Text problem files:** 4
-- **Total files:** 545
+- **Total files:** 547
 - **Status:** actively updated
 - **License:** Proprietary (All Rights Reserved)
 
@@ -25,13 +25,15 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - **300-399**: 59 solutions
 - **400-499**: 70 solutions
 - **500-999**: 53 solutions
-- **1000-1999**: 25 solutions
+- **1000-1999**: 27 solutions
 - **2000-2999**: 41 solutions
 - **3000-3999**: 57 solutions
 - **Other**: 29 solutions
 
 ## ✨ Latest Work
 
+- `1871. Jump Game VII.py` — 2026-05-25 21:56
+- `1340. Jump Game V.py` — 2026-05-24 22:01
 - `1752. Check if Array Is Sorted and Rotated.py` — 2026-05-23 21:40
 - `33. Search in Rotated Sorted Array.py` — 2026-05-23 21:09
 - `3043. Find the Length of the Longest Common Prefix.py` — 2026-05-21 12:39
@@ -50,8 +52,6 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `1914. Cyclically Rotating a Grid.py` — 2026-05-10 17:29
 - `3660. Jump Game IX.py` — 2026-05-07 21:51
 - `1861. Rotating the Box.py` — 2026-05-06 22:11
-- `Rotate String.py` — 2026-05-04 21:14
-- `Rotated Digits.py` — 2026-05-04 21:13
 
 ## 🧠 Skills & Topics
 
@@ -78,7 +78,7 @@ Run `python update_readme.py` from the repository root to refresh counts and the
 This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (525 files)</summary>
+<summary>🗂 Full Python Problem Index (527 files)</summary>
 
 - `2. Add Two Numbers.py`
 - `3. Longest Substring Without Repeating Characters.py`
@@ -458,6 +458,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `1262. Greatest Sum Divisible by Three.py`
 - `1306. Jump Game III.py`
 - `1320. Minimum Distance to Type a Word Using Two Fingers.py`
+- `1340. Jump Game V.py`
 - `1345. Jump Game IV.py`
 - `1391. Check if There is a Valid Path in a Grid.py`
 - `1437. Check If All 1's Are at Least Length K Places Away.py`
@@ -474,6 +475,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `1848. Minimum Distance to the Target Element.py`
 - `1855. Maximum Distance Between a Pair of Values.py`
 - `1861. Rotating the Box.py`
+- `1871. Jump Game VII.py`
 - `1886. Determine Whether Matrix Can Be Obtained By Rotation.py`
 - `1914. Cyclically Rotating a Grid.py`
 - `1925. Count Square Sum Triples.py`
