@@ -9,11 +9,11 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-05-25
-- **Python solutions:** 527
+- **Last updated:** 2026-05-26
+- **Python solutions:** 528
 - **SQL practice files:** 16
 - **Text problem files:** 4
-- **Total files:** 547
+- **Total files:** 548
 - **Status:** actively updated
 - **License:** Proprietary (All Rights Reserved)
 
@@ -27,11 +27,12 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - **500-999**: 53 solutions
 - **1000-1999**: 27 solutions
 - **2000-2999**: 41 solutions
-- **3000-3999**: 57 solutions
+- **3000-3999**: 58 solutions
 - **Other**: 29 solutions
 
 ## ✨ Latest Work
 
+- `3120. Count the Number of Special Characters I.py` — 2026-05-26 15:31
 - `1871. Jump Game VII.py` — 2026-05-25 21:56
 - `1340. Jump Game V.py` — 2026-05-24 22:01
 - `1752. Check if Array Is Sorted and Rotated.py` — 2026-05-23 21:40
@@ -51,7 +52,6 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `3228. Maximum Number of Operations to Move Ones to the End.PY` — 2026-05-10 17:29
 - `1914. Cyclically Rotating a Grid.py` — 2026-05-10 17:29
 - `3660. Jump Game IX.py` — 2026-05-07 21:51
-- `1861. Rotating the Box.py` — 2026-05-06 22:11
 
 ## 🧠 Skills & Topics
 
@@ -78,7 +78,7 @@ Run `python update_readme.py` from the repository root to refresh counts and the
 This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (527 files)</summary>
+<summary>🗂 Full Python Problem Index (528 files)</summary>
 
 - `2. Add Two Numbers.py`
 - `3. Longest Substring Without Repeating Characters.py`
@@ -524,6 +524,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `3043. Find the Length of the Longest Common Prefix.py`
 - `3074. Apple Redistribution into Boxes.py`
 - `3075. Maximize Happiness of Selected Children.py`
+- `3120. Count the Number of Special Characters I.py`
 - `3190. Find Minimum Operations to Make All Elements Divisible by Three.py`
 - `3217. Delete Nodes From Linked List Present in Array.py`
 - `3225. Maximum Score From Grid Operations.py`
