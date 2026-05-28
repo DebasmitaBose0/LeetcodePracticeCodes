@@ -9,11 +9,11 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-05-27
-- **Python solutions:** 529
+- **Last updated:** 2026-05-28
+- **Python solutions:** 530
 - **SQL practice files:** 16
 - **Text problem files:** 4
-- **Total files:** 549
+- **Total files:** 550
 - **Status:** actively updated
 - **License:** Proprietary (All Rights Reserved)
 
@@ -27,11 +27,12 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - **500-999**: 53 solutions
 - **1000-1999**: 27 solutions
 - **2000-2999**: 41 solutions
-- **3000-3999**: 59 solutions
+- **3000-3999**: 60 solutions
 - **Other**: 29 solutions
 
 ## ✨ Latest Work
 
+- `3093. Longest Common Suffix Queries.py` — 2026-05-28 16:28
 - `3121. Count the Number of Special Characters II.py` — 2026-05-27 14:24
 - `3120. Count the Number of Special Characters I.py` — 2026-05-26 15:39
 - `1871. Jump Game VII.py` — 2026-05-25 21:56
@@ -51,7 +52,6 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `3741. Minimum Distance Between Three Equal Elements II.py` — 2026-05-10 17:29
 - `3629. Minimum Jumps to Reach End via Prime Teleportation.py` — 2026-05-10 17:29
 - `3228. Maximum Number of Operations to Move Ones to the End.PY` — 2026-05-10 17:29
-- `1914. Cyclically Rotating a Grid.py` — 2026-05-10 17:29
 
 ## 🧠 Skills & Topics
 
@@ -78,7 +78,7 @@ Run `python update_readme.py` from the repository root to refresh counts and the
 This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (529 files)</summary>
+<summary>🗂 Full Python Problem Index (530 files)</summary>
 
 - `2. Add Two Numbers.py`
 - `3. Longest Substring Without Repeating Characters.py`
@@ -524,6 +524,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `3043. Find the Length of the Longest Common Prefix.py`
 - `3074. Apple Redistribution into Boxes.py`
 - `3075. Maximize Happiness of Selected Children.py`
+- `3093. Longest Common Suffix Queries.py`
 - `3120. Count the Number of Special Characters I.py`
 - `3121. Count the Number of Special Characters II.py`
 - `3190. Find Minimum Operations to Make All Elements Divisible by Three.py`
