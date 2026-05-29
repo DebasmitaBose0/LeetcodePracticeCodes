@@ -9,11 +9,11 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-05-28
-- **Python solutions:** 530
+- **Last updated:** 2026-05-29
+- **Python solutions:** 531
 - **SQL practice files:** 16
 - **Text problem files:** 4
-- **Total files:** 550
+- **Total files:** 551
 - **Status:** actively updated
 - **License:** Proprietary (All Rights Reserved)
 
@@ -27,11 +27,12 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - **500-999**: 53 solutions
 - **1000-1999**: 27 solutions
 - **2000-2999**: 41 solutions
-- **3000-3999**: 60 solutions
+- **3000-3999**: 61 solutions
 - **Other**: 29 solutions
 
 ## ✨ Latest Work
 
+- `3300. Minimum Element After Replacement With Digit Sum.py` — 2026-05-29 22:19
 - `3093. Longest Common Suffix Queries.py` — 2026-05-28 16:28
 - `3121. Count the Number of Special Characters II.py` — 2026-05-27 14:24
 - `3120. Count the Number of Special Characters I.py` — 2026-05-26 15:39
@@ -51,7 +52,6 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `2573. Find the String with LCP.py` — 2026-05-10 17:29
 - `3741. Minimum Distance Between Three Equal Elements II.py` — 2026-05-10 17:29
 - `3629. Minimum Jumps to Reach End via Prime Teleportation.py` — 2026-05-10 17:29
-- `3228. Maximum Number of Operations to Move Ones to the End.PY` — 2026-05-10 17:29
 
 ## 🧠 Skills & Topics
 
@@ -78,7 +78,7 @@ Run `python update_readme.py` from the repository root to refresh counts and the
 This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (530 files)</summary>
+<summary>🗂 Full Python Problem Index (531 files)</summary>
 
 - `2. Add Two Numbers.py`
 - `3. Longest Substring Without Repeating Characters.py`
@@ -533,6 +533,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `3228. Maximum Number of Operations to Move Ones to the End.PY`
 - `3234. Count the Number of Substrings With Dominant Ones.py`
 - `3289. The Two Sneaky Numbers of Digitville.py`
+- `3300. Minimum Element After Replacement With Digit Sum.py`
 - `3318. Find X-Sum of All K-Long Subarrays I.py`
 - `3354. Make Array Elements Equal to Zero.py`
 - `3370. Smallest Number With All Set Bits.py`
