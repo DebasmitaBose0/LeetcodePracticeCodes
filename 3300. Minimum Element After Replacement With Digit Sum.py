@@ -1,3 +1,4 @@
+from ast import List
 class Solution:
     def minElement(self, nums: List[int]) -> int:
         min_sum = float('inf')
