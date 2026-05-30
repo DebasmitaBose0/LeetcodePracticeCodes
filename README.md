@@ -9,11 +9,11 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-05-29
-- **Python solutions:** 531
+- **Last updated:** 2026-05-30
+- **Python solutions:** 532
 - **SQL practice files:** 16
 - **Text problem files:** 4
-- **Total files:** 551
+- **Total files:** 552
 - **Status:** actively updated
 - **License:** Proprietary (All Rights Reserved)
 
@@ -27,12 +27,13 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - **500-999**: 53 solutions
 - **1000-1999**: 27 solutions
 - **2000-2999**: 41 solutions
-- **3000-3999**: 61 solutions
+- **3000-3999**: 62 solutions
 - **Other**: 29 solutions
 
 ## ✨ Latest Work
 
-- `3300. Minimum Element After Replacement With Digit Sum.py` — 2026-05-29 22:19
+- `3161. Block Placement Queries.py` — 2026-05-30 17:47
+- `3300. Minimum Element After Replacement With Digit Sum.py` — 2026-05-29 22:27
 - `3093. Longest Common Suffix Queries.py` — 2026-05-28 16:28
 - `3121. Count the Number of Special Characters II.py` — 2026-05-27 14:24
 - `3120. Count the Number of Special Characters I.py` — 2026-05-26 15:39
@@ -51,7 +52,6 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `2553. Separate the Digits in an Array.py` — 2026-05-11 22:47
 - `2573. Find the String with LCP.py` — 2026-05-10 17:29
 - `3741. Minimum Distance Between Three Equal Elements II.py` — 2026-05-10 17:29
-- `3629. Minimum Jumps to Reach End via Prime Teleportation.py` — 2026-05-10 17:29
 
 ## 🧠 Skills & Topics
 
@@ -78,7 +78,7 @@ Run `python update_readme.py` from the repository root to refresh counts and the
 This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (531 files)</summary>
+<summary>🗂 Full Python Problem Index (532 files)</summary>
 
 - `2. Add Two Numbers.py`
 - `3. Longest Substring Without Repeating Characters.py`
@@ -527,6 +527,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `3093. Longest Common Suffix Queries.py`
 - `3120. Count the Number of Special Characters I.py`
 - `3121. Count the Number of Special Characters II.py`
+- `3161. Block Placement Queries.py`
 - `3190. Find Minimum Operations to Make All Elements Divisible by Three.py`
 - `3217. Delete Nodes From Linked List Present in Array.py`
 - `3225. Maximum Score From Grid Operations.py`
