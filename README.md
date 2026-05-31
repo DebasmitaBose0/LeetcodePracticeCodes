@@ -9,11 +9,11 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-05-30
-- **Python solutions:** 532
+- **Last updated:** 2026-05-31
+- **Python solutions:** 533
 - **SQL practice files:** 16
 - **Text problem files:** 4
-- **Total files:** 552
+- **Total files:** 553
 - **Status:** actively updated
 - **License:** Proprietary (All Rights Reserved)
 
@@ -26,12 +26,13 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - **400-499**: 70 solutions
 - **500-999**: 53 solutions
 - **1000-1999**: 27 solutions
-- **2000-2999**: 41 solutions
+- **2000-2999**: 42 solutions
 - **3000-3999**: 62 solutions
 - **Other**: 29 solutions
 
 ## ✨ Latest Work
 
+- `2126. Destroying Asteroids.py` — 2026-05-31 19:11
 - `3161. Block Placement Queries.py` — 2026-05-30 17:47
 - `3300. Minimum Element After Replacement With Digit Sum.py` — 2026-05-29 22:27
 - `3093. Longest Common Suffix Queries.py` — 2026-05-28 16:28
@@ -51,7 +52,6 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `Separate the Digits in an Array.py` — 2026-05-13 13:10
 - `2553. Separate the Digits in an Array.py` — 2026-05-11 22:47
 - `2573. Find the String with LCP.py` — 2026-05-10 17:29
-- `3741. Minimum Distance Between Three Equal Elements II.py` — 2026-05-10 17:29
 
 ## 🧠 Skills & Topics
 
@@ -78,7 +78,7 @@ Run `python update_readme.py` from the repository root to refresh counts and the
 This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (532 files)</summary>
+<summary>🗂 Full Python Problem Index (533 files)</summary>
 
 - `2. Add Two Numbers.py`
 - `3. Longest Substring Without Repeating Characters.py`
@@ -488,6 +488,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `2078. Two Furthest Houses With Different Colors.py`
 - `2110. Number of Smooth Descent Periods of a Stock.py`
 - `2125. Number of Laser Beams in a Bank.py`
+- `2126. Destroying Asteroids.py`
 - `2141. Maximum Running Time of N Computers.py`
 - `2147. Number of Ways to Divide a Long Corridor.py`
 - `2154. Keep Multiplying Found Values by Two.py`
