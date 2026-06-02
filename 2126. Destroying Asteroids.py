@@ -1,3 +1,5 @@
+
+from ast import List
 class Solution:
     def asteroidsDestroyed(self, mass: int, asteroids: List[int]) -> bool:
         # Sort the asteroids in non-decreasing order
