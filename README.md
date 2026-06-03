@@ -9,11 +9,11 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-05-31
-- **Python solutions:** 533
+- **Last updated:** 2026-06-03
+- **Python solutions:** 536
 - **SQL practice files:** 16
 - **Text problem files:** 4
-- **Total files:** 553
+- **Total files:** 556
 - **Status:** actively updated
 - **License:** Proprietary (All Rights Reserved)
 
@@ -26,13 +26,16 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - **400-499**: 70 solutions
 - **500-999**: 53 solutions
 - **1000-1999**: 27 solutions
-- **2000-2999**: 42 solutions
-- **3000-3999**: 62 solutions
+- **2000-2999**: 43 solutions
+- **3000-3999**: 64 solutions
 - **Other**: 29 solutions
 
 ## ✨ Latest Work
 
-- `2126. Destroying Asteroids.py` — 2026-05-31 19:11
+- `3635. Earliest Finish Time for Land and Water Rides II.py` — 2026-06-03 21:27
+- `3633. Earliest Finish Time for Land and Water Rides I.py` — 2026-06-02 18:41
+- `2144. Minimum Cost of Buying Candies With Discount.py` — 2026-06-01 19:21
+- `2126. Destroying Asteroids.py` — 2026-06-01 11:32
 - `3161. Block Placement Queries.py` — 2026-05-30 17:47
 - `3300. Minimum Element After Replacement With Digit Sum.py` — 2026-05-29 22:27
 - `3093. Longest Common Suffix Queries.py` — 2026-05-28 16:28
@@ -49,9 +52,6 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `1306. Jump Game III.py` — 2026-05-17 11:03
 - `2784. Check if Array is Good.py` — 2026-05-14 10:09
 - `1674. Minimum Moves to Make Array Complementary.py` — 2026-05-13 18:48
-- `Separate the Digits in an Array.py` — 2026-05-13 13:10
-- `2553. Separate the Digits in an Array.py` — 2026-05-11 22:47
-- `2573. Find the String with LCP.py` — 2026-05-10 17:29
 
 ## 🧠 Skills & Topics
 
@@ -78,7 +78,7 @@ Run `python update_readme.py` from the repository root to refresh counts and the
 This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (533 files)</summary>
+<summary>🗂 Full Python Problem Index (536 files)</summary>
 
 - `2. Add Two Numbers.py`
 - `3. Longest Substring Without Repeating Characters.py`
@@ -490,6 +490,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `2125. Number of Laser Beams in a Bank.py`
 - `2126. Destroying Asteroids.py`
 - `2141. Maximum Running Time of N Computers.py`
+- `2144. Minimum Cost of Buying Candies With Discount.py`
 - `2147. Number of Ways to Divide a Long Corridor.py`
 - `2154. Keep Multiplying Found Values by Two.py`
 - `2169. Count Operations to Obtain Zero.py`
@@ -560,6 +561,8 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `3625. Count Number of Trapezoids II.py`
 - `3625.Count Number of Trapezoids II.py`
 - `3629. Minimum Jumps to Reach End via Prime Teleportation.py`
+- `3633. Earliest Finish Time for Land and Water Rides I.py`
+- `3635. Earliest Finish Time for Land and Water Rides II.py`
 - `3652. Best Time to Buy and Sell Stock using Strategy.py`
 - `3653. XOR After Range Multiplication Queries I streak code.py`
 - `3655. XOR After Range Multiplication Queries II.py`
