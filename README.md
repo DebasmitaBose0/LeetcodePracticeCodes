@@ -9,11 +9,11 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-06-04
-- **Python solutions:** 537
+- **Last updated:** 2026-06-05
+- **Python solutions:** 538
 - **SQL practice files:** 16
 - **Text problem files:** 4
-- **Total files:** 557
+- **Total files:** 558
 - **Status:** actively updated
 - **License:** Proprietary (All Rights Reserved)
 
@@ -27,11 +27,12 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - **500-999**: 53 solutions
 - **1000-1999**: 27 solutions
 - **2000-2999**: 43 solutions
-- **3000-3999**: 65 solutions
+- **3000-3999**: 66 solutions
 - **Other**: 29 solutions
 
 ## ✨ Latest Work
 
+- `3753. Total Waviness of Numbers in Range II.py` — 2026-06-05 21:30
 - `3751. Total Waviness of Numbers in Range I.py` — 2026-06-04 13:32
 - `3635. Earliest Finish Time for Land and Water Rides II.py` — 2026-06-03 21:27
 - `3633. Earliest Finish Time for Land and Water Rides I.py` — 2026-06-02 18:41
@@ -51,7 +52,6 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `2540. Minimum Common Value.py` — 2026-05-19 12:28
 - `1345. Jump Game IV.py` — 2026-05-18 11:50
 - `1306. Jump Game III.py` — 2026-05-17 11:03
-- `2784. Check if Array is Good.py` — 2026-05-14 10:09
 
 ## 🧠 Skills & Topics
 
@@ -78,7 +78,7 @@ Run `python update_readme.py` from the repository root to refresh counts and the
 This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (537 files)</summary>
+<summary>🗂 Full Python Problem Index (538 files)</summary>
 
 - `2. Add Two Numbers.py`
 - `3. Longest Substring Without Repeating Characters.py`
@@ -572,6 +572,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `3741. Minimum Distance Between Three Equal Elements II.py`
 - `3742. Maximum Path Score in a Grid.py`
 - `3751. Total Waviness of Numbers in Range I.py`
+- `3753. Total Waviness of Numbers in Range II.py`
 - `3761. Minimum Absolute Distance Between Mirror Pairs.py`
 - `3783. Mirror Distance of an Integer.py`
 - `3803. Count Residue Prefixes.py`
