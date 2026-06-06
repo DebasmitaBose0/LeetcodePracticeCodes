@@ -9,11 +9,11 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-06-05
-- **Python solutions:** 538
+- **Last updated:** 2026-06-06
+- **Python solutions:** 539
 - **SQL practice files:** 16
 - **Text problem files:** 4
-- **Total files:** 558
+- **Total files:** 559
 - **Status:** actively updated
 - **License:** Proprietary (All Rights Reserved)
 
@@ -26,12 +26,13 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - **400-499**: 70 solutions
 - **500-999**: 53 solutions
 - **1000-1999**: 27 solutions
-- **2000-2999**: 43 solutions
+- **2000-2999**: 44 solutions
 - **3000-3999**: 66 solutions
 - **Other**: 29 solutions
 
 ## ✨ Latest Work
 
+- `2574. Left and Right Sum Differences.py` — 2026-06-06 13:00
 - `3753. Total Waviness of Numbers in Range II.py` — 2026-06-05 21:30
 - `3751. Total Waviness of Numbers in Range I.py` — 2026-06-04 13:32
 - `3635. Earliest Finish Time for Land and Water Rides II.py` — 2026-06-03 21:27
@@ -51,7 +52,6 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `2657. Find the Prefix Common Array of Two Arrays.py` — 2026-05-20 10:17
 - `2540. Minimum Common Value.py` — 2026-05-19 12:28
 - `1345. Jump Game IV.py` — 2026-05-18 11:50
-- `1306. Jump Game III.py` — 2026-05-17 11:03
 
 ## 🧠 Skills & Topics
 
@@ -78,7 +78,7 @@ Run `python update_readme.py` from the repository root to refresh counts and the
 This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (538 files)</summary>
+<summary>🗂 Full Python Problem Index (539 files)</summary>
 
 - `2. Add Two Numbers.py`
 - `3. Longest Substring Without Repeating Characters.py`
@@ -506,6 +506,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `2540. Minimum Common Value.py`
 - `2553. Separate the Digits in an Array.py`
 - `2573. Find the String with LCP.py`
+- `2574. Left and Right Sum Differences.py`
 - `2615. Sum of Distances.py`
 - `2654. Minimum Number of Operations to Make All Array Elements Equal to 1.py`
 - `2657. Find the Prefix Common Array of Two Arrays.py`
