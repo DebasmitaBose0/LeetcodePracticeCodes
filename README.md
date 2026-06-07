@@ -9,11 +9,11 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-06-06
-- **Python solutions:** 539
+- **Last updated:** 2026-06-07
+- **Python solutions:** 540
 - **SQL practice files:** 16
 - **Text problem files:** 4
-- **Total files:** 559
+- **Total files:** 560
 - **Status:** actively updated
 - **License:** Proprietary (All Rights Reserved)
 
@@ -26,12 +26,13 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - **400-499**: 70 solutions
 - **500-999**: 53 solutions
 - **1000-1999**: 27 solutions
-- **2000-2999**: 44 solutions
+- **2000-2999**: 45 solutions
 - **3000-3999**: 66 solutions
 - **Other**: 29 solutions
 
 ## ✨ Latest Work
 
+- `2196. Create Binary Tree From Descriptions.py` — 2026-06-07 17:24
 - `2574. Left and Right Sum Differences.py` — 2026-06-06 13:00
 - `3753. Total Waviness of Numbers in Range II.py` — 2026-06-05 21:30
 - `3751. Total Waviness of Numbers in Range I.py` — 2026-06-04 13:32
@@ -51,7 +52,6 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `3043. Find the Length of the Longest Common Prefix.py` — 2026-05-21 12:39
 - `2657. Find the Prefix Common Array of Two Arrays.py` — 2026-05-20 10:17
 - `2540. Minimum Common Value.py` — 2026-05-19 12:28
-- `1345. Jump Game IV.py` — 2026-05-18 11:50
 
 ## 🧠 Skills & Topics
 
@@ -78,7 +78,7 @@ Run `python update_readme.py` from the repository root to refresh counts and the
 This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (539 files)</summary>
+<summary>🗂 Full Python Problem Index (540 files)</summary>
 
 - `2. Add Two Numbers.py`
 - `3. Longest Substring Without Repeating Characters.py`
@@ -494,6 +494,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `2147. Number of Ways to Divide a Long Corridor.py`
 - `2154. Keep Multiplying Found Values by Two.py`
 - `2169. Count Operations to Obtain Zero.py`
+- `2196. Create Binary Tree From Descriptions.py`
 - `2211. Count Collisions on a Road.py`
 - `2257. Count Unguarded Cells in the Grid.py`
 - `2435. Paths in Matrix Whose Sum Is Divisible by K.py`
