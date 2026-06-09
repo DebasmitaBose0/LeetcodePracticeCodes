@@ -1,3 +1,4 @@
+from ast import List
 class Solution:
     def pivotArray(self, nums: List[int], pivot: int) -> List[int]:
         less = []
