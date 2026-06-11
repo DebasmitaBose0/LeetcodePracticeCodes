@@ -9,11 +9,11 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-06-08
-- **Python solutions:** 541
+- **Last updated:** 2026-06-10
+- **Python solutions:** 543
 - **SQL practice files:** 16
 - **Text problem files:** 4
-- **Total files:** 561
+- **Total files:** 563
 - **Status:** actively updated
 - **License:** Proprietary (All Rights Reserved)
 
@@ -27,12 +27,14 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - **500-999**: 53 solutions
 - **1000-1999**: 27 solutions
 - **2000-2999**: 46 solutions
-- **3000-3999**: 66 solutions
+- **3000-3999**: 68 solutions
 - **Other**: 29 solutions
 
 ## ✨ Latest Work
 
-- `2161. Partition Array According to Given Pivot.py` — 2026-06-08 19:38
+- `3691. Maximum Total Subarray Value II.py` — 2026-06-10 20:30
+- `3689. Maximum Total Subarray Value I.py` — 2026-06-09 19:20
+- `2161. Partition Array According to Given Pivot.py` — 2026-06-08 19:44
 - `2196. Create Binary Tree From Descriptions.py` — 2026-06-07 17:24
 - `2574. Left and Right Sum Differences.py` — 2026-06-06 13:00
 - `3753. Total Waviness of Numbers in Range II.py` — 2026-06-05 21:30
@@ -50,8 +52,6 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `1340. Jump Game V.py` — 2026-05-24 22:01
 - `1752. Check if Array Is Sorted and Rotated.py` — 2026-05-23 21:40
 - `33. Search in Rotated Sorted Array.py` — 2026-05-23 21:09
-- `3043. Find the Length of the Longest Common Prefix.py` — 2026-05-21 12:39
-- `2657. Find the Prefix Common Array of Two Arrays.py` — 2026-05-20 10:17
 
 ## 🧠 Skills & Topics
 
@@ -78,7 +78,7 @@ Run `python update_readme.py` from the repository root to refresh counts and the
 This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (541 files)</summary>
+<summary>🗂 Full Python Problem Index (543 files)</summary>
 
 - `2. Add Two Numbers.py`
 - `3. Longest Substring Without Repeating Characters.py`
@@ -571,6 +571,8 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `3655. XOR After Range Multiplication Queries II.py`
 - `3660. Jump Game IX.py`
 - `3661. Maximum Walls Destroyed by Robots.py`
+- `3689. Maximum Total Subarray Value I.py`
+- `3691. Maximum Total Subarray Value II.py`
 - `3740. Minimum Distance Between Three Equal Elements I.py`
 - `3741. Minimum Distance Between Three Equal Elements II.py`
 - `3742. Maximum Path Score in a Grid.py`
