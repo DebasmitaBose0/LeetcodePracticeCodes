@@ -1,6 +1,7 @@
 from collections import defaultdict, deque
 
 class Solution:
+    # pyrefly: ignore [unknown-name]
     def assignEdgeWeights(self, edges: List[List[int]]) -> int:
         # Step 1: Build the adjacency list for the tree
         adj = defaultdict(list)
