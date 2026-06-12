@@ -9,11 +9,11 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-06-11
-- **Python solutions:** 544
+- **Last updated:** 2026-06-12
+- **Python solutions:** 545
 - **SQL practice files:** 16
 - **Text problem files:** 4
-- **Total files:** 564
+- **Total files:** 565
 - **Status:** actively updated
 - **License:** Proprietary (All Rights Reserved)
 
@@ -27,12 +27,13 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - **500-999**: 53 solutions
 - **1000-1999**: 27 solutions
 - **2000-2999**: 46 solutions
-- **3000-3999**: 69 solutions
+- **3000-3999**: 70 solutions
 - **Other**: 29 solutions
 
 ## ✨ Latest Work
 
-- `3558. Number of Ways to Assign Edge Weights I.py` — 2026-06-11 17:38
+- `3559. Number of Ways to Assign Edge Weights II.py` — 2026-06-12 21:42
+- `3558. Number of Ways to Assign Edge Weights I.py` — 2026-06-11 21:10
 - `3691. Maximum Total Subarray Value II.py` — 2026-06-10 20:30
 - `3689. Maximum Total Subarray Value I.py` — 2026-06-09 19:20
 - `2161. Partition Array According to Given Pivot.py` — 2026-06-08 19:44
@@ -51,7 +52,6 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `3120. Count the Number of Special Characters I.py` — 2026-05-26 15:39
 - `1871. Jump Game VII.py` — 2026-05-25 21:56
 - `1340. Jump Game V.py` — 2026-05-24 22:01
-- `1752. Check if Array Is Sorted and Rotated.py` — 2026-05-23 21:40
 
 ## 🧠 Skills & Topics
 
@@ -78,7 +78,7 @@ Run `python update_readme.py` from the repository root to refresh counts and the
 This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (544 files)</summary>
+<summary>🗂 Full Python Problem Index (545 files)</summary>
 
 - `2. Add Two Numbers.py`
 - `3. Longest Substring Without Repeating Characters.py`
@@ -554,6 +554,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `3546. Equal Sum Grid Partition I.py`
 - `3548. Equal Sum Grid Partition II.py`
 - `3558. Number of Ways to Assign Edge Weights I.py`
+- `3559. Number of Ways to Assign Edge Weights II.py`
 - `3562. Maximum Profit from Trading Stocks with Discounts.py`
 - `3573. Best Time to Buy and Sell Stock V.py`
 - `3577. Count the Number of Computer Unlocking Permutations.py`
