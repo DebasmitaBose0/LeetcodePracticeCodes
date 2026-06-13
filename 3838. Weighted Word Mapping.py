@@ -1,3 +1,4 @@
+from ast import List
 class Solution:
     def mapWordWeights(self, words: List[str], weights: List[int]) -> str:
         result = []
