@@ -9,11 +9,11 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-06-12
-- **Python solutions:** 545
+- **Last updated:** 2026-06-13
+- **Python solutions:** 546
 - **SQL practice files:** 16
 - **Text problem files:** 4
-- **Total files:** 565
+- **Total files:** 566
 - **Status:** actively updated
 - **License:** Proprietary (All Rights Reserved)
 
@@ -27,11 +27,12 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - **500-999**: 53 solutions
 - **1000-1999**: 27 solutions
 - **2000-2999**: 46 solutions
-- **3000-3999**: 70 solutions
+- **3000-3999**: 71 solutions
 - **Other**: 29 solutions
 
 ## ✨ Latest Work
 
+- `3838. Weighted Word Mapping.py` — 2026-06-13 14:20
 - `3559. Number of Ways to Assign Edge Weights II.py` — 2026-06-12 21:42
 - `3558. Number of Ways to Assign Edge Weights I.py` — 2026-06-11 21:10
 - `3691. Maximum Total Subarray Value II.py` — 2026-06-10 20:30
@@ -51,7 +52,6 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `3121. Count the Number of Special Characters II.py` — 2026-05-27 14:24
 - `3120. Count the Number of Special Characters I.py` — 2026-05-26 15:39
 - `1871. Jump Game VII.py` — 2026-05-25 21:56
-- `1340. Jump Game V.py` — 2026-05-24 22:01
 
 ## 🧠 Skills & Topics
 
@@ -78,7 +78,7 @@ Run `python update_readme.py` from the repository root to refresh counts and the
 This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (545 files)</summary>
+<summary>🗂 Full Python Problem Index (546 files)</summary>
 
 - `2. Add Two Numbers.py`
 - `3. Longest Substring Without Repeating Characters.py`
@@ -596,6 +596,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `3820. Pythagorean Distance Nodes in a Tree.py`
 - `3821. Find Nth Smallest Integer With K One Bits.py`
 - `3823. Reverse Letters Then Special Characters in a String.py`
+- `3838. Weighted Word Mapping.py`
 - `Binary Tilt.py`
 - `Combination Sum II.py`
 - `Combination Sum.py`
