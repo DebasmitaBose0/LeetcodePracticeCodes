@@ -9,11 +9,11 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-06-13
-- **Python solutions:** 546
+- **Last updated:** 2026-06-14
+- **Python solutions:** 547
 - **SQL practice files:** 16
 - **Text problem files:** 4
-- **Total files:** 566
+- **Total files:** 567
 - **Status:** actively updated
 - **License:** Proprietary (All Rights Reserved)
 
@@ -26,12 +26,13 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - **400-499**: 70 solutions
 - **500-999**: 53 solutions
 - **1000-1999**: 27 solutions
-- **2000-2999**: 46 solutions
+- **2000-2999**: 47 solutions
 - **3000-3999**: 71 solutions
 - **Other**: 29 solutions
 
 ## ✨ Latest Work
 
+- `2130. Maximum Twin Sum of a Linked List.py` — 2026-06-14 16:50
 - `3838. Weighted Word Mapping.py` — 2026-06-13 14:20
 - `3559. Number of Ways to Assign Edge Weights II.py` — 2026-06-12 21:42
 - `3558. Number of Ways to Assign Edge Weights I.py` — 2026-06-11 21:10
@@ -51,7 +52,6 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `3093. Longest Common Suffix Queries.py` — 2026-05-28 16:28
 - `3121. Count the Number of Special Characters II.py` — 2026-05-27 14:24
 - `3120. Count the Number of Special Characters I.py` — 2026-05-26 15:39
-- `1871. Jump Game VII.py` — 2026-05-25 21:56
 
 ## 🧠 Skills & Topics
 
@@ -78,7 +78,7 @@ Run `python update_readme.py` from the repository root to refresh counts and the
 This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (546 files)</summary>
+<summary>🗂 Full Python Problem Index (547 files)</summary>
 
 - `2. Add Two Numbers.py`
 - `3. Longest Substring Without Repeating Characters.py`
@@ -489,6 +489,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `2110. Number of Smooth Descent Periods of a Stock.py`
 - `2125. Number of Laser Beams in a Bank.py`
 - `2126. Destroying Asteroids.py`
+- `2130. Maximum Twin Sum of a Linked List.py`
 - `2141. Maximum Running Time of N Computers.py`
 - `2144. Minimum Cost of Buying Candies With Discount.py`
 - `2147. Number of Ways to Divide a Long Corridor.py`
