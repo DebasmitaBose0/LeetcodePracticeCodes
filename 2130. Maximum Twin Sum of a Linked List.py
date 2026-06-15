@@ -4,7 +4,9 @@
 #         self.val = val
 #         self.next = next
 
+from typing import Optional
 class Solution:
+    ListNode = None
     def pairSum(self, head: Optional[ListNode]) -> int:
         # Step 1: Find the middle of the linked list
         slow, fast = head, head
