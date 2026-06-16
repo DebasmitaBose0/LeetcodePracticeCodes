@@ -9,11 +9,11 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-06-15
-- **Python solutions:** 548
+- **Last updated:** 2026-06-16
+- **Python solutions:** 549
 - **SQL practice files:** 16
 - **Text problem files:** 4
-- **Total files:** 568
+- **Total files:** 569
 - **Status:** actively updated
 - **License:** Proprietary (All Rights Reserved)
 
@@ -27,11 +27,12 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - **500-999**: 53 solutions
 - **1000-1999**: 27 solutions
 - **2000-2999**: 48 solutions
-- **3000-3999**: 71 solutions
+- **3000-3999**: 72 solutions
 - **Other**: 29 solutions
 
 ## ✨ Latest Work
 
+- `3612. Process String with Special Operations I.py` — 2026-06-16 19:27
 - `2095. Delete the Middle Node of a Linked List.py` — 2026-06-15 20:57
 - `2130. Maximum Twin Sum of a Linked List.py` — 2026-06-14 16:54
 - `3838. Weighted Word Mapping.py` — 2026-06-13 14:20
@@ -51,7 +52,6 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `3161. Block Placement Queries.py` — 2026-05-30 17:47
 - `3300. Minimum Element After Replacement With Digit Sum.py` — 2026-05-29 22:27
 - `3093. Longest Common Suffix Queries.py` — 2026-05-28 16:28
-- `3121. Count the Number of Special Characters II.py` — 2026-05-27 14:24
 
 ## 🧠 Skills & Topics
 
@@ -78,7 +78,7 @@ Run `python update_readme.py` from the repository root to refresh counts and the
 This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (548 files)</summary>
+<summary>🗂 Full Python Problem Index (549 files)</summary>
 
 - `2. Add Two Numbers.py`
 - `3. Longest Substring Without Repeating Characters.py`
@@ -564,6 +564,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `3583. Count Special Triplets.py`
 - `3606. Coupon Code Validator.py`
 - `3607. Power Grid Maintenance.py`
+- `3612. Process String with Special Operations I.py`
 - `3623. Count Number of Trapezoids I.py`
 - `3625. Count Number of Trapezoids II.py`
 - `3625.Count Number of Trapezoids II.py`
