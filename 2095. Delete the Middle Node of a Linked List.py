@@ -4,7 +4,9 @@
 #         self.val = val
 #         self.next = next
 
+from typing import Optional
 class Solution:
+    ListNode = None
     def deleteMiddle(self, head: Optional[ListNode]) -> Optional[ListNode]:
         # Edge case: If the list has only one node, deleting it leaves an empty list
         if not head or not head.next:

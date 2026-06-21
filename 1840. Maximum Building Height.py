@@ -1,3 +1,4 @@
+from ast import List
 class Solution:
     def maxBuilding(self, n: int, restrictions: List[List[int]]) -> int:
         # 1. Add the absolute boundaries
