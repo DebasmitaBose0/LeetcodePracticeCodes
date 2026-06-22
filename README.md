@@ -9,11 +9,11 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-06-21
-- **Python solutions:** 554
+- **Last updated:** 2026-06-22
+- **Python solutions:** 555
 - **SQL practice files:** 16
 - **Text problem files:** 4
-- **Total files:** 574
+- **Total files:** 575
 - **Status:** actively updated
 - **License:** Proprietary (All Rights Reserved)
 
@@ -25,13 +25,14 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - **300-399**: 59 solutions
 - **400-499**: 70 solutions
 - **500-999**: 53 solutions
-- **1000-1999**: 31 solutions
+- **1000-1999**: 32 solutions
 - **2000-2999**: 48 solutions
 - **3000-3999**: 73 solutions
 - **Other**: 29 solutions
 
 ## ✨ Latest Work
 
+- `1189. Maximum Number of Balloons.py` — 2026-06-22 21:44
 - `1833. Maximum Ice Cream Bars.py` — 2026-06-21 16:38
 - `1732. Find the Highest Altitude.py` — 2026-06-21 11:50
 - `1840. Maximum Building Height.py` — 2026-06-21 11:50
@@ -51,7 +52,6 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `3753. Total Waviness of Numbers in Range II.py` — 2026-06-05 21:30
 - `3751. Total Waviness of Numbers in Range I.py` — 2026-06-04 13:32
 - `3635. Earliest Finish Time for Land and Water Rides II.py` — 2026-06-03 21:27
-- `3633. Earliest Finish Time for Land and Water Rides I.py` — 2026-06-02 18:41
 
 ## 🧠 Skills & Topics
 
@@ -78,7 +78,7 @@ Run `python update_readme.py` from the repository root to refresh counts and the
 This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (554 files)</summary>
+<summary>🗂 Full Python Problem Index (555 files)</summary>
 
 - `2. Add Two Numbers.py`
 - `3. Longest Substring Without Repeating Characters.py`
@@ -455,6 +455,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `960. Delete Columns to Make Sorted III.py`
 - `1015. Smallest Integer Divisible by K.py`
 - `1018. Binary Prefix Divisible By 5.py`
+- `1189. Maximum Number of Balloons.py`
 - `1262. Greatest Sum Divisible by Three.py`
 - `1306. Jump Game III.py`
 - `1320. Minimum Distance to Type a Word Using Two Fingers.py`
