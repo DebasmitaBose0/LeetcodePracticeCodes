@@ -9,11 +9,11 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-06-22
-- **Python solutions:** 555
+- **Last updated:** 2026-06-23
+- **Python solutions:** 556
 - **SQL practice files:** 16
 - **Text problem files:** 4
-- **Total files:** 575
+- **Total files:** 576
 - **Status:** actively updated
 - **License:** Proprietary (All Rights Reserved)
 
@@ -27,13 +27,14 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - **500-999**: 53 solutions
 - **1000-1999**: 32 solutions
 - **2000-2999**: 48 solutions
-- **3000-3999**: 73 solutions
+- **3000-3999**: 74 solutions
 - **Other**: 29 solutions
 
 ## ✨ Latest Work
 
+- `3699. Number of ZigZag Arrays I.py` — 2026-06-23 20:23
+- `1833. Maximum Ice Cream Bars.py` — 2026-06-22 21:52
 - `1189. Maximum Number of Balloons.py` — 2026-06-22 21:44
-- `1833. Maximum Ice Cream Bars.py` — 2026-06-21 16:38
 - `1732. Find the Highest Altitude.py` — 2026-06-21 11:50
 - `1840. Maximum Building Height.py` — 2026-06-21 11:50
 - `2095. Delete the Middle Node of a Linked List.py` — 2026-06-21 11:50
@@ -51,7 +52,6 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `2574. Left and Right Sum Differences.py` — 2026-06-06 13:00
 - `3753. Total Waviness of Numbers in Range II.py` — 2026-06-05 21:30
 - `3751. Total Waviness of Numbers in Range I.py` — 2026-06-04 13:32
-- `3635. Earliest Finish Time for Land and Water Rides II.py` — 2026-06-03 21:27
 
 ## 🧠 Skills & Topics
 
@@ -78,7 +78,7 @@ Run `python update_readme.py` from the repository root to refresh counts and the
 This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (555 files)</summary>
+<summary>🗂 Full Python Problem Index (556 files)</summary>
 
 - `2. Add Two Numbers.py`
 - `3. Longest Substring Without Repeating Characters.py`
@@ -584,6 +584,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `3661. Maximum Walls Destroyed by Robots.py`
 - `3689. Maximum Total Subarray Value I.py`
 - `3691. Maximum Total Subarray Value II.py`
+- `3699. Number of ZigZag Arrays I.py`
 - `3740. Minimum Distance Between Three Equal Elements I.py`
 - `3741. Minimum Distance Between Three Equal Elements II.py`
 - `3742. Maximum Path Score in a Grid.py`
