@@ -1,3 +1,4 @@
+from ast import List
 class Solution:
     def maxIceCream(self, costs: List[int], coins: int) -> int:
         # The maximum possible cost based on constraints
