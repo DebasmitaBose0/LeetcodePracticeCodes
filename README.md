@@ -9,11 +9,11 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-06-24
-- **Python solutions:** 557
+- **Last updated:** 2026-06-26
+- **Python solutions:** 559
 - **SQL practice files:** 16
 - **Text problem files:** 4
-- **Total files:** 577
+- **Total files:** 579
 - **Status:** actively updated
 - **License:** Proprietary (All Rights Reserved)
 
@@ -27,11 +27,13 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - **500-999**: 53 solutions
 - **1000-1999**: 32 solutions
 - **2000-2999**: 48 solutions
-- **3000-3999**: 75 solutions
+- **3000-3999**: 77 solutions
 - **Other**: 29 solutions
 
 ## ✨ Latest Work
 
+- `3739. Count Subarrays With Majority Element II.py` — 2026-06-26 21:05
+- `3737. Count Subarrays With Majority Element I.py` — 2026-06-26 00:41
 - `3700. Number of ZigZag Arrays II.py` — 2026-06-24 21:01
 - `3699. Number of ZigZag Arrays I.py` — 2026-06-23 20:23
 - `1833. Maximum Ice Cream Bars.py` — 2026-06-22 21:52
@@ -50,8 +52,6 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `3689. Maximum Total Subarray Value I.py` — 2026-06-09 19:20
 - `2161. Partition Array According to Given Pivot.py` — 2026-06-08 19:44
 - `2196. Create Binary Tree From Descriptions.py` — 2026-06-07 17:24
-- `2574. Left and Right Sum Differences.py` — 2026-06-06 13:00
-- `3753. Total Waviness of Numbers in Range II.py` — 2026-06-05 21:30
 
 ## 🧠 Skills & Topics
 
@@ -78,7 +78,7 @@ Run `python update_readme.py` from the repository root to refresh counts and the
 This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (557 files)</summary>
+<summary>🗂 Full Python Problem Index (559 files)</summary>
 
 - `2. Add Two Numbers.py`
 - `3. Longest Substring Without Repeating Characters.py`
@@ -586,6 +586,8 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `3691. Maximum Total Subarray Value II.py`
 - `3699. Number of ZigZag Arrays I.py`
 - `3700. Number of ZigZag Arrays II.py`
+- `3737. Count Subarrays With Majority Element I.py`
+- `3739. Count Subarrays With Majority Element II.py`
 - `3740. Minimum Distance Between Three Equal Elements I.py`
 - `3741. Minimum Distance Between Three Equal Elements II.py`
 - `3742. Maximum Path Score in a Grid.py`
