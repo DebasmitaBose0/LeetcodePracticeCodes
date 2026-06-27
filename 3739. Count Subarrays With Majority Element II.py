@@ -1,3 +1,4 @@
+from ast import List
 class Solution:
     def countMajoritySubarrays(self, nums: List[int], target: int) -> int:
         n = len(nums)
