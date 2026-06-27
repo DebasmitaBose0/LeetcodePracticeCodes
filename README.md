@@ -9,11 +9,11 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-06-26
-- **Python solutions:** 559
+- **Last updated:** 2026-06-27
+- **Python solutions:** 560
 - **SQL practice files:** 16
 - **Text problem files:** 4
-- **Total files:** 579
+- **Total files:** 580
 - **Status:** actively updated
 - **License:** Proprietary (All Rights Reserved)
 
@@ -27,12 +27,13 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - **500-999**: 53 solutions
 - **1000-1999**: 32 solutions
 - **2000-2999**: 48 solutions
-- **3000-3999**: 77 solutions
+- **3000-3999**: 78 solutions
 - **Other**: 29 solutions
 
 ## ✨ Latest Work
 
-- `3739. Count Subarrays With Majority Element II.py` — 2026-06-26 21:05
+- `3020. Find the Maximum Number of Elements in Subset.py` — 2026-06-27 20:28
+- `3739. Count Subarrays With Majority Element II.py` — 2026-06-26 22:28
 - `3737. Count Subarrays With Majority Element I.py` — 2026-06-26 00:41
 - `3700. Number of ZigZag Arrays II.py` — 2026-06-24 21:01
 - `3699. Number of ZigZag Arrays I.py` — 2026-06-23 20:23
@@ -51,7 +52,6 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `3691. Maximum Total Subarray Value II.py` — 2026-06-10 20:30
 - `3689. Maximum Total Subarray Value I.py` — 2026-06-09 19:20
 - `2161. Partition Array According to Given Pivot.py` — 2026-06-08 19:44
-- `2196. Create Binary Tree From Descriptions.py` — 2026-06-07 17:24
 
 ## 🧠 Skills & Topics
 
@@ -78,7 +78,7 @@ Run `python update_readme.py` from the repository root to refresh counts and the
 This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (559 files)</summary>
+<summary>🗂 Full Python Problem Index (560 files)</summary>
 
 - `2. Add Two Numbers.py`
 - `3. Longest Substring Without Repeating Characters.py`
@@ -533,6 +533,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `2909. Minimum Sum of Mountain Triplets II.py`
 - `2910. Minimum Number of Groups to Create a Valid Assignment.py`
 - `2946. Matrix Similarity After Cyclic Shifts.py`
+- `3020. Find the Maximum Number of Elements in Subset.py`
 - `3043. Find the Length of the Longest Common Prefix.py`
 - `3074. Apple Redistribution into Boxes.py`
 - `3075. Maximize Happiness of Selected Children.py`
