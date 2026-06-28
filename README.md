@@ -9,11 +9,11 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-06-27
-- **Python solutions:** 560
+- **Last updated:** 2026-06-28
+- **Python solutions:** 561
 - **SQL practice files:** 16
 - **Text problem files:** 4
-- **Total files:** 580
+- **Total files:** 581
 - **Status:** actively updated
 - **License:** Proprietary (All Rights Reserved)
 
@@ -25,13 +25,14 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - **300-399**: 59 solutions
 - **400-499**: 70 solutions
 - **500-999**: 53 solutions
-- **1000-1999**: 32 solutions
+- **1000-1999**: 33 solutions
 - **2000-2999**: 48 solutions
 - **3000-3999**: 78 solutions
 - **Other**: 29 solutions
 
 ## ✨ Latest Work
 
+- `1846. Maximum Element After Decreasing and Rearranging.py` — 2026-06-28 21:13
 - `3020. Find the Maximum Number of Elements in Subset.py` — 2026-06-27 20:28
 - `3739. Count Subarrays With Majority Element II.py` — 2026-06-26 22:28
 - `3737. Count Subarrays With Majority Element I.py` — 2026-06-26 00:41
@@ -51,7 +52,6 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `3558. Number of Ways to Assign Edge Weights I.py` — 2026-06-11 21:10
 - `3691. Maximum Total Subarray Value II.py` — 2026-06-10 20:30
 - `3689. Maximum Total Subarray Value I.py` — 2026-06-09 19:20
-- `2161. Partition Array According to Given Pivot.py` — 2026-06-08 19:44
 
 ## 🧠 Skills & Topics
 
@@ -78,7 +78,7 @@ Run `python update_readme.py` from the repository root to refresh counts and the
 This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (560 files)</summary>
+<summary>🗂 Full Python Problem Index (561 files)</summary>
 
 - `2. Add Two Numbers.py`
 - `3. Longest Substring Without Repeating Characters.py`
@@ -477,6 +477,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `1752. Check if Array Is Sorted and Rotated.py`
 - `1833. Maximum Ice Cream Bars.py`
 - `1840. Maximum Building Height.py`
+- `1846. Maximum Element After Decreasing and Rearranging.py`
 - `1848. Minimum Distance to the Target Element.py`
 - `1855. Maximum Distance Between a Pair of Values.py`
 - `1861. Rotating the Box.py`
