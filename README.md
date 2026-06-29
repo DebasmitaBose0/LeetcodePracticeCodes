@@ -9,11 +9,11 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-06-28
-- **Python solutions:** 561
+- **Last updated:** 2026-06-29
+- **Python solutions:** 562
 - **SQL practice files:** 16
 - **Text problem files:** 4
-- **Total files:** 581
+- **Total files:** 582
 - **Status:** actively updated
 - **License:** Proprietary (All Rights Reserved)
 
@@ -25,13 +25,14 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - **300-399**: 59 solutions
 - **400-499**: 70 solutions
 - **500-999**: 53 solutions
-- **1000-1999**: 33 solutions
+- **1000-1999**: 34 solutions
 - **2000-2999**: 48 solutions
 - **3000-3999**: 78 solutions
 - **Other**: 29 solutions
 
 ## ✨ Latest Work
 
+- `1967. Number of Strings That Appear as Substrings in Word.py` — 2026-06-29 14:18
 - `1846. Maximum Element After Decreasing and Rearranging.py` — 2026-06-28 21:13
 - `3020. Find the Maximum Number of Elements in Subset.py` — 2026-06-27 20:28
 - `3739. Count Subarrays With Majority Element II.py` — 2026-06-26 22:28
@@ -51,7 +52,6 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `3559. Number of Ways to Assign Edge Weights II.py` — 2026-06-12 21:42
 - `3558. Number of Ways to Assign Edge Weights I.py` — 2026-06-11 21:10
 - `3691. Maximum Total Subarray Value II.py` — 2026-06-10 20:30
-- `3689. Maximum Total Subarray Value I.py` — 2026-06-09 19:20
 
 ## 🧠 Skills & Topics
 
@@ -78,7 +78,7 @@ Run `python update_readme.py` from the repository root to refresh counts and the
 This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (561 files)</summary>
+<summary>🗂 Full Python Problem Index (562 files)</summary>
 
 - `2. Add Two Numbers.py`
 - `3. Longest Substring Without Repeating Characters.py`
@@ -486,6 +486,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `1914. Cyclically Rotating a Grid.py`
 - `1925. Count Square Sum Triples.py`
 - `1930. Unique Length-3 Palindromic Subsequences.py`
+- `1967. Number of Strings That Appear as Substrings in Word.py`
 - `2043. Simple Bank System.py`
 - `2048. Next Greater Numerically Balanced Number.py`
 - `2054. Two Best Non-Overlapping Events.py`
