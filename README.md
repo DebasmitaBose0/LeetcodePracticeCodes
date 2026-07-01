@@ -9,11 +9,11 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-06-29
-- **Python solutions:** 562
+- **Last updated:** 2026-07-01
+- **Python solutions:** 564
 - **SQL practice files:** 16
 - **Text problem files:** 4
-- **Total files:** 582
+- **Total files:** 584
 - **Status:** actively updated
 - **License:** Proprietary (All Rights Reserved)
 
@@ -25,13 +25,15 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - **300-399**: 59 solutions
 - **400-499**: 70 solutions
 - **500-999**: 53 solutions
-- **1000-1999**: 34 solutions
-- **2000-2999**: 48 solutions
+- **1000-1999**: 35 solutions
+- **2000-2999**: 49 solutions
 - **3000-3999**: 78 solutions
 - **Other**: 29 solutions
 
 ## ✨ Latest Work
 
+- `2812. Find the Safest Path in a Grid.py` — 2026-07-01 10:16
+- `1358. Number of Substrings Containing All Three Characters.py` — 2026-07-01 10:14
 - `1967. Number of Strings That Appear as Substrings in Word.py` — 2026-06-29 14:18
 - `1846. Maximum Element After Decreasing and Rearranging.py` — 2026-06-28 21:13
 - `3020. Find the Maximum Number of Elements in Subset.py` — 2026-06-27 20:28
@@ -50,8 +52,6 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `2130. Maximum Twin Sum of a Linked List.py` — 2026-06-14 16:54
 - `3838. Weighted Word Mapping.py` — 2026-06-13 14:20
 - `3559. Number of Ways to Assign Edge Weights II.py` — 2026-06-12 21:42
-- `3558. Number of Ways to Assign Edge Weights I.py` — 2026-06-11 21:10
-- `3691. Maximum Total Subarray Value II.py` — 2026-06-10 20:30
 
 ## 🧠 Skills & Topics
 
@@ -78,7 +78,7 @@ Run `python update_readme.py` from the repository root to refresh counts and the
 This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (562 files)</summary>
+<summary>🗂 Full Python Problem Index (564 files)</summary>
 
 - `2. Add Two Numbers.py`
 - `3. Longest Substring Without Repeating Characters.py`
@@ -462,6 +462,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `1340. Jump Game V.py`
 - `1344. Angle Between Hands of a Clock.py`
 - `1345. Jump Game IV.py`
+- `1358. Number of Substrings Containing All Three Characters.py`
 - `1391. Check if There is a Valid Path in a Grid.py`
 - `1437. Check If All 1's Are at Least Length K Places Away.py`
 - `1513. Number of Substrings With Only 1s.py`
@@ -523,6 +524,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `2657. Find the Prefix Common Array of Two Arrays.py`
 - `2751. Robot Collisions.py`
 - `2784. Check if Array is Good.py`
+- `2812. Find the Safest Path in a Grid.py`
 - `2833. Furthest Point From Origin.py`
 - `2839. Check if Strings Can be Made Equal With Operations I.py`
 - `2840. Check if Strings Can be Made Equal With Operations II.py`
