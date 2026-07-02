@@ -9,11 +9,11 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-07-01
-- **Python solutions:** 564
+- **Last updated:** 2026-07-02
+- **Python solutions:** 565
 - **SQL practice files:** 16
 - **Text problem files:** 4
-- **Total files:** 584
+- **Total files:** 585
 - **Status:** actively updated
 - **License:** Proprietary (All Rights Reserved)
 
@@ -27,11 +27,12 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - **500-999**: 53 solutions
 - **1000-1999**: 35 solutions
 - **2000-2999**: 49 solutions
-- **3000-3999**: 78 solutions
+- **3000-3999**: 79 solutions
 - **Other**: 29 solutions
 
 ## ✨ Latest Work
 
+- `3286. Find a Safe Walk Through a Grid.py` — 2026-07-02 20:34
 - `2812. Find the Safest Path in a Grid.py` — 2026-07-01 10:16
 - `1358. Number of Substrings Containing All Three Characters.py` — 2026-07-01 10:14
 - `1967. Number of Strings That Appear as Substrings in Word.py` — 2026-06-29 14:18
@@ -51,7 +52,6 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `3612. Process String with Special Operations I.py` — 2026-06-16 19:27
 - `2130. Maximum Twin Sum of a Linked List.py` — 2026-06-14 16:54
 - `3838. Weighted Word Mapping.py` — 2026-06-13 14:20
-- `3559. Number of Ways to Assign Edge Weights II.py` — 2026-06-12 21:42
 
 ## 🧠 Skills & Topics
 
@@ -78,7 +78,7 @@ Run `python update_readme.py` from the repository root to refresh counts and the
 This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (564 files)</summary>
+<summary>🗂 Full Python Problem Index (565 files)</summary>
 
 - `2. Add Two Numbers.py`
 - `3. Longest Substring Without Repeating Characters.py`
@@ -550,6 +550,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `3225. Maximum Score From Grid Operations.py`
 - `3228. Maximum Number of Operations to Move Ones to the End.PY`
 - `3234. Count the Number of Substrings With Dominant Ones.py`
+- `3286. Find a Safe Walk Through a Grid.py`
 - `3289. The Two Sneaky Numbers of Digitville.py`
 - `3300. Minimum Element After Replacement With Digit Sum.py`
 - `3318. Find X-Sum of All K-Long Subarrays I.py`
