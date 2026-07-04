@@ -9,11 +9,11 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-07-02
-- **Python solutions:** 565
+- **Last updated:** 2026-07-04
+- **Python solutions:** 567
 - **SQL practice files:** 16
 - **Text problem files:** 4
-- **Total files:** 585
+- **Total files:** 587
 - **Status:** actively updated
 - **License:** Proprietary (All Rights Reserved)
 
@@ -26,12 +26,14 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - **400-499**: 70 solutions
 - **500-999**: 53 solutions
 - **1000-1999**: 35 solutions
-- **2000-2999**: 49 solutions
-- **3000-3999**: 79 solutions
+- **2000-2999**: 50 solutions
+- **3000-3999**: 80 solutions
 - **Other**: 29 solutions
 
 ## ✨ Latest Work
 
+- `2492. Minimum Score of a Path Between Two Cities.py` — 2026-07-04 12:21
+- `3620. Network Recovery Pathways.py` — 2026-07-04 12:08
 - `3286. Find a Safe Walk Through a Grid.py` — 2026-07-02 20:34
 - `2812. Find the Safest Path in a Grid.py` — 2026-07-01 10:16
 - `1358. Number of Substrings Containing All Three Characters.py` — 2026-07-01 10:14
@@ -50,8 +52,6 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `1344. Angle Between Hands of a Clock.py` — 2026-06-18 21:32
 - `3614. Process String with Special Operations II.py` — 2026-06-17 20:34
 - `3612. Process String with Special Operations I.py` — 2026-06-16 19:27
-- `2130. Maximum Twin Sum of a Linked List.py` — 2026-06-14 16:54
-- `3838. Weighted Word Mapping.py` — 2026-06-13 14:20
 
 ## 🧠 Skills & Topics
 
@@ -78,7 +78,7 @@ Run `python update_readme.py` from the repository root to refresh counts and the
 This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (565 files)</summary>
+<summary>🗂 Full Python Problem Index (567 files)</summary>
 
 - `2. Add Two Numbers.py`
 - `3. Longest Substring Without Repeating Characters.py`
@@ -512,6 +512,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `2452. Words Within Two Edits of Dictionary.py`
 - `2463. Minimum Total Distance Traveled.py`
 - `2483. Minimum Penalty for a Shop.py`
+- `2492. Minimum Score of a Path Between Two Cities.py`
 - `2515. Shortest Distance to Target String in a Circular Array.py`
 - `2528. Maximize the Minimum Powered City.py`
 - `2536. Increment Submatrices by One.py`
@@ -577,6 +578,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `3607. Power Grid Maintenance.py`
 - `3612. Process String with Special Operations I.py`
 - `3614. Process String with Special Operations II.py`
+- `3620. Network Recovery Pathways.py`
 - `3623. Count Number of Trapezoids I.py`
 - `3625. Count Number of Trapezoids II.py`
 - `3625.Count Number of Trapezoids II.py`
