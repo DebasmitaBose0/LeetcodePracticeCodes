@@ -9,11 +9,11 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-07-04
-- **Python solutions:** 567
+- **Last updated:** 2026-07-05
+- **Python solutions:** 568
 - **SQL practice files:** 16
 - **Text problem files:** 4
-- **Total files:** 587
+- **Total files:** 588
 - **Status:** actively updated
 - **License:** Proprietary (All Rights Reserved)
 
@@ -25,13 +25,14 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - **300-399**: 59 solutions
 - **400-499**: 70 solutions
 - **500-999**: 53 solutions
-- **1000-1999**: 35 solutions
+- **1000-1999**: 36 solutions
 - **2000-2999**: 50 solutions
 - **3000-3999**: 80 solutions
 - **Other**: 29 solutions
 
 ## ✨ Latest Work
 
+- `1301. Number of Paths with Max Score.py` — 2026-07-05 21:35
 - `2492. Minimum Score of a Path Between Two Cities.py` — 2026-07-04 12:21
 - `3620. Network Recovery Pathways.py` — 2026-07-04 12:08
 - `3286. Find a Safe Walk Through a Grid.py` — 2026-07-02 20:34
@@ -51,7 +52,6 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `2095. Delete the Middle Node of a Linked List.py` — 2026-06-21 11:50
 - `1344. Angle Between Hands of a Clock.py` — 2026-06-18 21:32
 - `3614. Process String with Special Operations II.py` — 2026-06-17 20:34
-- `3612. Process String with Special Operations I.py` — 2026-06-16 19:27
 
 ## 🧠 Skills & Topics
 
@@ -78,7 +78,7 @@ Run `python update_readme.py` from the repository root to refresh counts and the
 This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (567 files)</summary>
+<summary>🗂 Full Python Problem Index (568 files)</summary>
 
 - `2. Add Two Numbers.py`
 - `3. Longest Substring Without Repeating Characters.py`
@@ -457,6 +457,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `1018. Binary Prefix Divisible By 5.py`
 - `1189. Maximum Number of Balloons.py`
 - `1262. Greatest Sum Divisible by Three.py`
+- `1301. Number of Paths with Max Score.py`
 - `1306. Jump Game III.py`
 - `1320. Minimum Distance to Type a Word Using Two Fingers.py`
 - `1340. Jump Game V.py`
