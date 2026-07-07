@@ -9,11 +9,11 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-07-06
-- **Python solutions:** 569
+- **Last updated:** 2026-07-07
+- **Python solutions:** 570
 - **SQL practice files:** 16
 - **Text problem files:** 4
-- **Total files:** 589
+- **Total files:** 590
 - **Status:** actively updated
 - **License:** Proprietary (All Rights Reserved)
 
@@ -27,13 +27,14 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - **500-999**: 53 solutions
 - **1000-1999**: 37 solutions
 - **2000-2999**: 50 solutions
-- **3000-3999**: 80 solutions
+- **3000-3999**: 81 solutions
 - **Other**: 29 solutions
 
 ## ✨ Latest Work
 
-- `1288. Remove Covered Intervals.py` — 2026-07-06 21:14
-- `1301. Number of Paths with Max Score.py` — 2026-07-05 21:35
+- `3754. Concatenate Non-Zero Digits and Multiply by Sum I.py` — 2026-07-07 22:01
+- `1288. Remove Covered Intervals.py` — 2026-07-06 21:16
+- `1301. Number of Paths with Max Score.py` — 2026-07-06 21:16
 - `2492. Minimum Score of a Path Between Two Cities.py` — 2026-07-04 12:21
 - `3620. Network Recovery Pathways.py` — 2026-07-04 12:08
 - `3286. Find a Safe Walk Through a Grid.py` — 2026-07-02 20:34
@@ -51,7 +52,6 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `1732. Find the Highest Altitude.py` — 2026-06-21 11:50
 - `1840. Maximum Building Height.py` — 2026-06-21 11:50
 - `2095. Delete the Middle Node of a Linked List.py` — 2026-06-21 11:50
-- `1344. Angle Between Hands of a Clock.py` — 2026-06-18 21:32
 
 ## 🧠 Skills & Topics
 
@@ -78,7 +78,7 @@ Run `python update_readme.py` from the repository root to refresh counts and the
 This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (569 files)</summary>
+<summary>🗂 Full Python Problem Index (570 files)</summary>
 
 - `2. Add Two Numbers.py`
 - `3. Longest Substring Without Repeating Characters.py`
@@ -603,6 +603,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `3742. Maximum Path Score in a Grid.py`
 - `3751. Total Waviness of Numbers in Range I.py`
 - `3753. Total Waviness of Numbers in Range II.py`
+- `3754. Concatenate Non-Zero Digits and Multiply by Sum I.py`
 - `3761. Minimum Absolute Distance Between Mirror Pairs.py`
 - `3783. Mirror Distance of an Integer.py`
 - `3803. Count Residue Prefixes.py`
