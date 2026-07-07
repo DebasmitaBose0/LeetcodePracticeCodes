@@ -1,3 +1,4 @@
+from ast import List
 class Solution:
     def removeCoveredIntervals(self, intervals: List[List[int]]) -> int:
         # Sort by start ascending, then by end descending
