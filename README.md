@@ -9,11 +9,11 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-07-08
-- **Python solutions:** 571
+- **Last updated:** 2026-07-09
+- **Python solutions:** 572
 - **SQL practice files:** 16
 - **Text problem files:** 4
-- **Total files:** 591
+- **Total files:** 592
 - **Status:** actively updated
 - **License:** Proprietary (All Rights Reserved)
 
@@ -27,11 +27,12 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - **500-999**: 53 solutions
 - **1000-1999**: 37 solutions
 - **2000-2999**: 50 solutions
-- **3000-3999**: 82 solutions
+- **3000-3999**: 83 solutions
 - **Other**: 29 solutions
 
 ## ✨ Latest Work
 
+- `3532. Path Existence Queries in a Graph I.py` — 2026-07-09 22:01
 - `3756. Concatenate Non-Zero Digits and Multiply by Sum II.py` — 2026-07-08 19:29
 - `3754. Concatenate Non-Zero Digits and Multiply by Sum I.py` — 2026-07-07 22:01
 - `1288. Remove Covered Intervals.py` — 2026-07-06 21:16
@@ -51,7 +52,6 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `1833. Maximum Ice Cream Bars.py` — 2026-06-22 21:52
 - `1189. Maximum Number of Balloons.py` — 2026-06-22 21:44
 - `1732. Find the Highest Altitude.py` — 2026-06-21 11:50
-- `1840. Maximum Building Height.py` — 2026-06-21 11:50
 
 ## 🧠 Skills & Topics
 
@@ -78,7 +78,7 @@ Run `python update_readme.py` from the repository root to refresh counts and the
 This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (571 files)</summary>
+<summary>🗂 Full Python Problem Index (572 files)</summary>
 
 - `2. Add Two Numbers.py`
 - `3. Longest Substring Without Repeating Characters.py`
@@ -567,6 +567,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `3488. Closest Equal Element Queries.py`
 - `3512. Minimum Operations to Make Array Sum Divisible by K.py`
 - `3531. Count Covered Buildings.py`
+- `3532. Path Existence Queries in a Graph I.py`
 - `3546. Equal Sum Grid Partition I.py`
 - `3548. Equal Sum Grid Partition II.py`
 - `3558. Number of Ways to Assign Edge Weights I.py`
