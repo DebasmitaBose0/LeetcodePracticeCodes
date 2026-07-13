@@ -9,11 +9,11 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-07-11
-- **Python solutions:** 574
+- **Last updated:** 2026-07-13
+- **Python solutions:** 576
 - **SQL practice files:** 16
 - **Text problem files:** 4
-- **Total files:** 594
+- **Total files:** 596
 - **Status:** actively updated
 - **License:** Proprietary (All Rights Reserved)
 
@@ -25,13 +25,16 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - **300-399**: 59 solutions
 - **400-499**: 70 solutions
 - **500-999**: 53 solutions
-- **1000-1999**: 37 solutions
+- **1000-1999**: 39 solutions
 - **2000-2999**: 51 solutions
 - **3000-3999**: 84 solutions
 - **Other**: 29 solutions
 
 ## ✨ Latest Work
 
+- `1320. Minimum Distance to Type a Word Using Two Fingers.py` — 2026-07-13 21:54
+- `1331. Rank Transform of an Array.py` — 2026-07-13 21:54
+- `1291. Sequential Digits.py` — 2026-07-13 21:54
 - `2685. Count the Number of Complete Components.py` — 2026-07-11 19:35
 - `3532. Path Existence Queries in a Graph I.py` — 2026-07-10 18:44
 - `3534. Path Existence Queries in a Graph II.py` — 2026-07-10 18:44
@@ -49,9 +52,6 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `3020. Find the Maximum Number of Elements in Subset.py` — 2026-06-27 20:28
 - `3739. Count Subarrays With Majority Element II.py` — 2026-06-26 22:28
 - `3737. Count Subarrays With Majority Element I.py` — 2026-06-26 00:41
-- `3700. Number of ZigZag Arrays II.py` — 2026-06-24 21:01
-- `3699. Number of ZigZag Arrays I.py` — 2026-06-23 20:23
-- `1833. Maximum Ice Cream Bars.py` — 2026-06-22 21:52
 
 ## 🧠 Skills & Topics
 
@@ -78,7 +78,7 @@ Run `python update_readme.py` from the repository root to refresh counts and the
 This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (574 files)</summary>
+<summary>🗂 Full Python Problem Index (576 files)</summary>
 
 - `2. Add Two Numbers.py`
 - `3. Longest Substring Without Repeating Characters.py`
@@ -458,9 +458,11 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `1189. Maximum Number of Balloons.py`
 - `1262. Greatest Sum Divisible by Three.py`
 - `1288. Remove Covered Intervals.py`
+- `1291. Sequential Digits.py`
 - `1301. Number of Paths with Max Score.py`
 - `1306. Jump Game III.py`
 - `1320. Minimum Distance to Type a Word Using Two Fingers.py`
+- `1331. Rank Transform of an Array.py`
 - `1340. Jump Game V.py`
 - `1344. Angle Between Hands of a Clock.py`
 - `1345. Jump Game IV.py`
