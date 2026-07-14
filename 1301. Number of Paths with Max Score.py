@@ -1,3 +1,4 @@
+from ast import List
 class Solution:
     def pathsWithMaxScore(self, board: List[str]) -> List[int]:
         MOD = 10**9 + 7
