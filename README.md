@@ -9,11 +9,11 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-07-14
-- **Python solutions:** 577
+- **Last updated:** 2026-07-15
+- **Python solutions:** 578
 - **SQL practice files:** 16
 - **Text problem files:** 4
-- **Total files:** 597
+- **Total files:** 598
 - **Status:** actively updated
 - **License:** Proprietary (All Rights Reserved)
 
@@ -27,11 +27,12 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - **500-999**: 53 solutions
 - **1000-1999**: 39 solutions
 - **2000-2999**: 51 solutions
-- **3000-3999**: 85 solutions
+- **3000-3999**: 86 solutions
 - **Other**: 29 solutions
 
 ## ✨ Latest Work
 
+- `3658. GCD of Odd and Even Sums.py` — 2026-07-15 20:33
 - `3336. Find the Number of Subsequences With Equal GCD.py` — 2026-07-14 19:23
 - `1301. Number of Paths with Max Score.py` — 2026-07-13 21:57
 - `1320. Minimum Distance to Type a Word Using Two Fingers.py` — 2026-07-13 21:54
@@ -51,7 +52,6 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `1967. Number of Strings That Appear as Substrings in Word.py` — 2026-06-29 14:18
 - `1846. Maximum Element After Decreasing and Rearranging.py` — 2026-06-28 21:13
 - `3020. Find the Maximum Number of Elements in Subset.py` — 2026-06-27 20:28
-- `3739. Count Subarrays With Majority Element II.py` — 2026-06-26 22:28
 
 ## 🧠 Skills & Topics
 
@@ -78,7 +78,7 @@ Run `python update_readme.py` from the repository root to refresh counts and the
 This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (577 files)</summary>
+<summary>🗂 Full Python Problem Index (578 files)</summary>
 
 - `2. Add Two Numbers.py`
 - `3. Longest Substring Without Repeating Characters.py`
@@ -596,6 +596,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `3652. Best Time to Buy and Sell Stock using Strategy.py`
 - `3653. XOR After Range Multiplication Queries I streak code.py`
 - `3655. XOR After Range Multiplication Queries II.py`
+- `3658. GCD of Odd and Even Sums.py`
 - `3660. Jump Game IX.py`
 - `3661. Maximum Walls Destroyed by Robots.py`
 - `3689. Maximum Total Subarray Value I.py`
