@@ -1,11 +1,84 @@
 # LeetCode Practice Codes
 
+<div align="left">
+  <p style="margin:0 0 8px 0; font-size: 16px; color: #111;">
+    <b><span>Currently typing:</span></b>
+    <span style="display:inline-block; min-width: 10px; padding-left: 6px;">&nbsp;</span>
+    <span id="bbai-typed" style="font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;"></span>
+    <span id="bbai-caret" style="font-weight:700;">▍</span>
+  </p>
+</div>
+
+<!-- Animated types (typewriter effect). No external libraries. -->
+<script>
+  (function () {
+    const el = document.getElementById('bbai-typed');
+    const caret = document.getElementById('bbai-caret');
+    if (!el) return;
+
+    const phrases = [
+      'algorithms',
+      'data structures',
+      'greedy + DP',
+      'interval problems',
+      'graph BFS/DFS'
+    ];
+
+    let phraseIndex = 0;
+    let charIndex = 0;
+    let deleting = false;
+
+    const typeSpeed = 42;   // ms per char
+    const deleteSpeed = 26; // ms per char
+    const holdAfterDone = 900;
+
+    function tick() {
+      const current = phrases[phraseIndex];
+
+      if (!deleting) {
+        charIndex++;
+        el.textContent = current.slice(0, charIndex);
+
+        if (charIndex >= current.length) {
+          deleting = true;
+          caret.style.opacity = '1';
+          setTimeout(tick, holdAfterDone);
+          return;
+        }
+        setTimeout(tick, typeSpeed);
+      } else {
+        charIndex--;
+        el.textContent = current.slice(0, charIndex);
+
+        if (charIndex <= 0) {
+          deleting = false;
+          phraseIndex = (phraseIndex + 1) % phrases.length;
+          caret.style.opacity = '1';
+          setTimeout(tick, 200);
+          return;
+        }
+        setTimeout(tick, deleteSpeed);
+      }
+    }
+
+    // caret blink
+    let blink = true;
+    setInterval(() => {
+      blink = !blink;
+      if (caret) caret.style.opacity = blink ? '1' : '0';
+    }, 550);
+
+    tick();
+  })();
+</script>
+
 [![LeetCode Profile](https://img.shields.io/badge/LeetCode-Debasmita_Bose-blue?style=for-the-badge&logo=leetcode)](https://leetcode.com/u/Debasmita_Bose/)
 [![Python](https://img.shields.io/badge/python-3.8%2B-blue?logo=python)](https://www.python.org/)
 [![License](https://img.shields.io/badge/license-Proprietary-lightgrey)](LICENSE)
 [![CI](https://github.com/DebasmitaBose0/LeetcodePracticeCodes/actions/workflows/ci.yml/badge.svg)](https://github.com/DebasmitaBose0/LeetcodePracticeCodes/actions)
 
 A compact and readable archive of LeetCode solutions, focused on algorithms, data structures, and interview-style practice.
+
 
 ## 🚀 Snapshot
 
