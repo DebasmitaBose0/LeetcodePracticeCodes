@@ -7,15 +7,15 @@
 
 A compact and readable archive of LeetCode solutions, focused on algorithms, data structures, and interview-style practice.
 
-
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-07-15
-- **Python solutions:** 578
+- **Last updated:** 2026-07-18
+- **Python solutions:** 580
 - **SQL practice files:** 16
 - **Text problem files:** 4
-- **Total files:** 598
-
+- **Total files:** 600
+- **Status:** actively updated
+- **License:** Proprietary (All Rights Reserved)
 
 ## 📊 Coverage Breakdown
 
@@ -25,13 +25,15 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - **300-399**: 59 solutions
 - **400-499**: 70 solutions
 - **500-999**: 53 solutions
-- **1000-1999**: 39 solutions
+- **1000-1999**: 40 solutions
 - **2000-2999**: 51 solutions
-- **3000-3999**: 86 solutions
+- **3000-3999**: 87 solutions
 - **Other**: 29 solutions
 
 ## ✨ Latest Work
 
+- `1979. Find Greatest Common Divisor of Array.py` — 2026-07-18 19:11
+- `3312. Sorted GCD Pair Queries.py` — 2026-07-17 20:58
 - `3658. GCD of Odd and Even Sums.py` — 2026-07-15 20:33
 - `3336. Find the Number of Subsequences With Equal GCD.py` — 2026-07-14 19:23
 - `1301. Number of Paths with Max Score.py` — 2026-07-13 21:57
@@ -50,8 +52,6 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `2812. Find the Safest Path in a Grid.py` — 2026-07-01 10:16
 - `1358. Number of Substrings Containing All Three Characters.py` — 2026-07-01 10:14
 - `1967. Number of Strings That Appear as Substrings in Word.py` — 2026-06-29 14:18
-- `1846. Maximum Element After Decreasing and Rearranging.py` — 2026-06-28 21:13
-- `3020. Find the Maximum Number of Elements in Subset.py` — 2026-06-27 20:28
 
 ## 🧠 Skills & Topics
 
@@ -78,7 +78,7 @@ Run `python update_readme.py` from the repository root to refresh counts and the
 This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (578 files)</summary>
+<summary>🗂 Full Python Problem Index (580 files)</summary>
 
 - `2. Add Two Numbers.py`
 - `3. Longest Substring Without Repeating Characters.py`
@@ -492,6 +492,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `1925. Count Square Sum Triples.py`
 - `1930. Unique Length-3 Palindromic Subsequences.py`
 - `1967. Number of Strings That Appear as Substrings in Word.py`
+- `1979. Find Greatest Common Divisor of Array.py`
 - `2043. Simple Bank System.py`
 - `2048. Next Greater Numerically Balanced Number.py`
 - `2054. Two Best Non-Overlapping Events.py`
@@ -559,6 +560,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `3286. Find a Safe Walk Through a Grid.py`
 - `3289. The Two Sneaky Numbers of Digitville.py`
 - `3300. Minimum Element After Replacement With Digit Sum.py`
+- `3312. Sorted GCD Pair Queries.py`
 - `3318. Find X-Sum of All K-Long Subarrays I.py`
 - `3336. Find the Number of Subsequences With Equal GCD.py`
 - `3354. Make Array Elements Equal to Zero.py`
