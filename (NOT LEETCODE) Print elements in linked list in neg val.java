@@ -1,5 +1,6 @@
-class Solution{
-
+class Sol
+{
+    public static void main(String[] args){
 public void printAllAsNegative(Node head) {
     Node current = head;
     while (current != null) {
