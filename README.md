@@ -9,11 +9,11 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-07-18
-- **Python solutions:** 580
+- **Last updated:** 2026-07-19
+- **Python solutions:** 581
 - **SQL practice files:** 16
 - **Text problem files:** 4
-- **Total files:** 600
+- **Total files:** 601
 - **Status:** actively updated
 - **License:** Proprietary (All Rights Reserved)
 
@@ -25,13 +25,14 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - **300-399**: 59 solutions
 - **400-499**: 70 solutions
 - **500-999**: 53 solutions
-- **1000-1999**: 40 solutions
+- **1000-1999**: 41 solutions
 - **2000-2999**: 51 solutions
 - **3000-3999**: 87 solutions
 - **Other**: 29 solutions
 
 ## ✨ Latest Work
 
+- `1081. Smallest Subsequence of Distinct Characters.py` — 2026-07-19 14:03
 - `1979. Find Greatest Common Divisor of Array.py` — 2026-07-18 19:11
 - `3312. Sorted GCD Pair Queries.py` — 2026-07-17 20:58
 - `3658. GCD of Odd and Even Sums.py` — 2026-07-15 20:33
@@ -51,7 +52,6 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `3286. Find a Safe Walk Through a Grid.py` — 2026-07-02 20:34
 - `2812. Find the Safest Path in a Grid.py` — 2026-07-01 10:16
 - `1358. Number of Substrings Containing All Three Characters.py` — 2026-07-01 10:14
-- `1967. Number of Strings That Appear as Substrings in Word.py` — 2026-06-29 14:18
 
 ## 🧠 Skills & Topics
 
@@ -78,7 +78,7 @@ Run `python update_readme.py` from the repository root to refresh counts and the
 This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (580 files)</summary>
+<summary>🗂 Full Python Problem Index (581 files)</summary>
 
 - `2. Add Two Numbers.py`
 - `3. Longest Substring Without Repeating Characters.py`
@@ -455,6 +455,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `960. Delete Columns to Make Sorted III.py`
 - `1015. Smallest Integer Divisible by K.py`
 - `1018. Binary Prefix Divisible By 5.py`
+- `1081. Smallest Subsequence of Distinct Characters.py`
 - `1189. Maximum Number of Balloons.py`
 - `1262. Greatest Sum Divisible by Three.py`
 - `1288. Remove Covered Intervals.py`
