@@ -24,16 +24,18 @@ def sort_key(path: Path):
     return (num is None, num or 0, path.name.lower())
 
 
-PY_FILES = sorted([p for p in ROOT.glob("*.py") if p.name not in EXCLUDE], key=sort_key)
+PY_FILES = sorted([p for p in ROOT.glob("*.[pP][yY]") if p.name not in EXCLUDE], key=sort_key)
+JAVA_FILES = sorted(ROOT.glob("*.java"), key=sort_key)
 SQL_FILES = sorted(ROOT.glob("*.sql"), key=sort_key)
 TXT_FILES = sorted(ROOT.glob("*.txt"), key=sort_key)
 
 TOTAL_PY = len(PY_FILES)
+TOTAL_JAVA = len(JAVA_FILES)
 TOTAL_SQL = len(SQL_FILES)
 TOTAL_TXT = len(TXT_FILES)
-TOTAL_FILES = TOTAL_PY + TOTAL_SQL + TOTAL_TXT
+TOTAL_FILES = TOTAL_PY + TOTAL_JAVA + TOTAL_SQL + TOTAL_TXT
 
-ALL_FILES = PY_FILES + SQL_FILES + TXT_FILES
+ALL_FILES = PY_FILES + JAVA_FILES + SQL_FILES + TXT_FILES
 LATEST_FILES = sorted(ALL_FILES, key=lambda p: p.stat().st_mtime, reverse=True)[:20]
 
 RANGE_LABELS = [
@@ -77,7 +79,7 @@ def problem_range_label(file_name: str):
     return "Other"
 
 
-for file_path in PY_FILES:
+for file_path in PY_FILES + JAVA_FILES:
     range_counts[problem_range_label(file_path.name)] += 1
 
 range_summary = [
@@ -91,6 +93,20 @@ for file_path in LATEST_FILES:
     modified = datetime.fromtimestamp(file_path.stat().st_mtime).strftime("%Y-%m-%d %H:%M")
     latest_lines.append(f"- `{file_path.name}` — {modified}")
 
+snapshot_lines = [
+    f"- **Last updated:** {datetime.now().strftime('%Y-%m-%d')}",
+    f"- **Python solutions:** {TOTAL_PY}",
+]
+if TOTAL_JAVA > 0:
+    snapshot_lines.append(f"- **Java solutions:** {TOTAL_JAVA}")
+snapshot_lines.extend([
+    f"- **SQL practice files:** {TOTAL_SQL}",
+    f"- **Text problem files:** {TOTAL_TXT}",
+    f"- **Total files:** {TOTAL_FILES}",
+    "- **Status:** actively updated",
+    "- **License:** Proprietary (All Rights Reserved)",
+])
+
 readme_lines = [
     "# LeetCode Practice Codes",
     "",
@@ -103,13 +119,7 @@ readme_lines = [
     "",
     "## 🚀 Snapshot",
     "",
-    f"- **Last updated:** {datetime.now().strftime('%Y-%m-%d')}",
-    f"- **Python solutions:** {TOTAL_PY}",
-    f"- **SQL practice files:** {TOTAL_SQL}",
-    f"- **Text problem files:** {TOTAL_TXT}",
-    f"- **Total files:** {TOTAL_FILES}",
-    "- **Status:** actively updated",
-    "- **License:** Proprietary (All Rights Reserved)",
+] + snapshot_lines + [
     "",
     "## 📊 Coverage Breakdown",
     "",
@@ -129,7 +139,7 @@ readme_lines = [
     "",
     "## 📁 Repository Notes",
     "",
-    "- File format: `<problem_number>. <title>.py`",
+    "- File format: `<problem_number>. <title>.py` / `.java`",
     "- SQL solutions: `.sql`",
     "- Extra practice: `.txt`",
     "- Full Python index is tucked below to keep the page clean.",
@@ -157,5 +167,5 @@ readme_lines = [
 
 README.write_text("\n".join(readme_lines).strip() + "\n", encoding="utf-8")
 print(
-    f"Updated README.md with {TOTAL_PY} Python solutions, {TOTAL_SQL} SQL files, and {TOTAL_TXT} text files."
+    f"Updated README.md with {TOTAL_PY} Python solutions, {TOTAL_JAVA} Java solutions, {TOTAL_SQL} SQL files, and {TOTAL_TXT} text files."
 )

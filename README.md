@@ -9,11 +9,12 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-07-20
+- **Last updated:** 2026-07-21
 - **Python solutions:** 582
+- **Java solutions:** 3
 - **SQL practice files:** 16
 - **Text problem files:** 4
-- **Total files:** 602
+- **Total files:** 605
 - **Status:** actively updated
 - **License:** Proprietary (All Rights Reserved)
 
@@ -26,16 +27,19 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - **400-499**: 70 solutions
 - **500-999**: 53 solutions
 - **1000-1999**: 42 solutions
-- **2000-2999**: 51 solutions
-- **3000-3999**: 87 solutions
-- **Other**: 29 solutions
+- **2000-2999**: 52 solutions
+- **3000-3999**: 88 solutions
+- **Other**: 30 solutions
 
 ## ✨ Latest Work
 
+- `3499. Maximize Active Section with Trade I.java` — 2026-07-21 21:01
 - `1260. Shift 2D Grid.py` — 2026-07-20 16:05
 - `1081. Smallest Subsequence of Distinct Characters.py` — 2026-07-19 14:03
 - `1979. Find Greatest Common Divisor of Array.py` — 2026-07-18 19:11
+- `(NOT LEETCODE) Print elements in linked list in neg val.java` — 2026-07-17 22:43
 - `3312. Sorted GCD Pair Queries.py` — 2026-07-17 20:58
+- `2181. Merge Nodes in Between Zeros.java` — 2026-07-17 14:54
 - `3658. GCD of Odd and Even Sums.py` — 2026-07-15 20:33
 - `3336. Find the Number of Subsequences With Equal GCD.py` — 2026-07-14 19:23
 - `1301. Number of Paths with Max Score.py` — 2026-07-13 21:57
@@ -49,9 +53,6 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `3754. Concatenate Non-Zero Digits and Multiply by Sum I.py` — 2026-07-07 22:01
 - `1288. Remove Covered Intervals.py` — 2026-07-06 21:16
 - `2492. Minimum Score of a Path Between Two Cities.py` — 2026-07-04 12:21
-- `3620. Network Recovery Pathways.py` — 2026-07-04 12:08
-- `3286. Find a Safe Walk Through a Grid.py` — 2026-07-02 20:34
-- `2812. Find the Safest Path in a Grid.py` — 2026-07-01 10:16
 
 ## 🧠 Skills & Topics
 
@@ -63,7 +64,7 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 📁 Repository Notes
 
-- File format: `<problem_number>. <title>.py`
+- File format: `<problem_number>. <title>.py` / `.java`
 - SQL solutions: `.sql`
 - Extra practice: `.txt`
 - Full Python index is tucked below to keep the page clean.
