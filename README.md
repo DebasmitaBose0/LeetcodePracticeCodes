@@ -9,12 +9,12 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-07-21
-- **Python solutions:** 582
+- **Last updated:** 2026-07-22
+- **Python solutions:** 583
 - **Java solutions:** 3
 - **SQL practice files:** 16
 - **Text problem files:** 4
-- **Total files:** 605
+- **Total files:** 606
 - **Status:** actively updated
 - **License:** Proprietary (All Rights Reserved)
 
@@ -28,11 +28,12 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - **500-999**: 53 solutions
 - **1000-1999**: 42 solutions
 - **2000-2999**: 52 solutions
-- **3000-3999**: 88 solutions
+- **3000-3999**: 89 solutions
 - **Other**: 30 solutions
 
 ## ✨ Latest Work
 
+- `3501. Maximize Active Section with Trade II.py` — 2026-07-22 20:17
 - `3499. Maximize Active Section with Trade I.java` — 2026-07-21 21:01
 - `1260. Shift 2D Grid.py` — 2026-07-20 16:05
 - `1081. Smallest Subsequence of Distinct Characters.py` — 2026-07-19 14:03
@@ -52,7 +53,6 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `3756. Concatenate Non-Zero Digits and Multiply by Sum II.py` — 2026-07-08 19:29
 - `3754. Concatenate Non-Zero Digits and Multiply by Sum I.py` — 2026-07-07 22:01
 - `1288. Remove Covered Intervals.py` — 2026-07-06 21:16
-- `2492. Minimum Score of a Path Between Two Cities.py` — 2026-07-04 12:21
 
 ## 🧠 Skills & Topics
 
@@ -79,7 +79,7 @@ Run `python update_readme.py` from the repository root to refresh counts and the
 This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (582 files)</summary>
+<summary>🗂 Full Python Problem Index (583 files)</summary>
 
 - `2. Add Two Numbers.py`
 - `3. Longest Substring Without Repeating Characters.py`
@@ -574,6 +574,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `3464. Maximize the Distance Between Points on a Square.py`
 - `3474. Lexicographically Smallest Generated String.py`
 - `3488. Closest Equal Element Queries.py`
+- `3501. Maximize Active Section with Trade II.py`
 - `3512. Minimum Operations to Make Array Sum Divisible by K.py`
 - `3531. Count Covered Buildings.py`
 - `3532. Path Existence Queries in a Graph I.py`
