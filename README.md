@@ -9,12 +9,12 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-07-25
-- **Python solutions:** 586
+- **Last updated:** 2026-07-26
+- **Python solutions:** 587
 - **Java solutions:** 3
 - **SQL practice files:** 16
 - **Text problem files:** 4
-- **Total files:** 609
+- **Total files:** 610
 - **Status:** actively updated
 - **License:** Proprietary (All Rights Reserved)
 
@@ -25,7 +25,7 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - **200-299**: 57 solutions
 - **300-399**: 59 solutions
 - **400-499**: 70 solutions
-- **500-999**: 53 solutions
+- **500-999**: 54 solutions
 - **1000-1999**: 42 solutions
 - **2000-2999**: 52 solutions
 - **3000-3999**: 92 solutions
@@ -33,6 +33,7 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## ✨ Latest Work
 
+- `628. Maximum Product of Three Numbers.py` — 2026-07-26 14:24
 - `3536. Maximum Product of Two Digits.py` — 2026-07-25 19:52
 - `3514. Number of Unique XOR Triplets II.py` — 2026-07-24 15:49
 - `3513. Number of Unique XOR Triplets I.py` — 2026-07-23 21:03
@@ -52,7 +53,6 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `1291. Sequential Digits.py` — 2026-07-13 21:54
 - `2685. Count the Number of Complete Components.py` — 2026-07-11 19:35
 - `3532. Path Existence Queries in a Graph I.py` — 2026-07-10 18:44
-- `3534. Path Existence Queries in a Graph II.py` — 2026-07-10 18:44
 
 ## 🧠 Skills & Topics
 
@@ -79,7 +79,7 @@ Run `python update_readme.py` from the repository root to refresh counts and the
 This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (586 files)</summary>
+<summary>🗂 Full Python Problem Index (587 files)</summary>
 
 - `2. Add Two Numbers.py`
 - `3. Longest Substring Without Repeating Characters.py`
@@ -446,6 +446,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `566. Reshape the Matrix.py`
 - `567. Permutation in String.py`
 - `572. Subtree of Another Tree.py`
+- `628. Maximum Product of Three Numbers.py`
 - `657. Robot Return to Origin.py`
 - `717. 1-bit and 2-bit Characters.py`
 - `757. Set Intersection Size At Least Two.py`
