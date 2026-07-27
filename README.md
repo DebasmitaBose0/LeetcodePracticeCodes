@@ -9,12 +9,12 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-07-26
-- **Python solutions:** 587
+- **Last updated:** 2026-07-27
+- **Python solutions:** 588
 - **Java solutions:** 3
 - **SQL practice files:** 16
 - **Text problem files:** 4
-- **Total files:** 610
+- **Total files:** 611
 - **Status:** actively updated
 - **License:** Proprietary (All Rights Reserved)
 
@@ -26,13 +26,14 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - **300-399**: 59 solutions
 - **400-499**: 70 solutions
 - **500-999**: 54 solutions
-- **1000-1999**: 42 solutions
+- **1000-1999**: 43 solutions
 - **2000-2999**: 52 solutions
 - **3000-3999**: 92 solutions
 - **Other**: 30 solutions
 
 ## ✨ Latest Work
 
+- `1464. Maximum Product of Two Elements in an Array.py` — 2026-07-27 19:08
 - `628. Maximum Product of Three Numbers.py` — 2026-07-26 14:24
 - `3536. Maximum Product of Two Digits.py` — 2026-07-25 19:52
 - `3514. Number of Unique XOR Triplets II.py` — 2026-07-24 15:49
@@ -52,7 +53,6 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `1331. Rank Transform of an Array.py` — 2026-07-13 21:54
 - `1291. Sequential Digits.py` — 2026-07-13 21:54
 - `2685. Count the Number of Complete Components.py` — 2026-07-11 19:35
-- `3532. Path Existence Queries in a Graph I.py` — 2026-07-10 18:44
 
 ## 🧠 Skills & Topics
 
@@ -79,7 +79,7 @@ Run `python update_readme.py` from the repository root to refresh counts and the
 This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (587 files)</summary>
+<summary>🗂 Full Python Problem Index (588 files)</summary>
 
 - `2. Add Two Numbers.py`
 - `3. Longest Substring Without Repeating Characters.py`
@@ -473,6 +473,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `1358. Number of Substrings Containing All Three Characters.py`
 - `1391. Check if There is a Valid Path in a Grid.py`
 - `1437. Check If All 1's Are at Least Length K Places Away.py`
+- `1464. Maximum Product of Two Elements in an Array.py`
 - `1513. Number of Substrings With Only 1s.py`
 - `1523. Count Odd Numbers in an Interval Range.py`
 - `1526. Minimum Number of Increments on Subarrays to Form a Target Array.py`
