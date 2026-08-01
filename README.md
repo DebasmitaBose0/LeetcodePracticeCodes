@@ -9,12 +9,12 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-07-27
-- **Python solutions:** 588
+- **Last updated:** 2026-08-01
+- **Python solutions:** 593
 - **Java solutions:** 3
 - **SQL practice files:** 16
 - **Text problem files:** 4
-- **Total files:** 611
+- **Total files:** 616
 - **Status:** actively updated
 - **License:** Proprietary (All Rights Reserved)
 
@@ -24,15 +24,20 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - **100-199**: 64 solutions
 - **200-299**: 57 solutions
 - **300-399**: 59 solutions
-- **400-499**: 70 solutions
+- **400-499**: 71 solutions
 - **500-999**: 54 solutions
 - **1000-1999**: 43 solutions
 - **2000-2999**: 52 solutions
-- **3000-3999**: 92 solutions
+- **3000-3999**: 96 solutions
 - **Other**: 30 solutions
 
 ## ✨ Latest Work
 
+- `486. Predict the Winner.py` — 2026-08-01 22:02
+- `3016. Minimum Number of Pushes to Type Word II.py` — 2026-08-01 22:01
+- `3014. Minimum Number of Pushes to Type Word I.py` — 2026-08-01 22:01
+- `3518. Smallest Palindromic Rearrangement II.py` — 2026-08-01 22:00
+- `3517. Smallest Palindromic Rearrangement I.py` — 2026-08-01 21:59
 - `1464. Maximum Product of Two Elements in an Array.py` — 2026-07-27 19:08
 - `628. Maximum Product of Three Numbers.py` — 2026-07-26 14:24
 - `3536. Maximum Product of Two Digits.py` — 2026-07-25 19:52
@@ -48,11 +53,6 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `2181. Merge Nodes in Between Zeros.java` — 2026-07-17 14:54
 - `3658. GCD of Odd and Even Sums.py` — 2026-07-15 20:33
 - `3336. Find the Number of Subsequences With Equal GCD.py` — 2026-07-14 19:23
-- `1301. Number of Paths with Max Score.py` — 2026-07-13 21:57
-- `1320. Minimum Distance to Type a Word Using Two Fingers.py` — 2026-07-13 21:54
-- `1331. Rank Transform of an Array.py` — 2026-07-13 21:54
-- `1291. Sequential Digits.py` — 2026-07-13 21:54
-- `2685. Count the Number of Complete Components.py` — 2026-07-11 19:35
 
 ## 🧠 Skills & Topics
 
@@ -79,7 +79,7 @@ Run `python update_readme.py` from the repository root to refresh counts and the
 This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (588 files)</summary>
+<summary>🗂 Full Python Problem Index (593 files)</summary>
 
 - `2. Add Two Numbers.py`
 - `3. Longest Substring Without Repeating Characters.py`
@@ -394,6 +394,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `481. Magical String.py`
 - `483. Smallest Good Base.py`
 - `485. Max Consecutive Ones.py`
+- `486. Predict the Winner.py`
 - `488. Zuma Game.py`
 - `491. Non-decreasing Subsequences.py`
 - `492. Construct the Rectangle.py`
@@ -549,6 +550,8 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `2909. Minimum Sum of Mountain Triplets II.py`
 - `2910. Minimum Number of Groups to Create a Valid Assignment.py`
 - `2946. Matrix Similarity After Cyclic Shifts.py`
+- `3014. Minimum Number of Pushes to Type Word I.py`
+- `3016. Minimum Number of Pushes to Type Word II.py`
 - `3020. Find the Maximum Number of Elements in Subset.py`
 - `3043. Find the Length of the Longest Common Prefix.py`
 - `3074. Apple Redistribution into Boxes.py`
@@ -580,6 +583,8 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `3512. Minimum Operations to Make Array Sum Divisible by K.py`
 - `3513. Number of Unique XOR Triplets I.py`
 - `3514. Number of Unique XOR Triplets II.py`
+- `3517. Smallest Palindromic Rearrangement I.py`
+- `3518. Smallest Palindromic Rearrangement II.py`
 - `3531. Count Covered Buildings.py`
 - `3532. Path Existence Queries in a Graph I.py`
 - `3534. Path Existence Queries in a Graph II.py`
