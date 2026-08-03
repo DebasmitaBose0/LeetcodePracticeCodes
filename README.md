@@ -9,12 +9,12 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-08-01
-- **Python solutions:** 593
+- **Last updated:** 2026-08-03
+- **Python solutions:** 595
 - **Java solutions:** 3
 - **SQL practice files:** 16
 - **Text problem files:** 4
-- **Total files:** 616
+- **Total files:** 618
 - **Status:** actively updated
 - **License:** Proprietary (All Rights Reserved)
 
@@ -25,14 +25,16 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - **200-299**: 57 solutions
 - **300-399**: 59 solutions
 - **400-499**: 71 solutions
-- **500-999**: 54 solutions
-- **1000-1999**: 43 solutions
+- **500-999**: 55 solutions
+- **1000-1999**: 44 solutions
 - **2000-2999**: 52 solutions
 - **3000-3999**: 96 solutions
 - **Other**: 30 solutions
 
 ## ✨ Latest Work
 
+- `1406. Stone Game III.py` — 2026-08-03 18:13
+- `877. Stone Game.py` — 2026-08-02 10:21
 - `486. Predict the Winner.py` — 2026-08-01 22:02
 - `3016. Minimum Number of Pushes to Type Word II.py` — 2026-08-01 22:01
 - `3014. Minimum Number of Pushes to Type Word I.py` — 2026-08-01 22:01
@@ -51,8 +53,6 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `(NOT LEETCODE) Print elements in linked list in neg val.java` — 2026-07-17 22:43
 - `3312. Sorted GCD Pair Queries.py` — 2026-07-17 20:58
 - `2181. Merge Nodes in Between Zeros.java` — 2026-07-17 14:54
-- `3658. GCD of Odd and Even Sums.py` — 2026-07-15 20:33
-- `3336. Find the Number of Subsequences With Equal GCD.py` — 2026-07-14 19:23
 
 ## 🧠 Skills & Topics
 
@@ -79,7 +79,7 @@ Run `python update_readme.py` from the repository root to refresh counts and the
 This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (593 files)</summary>
+<summary>🗂 Full Python Problem Index (595 files)</summary>
 
 - `2. Add Two Numbers.py`
 - `3. Longest Substring Without Repeating Characters.py`
@@ -453,6 +453,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `757. Set Intersection Size At Least Two.py`
 - `788. Rotated Digits.py`
 - `874. Walking Robot Simulation.py`
+- `877. Stone Game.py`
 - `944. Delete Columns to Make Sorted.py`
 - `955. Delete Columns to Make Sorted II.py`
 - `960. Delete Columns to Make Sorted III.py`
@@ -473,6 +474,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `1345. Jump Game IV.py`
 - `1358. Number of Substrings Containing All Three Characters.py`
 - `1391. Check if There is a Valid Path in a Grid.py`
+- `1406. Stone Game III.py`
 - `1437. Check If All 1's Are at Least Length K Places Away.py`
 - `1464. Maximum Product of Two Elements in an Array.py`
 - `1513. Number of Substrings With Only 1s.py`
