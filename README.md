@@ -9,12 +9,12 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-08-05
-- **Python solutions:** 596
+- **Last updated:** 2026-08-06
+- **Python solutions:** 597
 - **Java solutions:** 3
 - **SQL practice files:** 16
 - **Text problem files:** 4
-- **Total files:** 619
+- **Total files:** 620
 - **Status:** actively updated
 - **License:** Proprietary (All Rights Reserved)
 
@@ -28,12 +28,13 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - **500-999**: 55 solutions
 - **1000-1999**: 44 solutions
 - **2000-2999**: 52 solutions
-- **3000-3999**: 97 solutions
+- **3000-3999**: 98 solutions
 - **Other**: 30 solutions
 
 ## ✨ Latest Work
 
-- `3310. Remove Methods From Project.py` — 2026-08-05 20:07
+- `3345. Smallest Divisible Digit Product I.py` — 2026-08-06 21:48
+- `3310. Remove Methods From Project.py` — 2026-08-05 20:29
 - `1406. Stone Game III.py` — 2026-08-03 18:13
 - `877. Stone Game.py` — 2026-08-02 10:21
 - `486. Predict the Winner.py` — 2026-08-01 22:02
@@ -52,7 +53,6 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `1081. Smallest Subsequence of Distinct Characters.py` — 2026-07-19 14:03
 - `1979. Find Greatest Common Divisor of Array.py` — 2026-07-18 19:11
 - `(NOT LEETCODE) Print elements in linked list in neg val.java` — 2026-07-17 22:43
-- `3312. Sorted GCD Pair Queries.py` — 2026-07-17 20:58
 
 ## 🧠 Skills & Topics
 
@@ -79,7 +79,7 @@ Run `python update_readme.py` from the repository root to refresh counts and the
 This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (596 files)</summary>
+<summary>🗂 Full Python Problem Index (597 files)</summary>
 
 - `2. Add Two Numbers.py`
 - `3. Longest Substring Without Repeating Characters.py`
@@ -574,6 +574,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `3312. Sorted GCD Pair Queries.py`
 - `3318. Find X-Sum of All K-Long Subarrays I.py`
 - `3336. Find the Number of Subsequences With Equal GCD.py`
+- `3345. Smallest Divisible Digit Product I.py`
 - `3354. Make Array Elements Equal to Zero.py`
 - `3370. Smallest Number With All Set Bits.py`
 - `3381. Maximum Subarray Sum With Length Divisible by K.py`
