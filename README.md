@@ -9,12 +9,12 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-08-06
-- **Python solutions:** 597
+- **Last updated:** 2026-08-07
+- **Python solutions:** 598
 - **Java solutions:** 3
 - **SQL practice files:** 16
 - **Text problem files:** 4
-- **Total files:** 620
+- **Total files:** 621
 - **Status:** actively updated
 - **License:** Proprietary (All Rights Reserved)
 
@@ -28,11 +28,12 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - **500-999**: 55 solutions
 - **1000-1999**: 44 solutions
 - **2000-2999**: 52 solutions
-- **3000-3999**: 98 solutions
+- **3000-3999**: 99 solutions
 - **Other**: 30 solutions
 
 ## ✨ Latest Work
 
+- `3348. Smallest Divisible Digit Product II.py` — 2026-08-07 21:58
 - `3345. Smallest Divisible Digit Product I.py` — 2026-08-06 21:48
 - `3310. Remove Methods From Project.py` — 2026-08-05 20:29
 - `1406. Stone Game III.py` — 2026-08-03 18:13
@@ -52,7 +53,6 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `1260. Shift 2D Grid.py` — 2026-07-20 16:05
 - `1081. Smallest Subsequence of Distinct Characters.py` — 2026-07-19 14:03
 - `1979. Find Greatest Common Divisor of Array.py` — 2026-07-18 19:11
-- `(NOT LEETCODE) Print elements in linked list in neg val.java` — 2026-07-17 22:43
 
 ## 🧠 Skills & Topics
 
@@ -79,7 +79,7 @@ Run `python update_readme.py` from the repository root to refresh counts and the
 This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (597 files)</summary>
+<summary>🗂 Full Python Problem Index (598 files)</summary>
 
 - `2. Add Two Numbers.py`
 - `3. Longest Substring Without Repeating Characters.py`
@@ -575,6 +575,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `3318. Find X-Sum of All K-Long Subarrays I.py`
 - `3336. Find the Number of Subsequences With Equal GCD.py`
 - `3345. Smallest Divisible Digit Product I.py`
+- `3348. Smallest Divisible Digit Product II.py`
 - `3354. Make Array Elements Equal to Zero.py`
 - `3370. Smallest Number With All Set Bits.py`
 - `3381. Maximum Subarray Sum With Length Divisible by K.py`
