@@ -9,12 +9,12 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-08-07
-- **Python solutions:** 598
+- **Last updated:** 2026-08-08
+- **Python solutions:** 599
 - **Java solutions:** 3
 - **SQL practice files:** 16
 - **Text problem files:** 4
-- **Total files:** 621
+- **Total files:** 622
 - **Status:** actively updated
 - **License:** Proprietary (All Rights Reserved)
 
@@ -28,11 +28,12 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - **500-999**: 55 solutions
 - **1000-1999**: 44 solutions
 - **2000-2999**: 52 solutions
-- **3000-3999**: 99 solutions
+- **3000-3999**: 100 solutions
 - **Other**: 30 solutions
 
 ## ✨ Latest Work
 
+- `3302. Find the Lexicographically Smallest Valid Sequence.py` — 2026-08-08 21:59
 - `3348. Smallest Divisible Digit Product II.py` — 2026-08-07 21:58
 - `3345. Smallest Divisible Digit Product I.py` — 2026-08-06 21:48
 - `3310. Remove Methods From Project.py` — 2026-08-05 20:29
@@ -52,7 +53,6 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `3499. Maximize Active Section with Trade I.java` — 2026-07-21 21:01
 - `1260. Shift 2D Grid.py` — 2026-07-20 16:05
 - `1081. Smallest Subsequence of Distinct Characters.py` — 2026-07-19 14:03
-- `1979. Find Greatest Common Divisor of Array.py` — 2026-07-18 19:11
 
 ## 🧠 Skills & Topics
 
@@ -79,7 +79,7 @@ Run `python update_readme.py` from the repository root to refresh counts and the
 This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (598 files)</summary>
+<summary>🗂 Full Python Problem Index (599 files)</summary>
 
 - `2. Add Two Numbers.py`
 - `3. Longest Substring Without Repeating Characters.py`
@@ -570,6 +570,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `3286. Find a Safe Walk Through a Grid.py`
 - `3289. The Two Sneaky Numbers of Digitville.py`
 - `3300. Minimum Element After Replacement With Digit Sum.py`
+- `3302. Find the Lexicographically Smallest Valid Sequence.py`
 - `3310. Remove Methods From Project.py`
 - `3312. Sorted GCD Pair Queries.py`
 - `3318. Find X-Sum of All K-Long Subarrays I.py`
