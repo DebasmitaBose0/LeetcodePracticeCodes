@@ -9,12 +9,12 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-08-08
-- **Python solutions:** 599
+- **Last updated:** 2026-08-09
+- **Python solutions:** 600
 - **Java solutions:** 3
 - **SQL practice files:** 16
 - **Text problem files:** 4
-- **Total files:** 622
+- **Total files:** 623
 - **Status:** actively updated
 - **License:** Proprietary (All Rights Reserved)
 
@@ -26,13 +26,14 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - **300-399**: 59 solutions
 - **400-499**: 71 solutions
 - **500-999**: 55 solutions
-- **1000-1999**: 44 solutions
+- **1000-1999**: 45 solutions
 - **2000-2999**: 52 solutions
 - **3000-3999**: 100 solutions
 - **Other**: 30 solutions
 
 ## ✨ Latest Work
 
+- `1140. Stone Game II.py` — 2026-08-09 20:36
 - `3302. Find the Lexicographically Smallest Valid Sequence.py` — 2026-08-08 21:59
 - `3348. Smallest Divisible Digit Product II.py` — 2026-08-07 21:58
 - `3345. Smallest Divisible Digit Product I.py` — 2026-08-06 21:48
@@ -52,7 +53,6 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `3501. Maximize Active Section with Trade II.py` — 2026-07-22 20:17
 - `3499. Maximize Active Section with Trade I.java` — 2026-07-21 21:01
 - `1260. Shift 2D Grid.py` — 2026-07-20 16:05
-- `1081. Smallest Subsequence of Distinct Characters.py` — 2026-07-19 14:03
 
 ## 🧠 Skills & Topics
 
@@ -79,7 +79,7 @@ Run `python update_readme.py` from the repository root to refresh counts and the
 This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (599 files)</summary>
+<summary>🗂 Full Python Problem Index (600 files)</summary>
 
 - `2. Add Two Numbers.py`
 - `3. Longest Substring Without Repeating Characters.py`
@@ -460,6 +460,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `1015. Smallest Integer Divisible by K.py`
 - `1018. Binary Prefix Divisible By 5.py`
 - `1081. Smallest Subsequence of Distinct Characters.py`
+- `1140. Stone Game II.py`
 - `1189. Maximum Number of Balloons.py`
 - `1260. Shift 2D Grid.py`
 - `1262. Greatest Sum Divisible by Three.py`
