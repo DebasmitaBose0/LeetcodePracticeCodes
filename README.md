@@ -9,12 +9,12 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 
 ## 🚀 Snapshot
 
-- **Last updated:** 2026-08-11
-- **Python solutions:** 601
+- **Last updated:** 2026-08-12
+- **Python solutions:** 602
 - **Java solutions:** 3
 - **SQL practice files:** 16
 - **Text problem files:** 4
-- **Total files:** 624
+- **Total files:** 625
 - **Status:** actively updated
 - **License:** Proprietary (All Rights Reserved)
 
@@ -27,12 +27,13 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - **400-499**: 71 solutions
 - **500-999**: 55 solutions
 - **1000-1999**: 45 solutions
-- **2000-2999**: 53 solutions
+- **2000-2999**: 54 solutions
 - **3000-3999**: 100 solutions
 - **Other**: 30 solutions
 
 ## ✨ Latest Work
 
+- `2958. Length of Longest Subarray With at Most K Frequency.py` — 2026-08-12 19:58
 - `2996. Smallest Missing Integer Greater Than Sequential Prefix Sum.py` — 2026-08-11 22:39
 - `1140. Stone Game II.py` — 2026-08-09 20:36
 - `3302. Find the Lexicographically Smallest Valid Sequence.py` — 2026-08-08 21:59
@@ -52,7 +53,6 @@ A compact and readable archive of LeetCode solutions, focused on algorithms, dat
 - `3514. Number of Unique XOR Triplets II.py` — 2026-07-24 15:49
 - `3513. Number of Unique XOR Triplets I.py` — 2026-07-23 21:03
 - `3501. Maximize Active Section with Trade II.py` — 2026-07-22 20:17
-- `3499. Maximize Active Section with Trade I.java` — 2026-07-21 21:01
 
 ## 🧠 Skills & Topics
 
@@ -79,7 +79,7 @@ Run `python update_readme.py` from the repository root to refresh counts and the
 This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) for details.
 
 <details>
-<summary>🗂 Full Python Problem Index (601 files)</summary>
+<summary>🗂 Full Python Problem Index (602 files)</summary>
 
 - `2. Add Two Numbers.py`
 - `3. Longest Substring Without Repeating Characters.py`
@@ -553,6 +553,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `2909. Minimum Sum of Mountain Triplets II.py`
 - `2910. Minimum Number of Groups to Create a Valid Assignment.py`
 - `2946. Matrix Similarity After Cyclic Shifts.py`
+- `2958. Length of Longest Subarray With at Most K Frequency.py`
 - `2996. Smallest Missing Integer Greater Than Sequential Prefix Sum.py`
 - `3014. Minimum Number of Pushes to Type Word I.py`
 - `3016. Minimum Number of Pushes to Type Word II.py`
