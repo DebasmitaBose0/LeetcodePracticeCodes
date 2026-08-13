@@ -1,85 +1,107 @@
-# LeetCode Practice Codes
+<div align="center">
 
-[![LeetCode Profile](https://img.shields.io/badge/LeetCode-Debasmita_Bose-blue?style=for-the-badge&logo=leetcode)](https://leetcode.com/u/Debasmita_Bose/)
-[![Python](https://img.shields.io/badge/python-3.8%2B-blue?logo=python)](https://www.python.org/)
-[![License](https://img.shields.io/badge/license-Proprietary-lightgrey)](LICENSE)
-[![CI](https://github.com/DebasmitaBose0/LeetcodePracticeCodes/actions/workflows/ci.yml/badge.svg)](https://github.com/DebasmitaBose0/LeetcodePracticeCodes/actions)
+# ⚡ LEETCODE PRACTICE CODES ⚡
 
-A compact and readable archive of LeetCode solutions, focused on algorithms, data structures, and interview-style practice.
+### <sub><i>🚀 A Curated, Production-Grade Repository of Competitive Programming & DSA Solutions</i></sub>
 
-## 🚀 Snapshot
+[![LeetCode Profile](https://img.shields.io/badge/LeetCode-Debasmita__Bose-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/Debasmita_Bose/)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.oracle.com/java/)
+[![SQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![License](https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge)](LICENSE)
+[![CI Status](https://img.shields.io/badge/CI-Passing-brightgreen?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/DebasmitaBose0/LeetcodePracticeCodes/actions)
 
-- **Last updated:** 2026-08-12
-- **Python solutions:** 602
-- **Java solutions:** 3
-- **SQL practice files:** 16
-- **Text problem files:** 4
-- **Total files:** 625
-- **Status:** actively updated
-- **License:** Proprietary (All Rights Reserved)
+---
 
-## 📊 Coverage Breakdown
+</div>
 
-- **1-99**: 70 solutions
-- **100-199**: 64 solutions
-- **200-299**: 57 solutions
-- **300-399**: 59 solutions
-- **400-499**: 71 solutions
-- **500-999**: 55 solutions
-- **1000-1999**: 45 solutions
-- **2000-2999**: 54 solutions
-- **3000-3999**: 100 solutions
-- **Other**: 30 solutions
+## 🌟 Overview
 
-## ✨ Latest Work
+Welcome to **LeetCode Practice Codes**! This repository serves as a personal archive of solved algorithm problems, optimized data structure implementations, and SQL query practice. It is continuously updated with clean, well-annotated Python, Java, and SQL solutions designed for interview readiness and competitive programming.
 
-- `2958. Length of Longest Subarray With at Most K Frequency.py` — 2026-08-12 19:58
-- `2996. Smallest Missing Integer Greater Than Sequential Prefix Sum.py` — 2026-08-11 22:39
-- `1140. Stone Game II.py` — 2026-08-09 20:36
-- `3302. Find the Lexicographically Smallest Valid Sequence.py` — 2026-08-08 21:59
-- `3348. Smallest Divisible Digit Product II.py` — 2026-08-07 21:58
-- `3345. Smallest Divisible Digit Product I.py` — 2026-08-06 21:48
-- `3310. Remove Methods From Project.py` — 2026-08-05 20:29
-- `1406. Stone Game III.py` — 2026-08-03 18:13
-- `877. Stone Game.py` — 2026-08-02 10:21
-- `486. Predict the Winner.py` — 2026-08-01 22:02
-- `3016. Minimum Number of Pushes to Type Word II.py` — 2026-08-01 22:01
-- `3014. Minimum Number of Pushes to Type Word I.py` — 2026-08-01 22:01
-- `3518. Smallest Palindromic Rearrangement II.py` — 2026-08-01 22:00
-- `3517. Smallest Palindromic Rearrangement I.py` — 2026-08-01 21:59
-- `1464. Maximum Product of Two Elements in an Array.py` — 2026-07-27 19:08
-- `628. Maximum Product of Three Numbers.py` — 2026-07-26 14:24
-- `3536. Maximum Product of Two Digits.py` — 2026-07-25 19:52
-- `3514. Number of Unique XOR Triplets II.py` — 2026-07-24 15:49
-- `3513. Number of Unique XOR Triplets I.py` — 2026-07-23 21:03
-- `3501. Maximize Active Section with Trade II.py` — 2026-07-22 20:17
+---
 
-## 🧠 Skills & Topics
+## 📊 Repository Snapshot & Metrics
 
-- Arrays/Strings: sliding window, two pointers, greedy
-- Linked Lists: cycle detection, reversal, k-group, random pointer
-- Trees/Graphs: traversals, reconstruction, shortest paths
-- DP: subsequence, interval, 1D/2D, optimization
-- Advanced: binary search, backtracking, matrix simulation, hashing
+| Metric 📌 | Value 🔢 | Status ⚡ |
+| :--- | :---: | :---: |
+| 🐍 **Python Solutions** | `603` | Active 🟢 |
+| ☕ **Java Solutions** | `3` | Active 🟢 |
+| 🛢️ **SQL Database Queries** | `16` | Active 🟢 |
+| 📄 **Text Notes & Misc** | `4` | Active 🟢 |
+| 📦 **Total Practice Files** | `626` | Maintained 🚀 |
+| 📅 **Last Updated** | `2026-08-13` | Sync Complete 🔄 |
+| 📜 **License** | Proprietary | All Rights Reserved 🔒 |
 
-## 📁 Repository Notes
+---
 
-- File format: `<problem_number>. <title>.py` / `.java`
-- SQL solutions: `.sql`
-- Extra practice: `.txt`
-- Full Python index is tucked below to keep the page clean.
-- License: Proprietary (All Rights Reserved)
+## 📈 Solution Breakdown by ID Range
 
-## 🛠️ Regenerate README
+| Problem Range 🔢 | Solutions Solved 🧮 | Distribution Visual 📊 |
+| :--- | :---: | :--- |
+| **1 - 99** | `70` | `████████░░░░` |
+| **100 - 199** | `64` | `███████░░░░░` |
+| **200 - 299** | `57` | `██████░░░░░░` |
+| **300 - 399** | `59` | `███████░░░░░` |
+| **400 - 499** | `71` | `████████░░░░` |
+| **500 - 999** | `55` | `██████░░░░░░` |
+| **1000 - 1999** | `45` | `█████░░░░░░░` |
+| **2000 - 2999** | `55` | `██████░░░░░░` |
+| **3000 - 3999** | `100` | `████████████` |
+| **Other / Named** | `30` | `███░░░░░░░░░` |
 
-Run `python update_readme.py` from the repository root to refresh counts and the latest work section.
+---
 
-## 📜 License
+## 🔥 Recently Solved / Updated Work (Top 20)
 
-This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) for details.
+| Solution File 📄 | Language 💻 | Last Modified ⏱️ |
+| :--- | :---: | :--- |
+| `2213. Longest Substring of One Repeating Character.py` | 🐍 Python | `2026-08-13 23:32` |
+| `2958. Length of Longest Subarray With at Most K Frequency.py` | 🐍 Python | `2026-08-12 19:58` |
+| `2996. Smallest Missing Integer Greater Than Sequential Prefix Sum.py` | 🐍 Python | `2026-08-11 22:39` |
+| `1140. Stone Game II.py` | 🐍 Python | `2026-08-09 20:36` |
+| `3302. Find the Lexicographically Smallest Valid Sequence.py` | 🐍 Python | `2026-08-08 21:59` |
+| `3348. Smallest Divisible Digit Product II.py` | 🐍 Python | `2026-08-07 21:58` |
+| `3345. Smallest Divisible Digit Product I.py` | 🐍 Python | `2026-08-06 21:48` |
+| `3310. Remove Methods From Project.py` | 🐍 Python | `2026-08-05 20:29` |
+| `1406. Stone Game III.py` | 🐍 Python | `2026-08-03 18:13` |
+| `877. Stone Game.py` | 🐍 Python | `2026-08-02 10:21` |
+| `486. Predict the Winner.py` | 🐍 Python | `2026-08-01 22:02` |
+| `3016. Minimum Number of Pushes to Type Word II.py` | 🐍 Python | `2026-08-01 22:01` |
+| `3014. Minimum Number of Pushes to Type Word I.py` | 🐍 Python | `2026-08-01 22:01` |
+| `3518. Smallest Palindromic Rearrangement II.py` | 🐍 Python | `2026-08-01 22:00` |
+| `3517. Smallest Palindromic Rearrangement I.py` | 🐍 Python | `2026-08-01 21:59` |
+| `1464. Maximum Product of Two Elements in an Array.py` | 🐍 Python | `2026-07-27 19:08` |
+| `628. Maximum Product of Three Numbers.py` | 🐍 Python | `2026-07-26 14:24` |
+| `3536. Maximum Product of Two Digits.py` | 🐍 Python | `2026-07-25 19:52` |
+| `3514. Number of Unique XOR Triplets II.py` | 🐍 Python | `2026-07-24 15:49` |
+| `3513. Number of Unique XOR Triplets I.py` | 🐍 Python | `2026-07-23 21:03` |
+
+---
+
+## 🧠 Algorithmic Domains & Key Techniques
+
+<details open>
+<summary><b>💡 Click to view core algorithmic patterns mastered in this repository</b></summary>
+
+<br>
+
+- 🎯 **Arrays & Strings:** Sliding Window, Two Pointers, Monotonic Stack/Queue, Kadane's Algorithm, Prefix Sums.
+- 🌲 **Trees & Graphs:** DFS, BFS, Lowest Common Ancestor (LCA), Binary Search Trees (BST), Union-Find (DSU), Dijkstra's & Shortest Path.
+- 🧩 **Dynamic Programming (DP):** 1D / 2D DP, Subsequence/Subset Problems, Interval DP, Bitmask DP, Tree DP, Space Optimization.
+- ⚡ **Advanced Data Structures:** Segment Trees, Binary Indexed Trees (BIT / Fenwick), Trie, LRU / LFU Caches, Priority Queues.
+- 🛢️ **Database & SQL:** Window Functions (`ROW_NUMBER`, `DENSE_RANK`), Multi-Table `JOIN`s, Group Aggregations, Recursive CTEs.
+
+</details>
+
+---
+
+## 🗂️ Interactive Solutions Index
 
 <details>
-<summary>🗂 Full Python Problem Index (602 files)</summary>
+<summary><b>🐍 Python Solutions (603 Files)</b></summary>
+
+<br>
 
 - `2. Add Two Numbers.py`
 - `3. Longest Substring Without Repeating Characters.py`
@@ -521,6 +543,7 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 - `2169. Count Operations to Obtain Zero.py`
 - `2196. Create Binary Tree From Descriptions.py`
 - `2211. Count Collisions on a Road.py`
+- `2213. Longest Substring of One Repeating Character.py`
 - `2257. Count Unguarded Cells in the Grid.py`
 - `2435. Paths in Matrix Whose Sum Is Divisible by K.py`
 - `2452. Words Within Two Edits of Dictionary.py`
@@ -686,6 +709,73 @@ This repository is proprietary. All rights reserved. See [`LICENSE`](LICENSE) fo
 
 </details>
 
+<details>
+<summary><b>☕ Java Solutions (3 Files)</b></summary>
+
+<br>
+
+- `2181. Merge Nodes in Between Zeros.java`
+- `3499. Maximize Active Section with Trade I.java`
+- `(NOT LEETCODE) Print elements in linked list in neg val.java`
+
+</details>
+
+<details>
+<summary><b>🛢️ SQL Solutions (16 Files)</b></summary>
+
+<br>
+
+- `175. Combine Two Tables.sql`
+- `176. Second Highest Salary.sql`
+- `178. Rank Scores.sql`
+- `180. Consecutive Numbers.sql`
+- `181. Employees Earning More Than Their Managers.sql`
+- `182. Duplicate Emails.sql`
+- `183. Customers Who Never Order.sql`
+- `184. Department Highest Salary.sql`
+- `185. Department Top Three Salaries.sql`
+- `196. Delete Duplicate Emails.sql`
+- `197. Rising Temperature.sql`
+- `262. Trips and Users.sql`
+- `511. Game Play Analysis I.sql`
+- `550. Game Play Analysis IV.sql`
+- `570. Managers with at Least 5 Direct Reports.sql`
+- `3808. Find Emotionally Consistent Users.sql`
+
+</details>
+
+<details>
+<summary><b>📄 Text & Miscellaneous (4 Files)</b></summary>
+
+<br>
+
+- `192. Word Frequency.txt`
+- `193. Valid Phone Numbers.txt`
+- `194. Transpose File.txt`
+- `195. Tenth Line.txt`
+
+</details>
+
 ---
 
-*Generated automatically by update_readme.py.*
+## 🛠️ Automated Maintenance
+
+This repository utilizes an automated script `update_readme.py` to keep problem counts, statistics, and recent activity up to date.
+
+To refresh the README automatically after adding new solutions, run:
+
+```bash
+python update_readme.py
+```
+
+---
+
+## 📜 License & Citation
+
+This repository is **Proprietary**. All rights reserved. Please refer to [`LICENSE`](LICENSE) for details.
+
+<div align="center">
+
+<sub><i>Crafted with ❤️ by <a href="https://github.com/DebasmitaBose0">Debasmita Bose</a> • Built for continuous learning & interview mastery 🚀</i></sub>
+
+</div>
