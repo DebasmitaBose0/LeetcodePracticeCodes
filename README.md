@@ -25,12 +25,12 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Metric 📌 | Value 🔢 | Status ⚡ |
 | :--- | :---: | :---: |
-| 🐍 **Python Solutions** | `603` | Active 🟢 |
+| 🐍 **Python Solutions** | `604` | Active 🟢 |
 | ☕ **Java Solutions** | `3` | Active 🟢 |
 | 🛢️ **SQL Database Queries** | `16` | Active 🟢 |
 | 📄 **Text Notes & Misc** | `4` | Active 🟢 |
-| 📦 **Total Practice Files** | `626` | Maintained 🚀 |
-| 📅 **Last Updated** | `2026-08-13` | Sync Complete 🔄 |
+| 📦 **Total Practice Files** | `627` | Maintained 🚀 |
+| 📅 **Last Updated** | `2026-08-14` | Sync Complete 🔄 |
 | 📜 **License** | Proprietary | All Rights Reserved 🔒 |
 
 ---
@@ -47,7 +47,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | **500 - 999** | `55` | `██████░░░░░░` |
 | **1000 - 1999** | `45` | `█████░░░░░░░` |
 | **2000 - 2999** | `55` | `██████░░░░░░` |
-| **3000 - 3999** | `100` | `████████████` |
+| **3000 - 3999** | `101` | `████████████` |
 | **Other / Named** | `30` | `███░░░░░░░░░` |
 
 ---
@@ -56,6 +56,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Solution File 📄 | Language 💻 | Last Modified ⏱️ |
 | :--- | :---: | :--- |
+| `3090. Maximum Length Substring With Two Occurrences.py` | 🐍 Python | `2026-08-14 21:56` |
 | `2213. Longest Substring of One Repeating Character.py` | 🐍 Python | `2026-08-13 23:32` |
 | `2958. Length of Longest Subarray With at Most K Frequency.py` | 🐍 Python | `2026-08-12 19:58` |
 | `2996. Smallest Missing Integer Greater Than Sequential Prefix Sum.py` | 🐍 Python | `2026-08-11 22:39` |
@@ -75,7 +76,6 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | `628. Maximum Product of Three Numbers.py` | 🐍 Python | `2026-07-26 14:24` |
 | `3536. Maximum Product of Two Digits.py` | 🐍 Python | `2026-07-25 19:52` |
 | `3514. Number of Unique XOR Triplets II.py` | 🐍 Python | `2026-07-24 15:49` |
-| `3513. Number of Unique XOR Triplets I.py` | 🐍 Python | `2026-07-23 21:03` |
 
 ---
 
@@ -99,7 +99,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 ## 🗂️ Interactive Solutions Index
 
 <details>
-<summary><b>🐍 Python Solutions (603 Files)</b></summary>
+<summary><b>🐍 Python Solutions (604 Files)</b></summary>
 
 <br>
 
@@ -584,6 +584,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `3043. Find the Length of the Longest Common Prefix.py`
 - `3074. Apple Redistribution into Boxes.py`
 - `3075. Maximize Happiness of Selected Children.py`
+- `3090. Maximum Length Substring With Two Occurrences.py`
 - `3093. Longest Common Suffix Queries.py`
 - `3120. Count the Number of Special Characters I.py`
 - `3121. Count the Number of Special Characters II.py`
