@@ -25,12 +25,12 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Metric 📌 | Value 🔢 | Status ⚡ |
 | :--- | :---: | :---: |
-| 🐍 **Python Solutions** | `608` | Active 🟢 |
+| 🐍 **Python Solutions** | `609` | Active 🟢 |
 | ☕ **Java Solutions** | `3` | Active 🟢 |
 | 🛢️ **SQL Database Queries** | `16` | Active 🟢 |
 | 📄 **Text Notes & Misc** | `4` | Active 🟢 |
-| 📦 **Total Practice Files** | `631` | Maintained 🚀 |
-| 📅 **Last Updated** | `2026-08-18` | Sync Complete 🔄 |
+| 📦 **Total Practice Files** | `632` | Maintained 🚀 |
+| 📅 **Last Updated** | `2026-08-19` | Sync Complete 🔄 |
 | 📜 **License** | Proprietary | All Rights Reserved 🔒 |
 
 ---
@@ -45,7 +45,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | **300 - 399** | `59` | `██████░░░░░░` |
 | **400 - 499** | `71` | `████████░░░░` |
 | **500 - 999** | `55` | `██████░░░░░░` |
-| **1000 - 1999** | `46` | `█████░░░░░░░` |
+| **1000 - 1999** | `47` | `█████░░░░░░░` |
 | **2000 - 2999** | `56` | `██████░░░░░░` |
 | **3000 - 3999** | `103` | `████████████` |
 | **Other / Named** | `30` | `███░░░░░░░░░` |
@@ -56,6 +56,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Solution File 📄 | Language 💻 | Last Modified ⏱️ |
 | :--- | :---: | :--- |
+| `1386. Cinema Seat Allocation.py` | 🐍 Python | `2026-08-19 21:42` |
 | `3471. Find the Largest Almost Missing Integer.py` | 🐍 Python | `2026-08-18 21:31` |
 | `1563. Stone Game V.py` | 🐍 Python | `2026-08-18 21:31` |
 | `2029. Stone Game IX.py` | 🐍 Python | `2026-08-18 21:29` |
@@ -75,7 +76,6 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | `3016. Minimum Number of Pushes to Type Word II.py` | 🐍 Python | `2026-08-01 22:01` |
 | `3014. Minimum Number of Pushes to Type Word I.py` | 🐍 Python | `2026-08-01 22:01` |
 | `3518. Smallest Palindromic Rearrangement II.py` | 🐍 Python | `2026-08-01 22:00` |
-| `3517. Smallest Palindromic Rearrangement I.py` | 🐍 Python | `2026-08-01 21:59` |
 
 ---
 
@@ -99,7 +99,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 ## 🗂️ Interactive Solutions Index
 
 <details>
-<summary><b>🐍 Python Solutions (608 Files)</b></summary>
+<summary><b>🐍 Python Solutions (609 Files)</b></summary>
 
 <br>
 
@@ -496,6 +496,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `1344. Angle Between Hands of a Clock.py`
 - `1345. Jump Game IV.py`
 - `1358. Number of Substrings Containing All Three Characters.py`
+- `1386. Cinema Seat Allocation.py`
 - `1391. Check if There is a Valid Path in a Grid.py`
 - `1406. Stone Game III.py`
 - `1437. Check If All 1's Are at Least Length K Places Away.py`
