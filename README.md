@@ -25,12 +25,12 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Metric 📌 | Value 🔢 | Status ⚡ |
 | :--- | :---: | :---: |
-| 🐍 **Python Solutions** | `610` | Active 🟢 |
+| 🐍 **Python Solutions** | `611` | Active 🟢 |
 | ☕ **Java Solutions** | `3` | Active 🟢 |
 | 🛢️ **SQL Database Queries** | `16` | Active 🟢 |
 | 📄 **Text Notes & Misc** | `4` | Active 🟢 |
-| 📦 **Total Practice Files** | `633` | Maintained 🚀 |
-| 📅 **Last Updated** | `2026-08-20` | Sync Complete 🔄 |
+| 📦 **Total Practice Files** | `634` | Maintained 🚀 |
+| 📅 **Last Updated** | `2026-08-21` | Sync Complete 🔄 |
 | 📜 **License** | Proprietary | All Rights Reserved 🔒 |
 
 ---
@@ -47,7 +47,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | **500 - 999** | `55` | `██████░░░░░░` |
 | **1000 - 1999** | `47` | `█████░░░░░░░` |
 | **2000 - 2999** | `56` | `██████░░░░░░` |
-| **3000 - 3999** | `104` | `████████████` |
+| **3000 - 3999** | `105` | `████████████` |
 | **Other / Named** | `30` | `███░░░░░░░░░` |
 
 ---
@@ -56,6 +56,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Solution File 📄 | Language 💻 | Last Modified ⏱️ |
 | :--- | :---: | :--- |
+| `3116. Kth Smallest Amount With Single Denomination Combination.py` | 🐍 Python | `2026-08-21 22:24` |
 | `3069. Distribute Elements Into Two Arrays I.py` | 🐍 Python | `2026-08-20 21:43` |
 | `1386. Cinema Seat Allocation.py` | 🐍 Python | `2026-08-19 21:42` |
 | `3471. Find the Largest Almost Missing Integer.py` | 🐍 Python | `2026-08-18 21:31` |
@@ -75,7 +76,6 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | `877. Stone Game.py` | 🐍 Python | `2026-08-02 10:21` |
 | `486. Predict the Winner.py` | 🐍 Python | `2026-08-01 22:02` |
 | `3016. Minimum Number of Pushes to Type Word II.py` | 🐍 Python | `2026-08-01 22:01` |
-| `3014. Minimum Number of Pushes to Type Word I.py` | 🐍 Python | `2026-08-01 22:01` |
 
 ---
 
@@ -99,7 +99,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 ## 🗂️ Interactive Solutions Index
 
 <details>
-<summary><b>🐍 Python Solutions (610 Files)</b></summary>
+<summary><b>🐍 Python Solutions (611 Files)</b></summary>
 
 <br>
 
@@ -590,6 +590,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `3075. Maximize Happiness of Selected Children.py`
 - `3090. Maximum Length Substring With Two Occurrences.py`
 - `3093. Longest Common Suffix Queries.py`
+- `3116. Kth Smallest Amount With Single Denomination Combination.py`
 - `3120. Count the Number of Special Characters I.py`
 - `3121. Count the Number of Special Characters II.py`
 - `3161. Block Placement Queries.py`
