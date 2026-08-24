@@ -25,12 +25,12 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Metric 📌 | Value 🔢 | Status ⚡ |
 | :--- | :---: | :---: |
-| 🐍 **Python Solutions** | `613` | Active 🟢 |
+| 🐍 **Python Solutions** | `614` | Active 🟢 |
 | ☕ **Java Solutions** | `3` | Active 🟢 |
 | 🛢️ **SQL Database Queries** | `16` | Active 🟢 |
 | 📄 **Text Notes & Misc** | `4` | Active 🟢 |
-| 📦 **Total Practice Files** | `636` | Maintained 🚀 |
-| 📅 **Last Updated** | `2026-08-23` | Sync Complete 🔄 |
+| 📦 **Total Practice Files** | `637` | Maintained 🚀 |
+| 📅 **Last Updated** | `2026-08-24` | Sync Complete 🔄 |
 | 📜 **License** | Proprietary | All Rights Reserved 🔒 |
 
 ---
@@ -45,7 +45,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | **300 - 399** | `59` | `██████░░░░░░` |
 | **400 - 499** | `71` | `████████░░░░` |
 | **500 - 999** | `55` | `██████░░░░░░` |
-| **1000 - 1999** | `48` | `█████░░░░░░░` |
+| **1000 - 1999** | `49` | `█████░░░░░░░` |
 | **2000 - 2999** | `56` | `██████░░░░░░` |
 | **3000 - 3999** | `106` | `████████████` |
 | **Other / Named** | `30` | `███░░░░░░░░░` |
@@ -56,6 +56,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Solution File 📄 | Language 💻 | Last Modified ⏱️ |
 | :--- | :---: | :--- |
+| `1872. Stone Game VIII.py` | 🐍 Python | `2026-08-24 22:53` |
 | `1927. Sum Game.py` | 🐍 Python | `2026-08-23 10:28` |
 | `3622. Check Divisibility by Digit Sum and Product.py` | 🐍 Python | `2026-08-22 21:56` |
 | `3116. Kth Smallest Amount With Single Denomination Combination.py` | 🐍 Python | `2026-08-21 22:24` |
@@ -75,7 +76,6 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | `3345. Smallest Divisible Digit Product I.py` | 🐍 Python | `2026-08-06 21:48` |
 | `3310. Remove Methods From Project.py` | 🐍 Python | `2026-08-05 20:29` |
 | `1406. Stone Game III.py` | 🐍 Python | `2026-08-03 18:13` |
-| `877. Stone Game.py` | 🐍 Python | `2026-08-02 10:21` |
 
 ---
 
@@ -99,7 +99,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 ## 🗂️ Interactive Solutions Index
 
 <details>
-<summary><b>🐍 Python Solutions (613 Files)</b></summary>
+<summary><b>🐍 Python Solutions (614 Files)</b></summary>
 
 <br>
 
@@ -520,6 +520,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `1855. Maximum Distance Between a Pair of Values.py`
 - `1861. Rotating the Box.py`
 - `1871. Jump Game VII.py`
+- `1872. Stone Game VIII.py`
 - `1886. Determine Whether Matrix Can Be Obtained By Rotation.py`
 - `1914. Cyclically Rotating a Grid.py`
 - `1925. Count Square Sum Triples.py`
