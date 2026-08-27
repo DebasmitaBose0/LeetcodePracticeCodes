@@ -25,12 +25,12 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Metric 📌 | Value 🔢 | Status ⚡ |
 | :--- | :---: | :---: |
-| 🐍 **Python Solutions** | `616` | Active 🟢 |
+| 🐍 **Python Solutions** | `617` | Active 🟢 |
 | ☕ **Java Solutions** | `3` | Active 🟢 |
 | 🛢️ **SQL Database Queries** | `16` | Active 🟢 |
 | 📄 **Text Notes & Misc** | `4` | Active 🟢 |
-| 📦 **Total Practice Files** | `639` | Maintained 🚀 |
-| 📅 **Last Updated** | `2026-08-26` | Sync Complete 🔄 |
+| 📦 **Total Practice Files** | `640` | Maintained 🚀 |
+| 📅 **Last Updated** | `2026-08-27` | Sync Complete 🔄 |
 | 📜 **License** | Proprietary | All Rights Reserved 🔒 |
 
 ---
@@ -47,7 +47,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | **500 - 999** | `55` | `██████░░░░░░` |
 | **1000 - 1999** | `49` | `█████░░░░░░░` |
 | **2000 - 2999** | `56` | `██████░░░░░░` |
-| **3000 - 3999** | `107` | `████████████` |
+| **3000 - 3999** | `108` | `████████████` |
 | **Other / Named** | `31` | `███░░░░░░░░░` |
 
 ---
@@ -56,6 +56,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Solution File 📄 | Language 💻 | Last Modified ⏱️ |
 | :--- | :---: | :--- |
+| `3720. Lexicographically Smallest Permutation Greater Than Target.py` | 🐍 Python | `2026-08-27 21:37` |
 | `Shortest and Lexicographically Smallest Beautiful String.py` | 🐍 Python | `2026-08-26 20:36` |
 | `3718. Smallest Missing Multiple of K.py` | 🐍 Python | `2026-08-25 21:21` |
 | `1872. Stone Game VIII.py` | 🐍 Python | `2026-08-24 22:53` |
@@ -75,7 +76,6 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | `1140. Stone Game II.py` | 🐍 Python | `2026-08-09 20:36` |
 | `3302. Find the Lexicographically Smallest Valid Sequence.py` | 🐍 Python | `2026-08-08 21:59` |
 | `3348. Smallest Divisible Digit Product II.py` | 🐍 Python | `2026-08-07 21:58` |
-| `3345. Smallest Divisible Digit Product I.py` | 🐍 Python | `2026-08-06 21:48` |
 
 ---
 
@@ -99,7 +99,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 ## 🗂️ Interactive Solutions Index
 
 <details>
-<summary><b>🐍 Python Solutions (616 Files)</b></summary>
+<summary><b>🐍 Python Solutions (617 Files)</b></summary>
 
 <br>
 
@@ -663,6 +663,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `3700. Number of ZigZag Arrays II.py`
 - `3702. Longest Subsequence With Non-Zero Bitwise XOR.py`
 - `3718. Smallest Missing Multiple of K.py`
+- `3720. Lexicographically Smallest Permutation Greater Than Target.py`
 - `3737. Count Subarrays With Majority Element I.py`
 - `3739. Count Subarrays With Majority Element II.py`
 - `3740. Minimum Distance Between Three Equal Elements I.py`
