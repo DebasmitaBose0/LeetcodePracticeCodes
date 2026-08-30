@@ -25,12 +25,12 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Metric 📌 | Value 🔢 | Status ⚡ |
 | :--- | :---: | :---: |
-| 🐍 **Python Solutions** | `618` | Active 🟢 |
+| 🐍 **Python Solutions** | `620` | Active 🟢 |
 | ☕ **Java Solutions** | `3` | Active 🟢 |
 | 🛢️ **SQL Database Queries** | `16` | Active 🟢 |
 | 📄 **Text Notes & Misc** | `4` | Active 🟢 |
-| 📦 **Total Practice Files** | `641` | Maintained 🚀 |
-| 📅 **Last Updated** | `2026-08-28` | Sync Complete 🔄 |
+| 📦 **Total Practice Files** | `643` | Maintained 🚀 |
+| 📅 **Last Updated** | `2026-08-30` | Sync Complete 🔄 |
 | 📜 **License** | Proprietary | All Rights Reserved 🔒 |
 
 ---
@@ -46,7 +46,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | **400 - 499** | `71` | `███████░░░░░` |
 | **500 - 999** | `55` | `██████░░░░░░` |
 | **1000 - 1999** | `49` | `█████░░░░░░░` |
-| **2000 - 2999** | `56` | `██████░░░░░░` |
+| **2000 - 2999** | `58` | `██████░░░░░░` |
 | **3000 - 3999** | `109` | `████████████` |
 | **Other / Named** | `31` | `███░░░░░░░░░` |
 
@@ -56,26 +56,26 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Solution File 📄 | Language 💻 | Last Modified ⏱️ |
 | :--- | :---: | :--- |
-| `3734. Lexicographically Smallest Palindromic Permutation Greater Than Target.py` | 🐍 Python | `2026-08-28 21:52` |
-| `3720. Lexicographically Smallest Permutation Greater Than Target.py` | 🐍 Python | `2026-08-27 21:37` |
-| `Shortest and Lexicographically Smallest Beautiful String.py` | 🐍 Python | `2026-08-26 20:36` |
-| `3718. Smallest Missing Multiple of K.py` | 🐍 Python | `2026-08-25 21:21` |
-| `1872. Stone Game VIII.py` | 🐍 Python | `2026-08-24 22:53` |
-| `1927. Sum Game.py` | 🐍 Python | `2026-08-23 10:28` |
-| `3622. Check Divisibility by Digit Sum and Product.py` | 🐍 Python | `2026-08-22 21:56` |
-| `3116. Kth Smallest Amount With Single Denomination Combination.py` | 🐍 Python | `2026-08-21 22:24` |
-| `3069. Distribute Elements Into Two Arrays I.py` | 🐍 Python | `2026-08-20 21:43` |
-| `1386. Cinema Seat Allocation.py` | 🐍 Python | `2026-08-19 21:42` |
-| `3471. Find the Largest Almost Missing Integer.py` | 🐍 Python | `2026-08-18 21:31` |
-| `1563. Stone Game V.py` | 🐍 Python | `2026-08-18 21:31` |
-| `2029. Stone Game IX.py` | 🐍 Python | `2026-08-18 21:29` |
-| `3702. Longest Subsequence With Non-Zero Bitwise XOR.py` | 🐍 Python | `2026-08-15 16:17` |
-| `3090. Maximum Length Substring With Two Occurrences.py` | 🐍 Python | `2026-08-14 21:56` |
-| `2213. Longest Substring of One Repeating Character.py` | 🐍 Python | `2026-08-13 23:32` |
-| `2958. Length of Longest Subarray With at Most K Frequency.py` | 🐍 Python | `2026-08-12 19:58` |
-| `2996. Smallest Missing Integer Greater Than Sequential Prefix Sum.py` | 🐍 Python | `2026-08-11 22:39` |
-| `1140. Stone Game II.py` | 🐍 Python | `2026-08-09 20:36` |
-| `3302. Find the Lexicographically Smallest Valid Sequence.py` | 🐍 Python | `2026-08-08 21:59` |
+| `2091. Removing Minimum and Maximum From Array.py` | 🐍 Python | `2026-08-30 21:20` |
+| `find-first-and-last-position-of-element-in-sorted-array.py` | 🐍 Python | `2026-08-30 21:18` |
+| `Valid Sudoku.py` | 🐍 Python | `2026-08-30 21:18` |
+| `Two Sum.py` | 🐍 Python | `2026-08-30 21:18` |
+| `Trapping Rain Water.py` | 🐍 Python | `2026-08-30 21:18` |
+| `Shortest and Lexicographically Smallest Beautiful String.py` | 🐍 Python | `2026-08-30 21:18` |
+| `Sudoku Solver.py` | 🐍 Python | `2026-08-30 21:18` |
+| `Separate the Digits in an Array.py` | 🐍 Python | `2026-08-30 21:18` |
+| `Search in Rotated Sorted Array.py` | 🐍 Python | `2026-08-30 21:18` |
+| `Search Insert Position.py` | 🐍 Python | `2026-08-30 21:18` |
+| `Rotated Digits.py` | 🐍 Python | `2026-08-30 21:18` |
+| `Rotate String.py` | 🐍 Python | `2026-08-30 21:18` |
+| `Rotate Function.py` | 🐍 Python | `2026-08-30 21:18` |
+| `Remove Element.py` | 🐍 Python | `2026-08-30 21:18` |
+| `Remove Duplicates from Sorted Array.py` | 🐍 Python | `2026-08-30 21:18` |
+| `Prob.3212.py` | 🐍 Python | `2026-08-30 21:18` |
+| `Next Permutation.py` | 🐍 Python | `2026-08-30 21:18` |
+| `Median of Two Sorted Arrays.py` | 🐍 Python | `2026-08-30 21:18` |
+| `Minimum Operations to Make a Uni-Value Grid.py` | 🐍 Python | `2026-08-30 21:18` |
+| `Maximum Score From Grid Operations.py` | 🐍 Python | `2026-08-30 21:18` |
 
 ---
 
@@ -99,7 +99,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 ## 🗂️ Interactive Solutions Index
 
 <details>
-<summary><b>🐍 Python Solutions (618 Files)</b></summary>
+<summary><b>🐍 Python Solutions (620 Files)</b></summary>
 
 <br>
 
@@ -535,6 +535,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `2069. Walking Robot Simulation II.py`
 - `2075. Decode the Slanted Ciphertext.py`
 - `2078. Two Furthest Houses With Different Colors.py`
+- `2091. Removing Minimum and Maximum From Array.py`
 - `2095. Delete the Middle Node of a Linked List.py`
 - `2110. Number of Smooth Descent Periods of a Stock.py`
 - `2125. Number of Laser Beams in a Bank.py`
@@ -581,6 +582,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `2909. Minimum Sum of Mountain Triplets II.py`
 - `2910. Minimum Number of Groups to Create a Valid Assignment.py`
 - `2946. Matrix Similarity After Cyclic Shifts.py`
+- `2948. Make Lexicographically Smallest Array by Swapping Elements.py`
 - `2958. Length of Longest Subarray With at Most K Frequency.py`
 - `2996. Smallest Missing Integer Greater Than Sequential Prefix Sum.py`
 - `3014. Minimum Number of Pushes to Type Word I.py`
