@@ -25,12 +25,12 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Metric 📌 | Value 🔢 | Status ⚡ |
 | :--- | :---: | :---: |
-| 🐍 **Python Solutions** | `620` | Active 🟢 |
+| 🐍 **Python Solutions** | `621` | Active 🟢 |
 | ☕ **Java Solutions** | `3` | Active 🟢 |
 | 🛢️ **SQL Database Queries** | `16` | Active 🟢 |
 | 📄 **Text Notes & Misc** | `4` | Active 🟢 |
-| 📦 **Total Practice Files** | `643` | Maintained 🚀 |
-| 📅 **Last Updated** | `2026-08-30` | Sync Complete 🔄 |
+| 📦 **Total Practice Files** | `644` | Maintained 🚀 |
+| 📅 **Last Updated** | `2026-08-31` | Sync Complete 🔄 |
 | 📜 **License** | Proprietary | All Rights Reserved 🔒 |
 
 ---
@@ -46,7 +46,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | **400 - 499** | `71` | `███████░░░░░` |
 | **500 - 999** | `55` | `██████░░░░░░` |
 | **1000 - 1999** | `49` | `█████░░░░░░░` |
-| **2000 - 2999** | `58` | `██████░░░░░░` |
+| **2000 - 2999** | `59` | `██████░░░░░░` |
 | **3000 - 3999** | `109` | `████████████` |
 | **Other / Named** | `31` | `███░░░░░░░░░` |
 
@@ -56,6 +56,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Solution File 📄 | Language 💻 | Last Modified ⏱️ |
 | :--- | :---: | :--- |
+| `2058. Find the Minimum and Maximum Number of Nodes Between Critical Points.py` | 🐍 Python | `2026-08-31 21:01` |
 | `2091. Removing Minimum and Maximum From Array.py` | 🐍 Python | `2026-08-30 21:20` |
 | `find-first-and-last-position-of-element-in-sorted-array.py` | 🐍 Python | `2026-08-30 21:18` |
 | `Valid Sudoku.py` | 🐍 Python | `2026-08-30 21:18` |
@@ -75,7 +76,6 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | `Next Permutation.py` | 🐍 Python | `2026-08-30 21:18` |
 | `Median of Two Sorted Arrays.py` | 🐍 Python | `2026-08-30 21:18` |
 | `Minimum Operations to Make a Uni-Value Grid.py` | 🐍 Python | `2026-08-30 21:18` |
-| `Maximum Score From Grid Operations.py` | 🐍 Python | `2026-08-30 21:18` |
 
 ---
 
@@ -99,7 +99,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 ## 🗂️ Interactive Solutions Index
 
 <details>
-<summary><b>🐍 Python Solutions (620 Files)</b></summary>
+<summary><b>🐍 Python Solutions (621 Files)</b></summary>
 
 <br>
 
@@ -532,6 +532,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `2043. Simple Bank System.py`
 - `2048. Next Greater Numerically Balanced Number.py`
 - `2054. Two Best Non-Overlapping Events.py`
+- `2058. Find the Minimum and Maximum Number of Nodes Between Critical Points.py`
 - `2069. Walking Robot Simulation II.py`
 - `2075. Decode the Slanted Ciphertext.py`
 - `2078. Two Furthest Houses With Different Colors.py`
