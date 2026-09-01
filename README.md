@@ -25,12 +25,12 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Metric 📌 | Value 🔢 | Status ⚡ |
 | :--- | :---: | :---: |
-| 🐍 **Python Solutions** | `618` | Active 🟢 |
+| 🐍 **Python Solutions** | `619` | Active 🟢 |
 | ☕ **Java Solutions** | `3` | Active 🟢 |
 | 🛢️ **SQL Database Queries** | `16` | Active 🟢 |
 | 📄 **Text Notes & Misc** | `4` | Active 🟢 |
-| 📦 **Total Practice Files** | `641` | Maintained 🚀 |
-| 📅 **Last Updated** | `2026-08-28` | Sync Complete 🔄 |
+| 📦 **Total Practice Files** | `642` | Maintained 🚀 |
+| 📅 **Last Updated** | `2026-08-29` | Sync Complete 🔄 |
 | 📜 **License** | Proprietary | All Rights Reserved 🔒 |
 
 ---
@@ -46,7 +46,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | **400 - 499** | `71` | `███████░░░░░` |
 | **500 - 999** | `55` | `██████░░░░░░` |
 | **1000 - 1999** | `49` | `█████░░░░░░░` |
-| **2000 - 2999** | `56` | `██████░░░░░░` |
+| **2000 - 2999** | `57` | `██████░░░░░░` |
 | **3000 - 3999** | `109` | `████████████` |
 | **Other / Named** | `31` | `███░░░░░░░░░` |
 
@@ -56,6 +56,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Solution File 📄 | Language 💻 | Last Modified ⏱️ |
 | :--- | :---: | :--- |
+| `2948. Make Lexicographically Smallest Array by Swapping Elements.py` | 🐍 Python | `2026-08-29 09:54` |
 | `3734. Lexicographically Smallest Palindromic Permutation Greater Than Target.py` | 🐍 Python | `2026-08-28 21:52` |
 | `3720. Lexicographically Smallest Permutation Greater Than Target.py` | 🐍 Python | `2026-08-27 21:37` |
 | `Shortest and Lexicographically Smallest Beautiful String.py` | 🐍 Python | `2026-08-26 20:36` |
@@ -75,7 +76,6 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | `2958. Length of Longest Subarray With at Most K Frequency.py` | 🐍 Python | `2026-08-12 19:58` |
 | `2996. Smallest Missing Integer Greater Than Sequential Prefix Sum.py` | 🐍 Python | `2026-08-11 22:39` |
 | `1140. Stone Game II.py` | 🐍 Python | `2026-08-09 20:36` |
-| `3302. Find the Lexicographically Smallest Valid Sequence.py` | 🐍 Python | `2026-08-08 21:59` |
 
 ---
 
@@ -99,7 +99,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 ## 🗂️ Interactive Solutions Index
 
 <details>
-<summary><b>🐍 Python Solutions (618 Files)</b></summary>
+<summary><b>🐍 Python Solutions (619 Files)</b></summary>
 
 <br>
 
@@ -581,6 +581,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `2909. Minimum Sum of Mountain Triplets II.py`
 - `2910. Minimum Number of Groups to Create a Valid Assignment.py`
 - `2946. Matrix Similarity After Cyclic Shifts.py`
+- `2948. Make Lexicographically Smallest Array by Swapping Elements.py`
 - `2958. Length of Longest Subarray With at Most K Frequency.py`
 - `2996. Smallest Missing Integer Greater Than Sequential Prefix Sum.py`
 - `3014. Minimum Number of Pushes to Type Word I.py`
