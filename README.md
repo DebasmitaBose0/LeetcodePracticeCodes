@@ -25,12 +25,12 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Metric 📌 | Value 🔢 | Status ⚡ |
 | :--- | :---: | :---: |
-| 🐍 **Python Solutions** | `619` | Active 🟢 |
+| 🐍 **Python Solutions** | `622` | Active 🟢 |
 | ☕ **Java Solutions** | `3` | Active 🟢 |
 | 🛢️ **SQL Database Queries** | `16` | Active 🟢 |
 | 📄 **Text Notes & Misc** | `4` | Active 🟢 |
-| 📦 **Total Practice Files** | `642` | Maintained 🚀 |
-| 📅 **Last Updated** | `2026-08-29` | Sync Complete 🔄 |
+| 📦 **Total Practice Files** | `645` | Maintained 🚀 |
+| 📅 **Last Updated** | `2026-09-01` | Sync Complete 🔄 |
 | 📜 **License** | Proprietary | All Rights Reserved 🔒 |
 
 ---
@@ -40,14 +40,14 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | Problem Range 🔢 | Solutions Solved 🧮 | Distribution Visual 📊 |
 | :--- | :---: | :--- |
 | **1 - 99** | `70` | `███████░░░░░` |
-| **100 - 199** | `64` | `███████░░░░░` |
+| **100 - 199** | `64` | `██████░░░░░░` |
 | **200 - 299** | `57` | `██████░░░░░░` |
 | **300 - 399** | `59` | `██████░░░░░░` |
 | **400 - 499** | `71` | `███████░░░░░` |
 | **500 - 999** | `55` | `██████░░░░░░` |
 | **1000 - 1999** | `49` | `█████░░░░░░░` |
-| **2000 - 2999** | `57` | `██████░░░░░░` |
-| **3000 - 3999** | `109` | `████████████` |
+| **2000 - 2999** | `59` | `██████░░░░░░` |
+| **3000 - 3999** | `110` | `████████████` |
 | **Other / Named** | `31` | `███░░░░░░░░░` |
 
 ---
@@ -56,6 +56,9 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Solution File 📄 | Language 💻 | Last Modified ⏱️ |
 | :--- | :---: | :--- |
+| `2091. Removing Minimum and Maximum From Array.py` | 🐍 Python | `2026-09-01 22:11` |
+| `2058. Find the Minimum and Maximum Number of Nodes Between Critical Points.py` | 🐍 Python | `2026-09-01 22:11` |
+| `3568. Minimum Moves to Clean the Classroom.py` | 🐍 Python | `2026-09-01 22:10` |
 | `2948. Make Lexicographically Smallest Array by Swapping Elements.py` | 🐍 Python | `2026-08-29 09:54` |
 | `3734. Lexicographically Smallest Palindromic Permutation Greater Than Target.py` | 🐍 Python | `2026-08-28 21:52` |
 | `3720. Lexicographically Smallest Permutation Greater Than Target.py` | 🐍 Python | `2026-08-27 21:37` |
@@ -73,9 +76,6 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | `3702. Longest Subsequence With Non-Zero Bitwise XOR.py` | 🐍 Python | `2026-08-15 16:17` |
 | `3090. Maximum Length Substring With Two Occurrences.py` | 🐍 Python | `2026-08-14 21:56` |
 | `2213. Longest Substring of One Repeating Character.py` | 🐍 Python | `2026-08-13 23:32` |
-| `2958. Length of Longest Subarray With at Most K Frequency.py` | 🐍 Python | `2026-08-12 19:58` |
-| `2996. Smallest Missing Integer Greater Than Sequential Prefix Sum.py` | 🐍 Python | `2026-08-11 22:39` |
-| `1140. Stone Game II.py` | 🐍 Python | `2026-08-09 20:36` |
 
 ---
 
@@ -99,7 +99,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 ## 🗂️ Interactive Solutions Index
 
 <details>
-<summary><b>🐍 Python Solutions (619 Files)</b></summary>
+<summary><b>🐍 Python Solutions (622 Files)</b></summary>
 
 <br>
 
@@ -532,9 +532,11 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `2043. Simple Bank System.py`
 - `2048. Next Greater Numerically Balanced Number.py`
 - `2054. Two Best Non-Overlapping Events.py`
+- `2058. Find the Minimum and Maximum Number of Nodes Between Critical Points.py`
 - `2069. Walking Robot Simulation II.py`
 - `2075. Decode the Slanted Ciphertext.py`
 - `2078. Two Furthest Houses With Different Colors.py`
+- `2091. Removing Minimum and Maximum From Array.py`
 - `2095. Delete the Middle Node of a Linked List.py`
 - `2110. Number of Smooth Descent Periods of a Stock.py`
 - `2125. Number of Laser Beams in a Bank.py`
@@ -636,6 +638,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `3558. Number of Ways to Assign Edge Weights I.py`
 - `3559. Number of Ways to Assign Edge Weights II.py`
 - `3562. Maximum Profit from Trading Stocks with Discounts.py`
+- `3568. Minimum Moves to Clean the Classroom.py`
 - `3573. Best Time to Buy and Sell Stock V.py`
 - `3577. Count the Number of Computer Unlocking Permutations.py`
 - `3578. Count Partitions With Max-Min Difference at Most K.py`
