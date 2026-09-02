@@ -25,12 +25,12 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Metric 📌 | Value 🔢 | Status ⚡ |
 | :--- | :---: | :---: |
-| 🐍 **Python Solutions** | `622` | Active 🟢 |
+| 🐍 **Python Solutions** | `623` | Active 🟢 |
 | ☕ **Java Solutions** | `3` | Active 🟢 |
 | 🛢️ **SQL Database Queries** | `16` | Active 🟢 |
 | 📄 **Text Notes & Misc** | `4` | Active 🟢 |
-| 📦 **Total Practice Files** | `645` | Maintained 🚀 |
-| 📅 **Last Updated** | `2026-09-01` | Sync Complete 🔄 |
+| 📦 **Total Practice Files** | `646` | Maintained 🚀 |
+| 📅 **Last Updated** | `2026-09-02` | Sync Complete 🔄 |
 | 📜 **License** | Proprietary | All Rights Reserved 🔒 |
 
 ---
@@ -44,10 +44,10 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | **200 - 299** | `57` | `██████░░░░░░` |
 | **300 - 399** | `59` | `██████░░░░░░` |
 | **400 - 499** | `71` | `███████░░░░░` |
-| **500 - 999** | `55` | `██████░░░░░░` |
+| **500 - 999** | `55` | `█████░░░░░░░` |
 | **1000 - 1999** | `49` | `█████░░░░░░░` |
 | **2000 - 2999** | `59` | `██████░░░░░░` |
-| **3000 - 3999** | `110` | `████████████` |
+| **3000 - 3999** | `111` | `████████████` |
 | **Other / Named** | `31` | `███░░░░░░░░░` |
 
 ---
@@ -56,6 +56,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Solution File 📄 | Language 💻 | Last Modified ⏱️ |
 | :--- | :---: | :--- |
+| `3875. Construct Uniform Parity Array I.py` | 🐍 Python | `2026-09-02 22:22` |
 | `2091. Removing Minimum and Maximum From Array.py` | 🐍 Python | `2026-09-01 22:11` |
 | `2058. Find the Minimum and Maximum Number of Nodes Between Critical Points.py` | 🐍 Python | `2026-09-01 22:11` |
 | `3568. Minimum Moves to Clean the Classroom.py` | 🐍 Python | `2026-09-01 22:10` |
@@ -75,7 +76,6 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | `2029. Stone Game IX.py` | 🐍 Python | `2026-08-18 21:29` |
 | `3702. Longest Subsequence With Non-Zero Bitwise XOR.py` | 🐍 Python | `2026-08-15 16:17` |
 | `3090. Maximum Length Substring With Two Occurrences.py` | 🐍 Python | `2026-08-14 21:56` |
-| `2213. Longest Substring of One Repeating Character.py` | 🐍 Python | `2026-08-13 23:32` |
 
 ---
 
@@ -99,7 +99,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 ## 🗂️ Interactive Solutions Index
 
 <details>
-<summary><b>🐍 Python Solutions (622 Files)</b></summary>
+<summary><b>🐍 Python Solutions (623 Files)</b></summary>
 
 <br>
 
@@ -695,6 +695,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `3821. Find Nth Smallest Integer With K One Bits.py`
 - `3823. Reverse Letters Then Special Characters in a String.py`
 - `3838. Weighted Word Mapping.py`
+- `3875. Construct Uniform Parity Array I.py`
 - `Binary Tilt.py`
 - `Combination Sum II.py`
 - `Combination Sum.py`
