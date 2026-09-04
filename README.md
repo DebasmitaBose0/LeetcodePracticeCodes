@@ -25,12 +25,12 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Metric 📌 | Value 🔢 | Status ⚡ |
 | :--- | :---: | :---: |
-| 🐍 **Python Solutions** | `623` | Active 🟢 |
+| 🐍 **Python Solutions** | `624` | Active 🟢 |
 | ☕ **Java Solutions** | `3` | Active 🟢 |
 | 🛢️ **SQL Database Queries** | `16` | Active 🟢 |
 | 📄 **Text Notes & Misc** | `4` | Active 🟢 |
-| 📦 **Total Practice Files** | `646` | Maintained 🚀 |
-| 📅 **Last Updated** | `2026-09-02` | Sync Complete 🔄 |
+| 📦 **Total Practice Files** | `647` | Maintained 🚀 |
+| 📅 **Last Updated** | `2026-09-03` | Sync Complete 🔄 |
 | 📜 **License** | Proprietary | All Rights Reserved 🔒 |
 
 ---
@@ -47,7 +47,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | **500 - 999** | `55` | `█████░░░░░░░` |
 | **1000 - 1999** | `49` | `█████░░░░░░░` |
 | **2000 - 2999** | `59` | `██████░░░░░░` |
-| **3000 - 3999** | `111` | `████████████` |
+| **3000 - 3999** | `112` | `████████████` |
 | **Other / Named** | `31` | `███░░░░░░░░░` |
 
 ---
@@ -56,26 +56,26 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Solution File 📄 | Language 💻 | Last Modified ⏱️ |
 | :--- | :---: | :--- |
-| `3875. Construct Uniform Parity Array I.py` | 🐍 Python | `2026-09-02 22:22` |
-| `2091. Removing Minimum and Maximum From Array.py` | 🐍 Python | `2026-09-01 22:11` |
-| `2058. Find the Minimum and Maximum Number of Nodes Between Critical Points.py` | 🐍 Python | `2026-09-01 22:11` |
-| `3568. Minimum Moves to Clean the Classroom.py` | 🐍 Python | `2026-09-01 22:10` |
-| `2948. Make Lexicographically Smallest Array by Swapping Elements.py` | 🐍 Python | `2026-08-29 09:54` |
-| `3734. Lexicographically Smallest Palindromic Permutation Greater Than Target.py` | 🐍 Python | `2026-08-28 21:52` |
-| `3720. Lexicographically Smallest Permutation Greater Than Target.py` | 🐍 Python | `2026-08-27 21:37` |
-| `Shortest and Lexicographically Smallest Beautiful String.py` | 🐍 Python | `2026-08-26 20:36` |
-| `3718. Smallest Missing Multiple of K.py` | 🐍 Python | `2026-08-25 21:21` |
-| `1872. Stone Game VIII.py` | 🐍 Python | `2026-08-24 22:53` |
-| `1927. Sum Game.py` | 🐍 Python | `2026-08-23 10:28` |
-| `3622. Check Divisibility by Digit Sum and Product.py` | 🐍 Python | `2026-08-22 21:56` |
-| `3116. Kth Smallest Amount With Single Denomination Combination.py` | 🐍 Python | `2026-08-21 22:24` |
-| `3069. Distribute Elements Into Two Arrays I.py` | 🐍 Python | `2026-08-20 21:43` |
-| `1386. Cinema Seat Allocation.py` | 🐍 Python | `2026-08-19 21:42` |
-| `3471. Find the Largest Almost Missing Integer.py` | 🐍 Python | `2026-08-18 21:31` |
-| `1563. Stone Game V.py` | 🐍 Python | `2026-08-18 21:31` |
-| `2029. Stone Game IX.py` | 🐍 Python | `2026-08-18 21:29` |
-| `3702. Longest Subsequence With Non-Zero Bitwise XOR.py` | 🐍 Python | `2026-08-15 16:17` |
-| `3090. Maximum Length Substring With Two Occurrences.py` | 🐍 Python | `2026-08-14 21:56` |
+| `3876. Construct Uniform Parity Array II.py` | 🐍 Python | `2026-09-03 21:40` |
+| `3568. Minimum Moves to Clean the Classroom.py` | 🐍 Python | `2026-09-03 21:40` |
+| `3875. Construct Uniform Parity Array I.py` | 🐍 Python | `2026-09-03 21:40` |
+| `2058. Find the Minimum and Maximum Number of Nodes Between Critical Points.py` | 🐍 Python | `2026-08-31 21:01` |
+| `2091. Removing Minimum and Maximum From Array.py` | 🐍 Python | `2026-08-30 21:20` |
+| `find-first-and-last-position-of-element-in-sorted-array.py` | 🐍 Python | `2026-08-30 21:18` |
+| `Valid Sudoku.py` | 🐍 Python | `2026-08-30 21:18` |
+| `Two Sum.py` | 🐍 Python | `2026-08-30 21:18` |
+| `Trapping Rain Water.py` | 🐍 Python | `2026-08-30 21:18` |
+| `Shortest and Lexicographically Smallest Beautiful String.py` | 🐍 Python | `2026-08-30 21:18` |
+| `Sudoku Solver.py` | 🐍 Python | `2026-08-30 21:18` |
+| `Separate the Digits in an Array.py` | 🐍 Python | `2026-08-30 21:18` |
+| `Search in Rotated Sorted Array.py` | 🐍 Python | `2026-08-30 21:18` |
+| `Search Insert Position.py` | 🐍 Python | `2026-08-30 21:18` |
+| `Rotated Digits.py` | 🐍 Python | `2026-08-30 21:18` |
+| `Rotate String.py` | 🐍 Python | `2026-08-30 21:18` |
+| `Rotate Function.py` | 🐍 Python | `2026-08-30 21:18` |
+| `Remove Element.py` | 🐍 Python | `2026-08-30 21:18` |
+| `Remove Duplicates from Sorted Array.py` | 🐍 Python | `2026-08-30 21:18` |
+| `Prob.3212.py` | 🐍 Python | `2026-08-30 21:18` |
 
 ---
 
@@ -99,7 +99,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 ## 🗂️ Interactive Solutions Index
 
 <details>
-<summary><b>🐍 Python Solutions (623 Files)</b></summary>
+<summary><b>🐍 Python Solutions (624 Files)</b></summary>
 
 <br>
 
@@ -696,6 +696,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `3823. Reverse Letters Then Special Characters in a String.py`
 - `3838. Weighted Word Mapping.py`
 - `3875. Construct Uniform Parity Array I.py`
+- `3876. Construct Uniform Parity Array II.py`
 - `Binary Tilt.py`
 - `Combination Sum II.py`
 - `Combination Sum.py`
