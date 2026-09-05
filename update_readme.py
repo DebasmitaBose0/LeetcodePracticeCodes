@@ -1,6 +1,7 @@
 import os
 import re
 import subprocess
+import datetime
 
 def main():
     files = [f for f in os.listdir('.') if os.path.isfile(f) and f not in ['README.md', 'LICENSE', '.gitignore', 'TODO.md', 'update_readme.py']]
@@ -114,7 +115,8 @@ def main():
     lines.append(f'| 🛢️ **SQL Database Queries** | `{len(sql_files)}` | Active 🟢 |')
     lines.append(f'| 📄 **Text Notes & Misc** | `{len(txt_files) + len(misc_files)}` | Active 🟢 |')
     lines.append(f'| 📦 **Total Practice Files** | `{total_practice}` | Maintained 🚀 |')
-    lines.append('| 📅 **Last Updated** | `2026-09-04` | Sync Complete 🔄 |')
+    today_str = datetime.date.today().strftime('%Y-%m-%d')
+    lines.append(f'| 📅 **Last Updated** | `{today_str}` | Sync Complete 🔄 |')
     lines.append('| 📜 **License** | Proprietary | All Rights Reserved 🔒 |')
     lines.append('')
     lines.append('---')
