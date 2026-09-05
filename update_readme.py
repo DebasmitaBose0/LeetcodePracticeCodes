@@ -1,264 +1,230 @@
-#!/usr/bin/env python3
-"""
-Generate an elaborate, beautifully formatted README.md for LeetCode solutions 
-with up-to-date metrics, topic breakdowns, latest progress, and interactive index sections.
-"""
+import os
+import re
+import subprocess
 
-from datetime import datetime
-from pathlib import Path
+def main():
+    files = [f for f in os.listdir('.') if os.path.isfile(f) and f not in ['README.md', 'LICENSE', '.gitignore', 'TODO.md', 'update_readme.py']]
 
-ROOT = Path(__file__).resolve().parent
-README = ROOT / "README.md"
-EXCLUDE = {Path(__file__).name}
+    def sort_key(f):
+        m = re.match(r'^(\d+)\.(.*)', f)
+        if m:
+            return (0, int(m.group(1)), m.group(2).lower())
+        return (1, 0, f.lower())
 
+    py_files = sorted([f for f in files if f.endswith('.py') or f.endswith('.PY')], key=sort_key)
+    java_files = sorted([f for f in files if f.endswith('.java')], key=sort_key)
+    sql_files = sorted([f for f in files if f.endswith('.sql')], key=sort_key)
+    txt_files = sorted([f for f in files if f.endswith('.txt')], key=sort_key)
+    misc_files = sorted([f for f in files if not (f.endswith('.py') or f.endswith('.PY') or f.endswith('.java') or f.endswith('.sql') or f.endswith('.txt'))], key=sort_key)
 
-def extract_problem_number(file_name: str):
-    number = ""
-    for ch in file_name:
-        if ch.isdigit():
-            number += ch
+    total_practice = len(py_files) + len(java_files) + len(sql_files) + len(txt_files) + len(misc_files)
+
+    ranges = {
+        '1 - 99': 0,
+        '100 - 199': 0,
+        '200 - 299': 0,
+        '300 - 399': 0,
+        '400 - 499': 0,
+        '500 - 999': 0,
+        '1000 - 1999': 0,
+        '2000 - 2999': 0,
+        '3000 - 3999': 0,
+        'Other / Named': 0
+    }
+
+    for f in py_files + java_files + sql_files + txt_files + misc_files:
+        m = re.match(r'^(\d+)\.', f)
+        if m:
+            num = int(m.group(1))
+            if 1 <= num <= 99: ranges['1 - 99'] += 1
+            elif 100 <= num <= 199: ranges['100 - 199'] += 1
+            elif 200 <= num <= 299: ranges['200 - 299'] += 1
+            elif 300 <= num <= 399: ranges['300 - 399'] += 1
+            elif 400 <= num <= 499: ranges['400 - 499'] += 1
+            elif 500 <= num <= 999: ranges['500 - 999'] += 1
+            elif 1000 <= num <= 1999: ranges['1000 - 1999'] += 1
+            elif 2000 <= num <= 2999: ranges['2000 - 2999'] += 1
+            elif 3000 <= num <= 3999: ranges['3000 - 3999'] += 1
+            else: ranges['Other / Named'] += 1
         else:
-            break
-    return int(number) if number else None
-
-
-def sort_key(path: Path):
-    num = extract_problem_number(path.name)
-    return (num is None, num or 0, path.name.lower())
-
-
-PY_FILES = sorted([p for p in ROOT.glob("*.[pP][yY]") if p.name not in EXCLUDE], key=sort_key)
-JAVA_FILES = sorted(ROOT.glob("*.java"), key=sort_key)
-SQL_FILES = sorted(ROOT.glob("*.sql"), key=sort_key)
-TXT_FILES = sorted(ROOT.glob("*.txt"), key=sort_key)
-
-TOTAL_PY = len(PY_FILES)
-TOTAL_JAVA = len(JAVA_FILES)
-TOTAL_SQL = len(SQL_FILES)
-TOTAL_TXT = len(TXT_FILES)
-TOTAL_FILES = TOTAL_PY + TOTAL_JAVA + TOTAL_SQL + TOTAL_TXT
-
-ALL_FILES = PY_FILES + JAVA_FILES + SQL_FILES + TXT_FILES
-LATEST_FILES = sorted(ALL_FILES, key=lambda p: p.stat().st_mtime, reverse=True)[:20]
-
-RANGE_LABELS = [
-    ("1 - 99", 1, 99),
-    ("100 - 199", 100, 199),
-    ("200 - 299", 200, 299),
-    ("300 - 399", 300, 399),
-    ("400 - 499", 400, 499),
-    ("500 - 999", 500, 999),
-    ("1000 - 1999", 1000, 1999),
-    ("2000 - 2999", 2000, 2999),
-    ("3000 - 3999", 3000, 3999),
-    ("Other / Named", None, None),
-]
-
-range_counts = {label: 0 for label, _, _ in RANGE_LABELS}
-
-
-def problem_range_label(file_name: str):
-    number = extract_problem_number(file_name)
-    if number is None:
-        return "Other / Named"
-    if 1 <= number <= 99:
-        return "1 - 99"
-    if 100 <= number <= 199:
-        return "100 - 199"
-    if 200 <= number <= 299:
-        return "200 - 299"
-    if 300 <= number <= 399:
-        return "300 - 399"
-    if 400 <= number <= 499:
-        return "400 - 499"
-    if 500 <= number <= 999:
-        return "500 - 999"
-    if 1000 <= number <= 1999:
-        return "1000 - 1999"
-    if 2000 <= number <= 2999:
-        return "2000 - 2999"
-    if 3000 <= number <= 3999:
-        return "3000 - 3999"
-    return "Other / Named"
-
-
-for file_path in PY_FILES + JAVA_FILES:
-    range_counts[problem_range_label(file_path.name)] += 1
-
-max_range_count = max(range_counts.values()) if range_counts else 1
-
-
-def make_progress_bar(count, max_val, width=12):
-    if max_val == 0:
-        return "`░`" * width
-    filled = int((count / max_val) * width)
-    return f"`{'█' * filled}{'░' * (width - filled)}`"
-
-
-def get_lang_badge(path: Path):
-    ext = path.suffix.lower()
-    if ext == ".py":
-        return "🐍 Python"
-    elif ext == ".java":
-        return "☕ Java"
-    elif ext == ".sql":
-        return "🛢️ SQL"
-    elif ext == ".txt":
-        return "📄 Text"
-    return "📁 Other"
-
-
-# Format Latest Solved
-latest_rows = []
-for file_path in LATEST_FILES:
-    modified = datetime.fromtimestamp(file_path.stat().st_mtime).strftime("%Y-%m-%d %H:%M")
-    lang = get_lang_badge(file_path)
-    latest_rows.append(f"| `{file_path.name}` | {lang} | `{modified}` |")
-
-# Format Range Breakdown Rows
-range_rows = []
-for label, _, _ in RANGE_LABELS:
-    cnt = range_counts[label]
-    bar = make_progress_bar(cnt, max_range_count)
-    range_rows.append(f"| **{label}** | `{cnt}` | {bar} |")
-
-# Build README content
-now_str = datetime.now().strftime("%Y-%m-%d")
-
-readme_content = f"""<div align="center">
-
-# ⚡ LEETCODE PRACTICE CODES ⚡
-
-### <sub><i>🚀 A Curated, Production-Grade Repository of Competitive Programming & DSA Solutions</i></sub>
-
-[![LeetCode Profile](https://img.shields.io/badge/LeetCode-Debasmita__Bose-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/Debasmita_Bose/)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.oracle.com/java/)
-[![SQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
-[![License](https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge)](LICENSE)
-[![CI Status](https://img.shields.io/badge/CI-Passing-brightgreen?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/DebasmitaBose0/LeetcodePracticeCodes/actions)
-
----
-
-</div>
-
-## 🌟 Overview
-
-Welcome to **LeetCode Practice Codes**! This repository serves as a personal archive of solved algorithm problems, optimized data structure implementations, and SQL query practice. It is continuously updated with clean, well-annotated Python, Java, and SQL solutions designed for interview readiness and competitive programming.
-
----
-
-## 📊 Repository Snapshot & Metrics
-
-| Metric 📌 | Value 🔢 | Status ⚡ |
-| :--- | :---: | :---: |
-| 🐍 **Python Solutions** | `{TOTAL_PY}` | Active 🟢 |
-| ☕ **Java Solutions** | `{TOTAL_JAVA}` | Active 🟢 |
-| 🛢️ **SQL Database Queries** | `{TOTAL_SQL}` | Active 🟢 |
-| 📄 **Text Notes & Misc** | `{TOTAL_TXT}` | Active 🟢 |
-| 📦 **Total Practice Files** | `{TOTAL_FILES}` | Maintained 🚀 |
-| 📅 **Last Updated** | `{now_str}` | Sync Complete 🔄 |
-| 📜 **License** | Proprietary | All Rights Reserved 🔒 |
-
----
-
-## 📈 Solution Breakdown by ID Range
-
-| Problem Range 🔢 | Solutions Solved 🧮 | Distribution Visual 📊 |
-| :--- | :---: | :--- |
-""" + "\n".join(range_rows) + f"""
-
----
-
-## 🔥 Recently Solved / Updated Work (Top 20)
-
-| Solution File 📄 | Language 💻 | Last Modified ⏱️ |
-| :--- | :---: | :--- |
-""" + "\n".join(latest_rows) + f"""
-
----
-
-## 🧠 Algorithmic Domains & Key Techniques
-
-<details open>
-<summary><b>💡 Click to view core algorithmic patterns mastered in this repository</b></summary>
-
-<br>
-
-- 🎯 **Arrays & Strings:** Sliding Window, Two Pointers, Monotonic Stack/Queue, Kadane's Algorithm, Prefix Sums.
-- 🌲 **Trees & Graphs:** DFS, BFS, Lowest Common Ancestor (LCA), Binary Search Trees (BST), Union-Find (DSU), Dijkstra's & Shortest Path.
-- 🧩 **Dynamic Programming (DP):** 1D / 2D DP, Subsequence/Subset Problems, Interval DP, Bitmask DP, Tree DP, Space Optimization.
-- ⚡ **Advanced Data Structures:** Segment Trees, Binary Indexed Trees (BIT / Fenwick), Trie, LRU / LFU Caches, Priority Queues.
-- 🛢️ **Database & SQL:** Window Functions (`ROW_NUMBER`, `DENSE_RANK`), Multi-Table `JOIN`s, Group Aggregations, Recursive CTEs.
-
-</details>
-
----
-
-## 🗂️ Interactive Solutions Index
-
-<details>
-<summary><b>🐍 Python Solutions ({TOTAL_PY} Files)</b></summary>
-
-<br>
-
-""" + "\n".join([f"- `{p.name}`" for p in PY_FILES]) + f"""
-
-</details>
-
-<details>
-<summary><b>☕ Java Solutions ({TOTAL_JAVA} Files)</b></summary>
-
-<br>
-
-""" + "\n".join([f"- `{p.name}`" for p in JAVA_FILES]) + f"""
-
-</details>
-
-<details>
-<summary><b>🛢️ SQL Solutions ({TOTAL_SQL} Files)</b></summary>
-
-<br>
-
-""" + "\n".join([f"- `{p.name}`" for p in SQL_FILES]) + f"""
-
-</details>
-
-<details>
-<summary><b>📄 Text & Miscellaneous ({TOTAL_TXT} Files)</b></summary>
-
-<br>
-
-""" + "\n".join([f"- `{p.name}`" for p in TXT_FILES]) + f"""
-
-</details>
-
----
-
-## 🛠️ Automated Maintenance
-
-This repository utilizes an automated script `update_readme.py` to keep problem counts, statistics, and recent activity up to date.
-
-To refresh the README automatically after adding new solutions, run:
-
-```bash
-python update_readme.py
-```
-
----
-
-## 📜 License & Citation
-
-This repository is **Proprietary**. All rights reserved. Please refer to [`LICENSE`](LICENSE) for details.
-
-<div align="center">
-
-<sub><i>Crafted with ❤️ by <a href="https://github.com/DebasmitaBose0">Debasmita Bose</a> • Built for continuous learning & interview mastery 🚀</i></sub>
-
-</div>
-"""
-
-README.write_text(readme_content.strip() + "\n", encoding="utf-8")
-print(
-    f"Successfully generated elaborate README.md with {TOTAL_PY} Python solutions, {TOTAL_JAVA} Java solutions, {TOTAL_SQL} SQL files, and {TOTAL_TXT} text files."
-)
+            ranges['Other / Named'] += 1
+
+    def get_recent():
+        cmd = ['git', 'log', '--name-status', '--format=COMMIT:%cd', '--date=format:%Y-%m-%d %H:%M', '-n', '200']
+        out = subprocess.check_output(cmd, encoding='utf-8')
+        items = []
+        seen = set()
+        current_date = ''
+        for line in out.splitlines():
+            if line.startswith('COMMIT:'):
+                current_date = line.replace('COMMIT:', '').strip()
+            elif line.startswith('A\t') or line.startswith('M\t'):
+                parts = line.split('\t')
+                fname = parts[1]
+                if fname not in ['README.md', 'LICENSE', '.gitignore', 'TODO.md', 'update_readme.py'] and fname not in seen and os.path.exists(fname):
+                    seen.add(fname)
+                    lang_icon = '🐍 Python'
+                    if fname.endswith('.java'): lang_icon = '☕ Java'
+                    elif fname.endswith('.sql'): lang_icon = '🛢️ SQL'
+                    elif fname.endswith('.txt'): lang_icon = '📄 Text'
+                    items.append((fname, lang_icon, current_date))
+                    if len(items) == 20:
+                        break
+        return items
+
+    recent = get_recent()
+
+    max_count = max(ranges.values())
+    bars = {}
+    for k, v in ranges.items():
+        filled = round((v / max_count) * 12) if max_count > 0 else 0
+        empty = 12 - filled
+        bars[k] = '█' * filled + '░' * empty
+
+    lines = []
+    lines.append('<div align="center">')
+    lines.append('')
+    lines.append('# ⚡ LEETCODE PRACTICE CODES ⚡')
+    lines.append('')
+    lines.append('### <sub><i>🚀 A Curated, Production-Grade Repository of Competitive Programming & DSA Solutions</i></sub>')
+    lines.append('')
+    lines.append('[![LeetCode Profile](https://img.shields.io/badge/LeetCode-Debasmita__Bose-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/Debasmita_Bose/)')
+    lines.append('[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)')
+    lines.append('[![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.oracle.com/java/)')
+    lines.append('[![SQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)')
+    lines.append('[![License](https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge)](LICENSE)')
+    lines.append('[![CI Status](https://img.shields.io/badge/CI-Passing-brightgreen?style=for-the-badge&logo=githubactions&logoColor=white)](https://github.com/DebasmitaBose0/LeetcodePracticeCodes/actions)')
+    lines.append('')
+    lines.append('---')
+    lines.append('')
+    lines.append('</div>')
+    lines.append('')
+    lines.append('## 🌟 Overview')
+    lines.append('')
+    lines.append('Welcome to **LeetCode Practice Codes**! This repository serves as a personal archive of solved algorithm problems, optimized data structure implementations, and SQL query practice. It is continuously updated with clean, well-annotated Python, Java, and SQL solutions designed for interview readiness and competitive programming.')
+    lines.append('')
+    lines.append('---')
+    lines.append('')
+    lines.append('## 📊 Repository Snapshot & Metrics')
+    lines.append('')
+    lines.append('| Metric 📌 | Value 🔢 | Status ⚡ |')
+    lines.append('| :--- | :---: | :---: |')
+    lines.append(f'| 🐍 **Python Solutions** | `{len(py_files)}` | Active 🟢 |')
+    lines.append(f'| ☕ **Java Solutions** | `{len(java_files)}` | Active 🟢 |')
+    lines.append(f'| 🛢️ **SQL Database Queries** | `{len(sql_files)}` | Active 🟢 |')
+    lines.append(f'| 📄 **Text Notes & Misc** | `{len(txt_files) + len(misc_files)}` | Active 🟢 |')
+    lines.append(f'| 📦 **Total Practice Files** | `{total_practice}` | Maintained 🚀 |')
+    lines.append('| 📅 **Last Updated** | `2026-09-04` | Sync Complete 🔄 |')
+    lines.append('| 📜 **License** | Proprietary | All Rights Reserved 🔒 |')
+    lines.append('')
+    lines.append('---')
+    lines.append('')
+    lines.append('## 📈 Solution Breakdown by ID Range')
+    lines.append('')
+    lines.append('| Problem Range 🔢 | Solutions Solved 🧮 | Distribution Visual 📊 |')
+    lines.append('| :--- | :---: | :--- |')
+    for r_key in ['1 - 99', '100 - 199', '200 - 299', '300 - 399', '400 - 499', '500 - 999', '1000 - 1999', '2000 - 2999', '3000 - 3999', 'Other / Named']:
+        lines.append(f'| **{r_key}** | `{ranges[r_key]}` | `{bars[r_key]}` |')
+    lines.append('')
+    lines.append('---')
+    lines.append('')
+    lines.append('## 🔥 Recently Solved / Updated Work (Top 20)')
+    lines.append('')
+    lines.append('| Solution File 📄 | Language 💻 | Last Modified ⏱️ |')
+    lines.append('| :--- | :---: | :--- |')
+    for fname, lang_icon, date in recent:
+        lines.append(f'| `{fname}` | {lang_icon} | `{date}` |')
+    lines.append('')
+    lines.append('---')
+    lines.append('')
+    lines.append('## 🧠 Algorithmic Domains & Key Techniques')
+    lines.append('')
+    lines.append('<details open>')
+    lines.append('<summary><b>💡 Click to view core algorithmic patterns mastered in this repository</b></summary>')
+    lines.append('')
+    lines.append('<br>')
+    lines.append('')
+    lines.append("- 🎯 **Arrays & Strings:** Sliding Window, Two Pointers, Monotonic Stack/Queue, Kadane's Algorithm, Prefix Sums.")
+    lines.append("- 🌲 **Trees & Graphs:** DFS, BFS, Lowest Common Ancestor (LCA), Binary Search Trees (BST), Union-Find (DSU), Dijkstra's & Shortest Path.")
+    lines.append('- 🧩 **Dynamic Programming (DP):** 1D / 2D DP, Subsequence/Subset Problems, Interval DP, Bitmask DP, Tree DP, Space Optimization.')
+    lines.append('- ⚡ **Advanced Data Structures:** Segment Trees, Binary Indexed Trees (BIT / Fenwick), Trie, LRU / LFU Caches, Priority Queues.')
+    lines.append('- 🛢️ **Database & SQL:** Window Functions (`ROW_NUMBER`, `DENSE_RANK`), Multi-Table `JOIN`s, Group Aggregations, Recursive CTEs.')
+    lines.append('')
+    lines.append('</details>')
+    lines.append('')
+    lines.append('---')
+    lines.append('')
+    lines.append('## 🗂️ Interactive Solutions Index')
+    lines.append('')
+    lines.append('<details>')
+    lines.append(f'<summary><b>🐍 Python Solutions ({len(py_files)} Files)</b></summary>')
+    lines.append('')
+    lines.append('<br>')
+    lines.append('')
+    for f in py_files:
+        lines.append(f'- `{f}`')
+    lines.append('')
+    lines.append('</details>')
+    lines.append('')
+    lines.append('<details>')
+    lines.append(f'<summary><b>☕ Java Solutions ({len(java_files)} Files)</b></summary>')
+    lines.append('')
+    lines.append('<br>')
+    lines.append('')
+    for f in java_files:
+        lines.append(f'- `{f}`')
+    lines.append('')
+    lines.append('</details>')
+    lines.append('')
+    lines.append('<details>')
+    lines.append(f'<summary><b>🛢️ SQL Solutions ({len(sql_files)} Files)</b></summary>')
+    lines.append('')
+    lines.append('<br>')
+    lines.append('')
+    for f in sql_files:
+        lines.append(f'- `{f}`')
+    lines.append('')
+    lines.append('</details>')
+    lines.append('')
+    lines.append('<details>')
+    lines.append(f'<summary><b>📄 Text & Miscellaneous ({len(txt_files) + len(misc_files)} Files)</b></summary>')
+    lines.append('')
+    lines.append('<br>')
+    lines.append('')
+    for f in txt_files + misc_files:
+        lines.append(f'- `{f}`')
+    lines.append('')
+    lines.append('</details>')
+    lines.append('')
+    lines.append('---')
+    lines.append('')
+    lines.append('## 🛠️ Automated Maintenance')
+    lines.append('')
+    lines.append('This repository utilizes an automated script `update_readme.py` to keep problem counts, statistics, and recent activity up to date.')
+    lines.append('')
+    lines.append('To refresh the README automatically after adding new solutions, run:')
+    lines.append('')
+    lines.append('```bash')
+    lines.append('python update_readme.py')
+    lines.append('```')
+    lines.append('')
+    lines.append('---')
+    lines.append('')
+    lines.append('## 📜 License & Citation')
+    lines.append('')
+    lines.append('This repository is **Proprietary**. All rights reserved. Please refer to [`LICENSE`](LICENSE) for details.')
+    lines.append('')
+    lines.append('<div align="center">')
+    lines.append('')
+    lines.append('<sub><i>Crafted with ❤️ by <a href="https://github.com/DebasmitaBose0">Debasmita Bose</a> • Built for continuous learning & interview mastery 🚀</i></sub>')
+    lines.append('')
+    lines.append('</div>')
+    lines.append('')
+
+    with open('README.md', 'w', encoding='utf-8') as f:
+        f.write('\n'.join(lines))
+
+    print('README.md generated successfully!')
+
+if __name__ == '__main__':
+    main()

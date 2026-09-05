@@ -25,12 +25,12 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Metric 📌 | Value 🔢 | Status ⚡ |
 | :--- | :---: | :---: |
-| 🐍 **Python Solutions** | `624` | Active 🟢 |
+| 🐍 **Python Solutions** | `625` | Active 🟢 |
 | ☕ **Java Solutions** | `3` | Active 🟢 |
 | 🛢️ **SQL Database Queries** | `16` | Active 🟢 |
-| 📄 **Text Notes & Misc** | `4` | Active 🟢 |
-| 📦 **Total Practice Files** | `647` | Maintained 🚀 |
-| 📅 **Last Updated** | `2026-09-03` | Sync Complete 🔄 |
+| 📄 **Text Notes & Misc** | `5` | Active 🟢 |
+| 📦 **Total Practice Files** | `649` | Maintained 🚀 |
+| 📅 **Last Updated** | `2026-09-04` | Sync Complete 🔄 |
 | 📜 **License** | Proprietary | All Rights Reserved 🔒 |
 
 ---
@@ -39,16 +39,16 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Problem Range 🔢 | Solutions Solved 🧮 | Distribution Visual 📊 |
 | :--- | :---: | :--- |
-| **1 - 99** | `70` | `███████░░░░░` |
-| **100 - 199** | `64` | `██████░░░░░░` |
-| **200 - 299** | `57` | `██████░░░░░░` |
+| **1 - 99** | `67` | `███████░░░░░` |
+| **100 - 199** | `79` | `████████░░░░` |
+| **200 - 299** | `58` | `██████░░░░░░` |
 | **300 - 399** | `59` | `██████░░░░░░` |
-| **400 - 499** | `71` | `███████░░░░░` |
-| **500 - 999** | `55` | `█████░░░░░░░` |
+| **400 - 499** | `72` | `████████░░░░` |
+| **500 - 999** | `58` | `██████░░░░░░` |
 | **1000 - 1999** | `49` | `█████░░░░░░░` |
 | **2000 - 2999** | `59` | `██████░░░░░░` |
-| **3000 - 3999** | `112` | `████████████` |
-| **Other / Named** | `31` | `███░░░░░░░░░` |
+| **3000 - 3999** | `114` | `████████████` |
+| **Other / Named** | `34` | `████░░░░░░░░` |
 
 ---
 
@@ -56,26 +56,26 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Solution File 📄 | Language 💻 | Last Modified ⏱️ |
 | :--- | :---: | :--- |
-| `3876. Construct Uniform Parity Array II.py` | 🐍 Python | `2026-09-03 21:40` |
-| `3568. Minimum Moves to Clean the Classroom.py` | 🐍 Python | `2026-09-03 21:40` |
-| `3875. Construct Uniform Parity Array I.py` | 🐍 Python | `2026-09-03 21:40` |
-| `2058. Find the Minimum and Maximum Number of Nodes Between Critical Points.py` | 🐍 Python | `2026-08-31 21:01` |
-| `2091. Removing Minimum and Maximum From Array.py` | 🐍 Python | `2026-08-30 21:20` |
-| `find-first-and-last-position-of-element-in-sorted-array.py` | 🐍 Python | `2026-08-30 21:18` |
-| `Valid Sudoku.py` | 🐍 Python | `2026-08-30 21:18` |
-| `Two Sum.py` | 🐍 Python | `2026-08-30 21:18` |
-| `Trapping Rain Water.py` | 🐍 Python | `2026-08-30 21:18` |
-| `Shortest and Lexicographically Smallest Beautiful String.py` | 🐍 Python | `2026-08-30 21:18` |
-| `Sudoku Solver.py` | 🐍 Python | `2026-08-30 21:18` |
-| `Separate the Digits in an Array.py` | 🐍 Python | `2026-08-30 21:18` |
-| `Search in Rotated Sorted Array.py` | 🐍 Python | `2026-08-30 21:18` |
-| `Search Insert Position.py` | 🐍 Python | `2026-08-30 21:18` |
-| `Rotated Digits.py` | 🐍 Python | `2026-08-30 21:18` |
-| `Rotate String.py` | 🐍 Python | `2026-08-30 21:18` |
-| `Rotate Function.py` | 🐍 Python | `2026-08-30 21:18` |
-| `Remove Element.py` | 🐍 Python | `2026-08-30 21:18` |
-| `Remove Duplicates from Sorted Array.py` | 🐍 Python | `2026-08-30 21:18` |
-| `Prob.3212.py` | 🐍 Python | `2026-08-30 21:18` |
+| `3875. Construct Uniform Parity Array I.py` | 🐍 Python | `2026-09-04 11:24` |
+| `3903. Smallest Stable Index I.py` | 🐍 Python | `2026-09-04 11:24` |
+| `3876. Construct Uniform Parity Array II.py` | 🐍 Python | `2026-09-03 21:41` |
+| `3568. Minimum Moves to Clean the Classroom.py` | 🐍 Python | `2026-09-01 22:11` |
+| `2058. Find the Minimum and Maximum Number of Nodes Between Critical Points.py` | 🐍 Python | `2026-08-31 21:02` |
+| `2091. Removing Minimum and Maximum From Array.py` | 🐍 Python | `2026-08-30 21:21` |
+| `2948. Make Lexicographically Smallest Array by Swapping Elements.py` | 🐍 Python | `2026-08-29 09:54` |
+| `3734. Lexicographically Smallest Palindromic Permutation Greater Than Target.py` | 🐍 Python | `2026-08-28 21:53` |
+| `3720. Lexicographically Smallest Permutation Greater Than Target.py` | 🐍 Python | `2026-08-27 21:38` |
+| `Shortest and Lexicographically Smallest Beautiful String.py` | 🐍 Python | `2026-08-26 20:36` |
+| `3718. Smallest Missing Multiple of K.py` | 🐍 Python | `2026-08-25 21:21` |
+| `1872. Stone Game VIII.py` | 🐍 Python | `2026-08-24 22:53` |
+| `1927. Sum Game.py` | 🐍 Python | `2026-08-23 10:28` |
+| `3622. Check Divisibility by Digit Sum and Product.py` | 🐍 Python | `2026-08-22 22:07` |
+| `3116. Kth Smallest Amount With Single Denomination Combination.py` | 🐍 Python | `2026-08-21 22:24` |
+| `3069. Distribute Elements Into Two Arrays I.py` | 🐍 Python | `2026-08-20 21:43` |
+| `1386. Cinema Seat Allocation.py` | 🐍 Python | `2026-08-19 21:46` |
+| `1563. Stone Game V.py` | 🐍 Python | `2026-08-18 21:32` |
+| `2029. Stone Game IX.py` | 🐍 Python | `2026-08-18 21:32` |
+| `3471. Find the Largest Almost Missing Integer.py` | 🐍 Python | `2026-08-18 21:32` |
 
 ---
 
@@ -99,15 +99,12 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 ## 🗂️ Interactive Solutions Index
 
 <details>
-<summary><b>🐍 Python Solutions (624 Files)</b></summary>
+<summary><b>🐍 Python Solutions (625 Files)</b></summary>
 
 <br>
 
 - `2. Add Two Numbers.py`
 - `3. Longest Substring Without Repeating Characters.py`
-- `3Sum Closest.py`
-- `3Sum.py`
-- `4Sum.py`
 - `5. Longest Palindromic Substring.py`
 - `6. Zigzag Conversion.py`
 - `7. Reverse Integer.py`
@@ -697,6 +694,10 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `3838. Weighted Word Mapping.py`
 - `3875. Construct Uniform Parity Array I.py`
 - `3876. Construct Uniform Parity Array II.py`
+- `3903. Smallest Stable Index I.py`
+- `3Sum Closest.py`
+- `3Sum.py`
+- `4Sum.py`
 - `Binary Tilt.py`
 - `Combination Sum II.py`
 - `Combination Sum.py`
@@ -766,7 +767,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 </details>
 
 <details>
-<summary><b>📄 Text & Miscellaneous (4 Files)</b></summary>
+<summary><b>📄 Text & Miscellaneous (5 Files)</b></summary>
 
 <br>
 
@@ -774,6 +775,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `193. Valid Phone Numbers.txt`
 - `194. Transpose File.txt`
 - `195. Tenth Line.txt`
+- `482. License Key Formatting`
 
 </details>
 
