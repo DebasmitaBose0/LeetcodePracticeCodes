@@ -25,12 +25,12 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Metric 📌 | Value 🔢 | Status ⚡ |
 | :--- | :---: | :---: |
-| 🐍 **Python Solutions** | `627` | Active 🟢 |
+| 🐍 **Python Solutions** | `629` | Active 🟢 |
 | ☕ **Java Solutions** | `3` | Active 🟢 |
 | 🛢️ **SQL Database Queries** | `16` | Active 🟢 |
 | 📄 **Text Notes & Misc** | `5` | Active 🟢 |
-| 📦 **Total Practice Files** | `651` | Maintained 🚀 |
-| 📅 **Last Updated** | `2026-09-07` | Sync Complete 🔄 |
+| 📦 **Total Practice Files** | `653` | Maintained 🚀 |
+| 📅 **Last Updated** | `2026-09-09` | Sync Complete 🔄 |
 | 📜 **License** | Proprietary | All Rights Reserved 🔒 |
 
 ---
@@ -43,12 +43,12 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | **100 - 199** | `79` | `████████░░░░` |
 | **200 - 299** | `58` | `██████░░░░░░` |
 | **300 - 399** | `59` | `██████░░░░░░` |
-| **400 - 499** | `72` | `████████░░░░` |
+| **400 - 499** | `72` | `███████░░░░░` |
 | **500 - 999** | `59` | `██████░░░░░░` |
 | **1000 - 1999** | `49` | `█████░░░░░░░` |
 | **2000 - 2999** | `59` | `██████░░░░░░` |
-| **3000 - 3999** | `115` | `████████████` |
-| **Other / Named** | `34` | `████░░░░░░░░` |
+| **3000 - 3999** | `117` | `████████████` |
+| **Other / Named** | `34` | `███░░░░░░░░░` |
 
 ---
 
@@ -56,6 +56,8 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Solution File 📄 | Language 💻 | Last Modified ⏱️ |
 | :--- | :---: | :--- |
+| `3871. Count Commas in Range II.py` | 🐍 Python | `2026-09-09 22:00` |
+| `3870. Count Commas in Range.py` | 🐍 Python | `2026-09-08 21:19` |
 | `940. Distinct Subsequences II.py` | 🐍 Python | `2026-09-07 20:44` |
 | `3904. Smallest Stable Index II.py` | 🐍 Python | `2026-09-05 19:47` |
 | `3875. Construct Uniform Parity Array I.py` | 🐍 Python | `2026-09-04 11:24` |
@@ -74,8 +76,6 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | `3622. Check Divisibility by Digit Sum and Product.py` | 🐍 Python | `2026-08-22 22:07` |
 | `3116. Kth Smallest Amount With Single Denomination Combination.py` | 🐍 Python | `2026-08-21 22:24` |
 | `3069. Distribute Elements Into Two Arrays I.py` | 🐍 Python | `2026-08-20 21:43` |
-| `1386. Cinema Seat Allocation.py` | 🐍 Python | `2026-08-19 21:46` |
-| `1563. Stone Game V.py` | 🐍 Python | `2026-08-18 21:32` |
 
 ---
 
@@ -99,7 +99,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 ## 🗂️ Interactive Solutions Index
 
 <details>
-<summary><b>🐍 Python Solutions (627 Files)</b></summary>
+<summary><b>🐍 Python Solutions (629 Files)</b></summary>
 
 <br>
 
@@ -693,6 +693,8 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `3821. Find Nth Smallest Integer With K One Bits.py`
 - `3823. Reverse Letters Then Special Characters in a String.py`
 - `3838. Weighted Word Mapping.py`
+- `3870. Count Commas in Range.py`
+- `3871. Count Commas in Range II.py`
 - `3875. Construct Uniform Parity Array I.py`
 - `3876. Construct Uniform Parity Array II.py`
 - `3903. Smallest Stable Index I.py`
