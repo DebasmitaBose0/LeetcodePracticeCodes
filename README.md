@@ -25,12 +25,12 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Metric 📌 | Value 🔢 | Status ⚡ |
 | :--- | :---: | :---: |
-| 🐍 **Python Solutions** | `629` | Active 🟢 |
+| 🐍 **Python Solutions** | `630` | Active 🟢 |
 | ☕ **Java Solutions** | `3` | Active 🟢 |
 | 🛢️ **SQL Database Queries** | `16` | Active 🟢 |
 | 📄 **Text Notes & Misc** | `5` | Active 🟢 |
-| 📦 **Total Practice Files** | `653` | Maintained 🚀 |
-| 📅 **Last Updated** | `2026-09-09` | Sync Complete 🔄 |
+| 📦 **Total Practice Files** | `654` | Maintained 🚀 |
+| 📅 **Last Updated** | `2026-09-10` | Sync Complete 🔄 |
 | 📜 **License** | Proprietary | All Rights Reserved 🔒 |
 
 ---
@@ -46,7 +46,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | **400 - 499** | `72` | `███████░░░░░` |
 | **500 - 999** | `59` | `██████░░░░░░` |
 | **1000 - 1999** | `49` | `█████░░░░░░░` |
-| **2000 - 2999** | `59` | `██████░░░░░░` |
+| **2000 - 2999** | `60` | `██████░░░░░░` |
 | **3000 - 3999** | `117` | `████████████` |
 | **Other / Named** | `34` | `███░░░░░░░░░` |
 
@@ -56,6 +56,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Solution File 📄 | Language 💻 | Last Modified ⏱️ |
 | :--- | :---: | :--- |
+| `2265. Count Nodes Equal to Average of Subtree.py` | 🐍 Python | `2026-09-10 21:55` |
 | `3871. Count Commas in Range II.py` | 🐍 Python | `2026-09-09 22:00` |
 | `3870. Count Commas in Range.py` | 🐍 Python | `2026-09-08 21:19` |
 | `940. Distinct Subsequences II.py` | 🐍 Python | `2026-09-07 20:44` |
@@ -75,7 +76,6 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | `1927. Sum Game.py` | 🐍 Python | `2026-08-23 10:28` |
 | `3622. Check Divisibility by Digit Sum and Product.py` | 🐍 Python | `2026-08-22 22:07` |
 | `3116. Kth Smallest Amount With Single Denomination Combination.py` | 🐍 Python | `2026-08-21 22:24` |
-| `3069. Distribute Elements Into Two Arrays I.py` | 🐍 Python | `2026-08-20 21:43` |
 
 ---
 
@@ -99,7 +99,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 ## 🗂️ Interactive Solutions Index
 
 <details>
-<summary><b>🐍 Python Solutions (629 Files)</b></summary>
+<summary><b>🐍 Python Solutions (630 Files)</b></summary>
 
 <br>
 
@@ -550,6 +550,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `2211. Count Collisions on a Road.py`
 - `2213. Longest Substring of One Repeating Character.py`
 - `2257. Count Unguarded Cells in the Grid.py`
+- `2265. Count Nodes Equal to Average of Subtree.py`
 - `2435. Paths in Matrix Whose Sum Is Divisible by K.py`
 - `2452. Words Within Two Edits of Dictionary.py`
 - `2463. Minimum Total Distance Traveled.py`
