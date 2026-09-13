@@ -25,21 +25,12 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Metric 📌 | Value 🔢 | Status ⚡ |
 | :--- | :---: | :---: |
-<<<<<<< HEAD
-| 🐍 **Python Solutions** | `631` | Active 🟢 |
+| 🐍 **Python Solutions** | `633` | Active 🟢 |
 | ☕ **Java Solutions** | `3` | Active 🟢 |
 | 🛢️ **SQL Database Queries** | `16` | Active 🟢 |
 | 📄 **Text Notes & Misc** | `5` | Active 🟢 |
-| 📦 **Total Practice Files** | `655` | Maintained 🚀 |
-| 📅 **Last Updated** | `2026-09-11` | Sync Complete 🔄 |
-=======
-| 🐍 **Python Solutions** | `628` | Active 🟢 |
-| ☕ **Java Solutions** | `3` | Active 🟢 |
-| 🛢️ **SQL Database Queries** | `16` | Active 🟢 |
-| 📄 **Text Notes & Misc** | `5` | Active 🟢 |
-| 📦 **Total Practice Files** | `652` | Maintained 🚀 |
-| 📅 **Last Updated** | `2026-09-08` | Sync Complete 🔄 |
->>>>>>> a418736 (Solved)
+| 📦 **Total Practice Files** | `657` | Maintained 🚀 |
+| 📅 **Last Updated** | `2026-09-13` | Sync Complete 🔄 |
 | 📜 **License** | Proprietary | All Rights Reserved 🔒 |
 
 ---
@@ -53,17 +44,11 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | **200 - 299** | `58` | `██████░░░░░░` |
 | **300 - 399** | `59` | `██████░░░░░░` |
 | **400 - 499** | `72` | `███████░░░░░` |
-| **500 - 999** | `59` | `██████░░░░░░` |
+| **500 - 999** | `60` | `██████░░░░░░` |
 | **1000 - 1999** | `49` | `█████░░░░░░░` |
-<<<<<<< HEAD
 | **2000 - 2999** | `60` | `██████░░░░░░` |
-| **3000 - 3999** | `118` | `████████████` |
+| **3000 - 3999** | `119` | `████████████` |
 | **Other / Named** | `34` | `███░░░░░░░░░` |
-=======
-| **2000 - 2999** | `59` | `██████░░░░░░` |
-| **3000 - 3999** | `116` | `████████████` |
-| **Other / Named** | `34` | `████░░░░░░░░` |
->>>>>>> a418736 (Solved)
 
 ---
 
@@ -71,12 +56,10 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Solution File 📄 | Language 💻 | Last Modified ⏱️ |
 | :--- | :---: | :--- |
-<<<<<<< HEAD
+| `3414. Maximum Score of Non-overlapping Intervals.py` | 🐍 Python | `2026-09-12 21:38` |
 | `3483. Unique 3-Digit Even Numbers.py` | 🐍 Python | `2026-09-11 21:43` |
 | `2265. Count Nodes Equal to Average of Subtree.py` | 🐍 Python | `2026-09-10 21:55` |
 | `3871. Count Commas in Range II.py` | 🐍 Python | `2026-09-09 22:00` |
-=======
->>>>>>> a418736 (Solved)
 | `3870. Count Commas in Range.py` | 🐍 Python | `2026-09-08 21:19` |
 | `940. Distinct Subsequences II.py` | 🐍 Python | `2026-09-07 20:44` |
 | `3904. Smallest Stable Index II.py` | 🐍 Python | `2026-09-05 19:47` |
@@ -93,13 +76,6 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | `3718. Smallest Missing Multiple of K.py` | 🐍 Python | `2026-08-25 21:21` |
 | `1872. Stone Game VIII.py` | 🐍 Python | `2026-08-24 22:53` |
 | `1927. Sum Game.py` | 🐍 Python | `2026-08-23 10:28` |
-| `3622. Check Divisibility by Digit Sum and Product.py` | 🐍 Python | `2026-08-22 22:07` |
-<<<<<<< HEAD
-=======
-| `3116. Kth Smallest Amount With Single Denomination Combination.py` | 🐍 Python | `2026-08-21 22:24` |
-| `3069. Distribute Elements Into Two Arrays I.py` | 🐍 Python | `2026-08-20 21:43` |
-| `1386. Cinema Seat Allocation.py` | 🐍 Python | `2026-08-19 21:46` |
->>>>>>> a418736 (Solved)
 
 ---
 
@@ -123,11 +99,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 ## 🗂️ Interactive Solutions Index
 
 <details>
-<<<<<<< HEAD
-<summary><b>🐍 Python Solutions (631 Files)</b></summary>
-=======
-<summary><b>🐍 Python Solutions (628 Files)</b></summary>
->>>>>>> a418736 (Solved)
+<summary><b>🐍 Python Solutions (633 Files)</b></summary>
 
 <br>
 
@@ -499,6 +471,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `717. 1-bit and 2-bit Characters.py`
 - `757. Set Intersection Size At Least Two.py`
 - `788. Rotated Digits.py`
+- `835. Image Overlap.py`
 - `874. Walking Robot Simulation.py`
 - `877. Stone Game.py`
 - `940. Distinct Subsequences II.py`
@@ -644,6 +617,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `3354. Make Array Elements Equal to Zero.py`
 - `3370. Smallest Number With All Set Bits.py`
 - `3381. Maximum Subarray Sum With Length Divisible by K.py`
+- `3414. Maximum Score of Non-overlapping Intervals.py`
 - `3418. Maximum Amount of Money Robot Can Earn.py`
 - `3432. Count Partitions with Even Sum Difference.py`
 - `3464. Maximize the Distance Between Points on a Square.py`
@@ -724,10 +698,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `3823. Reverse Letters Then Special Characters in a String.py`
 - `3838. Weighted Word Mapping.py`
 - `3870. Count Commas in Range.py`
-<<<<<<< HEAD
 - `3871. Count Commas in Range II.py`
-=======
->>>>>>> a418736 (Solved)
 - `3875. Construct Uniform Parity Array I.py`
 - `3876. Construct Uniform Parity Array II.py`
 - `3903. Smallest Stable Index I.py`
