@@ -25,12 +25,12 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Metric 📌 | Value 🔢 | Status ⚡ |
 | :--- | :---: | :---: |
-| 🐍 **Python Solutions** | `633` | Active 🟢 |
+| 🐍 **Python Solutions** | `634` | Active 🟢 |
 | ☕ **Java Solutions** | `3` | Active 🟢 |
 | 🛢️ **SQL Database Queries** | `16` | Active 🟢 |
 | 📄 **Text Notes & Misc** | `5` | Active 🟢 |
-| 📦 **Total Practice Files** | `657` | Maintained 🚀 |
-| 📅 **Last Updated** | `2026-09-13` | Sync Complete 🔄 |
+| 📦 **Total Practice Files** | `658` | Maintained 🚀 |
+| 📅 **Last Updated** | `2026-09-14` | Sync Complete 🔄 |
 | 📜 **License** | Proprietary | All Rights Reserved 🔒 |
 
 ---
@@ -44,7 +44,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | **200 - 299** | `58` | `██████░░░░░░` |
 | **300 - 399** | `59` | `██████░░░░░░` |
 | **400 - 499** | `72` | `███████░░░░░` |
-| **500 - 999** | `60` | `██████░░░░░░` |
+| **500 - 999** | `61` | `██████░░░░░░` |
 | **1000 - 1999** | `49` | `█████░░░░░░░` |
 | **2000 - 2999** | `60` | `██████░░░░░░` |
 | **3000 - 3999** | `119` | `████████████` |
@@ -56,6 +56,8 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Solution File 📄 | Language 💻 | Last Modified ⏱️ |
 | :--- | :---: | :--- |
+| `836. Rectangle Overlap.py` | 🐍 Python | `2026-09-14 21:19` |
+| `835. Image Overlap.py` | 🐍 Python | `2026-09-13 13:52` |
 | `3414. Maximum Score of Non-overlapping Intervals.py` | 🐍 Python | `2026-09-12 21:38` |
 | `3483. Unique 3-Digit Even Numbers.py` | 🐍 Python | `2026-09-11 21:43` |
 | `2265. Count Nodes Equal to Average of Subtree.py` | 🐍 Python | `2026-09-10 21:55` |
@@ -74,8 +76,6 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | `3720. Lexicographically Smallest Permutation Greater Than Target.py` | 🐍 Python | `2026-08-27 21:38` |
 | `Shortest and Lexicographically Smallest Beautiful String.py` | 🐍 Python | `2026-08-26 20:36` |
 | `3718. Smallest Missing Multiple of K.py` | 🐍 Python | `2026-08-25 21:21` |
-| `1872. Stone Game VIII.py` | 🐍 Python | `2026-08-24 22:53` |
-| `1927. Sum Game.py` | 🐍 Python | `2026-08-23 10:28` |
 
 ---
 
@@ -99,7 +99,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 ## 🗂️ Interactive Solutions Index
 
 <details>
-<summary><b>🐍 Python Solutions (633 Files)</b></summary>
+<summary><b>🐍 Python Solutions (634 Files)</b></summary>
 
 <br>
 
@@ -472,6 +472,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `757. Set Intersection Size At Least Two.py`
 - `788. Rotated Digits.py`
 - `835. Image Overlap.py`
+- `836. Rectangle Overlap.py`
 - `874. Walking Robot Simulation.py`
 - `877. Stone Game.py`
 - `940. Distinct Subsequences II.py`
