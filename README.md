@@ -25,12 +25,12 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Metric 📌 | Value 🔢 | Status ⚡ |
 | :--- | :---: | :---: |
-| 🐍 **Python Solutions** | `637` | Active 🟢 |
+| 🐍 **Python Solutions** | `638` | Active 🟢 |
 | ☕ **Java Solutions** | `3` | Active 🟢 |
 | 🛢️ **SQL Database Queries** | `16` | Active 🟢 |
 | 📄 **Text Notes & Misc** | `5` | Active 🟢 |
-| 📦 **Total Practice Files** | `661` | Maintained 🚀 |
-| 📅 **Last Updated** | `2026-09-17` | Sync Complete 🔄 |
+| 📦 **Total Practice Files** | `662` | Maintained 🚀 |
+| 📅 **Last Updated** | `2026-09-18` | Sync Complete 🔄 |
 | 📜 **License** | Proprietary | All Rights Reserved 🔒 |
 
 ---
@@ -45,7 +45,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | **300 - 399** | `59` | `██████░░░░░░` |
 | **400 - 499** | `72` | `███████░░░░░` |
 | **500 - 999** | `61` | `██████░░░░░░` |
-| **1000 - 1999** | `51` | `█████░░░░░░░` |
+| **1000 - 1999** | `52` | `█████░░░░░░░` |
 | **2000 - 2999** | `61` | `██████░░░░░░` |
 | **3000 - 3999** | `119` | `████████████` |
 | **Other / Named** | `34` | `███░░░░░░░░░` |
@@ -56,6 +56,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Solution File 📄 | Language 💻 | Last Modified ⏱️ |
 | :--- | :---: | :--- |
+| `1520. Maximum Number of Non-Overlapping Substrings.py` | 🐍 Python | `2026-09-18 19:00` |
 | `1477. Find Two Non-overlapping Sub-arrays Each With Target Sum.py` | 🐍 Python | `2026-09-17 21:14` |
 | `1621. Number of Sets of K Non-Overlapping Line Segments.py` | 🐍 Python | `2026-09-16 20:42` |
 | `2472. Maximum Number of Non-overlapping Palindrome Substrings.py` | 🐍 Python | `2026-09-15 20:58` |
@@ -75,7 +76,6 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | `2058. Find the Minimum and Maximum Number of Nodes Between Critical Points.py` | 🐍 Python | `2026-08-31 21:02` |
 | `2091. Removing Minimum and Maximum From Array.py` | 🐍 Python | `2026-08-30 21:21` |
 | `2948. Make Lexicographically Smallest Array by Swapping Elements.py` | 🐍 Python | `2026-08-29 09:54` |
-| `3734. Lexicographically Smallest Palindromic Permutation Greater Than Target.py` | 🐍 Python | `2026-08-28 21:53` |
 
 ---
 
@@ -99,7 +99,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 ## 🗂️ Interactive Solutions Index
 
 <details>
-<summary><b>🐍 Python Solutions (637 Files)</b></summary>
+<summary><b>🐍 Python Solutions (638 Files)</b></summary>
 
 <br>
 
@@ -503,6 +503,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `1464. Maximum Product of Two Elements in an Array.py`
 - `1477. Find Two Non-overlapping Sub-arrays Each With Target Sum.py`
 - `1513. Number of Substrings With Only 1s.py`
+- `1520. Maximum Number of Non-Overlapping Substrings.py`
 - `1523. Count Odd Numbers in an Interval Range.py`
 - `1526. Minimum Number of Increments on Subarrays to Form a Target Array.py`
 - `1559. Detect Cycles in 2D Grid.py`

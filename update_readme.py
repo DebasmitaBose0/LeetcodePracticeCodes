@@ -51,10 +51,29 @@ def main():
             ranges['Other / Named'] += 1
 
     def get_recent():
-        cmd = ['git', 'log', '--name-status', '--format=COMMIT:%cd', '--date=format:%Y-%m-%d %H:%M', '-n', '200']
-        out = subprocess.check_output(cmd, encoding='utf-8')
         items = []
         seen = set()
+
+        try:
+            status_cmd = ['git', 'status', '--porcelain']
+            status_out = subprocess.check_output(status_cmd, encoding='utf-8')
+            for line in status_out.splitlines():
+                if len(line) >= 4:
+                    fname = line[3:].strip().strip('"')
+                    if fname not in ['README.md', 'LICENSE', '.gitignore', 'TODO.md', 'update_readme.py'] and fname not in seen and os.path.exists(fname) and os.path.isfile(fname):
+                        seen.add(fname)
+                        lang_icon = '🐍 Python'
+                        if fname.endswith('.java'): lang_icon = '☕ Java'
+                        elif fname.endswith('.sql'): lang_icon = '🛢️ SQL'
+                        elif fname.endswith('.txt'): lang_icon = '📄 Text'
+                        mtime = os.path.getmtime(fname)
+                        mod_date = datetime.datetime.fromtimestamp(mtime).strftime('%Y-%m-%d %H:%M')
+                        items.append((fname, lang_icon, mod_date))
+        except Exception:
+            pass
+
+        cmd = ['git', 'log', '--name-status', '--format=COMMIT:%cd', '--date=format:%Y-%m-%d %H:%M', '-n', '200']
+        out = subprocess.check_output(cmd, encoding='utf-8')
         current_date = ''
         for line in out.splitlines():
             if line.startswith('COMMIT:'):
@@ -71,7 +90,7 @@ def main():
                     items.append((fname, lang_icon, current_date))
                     if len(items) == 20:
                         break
-        return items
+        return items[:20]
 
     recent = get_recent()
 
