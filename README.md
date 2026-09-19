@@ -25,12 +25,12 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Metric 📌 | Value 🔢 | Status ⚡ |
 | :--- | :---: | :---: |
-| 🐍 **Python Solutions** | `638` | Active 🟢 |
+| 🐍 **Python Solutions** | `639` | Active 🟢 |
 | ☕ **Java Solutions** | `3` | Active 🟢 |
 | 🛢️ **SQL Database Queries** | `16` | Active 🟢 |
 | 📄 **Text Notes & Misc** | `5` | Active 🟢 |
-| 📦 **Total Practice Files** | `662` | Maintained 🚀 |
-| 📅 **Last Updated** | `2026-09-18` | Sync Complete 🔄 |
+| 📦 **Total Practice Files** | `663` | Maintained 🚀 |
+| 📅 **Last Updated** | `2026-09-19` | Sync Complete 🔄 |
 | 📜 **License** | Proprietary | All Rights Reserved 🔒 |
 
 ---
@@ -45,7 +45,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | **300 - 399** | `59` | `██████░░░░░░` |
 | **400 - 499** | `72` | `███████░░░░░` |
 | **500 - 999** | `61` | `██████░░░░░░` |
-| **1000 - 1999** | `52` | `█████░░░░░░░` |
+| **1000 - 1999** | `53` | `█████░░░░░░░` |
 | **2000 - 2999** | `61` | `██████░░░░░░` |
 | **3000 - 3999** | `119` | `████████████` |
 | **Other / Named** | `34` | `███░░░░░░░░░` |
@@ -56,7 +56,8 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Solution File 📄 | Language 💻 | Last Modified ⏱️ |
 | :--- | :---: | :--- |
-| `1520. Maximum Number of Non-Overlapping Substrings.py` | 🐍 Python | `2026-09-18 19:00` |
+| `1401. Circle and Rectangle Overlapping.py` | 🐍 Python | `2026-09-19 22:05` |
+| `1520. Maximum Number of Non-Overlapping Substrings.py` | 🐍 Python | `2026-09-18 23:34` |
 | `1477. Find Two Non-overlapping Sub-arrays Each With Target Sum.py` | 🐍 Python | `2026-09-17 21:14` |
 | `1621. Number of Sets of K Non-Overlapping Line Segments.py` | 🐍 Python | `2026-09-16 20:42` |
 | `2472. Maximum Number of Non-overlapping Palindrome Substrings.py` | 🐍 Python | `2026-09-15 20:58` |
@@ -75,7 +76,6 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | `3568. Minimum Moves to Clean the Classroom.py` | 🐍 Python | `2026-09-01 22:11` |
 | `2058. Find the Minimum and Maximum Number of Nodes Between Critical Points.py` | 🐍 Python | `2026-08-31 21:02` |
 | `2091. Removing Minimum and Maximum From Array.py` | 🐍 Python | `2026-08-30 21:21` |
-| `2948. Make Lexicographically Smallest Array by Swapping Elements.py` | 🐍 Python | `2026-08-29 09:54` |
 
 ---
 
@@ -99,7 +99,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 ## 🗂️ Interactive Solutions Index
 
 <details>
-<summary><b>🐍 Python Solutions (638 Files)</b></summary>
+<summary><b>🐍 Python Solutions (639 Files)</b></summary>
 
 <br>
 
@@ -498,6 +498,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `1358. Number of Substrings Containing All Three Characters.py`
 - `1386. Cinema Seat Allocation.py`
 - `1391. Check if There is a Valid Path in a Grid.py`
+- `1401. Circle and Rectangle Overlapping.py`
 - `1406. Stone Game III.py`
 - `1437. Check If All 1's Are at Least Length K Places Away.py`
 - `1464. Maximum Product of Two Elements in an Array.py`
