@@ -25,12 +25,12 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Metric 📌 | Value 🔢 | Status ⚡ |
 | :--- | :---: | :---: |
-| 🐍 **Python Solutions** | `641` | Active 🟢 |
+| 🐍 **Python Solutions** | `644` | Active 🟢 |
 | ☕ **Java Solutions** | `3` | Active 🟢 |
 | 🛢️ **SQL Database Queries** | `16` | Active 🟢 |
 | 📄 **Text Notes & Misc** | `5` | Active 🟢 |
-| 📦 **Total Practice Files** | `665` | Maintained 🚀 |
-| 📅 **Last Updated** | `2026-09-21` | Sync Complete 🔄 |
+| 📦 **Total Practice Files** | `668` | Maintained 🚀 |
+| 📅 **Last Updated** | `2026-09-24` | Sync Complete 🔄 |
 | 📜 **License** | Proprietary | All Rights Reserved 🔒 |
 
 ---
@@ -45,9 +45,9 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | **300 - 399** | `59` | `██████░░░░░░` |
 | **400 - 499** | `72` | `███████░░░░░` |
 | **500 - 999** | `61` | `██████░░░░░░` |
-| **1000 - 1999** | `53` | `█████░░░░░░░` |
+| **1000 - 1999** | `54` | `█████░░░░░░░` |
 | **2000 - 2999** | `61` | `██████░░░░░░` |
-| **3000 - 3999** | `121` | `████████████` |
+| **3000 - 3999** | `123` | `████████████` |
 | **Other / Named** | `34` | `███░░░░░░░░░` |
 
 ---
@@ -56,6 +56,9 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Solution File 📄 | Language 💻 | Last Modified ⏱️ |
 | :--- | :---: | :--- |
+| `3550. Smallest Index With Digit Sum Equal to Index.py` | 🐍 Python | `2026-09-24 21:27` |
+| `1658. Minimum Operations to Reduce X to Zero.py` | 🐍 Python | `2026-09-23 21:44` |
+| `3525. Find X Value of Array II.py` | 🐍 Python | `2026-09-22 22:29` |
 | `3524. Find X Value of Array I.py` | 🐍 Python | `2026-09-21 22:21` |
 | `3498. Reverse Degree of a String.py` | 🐍 Python | `2026-09-20 21:54` |
 | `1401. Circle and Rectangle Overlapping.py` | 🐍 Python | `2026-09-19 22:05` |
@@ -73,9 +76,6 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | `940. Distinct Subsequences II.py` | 🐍 Python | `2026-09-07 20:44` |
 | `3904. Smallest Stable Index II.py` | 🐍 Python | `2026-09-05 19:47` |
 | `3875. Construct Uniform Parity Array I.py` | 🐍 Python | `2026-09-04 11:24` |
-| `3903. Smallest Stable Index I.py` | 🐍 Python | `2026-09-04 11:24` |
-| `3876. Construct Uniform Parity Array II.py` | 🐍 Python | `2026-09-03 21:41` |
-| `3568. Minimum Moves to Clean the Classroom.py` | 🐍 Python | `2026-09-01 22:11` |
 
 ---
 
@@ -99,7 +99,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 ## 🗂️ Interactive Solutions Index
 
 <details>
-<summary><b>🐍 Python Solutions (641 Files)</b></summary>
+<summary><b>🐍 Python Solutions (644 Files)</b></summary>
 
 <br>
 
@@ -513,6 +513,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `1590. Make Sum Divisible by P.py`
 - `1611. Minimum One Bit Operations to Make Integers Zero.py`
 - `1621. Number of Sets of K Non-Overlapping Line Segments.py`
+- `1658. Minimum Operations to Reduce X to Zero.py`
 - `1674. Minimum Moves to Make Array Complementary.py`
 - `1722. Minimize Hamming Distance After Swap Operations.py`
 - `1732. Find the Highest Altitude.py`
@@ -639,12 +640,14 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `3517. Smallest Palindromic Rearrangement I.py`
 - `3518. Smallest Palindromic Rearrangement II.py`
 - `3524. Find X Value of Array I.py`
+- `3525. Find X Value of Array II.py`
 - `3531. Count Covered Buildings.py`
 - `3532. Path Existence Queries in a Graph I.py`
 - `3534. Path Existence Queries in a Graph II.py`
 - `3536. Maximum Product of Two Digits.py`
 - `3546. Equal Sum Grid Partition I.py`
 - `3548. Equal Sum Grid Partition II.py`
+- `3550. Smallest Index With Digit Sum Equal to Index.py`
 - `3558. Number of Ways to Assign Edge Weights I.py`
 - `3559. Number of Ways to Assign Edge Weights II.py`
 - `3562. Maximum Profit from Trading Stocks with Discounts.py`
