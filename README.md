@@ -25,12 +25,12 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Metric 📌 | Value 🔢 | Status ⚡ |
 | :--- | :---: | :---: |
-| 🐍 **Python Solutions** | `646` | Active 🟢 |
+| 🐍 **Python Solutions** | `647` | Active 🟢 |
 | ☕ **Java Solutions** | `3` | Active 🟢 |
 | 🛢️ **SQL Database Queries** | `16` | Active 🟢 |
 | 📄 **Text Notes & Misc** | `5` | Active 🟢 |
-| 📦 **Total Practice Files** | `670` | Maintained 🚀 |
-| 📅 **Last Updated** | `2026-09-26` | Sync Complete 🔄 |
+| 📦 **Total Practice Files** | `671` | Maintained 🚀 |
+| 📅 **Last Updated** | `2026-09-27` | Sync Complete 🔄 |
 | 📜 **License** | Proprietary | All Rights Reserved 🔒 |
 
 ---
@@ -45,7 +45,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | **300 - 399** | `59` | `██████░░░░░░` |
 | **400 - 499** | `72` | `███████░░░░░` |
 | **500 - 999** | `61` | `██████░░░░░░` |
-| **1000 - 1999** | `56` | `█████░░░░░░░` |
+| **1000 - 1999** | `57` | `██████░░░░░░` |
 | **2000 - 2999** | `61` | `██████░░░░░░` |
 | **3000 - 3999** | `123` | `████████████` |
 | **Other / Named** | `34` | `███░░░░░░░░░` |
@@ -56,6 +56,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Solution File 📄 | Language 💻 | Last Modified ⏱️ |
 | :--- | :---: | :--- |
+| `1190. Reverse Substrings Between Each Pair of Parentheses.py` | 🐍 Python | `2026-09-27 17:00` |
 | `1807. Evaluate the Bracket Pairs of a String.py` | 🐍 Python | `2026-09-26 17:18` |
 | `3550. Smallest Index With Digit Sum Equal to Index.py` | 🐍 Python | `2026-09-25 21:28` |
 | `1096. Brace Expansion II.py` | 🐍 Python | `2026-09-25 21:19` |
@@ -75,7 +76,6 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | `2265. Count Nodes Equal to Average of Subtree.py` | 🐍 Python | `2026-09-10 21:55` |
 | `3871. Count Commas in Range II.py` | 🐍 Python | `2026-09-09 22:00` |
 | `3870. Count Commas in Range.py` | 🐍 Python | `2026-09-08 21:19` |
-| `940. Distinct Subsequences II.py` | 🐍 Python | `2026-09-07 20:44` |
 
 ---
 
@@ -99,7 +99,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 ## 🗂️ Interactive Solutions Index
 
 <details>
-<summary><b>🐍 Python Solutions (646 Files)</b></summary>
+<summary><b>🐍 Python Solutions (647 Files)</b></summary>
 
 <br>
 
@@ -485,6 +485,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `1096. Brace Expansion II.py`
 - `1140. Stone Game II.py`
 - `1189. Maximum Number of Balloons.py`
+- `1190. Reverse Substrings Between Each Pair of Parentheses.py`
 - `1260. Shift 2D Grid.py`
 - `1262. Greatest Sum Divisible by Three.py`
 - `1288. Remove Covered Intervals.py`
