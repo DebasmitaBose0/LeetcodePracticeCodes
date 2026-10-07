@@ -6,15 +6,11 @@ import datetime
 EXCLUDE = {'README.md', 'LICENSE', '.gitignore', 'TODO.md', 'update_readme.py'}
 
 THEMED_DIRS = [
-    'Business System Simulation Platform',
-    'Cache System Design',
     'Comprehensive Data Operation Simulation Station',
     'Data Stream Processing',
-    'Data Structure Design',
     'Database',
     'Filtering & Aggregation Operation Cabin',
-    'Grouping & Aggression',
-    'Window Functions & Ranking Analysis Room'
+    'Grouping & Aggression'
 ]
 
 def get_all_practice_files():
