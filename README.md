@@ -25,12 +25,12 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Metric 📌 | Value 🔢 | Status ⚡ |
 | :--- | :---: | :---: |
-| 🐍 **Python Solutions** | `656` | Active 🟢 |
+| 🐍 **Python Solutions** | `651` | Active 🟢 |
 | ☕ **Java Solutions** | `3` | Active 🟢 |
 | 🛢️ **SQL Database Queries** | `16` | Active 🟢 |
 | 📄 **Text Notes & Misc** | `5` | Active 🟢 |
-| 📦 **Total Practice Files** | `680` | Maintained 🚀 |
-| 📅 **Last Updated** | `2026-10-06` | Sync Complete 🔄 |
+| 📦 **Total Practice Files** | `675` | Maintained 🚀 |
+| 📅 **Last Updated** | `2026-10-07` | Sync Complete 🔄 |
 | 📜 **License** | Proprietary | All Rights Reserved 🔒 |
 
 ---
@@ -39,8 +39,8 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Problem Range 🔢 | Solutions Solved 🧮 | Distribution Visual 📊 |
 | :--- | :---: | :--- |
-| **1 - 99** | `69` | `███████░░░░░` |
-| **100 - 199** | `79` | `████████░░░░` |
+| **1 - 99** | `65` | `██████░░░░░░` |
+| **100 - 199** | `78` | `████████░░░░` |
 | **200 - 299** | `58` | `██████░░░░░░` |
 | **300 - 399** | `59` | `██████░░░░░░` |
 | **400 - 499** | `72` | `███████░░░░░` |
@@ -99,7 +99,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 ## 🗂️ Interactive Solutions Index
 
 <details>
-<summary><b>🐍 Python Solutions (656 Files)</b></summary>
+<summary><b>🐍 Python Solutions (651 Files)</b></summary>
 
 <br>
 
@@ -132,7 +132,6 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `44. Wildcard Matching.py`
 - `46. Permutations.py`
 - `47. Permutations II.py`
-- `48. Rotate Image.py`
 - `49. Group Anagrams.py`
 - `50. Pow(x, n).py`
 - `51. N-Queens.py`
@@ -141,7 +140,6 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `56. Merge Intervals.py`
 - `57. Insert Interval.py`
 - `58. Length of Last Word.py`
-- `59. Spiral Matrix II.py`
 - `60. Permutation Sequence.py`
 - `61. Rotate List.py`
 - `62. Unique Paths.py`
@@ -154,7 +152,6 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `71. Simplify Path.py`
 - `73. Set Matrix Zeroes.py`
 - `74. Search a 2D Matrix.py`
-- `75. Sort Colors.py`
 - `76. Minimum Window Substring.py`
 - `77. Combinations.py`
 - `78. Subsets.py`
@@ -169,7 +166,6 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `90. Subsets II.py`
 - `92. Reverse Linked List II.py`
 - `93. Restore IP Addresses.py`
-- `94. Binary Tree Inorder Traversal.py`
 - `98. Validate Binary Search Tree.py`
 - `99. Recover Binary Search Tree.py`
 - `100. Same Tree.py`
@@ -212,7 +208,6 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `146. LRU Cache.py`
 - `147. Insertion Sort List.py`
 - `148. Sort List.py`
-- `149. Max Points on a Line.py`
 - `150. Evaluate Reverse Polish Notation.py`
 - `151. Reverse Words in a String.py`
 - `153. Find Minimum in Rotated Sorted Array.py`
