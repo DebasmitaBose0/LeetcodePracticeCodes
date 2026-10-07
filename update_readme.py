@@ -3,22 +3,48 @@ import re
 import subprocess
 import datetime
 
+EXCLUDE = {'README.md', 'LICENSE', '.gitignore', 'TODO.md', 'update_readme.py'}
+
+THEMED_DIRS = [
+    'Business System Simulation Platform',
+    'Cache System Design',
+    'Comprehensive Data Operation Simulation Station',
+    'Data Stream Processing',
+    'Data Structure Design',
+    'Database',
+    'Filtering & Aggregation Operation Cabin',
+    'Grouping & Aggression',
+    'Window Functions & Ranking Analysis Room'
+]
+
+def get_all_practice_files():
+    all_files = []
+    for root, dirs, files in os.walk('.'):
+        if '.git' in root or '.venv' in root or '.vscode' in root:
+            continue
+        for f in files:
+            rel = os.path.relpath(os.path.join(root, f), '.').replace('\\', '/')
+            if rel not in EXCLUDE and not rel.startswith('scripts/'):
+                all_files.append(rel)
+    return all_files
+
+def sort_key(f):
+    base = os.path.basename(f)
+    m = re.match(r'^(\d+)\.(.*)', base)
+    if m:
+        return (0, int(m.group(1)), m.group(2).lower())
+    return (1, 0, base.lower())
+
 def main():
-    files = [f for f in os.listdir('.') if os.path.isfile(f) and f not in ['README.md', 'LICENSE', '.gitignore', 'TODO.md', 'update_readme.py']]
+    practice_files = get_all_practice_files()
 
-    def sort_key(f):
-        m = re.match(r'^(\d+)\.(.*)', f)
-        if m:
-            return (0, int(m.group(1)), m.group(2).lower())
-        return (1, 0, f.lower())
+    py_files = sorted([f for f in practice_files if f.lower().endswith('.py')], key=sort_key)
+    java_files = sorted([f for f in practice_files if f.lower().endswith('.java')], key=sort_key)
+    sql_files = sorted([f for f in practice_files if f.lower().endswith('.sql')], key=sort_key)
+    txt_files = sorted([f for f in practice_files if f.lower().endswith('.txt')], key=sort_key)
+    misc_files = sorted([f for f in practice_files if not (f.lower().endswith(('.py', '.java', '.sql', '.txt')))], key=sort_key)
 
-    py_files = sorted([f for f in files if f.endswith('.py') or f.endswith('.PY')], key=sort_key)
-    java_files = sorted([f for f in files if f.endswith('.java')], key=sort_key)
-    sql_files = sorted([f for f in files if f.endswith('.sql')], key=sort_key)
-    txt_files = sorted([f for f in files if f.endswith('.txt')], key=sort_key)
-    misc_files = sorted([f for f in files if not (f.endswith('.py') or f.endswith('.PY') or f.endswith('.java') or f.endswith('.sql') or f.endswith('.txt'))], key=sort_key)
-
-    total_practice = len(py_files) + len(java_files) + len(sql_files) + len(txt_files) + len(misc_files)
+    total_practice = len(practice_files)
 
     ranges = {
         '1 - 99': 0,
@@ -30,11 +56,12 @@ def main():
         '1000 - 1999': 0,
         '2000 - 2999': 0,
         '3000 - 3999': 0,
-        'Other / Named': 0
+        'Specialized / Themed': 0
     }
 
-    for f in py_files + java_files + sql_files + txt_files + misc_files:
-        m = re.match(r'^(\d+)\.', f)
+    for f in practice_files:
+        base = os.path.basename(f)
+        m = re.match(r'^(\d+)\.', base)
         if m:
             num = int(m.group(1))
             if 1 <= num <= 99: ranges['1 - 99'] += 1
@@ -46,9 +73,9 @@ def main():
             elif 1000 <= num <= 1999: ranges['1000 - 1999'] += 1
             elif 2000 <= num <= 2999: ranges['2000 - 2999'] += 1
             elif 3000 <= num <= 3999: ranges['3000 - 3999'] += 1
-            else: ranges['Other / Named'] += 1
+            else: ranges['Specialized / Themed'] += 1
         else:
-            ranges['Other / Named'] += 1
+            ranges['Specialized / Themed'] += 1
 
     def get_recent():
         items = []
@@ -59,42 +86,46 @@ def main():
             status_out = subprocess.check_output(status_cmd, encoding='utf-8')
             for line in status_out.splitlines():
                 if len(line) >= 4:
-                    fname = line[3:].strip().strip('"')
-                    if fname not in ['README.md', 'LICENSE', '.gitignore', 'TODO.md', 'update_readme.py'] and fname not in seen and os.path.exists(fname) and os.path.isfile(fname):
+                    fname = line[3:].strip().strip('"').replace('\\', '/')
+                    if fname not in EXCLUDE and fname not in seen and os.path.exists(fname) and os.path.isfile(fname):
                         seen.add(fname)
                         lang_icon = '🐍 Python'
-                        if fname.endswith('.java'): lang_icon = '☕ Java'
-                        elif fname.endswith('.sql'): lang_icon = '🛢️ SQL'
-                        elif fname.endswith('.txt'): lang_icon = '📄 Text'
+                        if fname.lower().endswith('.java'): lang_icon = '☕ Java'
+                        elif fname.lower().endswith('.sql'): lang_icon = '🛢️ SQL'
+                        elif fname.lower().endswith('.txt'): lang_icon = '📄 Text'
                         mtime = os.path.getmtime(fname)
                         mod_date = datetime.datetime.fromtimestamp(mtime).strftime('%Y-%m-%d %H:%M')
                         items.append((fname, lang_icon, mod_date))
         except Exception:
             pass
 
-        cmd = ['git', 'log', '--name-status', '--format=COMMIT:%cd', '--date=format:%Y-%m-%d %H:%M', '-n', '200']
-        out = subprocess.check_output(cmd, encoding='utf-8')
-        current_date = ''
-        for line in out.splitlines():
-            if line.startswith('COMMIT:'):
-                current_date = line.replace('COMMIT:', '').strip()
-            elif line.startswith('A\t') or line.startswith('M\t'):
-                parts = line.split('\t')
-                fname = parts[1]
-                if fname not in ['README.md', 'LICENSE', '.gitignore', 'TODO.md', 'update_readme.py'] and fname not in seen and os.path.exists(fname):
-                    seen.add(fname)
-                    lang_icon = '🐍 Python'
-                    if fname.endswith('.java'): lang_icon = '☕ Java'
-                    elif fname.endswith('.sql'): lang_icon = '🛢️ SQL'
-                    elif fname.endswith('.txt'): lang_icon = '📄 Text'
-                    items.append((fname, lang_icon, current_date))
-                    if len(items) == 20:
-                        break
+        try:
+            cmd = ['git', 'log', '--name-status', '--format=COMMIT:%cd', '--date=format:%Y-%m-%d %H:%M', '-n', '200']
+            out = subprocess.check_output(cmd, encoding='utf-8')
+            current_date = ''
+            for line in out.splitlines():
+                if line.startswith('COMMIT:'):
+                    current_date = line.replace('COMMIT:', '').strip()
+                elif line.startswith('A\t') or line.startswith('M\t'):
+                    parts = line.split('\t')
+                    fname = parts[1].replace('\\', '/')
+                    if fname not in EXCLUDE and fname not in seen and os.path.exists(fname):
+                        seen.add(fname)
+                        lang_icon = '🐍 Python'
+                        if fname.lower().endswith('.java'): lang_icon = '☕ Java'
+                        elif fname.lower().endswith('.sql'): lang_icon = '🛢️ SQL'
+                        elif fname.lower().endswith('.txt'): lang_icon = '📄 Text'
+                        items.append((fname, lang_icon, current_date))
+                        if len(items) == 20:
+                            break
+        except Exception:
+            pass
+
         return items[:20]
 
     recent = get_recent()
 
-    max_count = max(ranges.values())
+    max_count = max(ranges.values()) if ranges.values() else 1
     bars = {}
     for k, v in ranges.items():
         filled = round((v / max_count) * 12) if max_count > 0 else 0
@@ -144,7 +175,7 @@ def main():
     lines.append('')
     lines.append('| Problem Range 🔢 | Solutions Solved 🧮 | Distribution Visual 📊 |')
     lines.append('| :--- | :---: | :--- |')
-    for r_key in ['1 - 99', '100 - 199', '200 - 299', '300 - 399', '400 - 499', '500 - 999', '1000 - 1999', '2000 - 2999', '3000 - 3999', 'Other / Named']:
+    for r_key in ['1 - 99', '100 - 199', '200 - 299', '300 - 399', '400 - 499', '500 - 999', '1000 - 1999', '2000 - 2999', '3000 - 3999', 'Specialized / Themed']:
         lines.append(f'| **{r_key}** | `{ranges[r_key]}` | `{bars[r_key]}` |')
     lines.append('')
     lines.append('---')
@@ -170,6 +201,28 @@ def main():
     lines.append('- 🧩 **Dynamic Programming (DP):** 1D / 2D DP, Subsequence/Subset Problems, Interval DP, Bitmask DP, Tree DP, Space Optimization.')
     lines.append('- ⚡ **Advanced Data Structures:** Segment Trees, Binary Indexed Trees (BIT / Fenwick), Trie, LRU / LFU Caches, Priority Queues.')
     lines.append('- 🛢️ **Database & SQL:** Window Functions (`ROW_NUMBER`, `DENSE_RANK`), Multi-Table `JOIN`s, Group Aggregations, Recursive CTEs.')
+    lines.append('')
+    lines.append('</details>')
+    lines.append('')
+    lines.append('---')
+    lines.append('')
+    lines.append('## 🏛️ Specialized & Thematic Study Tracks')
+    lines.append('')
+    lines.append('<details open>')
+    lines.append('<summary><b>📂 Modular directories grouping advanced systems & domain practices</b></summary>')
+    lines.append('')
+    lines.append('<br>')
+    lines.append('')
+    for t_dir in THEMED_DIRS:
+        if os.path.exists(t_dir):
+            t_files = []
+            for root, _, files in os.walk(t_dir):
+                for f in sorted(files):
+                    p = os.path.relpath(os.path.join(root, f), '.').replace('\\', '/')
+                    t_files.append(p)
+            lines.append(f'- **📁 `{t_dir}`** ({len(t_files)} solutions)')
+            for tf in t_files:
+                lines.append(f'  - `{tf}`')
     lines.append('')
     lines.append('</details>')
     lines.append('')
@@ -221,7 +274,7 @@ def main():
     lines.append('')
     lines.append('## 🛠️ Automated Maintenance')
     lines.append('')
-    lines.append('This repository utilizes an automated script `update_readme.py` to keep problem counts, statistics, and recent activity up to date.')
+    lines.append('This repository utilizes an automated script `update_readme.py` to keep problem counts, statistics, thematic modules, and recent activity up to date.')
     lines.append('')
     lines.append('To refresh the README automatically after adding new solutions, run:')
     lines.append('')

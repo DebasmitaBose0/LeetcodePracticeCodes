@@ -25,11 +25,11 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Metric 📌 | Value 🔢 | Status ⚡ |
 | :--- | :---: | :---: |
-| 🐍 **Python Solutions** | `651` | Active 🟢 |
+| 🐍 **Python Solutions** | `664` | Active 🟢 |
 | ☕ **Java Solutions** | `3` | Active 🟢 |
-| 🛢️ **SQL Database Queries** | `16` | Active 🟢 |
+| 🛢️ **SQL Database Queries** | `28` | Active 🟢 |
 | 📄 **Text Notes & Misc** | `5` | Active 🟢 |
-| 📦 **Total Practice Files** | `675` | Maintained 🚀 |
+| 📦 **Total Practice Files** | `700` | Maintained 🚀 |
 | 📅 **Last Updated** | `2026-10-07` | Sync Complete 🔄 |
 | 📜 **License** | Proprietary | All Rights Reserved 🔒 |
 
@@ -48,7 +48,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | **1000 - 1999** | `59` | `██████░░░░░░` |
 | **2000 - 2999** | `62` | `██████░░░░░░` |
 | **3000 - 3999** | `123` | `████████████` |
-| **Other / Named** | `35` | `███░░░░░░░░░` |
+| **Specialized / Themed** | `60` | `██████░░░░░░` |
 
 ---
 
@@ -96,10 +96,56 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 ---
 
+## 🏛️ Specialized & Thematic Study Tracks
+
+<details open>
+<summary><b>📂 Modular directories grouping advanced systems & domain practices</b></summary>
+
+<br>
+
+- **📁 `Business System Simulation Platform`** (2 solutions)
+  - `Business System Simulation Platform/Q1. Simple Bank System.py`
+  - `Business System Simulation Platform/Q2. Design Twitter.py`
+- **📁 `Cache System Design`** (2 solutions)
+  - `Cache System Design/Q1. LRU Cache.py`
+  - `Cache System Design/Q2. LFU Cache.py`
+- **📁 `Comprehensive Data Operation Simulation Station`** (3 solutions)
+  - `Comprehensive Data Operation Simulation Station/Q1. Range Module.py`
+  - `Comprehensive Data Operation Simulation Station/Q2. Range Frequency Queries.py`
+  - `Comprehensive Data Operation Simulation Station/Q3. Subrectangle Queries.py`
+- **📁 `Data Stream Processing`** (3 solutions)
+  - `Data Stream Processing/Q1. Kth Largest Element in a Stream.py`
+  - `Data Stream Processing/Q2. Stream of Characters.py`
+  - `Data Stream Processing/Q3. Data Stream as Disjoint Intervals.py`
+- **📁 `Data Structure Design`** (3 solutions)
+  - `Data Structure Design/Q1. Insert Delete GetRandom O(1).py`
+  - `Data Structure Design/Q2. Insert Delete GetRandom O(1) - Duplicates allowed.py`
+  - `Data Structure Design/Q3. All O`one Data Structure.py`
+- **📁 `Database`** (3 solutions)
+  - `Database/SQL Basic Query Workstation/Q1. Combine Two Tables.sql`
+  - `Database/SQL Basic Query Workstation/Q2. Employees Earning More Than Their Managers.sql`
+  - `Database/SQL Basic Query Workstation/Q4. Find Customer Referee.sql`
+- **📁 `Filtering & Aggregation Operation Cabin`** (4 solutions)
+  - `Filtering & Aggregation Operation Cabin/Q1. Customer Placing the Largest Number of Orders.sql`
+  - `Filtering & Aggregation Operation Cabin/Q2. Classes With at Least 5 Students.sql`
+  - `Filtering & Aggregation Operation Cabin/Q3. Monthly Transactions I.sql`
+  - `Filtering & Aggregation Operation Cabin/Q4. User Activity for the Past 30 Days I.sql`
+- **📁 `Grouping & Aggression`** (2 solutions)
+  - `Grouping & Aggression/Q1. Students and Examinations.sql`
+  - `Grouping & Aggression/Q2. Customers Who Bought All Products.sql`
+- **📁 `Window Functions & Ranking Analysis Room`** (3 solutions)
+  - `Window Functions & Ranking Analysis Room/Q1. Trips and Users.sql`
+  - `Window Functions & Ranking Analysis Room/Q2. Rank Scores.sql`
+  - `Window Functions & Ranking Analysis Room/Q3. Consecutive Numbers.sql`
+
+</details>
+
+---
+
 ## 🗂️ Interactive Solutions Index
 
 <details>
-<summary><b>🐍 Python Solutions (651 Files)</b></summary>
+<summary><b>🐍 Python Solutions (664 Files)</b></summary>
 
 <br>
 
@@ -741,6 +787,19 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `Minimum Operations to Make a Uni-Value Grid.py`
 - `Next Permutation.py`
 - `Prob.3212.py`
+- `Data Structure Design/Q1. Insert Delete GetRandom O(1).py`
+- `Data Stream Processing/Q1. Kth Largest Element in a Stream.py`
+- `Cache System Design/Q1. LRU Cache.py`
+- `Comprehensive Data Operation Simulation Station/Q1. Range Module.py`
+- `Business System Simulation Platform/Q1. Simple Bank System.py`
+- `Business System Simulation Platform/Q2. Design Twitter.py`
+- `Data Structure Design/Q2. Insert Delete GetRandom O(1) - Duplicates allowed.py`
+- `Cache System Design/Q2. LFU Cache.py`
+- `Comprehensive Data Operation Simulation Station/Q2. Range Frequency Queries.py`
+- `Data Stream Processing/Q2. Stream of Characters.py`
+- `Data Structure Design/Q3. All O`one Data Structure.py`
+- `Data Stream Processing/Q3. Data Stream as Disjoint Intervals.py`
+- `Comprehensive Data Operation Simulation Station/Q3. Subrectangle Queries.py`
 - `Remove Duplicates from Sorted Array.py`
 - `Remove Element.py`
 - `Rotate Function.py`
@@ -769,7 +828,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 </details>
 
 <details>
-<summary><b>🛢️ SQL Solutions (16 Files)</b></summary>
+<summary><b>🛢️ SQL Solutions (28 Files)</b></summary>
 
 <br>
 
@@ -789,6 +848,18 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `550. Game Play Analysis IV.sql`
 - `570. Managers with at Least 5 Direct Reports.sql`
 - `3808. Find Emotionally Consistent Users.sql`
+- `Database/SQL Basic Query Workstation/Q1. Combine Two Tables.sql`
+- `Filtering & Aggregation Operation Cabin/Q1. Customer Placing the Largest Number of Orders.sql`
+- `Grouping & Aggression/Q1. Students and Examinations.sql`
+- `Window Functions & Ranking Analysis Room/Q1. Trips and Users.sql`
+- `Filtering & Aggregation Operation Cabin/Q2. Classes With at Least 5 Students.sql`
+- `Grouping & Aggression/Q2. Customers Who Bought All Products.sql`
+- `Database/SQL Basic Query Workstation/Q2. Employees Earning More Than Their Managers.sql`
+- `Window Functions & Ranking Analysis Room/Q2. Rank Scores.sql`
+- `Window Functions & Ranking Analysis Room/Q3. Consecutive Numbers.sql`
+- `Filtering & Aggregation Operation Cabin/Q3. Monthly Transactions I.sql`
+- `Database/SQL Basic Query Workstation/Q4. Find Customer Referee.sql`
+- `Filtering & Aggregation Operation Cabin/Q4. User Activity for the Past 30 Days I.sql`
 
 </details>
 
@@ -809,7 +880,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 ## 🛠️ Automated Maintenance
 
-This repository utilizes an automated script `update_readme.py` to keep problem counts, statistics, and recent activity up to date.
+This repository utilizes an automated script `update_readme.py` to keep problem counts, statistics, thematic modules, and recent activity up to date.
 
 To refresh the README automatically after adding new solutions, run:
 
