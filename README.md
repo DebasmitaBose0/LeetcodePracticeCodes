@@ -854,18 +854,6 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 ---
 
-## 🛠️ Automated Maintenance
-
-This repository utilizes an automated script `update_readme.py` to keep problem counts, statistics, thematic modules, and recent activity up to date.
-
-To refresh the README automatically after adding new solutions, run:
-
-```bash
-python update_readme.py
-```
-
----
-
 ## 📜 License & Citation
 
 This repository is **Proprietary**. All rights reserved. Please refer to [`LICENSE`](LICENSE) for details.
