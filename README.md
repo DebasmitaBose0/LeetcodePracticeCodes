@@ -25,11 +25,11 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Metric 📌 | Value 🔢 | Status ⚡ |
 | :--- | :---: | :---: |
-| 🐍 **Python Solutions** | `657` | Active 🟢 |
+| 🐍 **Python Solutions** | `658` | Active 🟢 |
 | ☕ **Java Solutions** | `3` | Active 🟢 |
 | 🛢️ **SQL Database Queries** | `25` | Active 🟢 |
 | 📄 **Text Notes & Misc** | `5` | Active 🟢 |
-| 📦 **Total Practice Files** | `690` | Maintained 🚀 |
+| 📦 **Total Practice Files** | `691` | Maintained 🚀 |
 | 📅 **Last Updated** | `2026-10-07` | Sync Complete 🔄 |
 | 📜 **License** | Proprietary | All Rights Reserved 🔒 |
 
@@ -48,7 +48,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | **1000 - 1999** | `59` | `██████░░░░░░` |
 | **2000 - 2999** | `62` | `██████░░░░░░` |
 | **3000 - 3999** | `123` | `████████████` |
-| **Specialized / Themed** | `50` | `█████░░░░░░░` |
+| **Specialized / Themed** | `51` | `█████░░░░░░░` |
 
 ---
 
@@ -56,6 +56,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Solution File 📄 | Language 💻 | Last Modified ⏱️ |
 | :--- | :---: | :--- |
+| `Remove Invalid Parentheses.py` | 🐍 Python | `2026-10-07 20:21` |
 | `921. Minimum Add to Make Parentheses Valid.py` | 🐍 Python | `2026-10-06 18:46` |
 | `856. Score of Parentheses.py` | 🐍 Python | `2026-10-05 21:41` |
 | `678. Valid Parenthesis String.py` | 🐍 Python | `2026-10-04 20:46` |
@@ -75,7 +76,6 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | `3498. Reverse Degree of a String.py` | 🐍 Python | `2026-09-20 21:54` |
 | `1401. Circle and Rectangle Overlapping.py` | 🐍 Python | `2026-09-19 22:05` |
 | `1520. Maximum Number of Non-Overlapping Substrings.py` | 🐍 Python | `2026-09-18 23:34` |
-| `1477. Find Two Non-overlapping Sub-arrays Each With Target Sum.py` | 🐍 Python | `2026-09-17 21:14` |
 
 ---
 
@@ -131,7 +131,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 ## 🗂️ Interactive Solutions Index
 
 <details>
-<summary><b>🐍 Python Solutions (657 Files)</b></summary>
+<summary><b>🐍 Python Solutions (658 Files)</b></summary>
 
 <br>
 
@@ -781,6 +781,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `Comprehensive Data Operation Simulation Station/Q3. Subrectangle Queries.py`
 - `Remove Duplicates from Sorted Array.py`
 - `Remove Element.py`
+- `Remove Invalid Parentheses.py`
 - `Rotate Function.py`
 - `Rotate String.py`
 - `Rotated Digits.py`
