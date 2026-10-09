@@ -25,12 +25,12 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Metric 📌 | Value 🔢 | Status ⚡ |
 | :--- | :---: | :---: |
-| 🐍 **Python Solutions** | `658` | Active 🟢 |
+| 🐍 **Python Solutions** | `660` | Active 🟢 |
 | ☕ **Java Solutions** | `3` | Active 🟢 |
 | 🛢️ **SQL Database Queries** | `25` | Active 🟢 |
 | 📄 **Text Notes & Misc** | `5` | Active 🟢 |
-| 📦 **Total Practice Files** | `691` | Maintained 🚀 |
-| 📅 **Last Updated** | `2026-10-07` | Sync Complete 🔄 |
+| 📦 **Total Practice Files** | `693` | Maintained 🚀 |
+| 📅 **Last Updated** | `2026-10-09` | Sync Complete 🔄 |
 | 📜 **License** | Proprietary | All Rights Reserved 🔒 |
 
 ---
@@ -45,7 +45,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | **300 - 399** | `59` | `██████░░░░░░` |
 | **400 - 499** | `72` | `███████░░░░░` |
 | **500 - 999** | `64` | `██████░░░░░░` |
-| **1000 - 1999** | `59` | `██████░░░░░░` |
+| **1000 - 1999** | `61` | `██████░░░░░░` |
 | **2000 - 2999** | `62` | `██████░░░░░░` |
 | **3000 - 3999** | `123` | `████████████` |
 | **Specialized / Themed** | `51` | `█████░░░░░░░` |
@@ -56,6 +56,8 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Solution File 📄 | Language 💻 | Last Modified ⏱️ |
 | :--- | :---: | :--- |
+| `1541. Minimum Insertions to Balance a Parentheses String.py` | 🐍 Python | `2026-10-09 21:03` |
+| `1021. Remove Outermost Parentheses.py` | 🐍 Python | `2026-10-08 21:22` |
 | `Remove Invalid Parentheses.py` | 🐍 Python | `2026-10-07 20:21` |
 | `921. Minimum Add to Make Parentheses Valid.py` | 🐍 Python | `2026-10-06 18:46` |
 | `856. Score of Parentheses.py` | 🐍 Python | `2026-10-05 21:41` |
@@ -74,8 +76,6 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | `3525. Find X Value of Array II.py` | 🐍 Python | `2026-09-22 22:29` |
 | `3524. Find X Value of Array I.py` | 🐍 Python | `2026-09-21 22:21` |
 | `3498. Reverse Degree of a String.py` | 🐍 Python | `2026-09-20 21:54` |
-| `1401. Circle and Rectangle Overlapping.py` | 🐍 Python | `2026-09-19 22:05` |
-| `1520. Maximum Number of Non-Overlapping Substrings.py` | 🐍 Python | `2026-09-18 23:34` |
 
 ---
 
@@ -131,7 +131,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 ## 🗂️ Interactive Solutions Index
 
 <details>
-<summary><b>🐍 Python Solutions (658 Files)</b></summary>
+<summary><b>🐍 Python Solutions (660 Files)</b></summary>
 
 <br>
 
@@ -513,6 +513,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `960. Delete Columns to Make Sorted III.py`
 - `1015. Smallest Integer Divisible by K.py`
 - `1018. Binary Prefix Divisible By 5.py`
+- `1021. Remove Outermost Parentheses.py`
 - `1081. Smallest Subsequence of Distinct Characters.py`
 - `1096. Brace Expansion II.py`
 - `1111. Maximum Nesting Depth of Two Valid Parentheses Strings.py`
@@ -542,6 +543,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `1520. Maximum Number of Non-Overlapping Substrings.py`
 - `1523. Count Odd Numbers in an Interval Range.py`
 - `1526. Minimum Number of Increments on Subarrays to Form a Target Array.py`
+- `1541. Minimum Insertions to Balance a Parentheses String.py`
 - `1559. Detect Cycles in 2D Grid.py`
 - `1563. Stone Game V.py`
 - `1578. Minimum Time to Make Rope Colorful.py`
@@ -852,6 +854,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `482. License Key Formatting`
 
 </details>
+
 
 ---
 
