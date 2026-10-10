@@ -25,12 +25,12 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Metric 📌 | Value 🔢 | Status ⚡ |
 | :--- | :---: | :---: |
-| 🐍 **Python Solutions** | `660` | Active 🟢 |
+| 🐍 **Python Solutions** | `661` | Active 🟢 |
 | ☕ **Java Solutions** | `3` | Active 🟢 |
 | 🛢️ **SQL Database Queries** | `25` | Active 🟢 |
 | 📄 **Text Notes & Misc** | `5` | Active 🟢 |
-| 📦 **Total Practice Files** | `693` | Maintained 🚀 |
-| 📅 **Last Updated** | `2026-10-09` | Sync Complete 🔄 |
+| 📦 **Total Practice Files** | `694` | Maintained 🚀 |
+| 📅 **Last Updated** | `2026-10-10` | Sync Complete 🔄 |
 | 📜 **License** | Proprietary | All Rights Reserved 🔒 |
 
 ---
@@ -46,7 +46,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | **400 - 499** | `72` | `███████░░░░░` |
 | **500 - 999** | `64` | `██████░░░░░░` |
 | **1000 - 1999** | `61` | `██████░░░░░░` |
-| **2000 - 2999** | `62` | `██████░░░░░░` |
+| **2000 - 2999** | `63` | `██████░░░░░░` |
 | **3000 - 3999** | `123` | `████████████` |
 | **Specialized / Themed** | `51` | `█████░░░░░░░` |
 
@@ -56,6 +56,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Solution File 📄 | Language 💻 | Last Modified ⏱️ |
 | :--- | :---: | :--- |
+| `2333. Minimum Sum of Squared Difference.py` | 🐍 Python | `2026-10-10 17:08` |
 | `1541. Minimum Insertions to Balance a Parentheses String.py` | 🐍 Python | `2026-10-09 21:03` |
 | `1021. Remove Outermost Parentheses.py` | 🐍 Python | `2026-10-08 21:22` |
 | `Remove Invalid Parentheses.py` | 🐍 Python | `2026-10-07 20:21` |
@@ -75,7 +76,6 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | `1658. Minimum Operations to Reduce X to Zero.py` | 🐍 Python | `2026-09-23 21:44` |
 | `3525. Find X Value of Array II.py` | 🐍 Python | `2026-09-22 22:29` |
 | `3524. Find X Value of Array I.py` | 🐍 Python | `2026-09-21 22:21` |
-| `3498. Reverse Degree of a String.py` | 🐍 Python | `2026-09-20 21:54` |
 
 ---
 
@@ -131,7 +131,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 ## 🗂️ Interactive Solutions Index
 
 <details>
-<summary><b>🐍 Python Solutions (660 Files)</b></summary>
+<summary><b>🐍 Python Solutions (661 Files)</b></summary>
 
 <br>
 
@@ -598,6 +598,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `2257. Count Unguarded Cells in the Grid.py`
 - `2265. Count Nodes Equal to Average of Subtree.py`
 - `2267. Check if There Is a Valid Parentheses String Path.py`
+- `2333. Minimum Sum of Squared Difference.py`
 - `2435. Paths in Matrix Whose Sum Is Divisible by K.py`
 - `2452. Words Within Two Edits of Dictionary.py`
 - `2463. Minimum Total Distance Traveled.py`
