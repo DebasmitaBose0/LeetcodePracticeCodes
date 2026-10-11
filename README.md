@@ -25,12 +25,12 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Metric 📌 | Value 🔢 | Status ⚡ |
 | :--- | :---: | :---: |
-| 🐍 **Python Solutions** | `661` | Active 🟢 |
+| 🐍 **Python Solutions** | `662` | Active 🟢 |
 | ☕ **Java Solutions** | `3` | Active 🟢 |
 | 🛢️ **SQL Database Queries** | `25` | Active 🟢 |
 | 📄 **Text Notes & Misc** | `5` | Active 🟢 |
-| 📦 **Total Practice Files** | `694` | Maintained 🚀 |
-| 📅 **Last Updated** | `2026-10-10` | Sync Complete 🔄 |
+| 📦 **Total Practice Files** | `695` | Maintained 🚀 |
+| 📅 **Last Updated** | `2026-10-11` | Sync Complete 🔄 |
 | 📜 **License** | Proprietary | All Rights Reserved 🔒 |
 
 ---
@@ -46,7 +46,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | **400 - 499** | `72` | `███████░░░░░` |
 | **500 - 999** | `64` | `██████░░░░░░` |
 | **1000 - 1999** | `61` | `██████░░░░░░` |
-| **2000 - 2999** | `63` | `██████░░░░░░` |
+| **2000 - 2999** | `64` | `██████░░░░░░` |
 | **3000 - 3999** | `123` | `████████████` |
 | **Specialized / Themed** | `51` | `█████░░░░░░░` |
 
@@ -56,6 +56,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Solution File 📄 | Language 💻 | Last Modified ⏱️ |
 | :--- | :---: | :--- |
+| `2778. Sum of Squares of Special Elements .py` | 🐍 Python | `2026-10-11 10:28` |
 | `2333. Minimum Sum of Squared Difference.py` | 🐍 Python | `2026-10-10 17:08` |
 | `1541. Minimum Insertions to Balance a Parentheses String.py` | 🐍 Python | `2026-10-09 21:03` |
 | `1021. Remove Outermost Parentheses.py` | 🐍 Python | `2026-10-08 21:22` |
@@ -75,7 +76,6 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | `1096. Brace Expansion II.py` | 🐍 Python | `2026-09-25 21:19` |
 | `1658. Minimum Operations to Reduce X to Zero.py` | 🐍 Python | `2026-09-23 21:44` |
 | `3525. Find X Value of Array II.py` | 🐍 Python | `2026-09-22 22:29` |
-| `3524. Find X Value of Array I.py` | 🐍 Python | `2026-09-21 22:21` |
 
 ---
 
@@ -131,7 +131,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 ## 🗂️ Interactive Solutions Index
 
 <details>
-<summary><b>🐍 Python Solutions (661 Files)</b></summary>
+<summary><b>🐍 Python Solutions (662 Files)</b></summary>
 
 <br>
 
@@ -617,6 +617,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `2657. Find the Prefix Common Array of Two Arrays.py`
 - `2685. Count the Number of Complete Components.py`
 - `2751. Robot Collisions.py`
+- `2778. Sum of Squares of Special Elements .py`
 - `2784. Check if Array is Good.py`
 - `2812. Find the Safest Path in a Grid.py`
 - `2833. Furthest Point From Origin.py`
