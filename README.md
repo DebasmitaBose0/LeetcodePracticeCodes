@@ -25,12 +25,12 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Metric 📌 | Value 🔢 | Status ⚡ |
 | :--- | :---: | :---: |
-| 🐍 **Python Solutions** | `662` | Active 🟢 |
+| 🐍 **Python Solutions** | `663` | Active 🟢 |
 | ☕ **Java Solutions** | `3` | Active 🟢 |
 | 🛢️ **SQL Database Queries** | `25` | Active 🟢 |
 | 📄 **Text Notes & Misc** | `5` | Active 🟢 |
-| 📦 **Total Practice Files** | `695` | Maintained 🚀 |
-| 📅 **Last Updated** | `2026-10-11` | Sync Complete 🔄 |
+| 📦 **Total Practice Files** | `696` | Maintained 🚀 |
+| 📅 **Last Updated** | `2026-10-12` | Sync Complete 🔄 |
 | 📜 **License** | Proprietary | All Rights Reserved 🔒 |
 
 ---
@@ -46,7 +46,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | **400 - 499** | `72` | `███████░░░░░` |
 | **500 - 999** | `64` | `██████░░░░░░` |
 | **1000 - 1999** | `61` | `██████░░░░░░` |
-| **2000 - 2999** | `64` | `██████░░░░░░` |
+| **2000 - 2999** | `65` | `███████░░░░░` |
 | **3000 - 3999** | `123` | `████████████` |
 | **Specialized / Themed** | `51` | `█████░░░░░░░` |
 
@@ -56,6 +56,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Solution File 📄 | Language 💻 | Last Modified ⏱️ |
 | :--- | :---: | :--- |
+| `2897. Apply Operations on Array to Maximize Sum of Squares.py` | 🐍 Python | `2026-10-12 20:46` |
 | `2778. Sum of Squares of Special Elements .py` | 🐍 Python | `2026-10-11 10:28` |
 | `2333. Minimum Sum of Squared Difference.py` | 🐍 Python | `2026-10-10 17:08` |
 | `1541. Minimum Insertions to Balance a Parentheses String.py` | 🐍 Python | `2026-10-09 21:03` |
@@ -75,7 +76,6 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | `3550. Smallest Index With Digit Sum Equal to Index.py` | 🐍 Python | `2026-09-25 21:28` |
 | `1096. Brace Expansion II.py` | 🐍 Python | `2026-09-25 21:19` |
 | `1658. Minimum Operations to Reduce X to Zero.py` | 🐍 Python | `2026-09-23 21:44` |
-| `3525. Find X Value of Array II.py` | 🐍 Python | `2026-09-22 22:29` |
 
 ---
 
@@ -131,7 +131,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 ## 🗂️ Interactive Solutions Index
 
 <details>
-<summary><b>🐍 Python Solutions (662 Files)</b></summary>
+<summary><b>🐍 Python Solutions (663 Files)</b></summary>
 
 <br>
 
@@ -624,6 +624,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `2839. Check if Strings Can be Made Equal With Operations I.py`
 - `2840. Check if Strings Can be Made Equal With Operations II.py`
 - `2872. Maximum Number of K-Divisible Components.py`
+- `2897. Apply Operations on Array to Maximize Sum of Squares.py`
 - `2903. Find Indices With Index and Value Difference I.py`
 - `2904. Shortest and Lexicographically Smallest Beautiful String.py`
 - `2905. Find Indices With Index and Value Difference II.py`
