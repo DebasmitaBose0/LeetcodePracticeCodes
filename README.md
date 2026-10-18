@@ -25,12 +25,12 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Metric 📌 | Value 🔢 | Status ⚡ |
 | :--- | :---: | :---: |
-| 🐍 **Python Solutions** | `667` | Active 🟢 |
+| 🐍 **Python Solutions** | `665` | Active 🟢 |
 | ☕ **Java Solutions** | `3` | Active 🟢 |
 | 🛢️ **SQL Database Queries** | `25` | Active 🟢 |
 | 📄 **Text Notes & Misc** | `5` | Active 🟢 |
-| 📦 **Total Practice Files** | `700` | Maintained 🚀 |
-| 📅 **Last Updated** | `2026-10-16` | Sync Complete 🔄 |
+| 📦 **Total Practice Files** | `702` | Maintained 🚀 |
+| 📅 **Last Updated** | `2026-10-14` | Sync Complete 🔄 |
 | 📜 **License** | Proprietary | All Rights Reserved 🔒 |
 
 ---
@@ -40,15 +40,15 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | Problem Range 🔢 | Solutions Solved 🧮 | Distribution Visual 📊 |
 | :--- | :---: | :--- |
 | **1 - 99** | `65` | `██████░░░░░░` |
-| **100 - 199** | `78` | `███████░░░░░` |
-| **200 - 299** | `58` | `██████░░░░░░` |
+| **100 - 199** | `63` | `██████░░░░░░` |
+| **200 - 299** | `57` | `██████░░░░░░` |
 | **300 - 399** | `59` | `██████░░░░░░` |
-| **400 - 499** | `72` | `███████░░░░░` |
-| **500 - 999** | `64` | `██████░░░░░░` |
+| **400 - 499** | `71` | `███████░░░░░` |
+| **500 - 999** | `61` | `██████░░░░░░` |
 | **1000 - 1999** | `61` | `██████░░░░░░` |
-| **2000 - 2999** | `67` | `██████░░░░░░` |
+| **2000 - 2999** | `64` | `██████░░░░░░` |
 | **3000 - 3999** | `125` | `████████████` |
-| **Specialized / Themed** | `51` | `█████░░░░░░░` |
+| **Specialized / Themed** | `41` | `████░░░░░░░░` |
 
 ---
 
@@ -56,14 +56,12 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Solution File 📄 | Language 💻 | Last Modified ⏱️ |
 | :--- | :---: | :--- |
-| `2913. Subarrays Distinct Element Sum of Squares I.py` | 🐍 Python | `2026-10-16 20:02` |
-| `2916. Subarrays Distinct Element Sum of Squares II.py` | 🐍 Python | `2026-10-16 20:02` |
 | `3723. Maximize Sum of Squares of Digits.py` | 🐍 Python | `2026-10-14 20:22` |
-| `3727. Maximum Alternating Sum of Squares.py` | 🐍 Python | `2026-10-13 19:08` |
-| `2897. Apply Operations on Array to Maximize Sum of Squares.py` | 🐍 Python | `2026-10-12 20:47` |
-| `2778. Sum of Squares of Special Elements .py` | 🐍 Python | `2026-10-11 10:28` |
-| `2333. Minimum Sum of Squared Difference.py` | 🐍 Python | `2026-10-10 17:08` |
-| `1541. Minimum Insertions to Balance a Parentheses String.py` | 🐍 Python | `2026-10-09 21:03` |
+| `3727. Maximum Alternating Sum of Squares.py` | 🐍 Python | `2026-10-13 17:39` |
+| `2897. Apply Operations on Array to Maximize Sum of Squares.py` | 🐍 Python | `2026-10-13 13:37` |
+| `2778. Sum of Squares of Special Elements .py` | 🐍 Python | `2026-10-13 13:37` |
+| `2333. Minimum Sum of Squared Difference.py` | 🐍 Python | `2026-10-13 13:37` |
+| `1541. Minimum Insertions to Balance a Parentheses String.py` | 🐍 Python | `2026-10-13 13:37` |
 | `1021. Remove Outermost Parentheses.py` | 🐍 Python | `2026-10-08 21:22` |
 | `Remove Invalid Parentheses.py` | 🐍 Python | `2026-10-07 20:21` |
 | `921. Minimum Add to Make Parentheses Valid.py` | 🐍 Python | `2026-10-06 18:46` |
@@ -76,6 +74,8 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | `2267. Check if There Is a Valid Parentheses String Path.py` | 🐍 Python | `2026-09-29 20:49` |
 | `1614. Maximum Nesting Depth of the Parentheses.py` | 🐍 Python | `2026-09-28 19:00` |
 | `1190. Reverse Substrings Between Each Pair of Parentheses.py` | 🐍 Python | `2026-09-27 17:00` |
+| `1807. Evaluate the Bracket Pairs of a String.py` | 🐍 Python | `2026-09-26 17:18` |
+| `3550. Smallest Index With Digit Sum Equal to Index.py` | 🐍 Python | `2026-09-25 21:28` |
 
 ---
 
@@ -131,7 +131,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 ## 🗂️ Interactive Solutions Index
 
 <details>
-<summary><b>🐍 Python Solutions (667 Files)</b></summary>
+<summary><b>🐍 Python Solutions (665 Files)</b></summary>
 
 <br>
 
@@ -632,8 +632,6 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `2908. Minimum Sum of Mountain Triplets I.py`
 - `2909. Minimum Sum of Mountain Triplets II.py`
 - `2910. Minimum Number of Groups to Create a Valid Assignment.py`
-- `2913. Subarrays Distinct Element Sum of Squares I.py`
-- `2916. Subarrays Distinct Element Sum of Squares II.py`
 - `2946. Matrix Similarity After Cyclic Shifts.py`
 - `2948. Make Lexicographically Smallest Array by Swapping Elements.py`
 - `2958. Length of Longest Subarray With at Most K Frequency.py`
@@ -861,6 +859,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `482. License Key Formatting`
 
 </details>
+
 
 ---
 
