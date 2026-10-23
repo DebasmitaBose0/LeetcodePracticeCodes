@@ -25,12 +25,12 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Metric 📌 | Value 🔢 | Status ⚡ |
 | :--- | :---: | :---: |
-| 🐍 **Python Solutions** | `673` | Active 🟢 |
+| 🐍 **Python Solutions** | `674` | Active 🟢 |
 | ☕ **Java Solutions** | `3` | Active 🟢 |
 | 🛢️ **SQL Database Queries** | `25` | Active 🟢 |
 | 📄 **Text Notes & Misc** | `5` | Active 🟢 |
-| 📦 **Total Practice Files** | `706` | Maintained 🚀 |
-| 📅 **Last Updated** | `2026-10-22` | Sync Complete 🔄 |
+| 📦 **Total Practice Files** | `707` | Maintained 🚀 |
+| 📅 **Last Updated** | `2026-10-23` | Sync Complete 🔄 |
 | 📜 **License** | Proprietary | All Rights Reserved 🔒 |
 
 ---
@@ -47,7 +47,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | **500 - 999** | `61` | `██████░░░░░░` |
 | **1000 - 1999** | `62` | `██████░░░░░░` |
 | **2000 - 2999** | `67` | `██████░░░░░░` |
-| **3000 - 3999** | `127` | `████████████` |
+| **3000 - 3999** | `128` | `████████████` |
 | **Specialized / Themed** | `38` | `████░░░░░░░░` |
 
 ---
@@ -56,6 +56,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Solution File 📄 | Language 💻 | Last Modified ⏱️ |
 | :--- | :---: | :--- |
+| `3644. Maximum K to Sort a Permutation.py` | 🐍 Python | `2026-10-23 22:01` |
 | `3942. Minimum Operations to Sort a Permutation.py` | 🐍 Python | `2026-10-22 20:34` |
 | `3863. Minimum Operations to Sort a String.py` | 🐍 Python | `2026-10-22 20:34` |
 | `3886. Sum of Sortable Integers.py` | 🐍 Python | `2026-10-20 11:36` |
@@ -75,7 +76,6 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | `Remove Invalid Parentheses.py` | 🐍 Python | `2026-10-07 20:21` |
 | `921. Minimum Add to Make Parentheses Valid.py` | 🐍 Python | `2026-10-06 18:46` |
 | `856. Score of Parentheses.py` | 🐍 Python | `2026-10-05 21:41` |
-| `678. Valid Parenthesis String.py` | 🐍 Python | `2026-10-04 20:46` |
 
 ---
 
@@ -131,7 +131,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 ## 🗂️ Interactive Solutions Index
 
 <details>
-<summary><b>🐍 Python Solutions (673 Files)</b></summary>
+<summary><b>🐍 Python Solutions (674 Files)</b></summary>
 
 <br>
 
@@ -716,6 +716,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `3629. Minimum Jumps to Reach End via Prime Teleportation.py`
 - `3633. Earliest Finish Time for Land and Water Rides I.py`
 - `3635. Earliest Finish Time for Land and Water Rides II.py`
+- `3644. Maximum K to Sort a Permutation.py`
 - `3652. Best Time to Buy and Sell Stock using Strategy.py`
 - `3653. XOR After Range Multiplication Queries I streak code.py`
 - `3655. XOR After Range Multiplication Queries II.py`
