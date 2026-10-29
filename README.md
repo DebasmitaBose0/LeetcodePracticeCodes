@@ -25,12 +25,12 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Metric 📌 | Value 🔢 | Status ⚡ |
 | :--- | :---: | :---: |
-| 🐍 **Python Solutions** | `670` | Active 🟢 |
+| 🐍 **Python Solutions** | `671` | Active 🟢 |
 | ☕ **Java Solutions** | `3` | Active 🟢 |
 | 🛢️ **SQL Database Queries** | `25` | Active 🟢 |
 | 📄 **Text Notes & Misc** | `4` | Active 🟢 |
-| 📦 **Total Practice Files** | `702` | Maintained 🚀 |
-| 📅 **Last Updated** | `2026-10-28` | Sync Complete 🔄 |
+| 📦 **Total Practice Files** | `703` | Maintained 🚀 |
+| 📅 **Last Updated** | `2026-10-29` | Sync Complete 🔄 |
 | 📜 **License** | Proprietary | All Rights Reserved 🔒 |
 
 ---
@@ -43,11 +43,11 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | **100 - 199** | `79` | `███████░░░░░` |
 | **200 - 299** | `58` | `█████░░░░░░░` |
 | **300 - 399** | `60` | `█████░░░░░░░` |
-| **400 - 499** | `73` | `███████░░░░░` |
+| **400 - 499** | `73` | `██████░░░░░░` |
 | **500 - 999** | `66` | `██████░░░░░░` |
 | **1000 - 1999** | `63` | `██████░░░░░░` |
 | **2000 - 2999** | `70` | `██████░░░░░░` |
-| **3000 - 3999** | `134` | `████████████` |
+| **3000 - 3999** | `135` | `████████████` |
 | **Specialized / Themed** | `16` | `█░░░░░░░░░░░` |
 
 ---
@@ -56,6 +56,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Solution File 📄 | Language 💻 | Last Modified ⏱️ |
 | :--- | :---: | :--- |
+| `3000-3999/3841. Palindromic Path Queries in a Tree.py` | 🐍 Python | `2026-10-29 22:01` |
 | `3000-3999/3882. Minimum XOR Path in a Grid.py` | 🐍 Python | `2026-10-28 20:51` |
 | `3000-3999/3963. Create Grid With Exactly One Path.py` | 🐍 Python | `2026-10-27 22:27` |
 | `3000-3999/3619. Count Islands With Total Value Divisible by K.py` | 🐍 Python | `2026-10-26 21:03` |
@@ -75,7 +76,6 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | `3000-3999/3727. Maximum Alternating Sum of Squares.py` | 🐍 Python | `2026-10-13 19:08` |
 | `2000-2999/2897. Apply Operations on Array to Maximize Sum of Squares.py` | 🐍 Python | `2026-10-12 20:47` |
 | `2000-2999/2778. Sum of Squares of Special Elements .py` | 🐍 Python | `2026-10-11 10:28` |
-| `2000-2999/2333. Minimum Sum of Squared Difference.py` | 🐍 Python | `2026-10-10 17:08` |
 
 ---
 
@@ -133,7 +133,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 ## 🗂️ Interactive Solutions Index
 
 <details>
-<summary><b>🐍 Python Solutions (670 Files)</b></summary>
+<summary><b>🐍 Python Solutions (671 Files)</b></summary>
 
 <br>
 
@@ -790,6 +790,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `3000-3999/3821. Find Nth Smallest Integer With K One Bits.py`
 - `3000-3999/3823. Reverse Letters Then Special Characters in a String.py`
 - `3000-3999/3838. Weighted Word Mapping.py`
+- `3000-3999/3841. Palindromic Path Queries in a Tree.py`
 - `3000-3999/3863. Minimum Operations to Sort a String.py`
 - `3000-3999/3870. Count Commas in Range.py`
 - `3000-3999/3871. Count Commas in Range II.py`
