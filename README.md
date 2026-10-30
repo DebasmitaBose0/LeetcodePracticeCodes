@@ -25,12 +25,12 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Metric 📌 | Value 🔢 | Status ⚡ |
 | :--- | :---: | :---: |
-| 🐍 **Python Solutions** | `671` | Active 🟢 |
+| 🐍 **Python Solutions** | `672` | Active 🟢 |
 | ☕ **Java Solutions** | `3` | Active 🟢 |
 | 🛢️ **SQL Database Queries** | `25` | Active 🟢 |
 | 📄 **Text Notes & Misc** | `4` | Active 🟢 |
-| 📦 **Total Practice Files** | `703` | Maintained 🚀 |
-| 📅 **Last Updated** | `2026-10-29` | Sync Complete 🔄 |
+| 📦 **Total Practice Files** | `704` | Maintained 🚀 |
+| 📅 **Last Updated** | `2026-10-30` | Sync Complete 🔄 |
 | 📜 **License** | Proprietary | All Rights Reserved 🔒 |
 
 ---
@@ -47,7 +47,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | **500 - 999** | `66` | `██████░░░░░░` |
 | **1000 - 1999** | `63` | `██████░░░░░░` |
 | **2000 - 2999** | `70` | `██████░░░░░░` |
-| **3000 - 3999** | `135` | `████████████` |
+| **3000 - 3999** | `136` | `████████████` |
 | **Specialized / Themed** | `16` | `█░░░░░░░░░░░` |
 
 ---
@@ -56,6 +56,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Solution File 📄 | Language 💻 | Last Modified ⏱️ |
 | :--- | :---: | :--- |
+| `3000-3999/3970. Shortest Path With At Most K Consecutive Identical Characters.py` | 🐍 Python | `2026-10-30 22:14` |
 | `3000-3999/3841. Palindromic Path Queries in a Tree.py` | 🐍 Python | `2026-10-29 22:01` |
 | `3000-3999/3882. Minimum XOR Path in a Grid.py` | 🐍 Python | `2026-10-28 20:51` |
 | `3000-3999/3963. Create Grid With Exactly One Path.py` | 🐍 Python | `2026-10-27 22:27` |
@@ -75,7 +76,6 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | `3000-3999/3723. Maximize Sum of Squares of Digits.py` | 🐍 Python | `2026-10-14 20:22` |
 | `3000-3999/3727. Maximum Alternating Sum of Squares.py` | 🐍 Python | `2026-10-13 19:08` |
 | `2000-2999/2897. Apply Operations on Array to Maximize Sum of Squares.py` | 🐍 Python | `2026-10-12 20:47` |
-| `2000-2999/2778. Sum of Squares of Special Elements .py` | 🐍 Python | `2026-10-11 10:28` |
 
 ---
 
@@ -133,7 +133,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 ## 🗂️ Interactive Solutions Index
 
 <details>
-<summary><b>🐍 Python Solutions (671 Files)</b></summary>
+<summary><b>🐍 Python Solutions (672 Files)</b></summary>
 
 <br>
 
@@ -802,6 +802,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `3000-3999/3904. Smallest Stable Index II.py`
 - `3000-3999/3942. Minimum Operations to Sort a Permutation.py`
 - `3000-3999/3963. Create Grid With Exactly One Path.py`
+- `3000-3999/3970. Shortest Path With At Most K Consecutive Identical Characters.py`
 - `Data Stream Processing/Q1. Kth Largest Element in a Stream.py`
 - `Comprehensive Data Operation Simulation Station/Q1. Range Module.py`
 - `Comprehensive Data Operation Simulation Station/Q2. Range Frequency Queries.py`
