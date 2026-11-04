@@ -25,12 +25,12 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Metric 📌 | Value 🔢 | Status ⚡ |
 | :--- | :---: | :---: |
-| 🐍 **Python Solutions** | `673` | Active 🟢 |
+| 🐍 **Python Solutions** | `674` | Active 🟢 |
 | ☕ **Java Solutions** | `3` | Active 🟢 |
 | 🛢️ **SQL Database Queries** | `25` | Active 🟢 |
 | 📄 **Text Notes & Misc** | `4` | Active 🟢 |
-| 📦 **Total Practice Files** | `705` | Maintained 🚀 |
-| 📅 **Last Updated** | `2026-11-01` | Sync Complete 🔄 |
+| 📦 **Total Practice Files** | `706` | Maintained 🚀 |
+| 📅 **Last Updated** | `2026-11-04` | Sync Complete 🔄 |
 | 📜 **License** | Proprietary | All Rights Reserved 🔒 |
 
 ---
@@ -45,9 +45,9 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | **300 - 399** | `60` | `█████░░░░░░░` |
 | **400 - 499** | `73` | `██████░░░░░░` |
 | **500 - 999** | `66` | `██████░░░░░░` |
-| **1000 - 1999** | `63` | `██████░░░░░░` |
+| **1000 - 1999** | `63` | `█████░░░░░░░` |
 | **2000 - 2999** | `70` | `██████░░░░░░` |
-| **3000 - 3999** | `137` | `████████████` |
+| **3000 - 3999** | `138` | `████████████` |
 | **Specialized / Themed** | `16` | `█░░░░░░░░░░░` |
 
 ---
@@ -56,6 +56,8 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Solution File 📄 | Language 💻 | Last Modified ⏱️ |
 | :--- | :---: | :--- |
+| `3000-3999/3505. Minimum Operations to Make Elements Within K Subarrays Equal.py` | 🐍 Python | `2026-11-04 22:37` |
+| `400-499/462. Minimum Moves to Equal Array Elements II.py` | 🐍 Python | `2026-11-04 22:12` |
 | `3000-3999/3665. Twisted Mirror Path Count.py` | 🐍 Python | `2026-11-01 20:52` |
 | `400-499/453. Minimum Moves to Equal Array Elements.py` | 🐍 Python | `2026-11-01 20:51` |
 | `3000-3999/3970. Shortest Path With At Most K Consecutive Identical Characters.py` | 🐍 Python | `2026-10-30 22:14` |
@@ -74,8 +76,6 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | `3000-3999/3524. Find X Value of Array I.py` | 🐍 Python | `2026-10-17 11:42` |
 | `3000-3999/3551. Minimum Swaps to Sort by Digit Sum.py` | 🐍 Python | `2026-10-17 11:42` |
 | `2000-2999/2913. Subarrays Distinct Element Sum of Squares I.py` | 🐍 Python | `2026-10-16 20:02` |
-| `2000-2999/2916. Subarrays Distinct Element Sum of Squares II.py` | 🐍 Python | `2026-10-16 20:02` |
-| `3000-3999/3723. Maximize Sum of Squares of Digits.py` | 🐍 Python | `2026-10-14 20:22` |
 
 ---
 
@@ -133,7 +133,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 ## 🗂️ Interactive Solutions Index
 
 <details>
-<summary><b>🐍 Python Solutions (673 Files)</b></summary>
+<summary><b>🐍 Python Solutions (674 Files)</b></summary>
 
 <br>
 
@@ -711,6 +711,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `3000-3999/3488. Closest Equal Element Queries.py`
 - `3000-3999/3498. Reverse Degree of a String.py`
 - `3000-3999/3501. Maximize Active Section with Trade II.py`
+- `3000-3999/3505. Minimum Operations to Make Elements Within K Subarrays Equal.py`
 - `3000-3999/3512. Minimum Operations to Make Array Sum Divisible by K.py`
 - `3000-3999/3513. Number of Unique XOR Triplets I.py`
 - `3000-3999/3514. Number of Unique XOR Triplets II.py`
