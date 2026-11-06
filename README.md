@@ -25,12 +25,12 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Metric 📌 | Value 🔢 | Status ⚡ |
 | :--- | :---: | :---: |
-| 🐍 **Python Solutions** | `675` | Active 🟢 |
+| 🐍 **Python Solutions** | `676` | Active 🟢 |
 | ☕ **Java Solutions** | `3` | Active 🟢 |
 | 🛢️ **SQL Database Queries** | `25` | Active 🟢 |
 | 📄 **Text Notes & Misc** | `4` | Active 🟢 |
-| 📦 **Total Practice Files** | `707` | Maintained 🚀 |
-| 📅 **Last Updated** | `2026-11-05` | Sync Complete 🔄 |
+| 📦 **Total Practice Files** | `708` | Maintained 🚀 |
+| 📅 **Last Updated** | `2026-11-06` | Sync Complete 🔄 |
 | 📜 **License** | Proprietary | All Rights Reserved 🔒 |
 
 ---
@@ -46,7 +46,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | **400 - 499** | `73` | `██████░░░░░░` |
 | **500 - 999** | `66` | `██████░░░░░░` |
 | **1000 - 1999** | `64` | `██████░░░░░░` |
-| **2000 - 2999** | `70` | `██████░░░░░░` |
+| **2000 - 2999** | `71` | `██████░░░░░░` |
 | **3000 - 3999** | `138` | `████████████` |
 | **Specialized / Themed** | `16` | `█░░░░░░░░░░░` |
 
@@ -56,6 +56,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Solution File 📄 | Language 💻 | Last Modified ⏱️ |
 | :--- | :---: | :--- |
+| `2000-2999/2747. Count Zero Request Servers.py` | 🐍 Python | `2026-11-06 22:41` |
 | `1000-1999/1385. Find the Distance Value Between Two Arrays.py` | 🐍 Python | `2026-11-05 22:21` |
 | `3000-3999/3505. Minimum Operations to Make Elements Within K Subarrays Equal.py` | 🐍 Python | `2026-11-04 22:37` |
 | `400-499/462. Minimum Moves to Equal Array Elements II.py` | 🐍 Python | `2026-11-04 22:12` |
@@ -75,7 +76,6 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | `2000-2999/2089. Find Target Indices After Sorting Array.py` | 🐍 Python | `2026-10-19 13:06` |
 | `1000-1999/1569. Number of Ways to Reorder Array to Get Same BST.py` | 🐍 Python | `2026-10-19 13:06` |
 | `3000-3999/3524. Find X Value of Array I.py` | 🐍 Python | `2026-10-17 11:42` |
-| `3000-3999/3551. Minimum Swaps to Sort by Digit Sum.py` | 🐍 Python | `2026-10-17 11:42` |
 
 ---
 
@@ -133,7 +133,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 ## 🗂️ Interactive Solutions Index
 
 <details>
-<summary><b>🐍 Python Solutions (675 Files)</b></summary>
+<summary><b>🐍 Python Solutions (676 Files)</b></summary>
 
 <br>
 
@@ -648,6 +648,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `2000-2999/2654. Minimum Number of Operations to Make All Array Elements Equal to 1.py`
 - `2000-2999/2657. Find the Prefix Common Array of Two Arrays.py`
 - `2000-2999/2685. Count the Number of Complete Components.py`
+- `2000-2999/2747. Count Zero Request Servers.py`
 - `2000-2999/2751. Robot Collisions.py`
 - `2000-2999/2778. Sum of Squares of Special Elements .py`
 - `2000-2999/2784. Check if Array is Good.py`
