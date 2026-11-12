@@ -25,12 +25,12 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Metric 📌 | Value 🔢 | Status ⚡ |
 | :--- | :---: | :---: |
-| 🐍 **Python Solutions** | `680` | Active 🟢 |
+| 🐍 **Python Solutions** | `682` | Active 🟢 |
 | ☕ **Java Solutions** | `3` | Active 🟢 |
 | 🛢️ **SQL Database Queries** | `25` | Active 🟢 |
 | 📄 **Text Notes & Misc** | `4` | Active 🟢 |
-| 📦 **Total Practice Files** | `712` | Maintained 🚀 |
-| 📅 **Last Updated** | `2026-11-10` | Sync Complete 🔄 |
+| 📦 **Total Practice Files** | `714` | Maintained 🚀 |
+| 📅 **Last Updated** | `2026-11-12` | Sync Complete 🔄 |
 | 📜 **License** | Proprietary | All Rights Reserved 🔒 |
 
 ---
@@ -47,7 +47,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | **500 - 999** | `66` | `██████░░░░░░` |
 | **1000 - 1999** | `67` | `██████░░░░░░` |
 | **2000 - 2999** | `71` | `██████░░░░░░` |
-| **3000 - 3999** | `139` | `████████████` |
+| **3000 - 3999** | `141` | `████████████` |
 | **Specialized / Themed** | `16` | `█░░░░░░░░░░░` |
 
 ---
@@ -56,6 +56,8 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Solution File 📄 | Language 💻 | Last Modified ⏱️ |
 | :--- | :---: | :--- |
+| `3000-3999/3105. Longest Strictly Increasing or Strictly Decreasing Subarray.py` | 🐍 Python | `2026-11-12 21:06` |
+| `3000-3999/3789. Minimum Cost to Acquire Required Items.py` | 🐍 Python | `2026-11-11 22:15` |
 | `3000-3999/3693. Climbing Stairs II.py` | 🐍 Python | `2026-11-10 20:21` |
 | `1000-1999/1606. Find Servers That Handled Most Number of Requests.py` | 🐍 Python | `2026-11-09 10:58` |
 | `1000-1999/1267. Count Servers that Communicate.py` | 🐍 Python | `2026-11-08 22:21` |
@@ -74,8 +76,6 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | `1000-1999/1254. Number of Closed Islands.py` | 🐍 Python | `2026-10-25 12:26` |
 | `2000-2999/2409. Count Days Spent Together.py` | 🐍 Python | `2026-10-24 21:43` |
 | `3000-3999/3644. Maximum K to Sort a Permutation.py` | 🐍 Python | `2026-10-23 22:01` |
-| `3000-3999/3942. Minimum Operations to Sort a Permutation.py` | 🐍 Python | `2026-10-22 20:34` |
-| `3000-3999/3863. Minimum Operations to Sort a String.py` | 🐍 Python | `2026-10-22 20:34` |
 
 ---
 
@@ -133,7 +133,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 ## 🗂️ Interactive Solutions Index
 
 <details>
-<summary><b>🐍 Python Solutions (680 Files)</b></summary>
+<summary><b>🐍 Python Solutions (682 Files)</b></summary>
 
 <br>
 
@@ -683,6 +683,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `3000-3999/3075. Maximize Happiness of Selected Children.py`
 - `3000-3999/3090. Maximum Length Substring With Two Occurrences.py`
 - `3000-3999/3093. Longest Common Suffix Queries.py`
+- `3000-3999/3105. Longest Strictly Increasing or Strictly Decreasing Subarray.py`
 - `3000-3999/3116. Kth Smallest Amount With Single Denomination Combination.py`
 - `3000-3999/3120. Count the Number of Special Characters I.py`
 - `3000-3999/3121. Count the Number of Special Characters II.py`
@@ -783,6 +784,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `3000-3999/3756. Concatenate Non-Zero Digits and Multiply by Sum II.py`
 - `3000-3999/3761. Minimum Absolute Distance Between Mirror Pairs.py`
 - `3000-3999/3783. Mirror Distance of an Integer.py`
+- `3000-3999/3789. Minimum Cost to Acquire Required Items.py`
 - `3000-3999/3803. Count Residue Prefixes.py`
 - `3000-3999/3804. Number of Centered Subarrays.py`
 - `3000-3999/3805. Count Caesar Cipher Pairs.py`
