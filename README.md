@@ -25,12 +25,12 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Metric 📌 | Value 🔢 | Status ⚡ |
 | :--- | :---: | :---: |
-| 🐍 **Python Solutions** | `683` | Active 🟢 |
+| 🐍 **Python Solutions** | `684` | Active 🟢 |
 | ☕ **Java Solutions** | `3` | Active 🟢 |
 | 🛢️ **SQL Database Queries** | `25` | Active 🟢 |
 | 📄 **Text Notes & Misc** | `4` | Active 🟢 |
-| 📦 **Total Practice Files** | `715` | Maintained 🚀 |
-| 📅 **Last Updated** | `2026-11-13` | Sync Complete 🔄 |
+| 📦 **Total Practice Files** | `716` | Maintained 🚀 |
+| 📅 **Last Updated** | `2026-11-15` | Sync Complete 🔄 |
 | 📜 **License** | Proprietary | All Rights Reserved 🔒 |
 
 ---
@@ -47,7 +47,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | **500 - 999** | `66` | `██████░░░░░░` |
 | **1000 - 1999** | `67` | `██████░░░░░░` |
 | **2000 - 2999** | `71` | `██████░░░░░░` |
-| **3000 - 3999** | `142` | `████████████` |
+| **3000 - 3999** | `143` | `████████████` |
 | **Specialized / Themed** | `16` | `█░░░░░░░░░░░` |
 
 ---
@@ -56,6 +56,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Solution File 📄 | Language 💻 | Last Modified ⏱️ |
 | :--- | :---: | :--- |
+| `3000-3999/3364. Minimum Positive Sum Subarray.py` | 🐍 Python | `2026-11-15 10:50` |
 | `3000-3999/3420. Count Non-Decreasing Subarrays After K Operations.py` | 🐍 Python | `2026-11-13 21:47` |
 | `3000-3999/3105. Longest Strictly Increasing or Strictly Decreasing Subarray.py` | 🐍 Python | `2026-11-12 21:06` |
 | `3000-3999/3789. Minimum Cost to Acquire Required Items.py` | 🐍 Python | `2026-11-11 22:15` |
@@ -75,7 +76,6 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | `3000-3999/3963. Create Grid With Exactly One Path.py` | 🐍 Python | `2026-10-27 22:27` |
 | `3000-3999/3619. Count Islands With Total Value Divisible by K.py` | 🐍 Python | `2026-10-26 21:03` |
 | `1000-1999/1254. Number of Closed Islands.py` | 🐍 Python | `2026-10-25 12:26` |
-| `2000-2999/2409. Count Days Spent Together.py` | 🐍 Python | `2026-10-24 21:43` |
 
 ---
 
@@ -133,7 +133,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 ## 🗂️ Interactive Solutions Index
 
 <details>
-<summary><b>🐍 Python Solutions (683 Files)</b></summary>
+<summary><b>🐍 Python Solutions (684 Files)</b></summary>
 
 <br>
 
@@ -705,6 +705,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `3000-3999/3345. Smallest Divisible Digit Product I.py`
 - `3000-3999/3348. Smallest Divisible Digit Product II.py`
 - `3000-3999/3354. Make Array Elements Equal to Zero.py`
+- `3000-3999/3364. Minimum Positive Sum Subarray.py`
 - `3000-3999/3370. Smallest Number With All Set Bits.py`
 - `3000-3999/3381. Maximum Subarray Sum With Length Divisible by K.py`
 - `3000-3999/3414. Maximum Score of Non-overlapping Intervals.py`
