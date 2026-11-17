@@ -25,12 +25,12 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Metric 📌 | Value 🔢 | Status ⚡ |
 | :--- | :---: | :---: |
-| 🐍 **Python Solutions** | `686` | Active 🟢 |
+| 🐍 **Python Solutions** | `687` | Active 🟢 |
 | ☕ **Java Solutions** | `3` | Active 🟢 |
 | 🛢️ **SQL Database Queries** | `25` | Active 🟢 |
 | 📄 **Text Notes & Misc** | `4` | Active 🟢 |
-| 📦 **Total Practice Files** | `718` | Maintained 🚀 |
-| 📅 **Last Updated** | `2026-11-16` | Sync Complete 🔄 |
+| 📦 **Total Practice Files** | `719` | Maintained 🚀 |
+| 📅 **Last Updated** | `2026-11-17` | Sync Complete 🔄 |
 | 📜 **License** | Proprietary | All Rights Reserved 🔒 |
 
 ---
@@ -46,7 +46,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | **400 - 499** | `73` | `██████░░░░░░` |
 | **500 - 999** | `66` | `██████░░░░░░` |
 | **1000 - 1999** | `68` | `██████░░░░░░` |
-| **2000 - 2999** | `72` | `██████░░░░░░` |
+| **2000 - 2999** | `73` | `██████░░░░░░` |
 | **3000 - 3999** | `143` | `████████████` |
 | **Specialized / Themed** | `16` | `█░░░░░░░░░░░` |
 
@@ -56,6 +56,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Solution File 📄 | Language 💻 | Last Modified ⏱️ |
 | :--- | :---: | :--- |
+| `2000-2999/2911. Minimum Changes to Make K Semi-palindromes.py` | 🐍 Python | `2026-11-17 22:37` |
 | `2000-2999/2243. Calculate Digit Sum of a String.py` | 🐍 Python | `2026-11-16 22:44` |
 | `1000-1999/1524. Number of Sub-arrays With Odd Sum.py` | 🐍 Python | `2026-11-15 10:56` |
 | `3000-3999/3364. Minimum Positive Sum Subarray.py` | 🐍 Python | `2026-11-15 10:50` |
@@ -75,7 +76,6 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | `3000-3999/3970. Shortest Path With At Most K Consecutive Identical Characters.py` | 🐍 Python | `2026-10-30 22:14` |
 | `3000-3999/3841. Palindromic Path Queries in a Tree.py` | 🐍 Python | `2026-10-29 22:01` |
 | `3000-3999/3882. Minimum XOR Path in a Grid.py` | 🐍 Python | `2026-10-28 20:51` |
-| `3000-3999/3963. Create Grid With Exactly One Path.py` | 🐍 Python | `2026-10-27 22:27` |
 
 ---
 
@@ -133,7 +133,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 ## 🗂️ Interactive Solutions Index
 
 <details>
-<summary><b>🐍 Python Solutions (686 Files)</b></summary>
+<summary><b>🐍 Python Solutions (687 Files)</b></summary>
 
 <br>
 
@@ -670,6 +670,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `2000-2999/2908. Minimum Sum of Mountain Triplets I.py`
 - `2000-2999/2909. Minimum Sum of Mountain Triplets II.py`
 - `2000-2999/2910. Minimum Number of Groups to Create a Valid Assignment.py`
+- `2000-2999/2911. Minimum Changes to Make K Semi-palindromes.py`
 - `2000-2999/2913. Subarrays Distinct Element Sum of Squares I.py`
 - `2000-2999/2916. Subarrays Distinct Element Sum of Squares II.py`
 - `2000-2999/2946. Matrix Similarity After Cyclic Shifts.py`
