@@ -25,11 +25,11 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Metric 📌 | Value 🔢 | Status ⚡ |
 | :--- | :---: | :---: |
-| 🐍 **Python Solutions** | `688` | Active 🟢 |
+| 🐍 **Python Solutions** | `689` | Active 🟢 |
 | ☕ **Java Solutions** | `3` | Active 🟢 |
 | 🛢️ **SQL Database Queries** | `25` | Active 🟢 |
 | 📄 **Text Notes & Misc** | `4` | Active 🟢 |
-| 📦 **Total Practice Files** | `720` | Maintained 🚀 |
+| 📦 **Total Practice Files** | `721` | Maintained 🚀 |
 | 📅 **Last Updated** | `2026-11-19` | Sync Complete 🔄 |
 | 📜 **License** | Proprietary | All Rights Reserved 🔒 |
 
@@ -46,7 +46,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | **400 - 499** | `73` | `██████░░░░░░` |
 | **500 - 999** | `66` | `██████░░░░░░` |
 | **1000 - 1999** | `68` | `██████░░░░░░` |
-| **2000 - 2999** | `74` | `██████░░░░░░` |
+| **2000 - 2999** | `75` | `██████░░░░░░` |
 | **3000 - 3999** | `143` | `████████████` |
 | **Specialized / Themed** | `16` | `█░░░░░░░░░░░` |
 
@@ -56,6 +56,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Solution File 📄 | Language 💻 | Last Modified ⏱️ |
 | :--- | :---: | :--- |
+| `2000-2999/2567. Minimum Score by Changing Two Elements.py` | 🐍 Python | `2026-11-19 21:22` |
 | `2000-2999/2914. Minimum Number of Changes to Make Binary String Beautiful.py` | 🐍 Python | `2026-11-19 21:07` |
 | `2000-2999/2911. Minimum Changes to Make K Semi-palindromes.py` | 🐍 Python | `2026-11-17 22:37` |
 | `2000-2999/2243. Calculate Digit Sum of a String.py` | 🐍 Python | `2026-11-16 22:44` |
@@ -75,7 +76,6 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | `3000-3999/3665. Twisted Mirror Path Count.py` | 🐍 Python | `2026-11-01 20:52` |
 | `400-499/453. Minimum Moves to Equal Array Elements.py` | 🐍 Python | `2026-11-01 20:51` |
 | `3000-3999/3970. Shortest Path With At Most K Consecutive Identical Characters.py` | 🐍 Python | `2026-10-30 22:14` |
-| `3000-3999/3841. Palindromic Path Queries in a Tree.py` | 🐍 Python | `2026-10-29 22:01` |
 
 ---
 
@@ -133,7 +133,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 ## 🗂️ Interactive Solutions Index
 
 <details>
-<summary><b>🐍 Python Solutions (688 Files)</b></summary>
+<summary><b>🐍 Python Solutions (689 Files)</b></summary>
 
 <br>
 
@@ -647,6 +647,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `2000-2999/2536. Increment Submatrices by One.py`
 - `2000-2999/2540. Minimum Common Value.py`
 - `2000-2999/2553. Separate the Digits in an Array.py`
+- `2000-2999/2567. Minimum Score by Changing Two Elements.py`
 - `2000-2999/2573. Find the String with LCP.py`
 - `2000-2999/2574. Left and Right Sum Differences.py`
 - `2000-2999/2615. Sum of Distances.py`
