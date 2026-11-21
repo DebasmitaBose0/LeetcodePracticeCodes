@@ -25,12 +25,12 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Metric 📌 | Value 🔢 | Status ⚡ |
 | :--- | :---: | :---: |
-| 🐍 **Python Solutions** | `689` | Active 🟢 |
+| 🐍 **Python Solutions** | `691` | Active 🟢 |
 | ☕ **Java Solutions** | `3` | Active 🟢 |
 | 🛢️ **SQL Database Queries** | `25` | Active 🟢 |
 | 📄 **Text Notes & Misc** | `4` | Active 🟢 |
-| 📦 **Total Practice Files** | `721` | Maintained 🚀 |
-| 📅 **Last Updated** | `2026-11-19` | Sync Complete 🔄 |
+| 📦 **Total Practice Files** | `723` | Maintained 🚀 |
+| 📅 **Last Updated** | `2026-11-21` | Sync Complete 🔄 |
 | 📜 **License** | Proprietary | All Rights Reserved 🔒 |
 
 ---
@@ -44,10 +44,10 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | **200 - 299** | `58` | `█████░░░░░░░` |
 | **300 - 399** | `60` | `█████░░░░░░░` |
 | **400 - 499** | `73` | `██████░░░░░░` |
-| **500 - 999** | `66` | `██████░░░░░░` |
+| **500 - 999** | `66` | `█████░░░░░░░` |
 | **1000 - 1999** | `68` | `██████░░░░░░` |
 | **2000 - 2999** | `75` | `██████░░░░░░` |
-| **3000 - 3999** | `143` | `████████████` |
+| **3000 - 3999** | `145` | `████████████` |
 | **Specialized / Themed** | `16` | `█░░░░░░░░░░░` |
 
 ---
@@ -56,6 +56,8 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Solution File 📄 | Language 💻 | Last Modified ⏱️ |
 | :--- | :---: | :--- |
+| `3000-3999/3331. Find Subtree Sizes After Changes.py` | 🐍 Python | `2026-11-21 19:15` |
+| `3000-3999/3041. Maximize Consecutive Elements in an Array After Modification.py` | 🐍 Python | `2026-11-21 19:15` |
 | `2000-2999/2567. Minimum Score by Changing Two Elements.py` | 🐍 Python | `2026-11-19 21:22` |
 | `2000-2999/2914. Minimum Number of Changes to Make Binary String Beautiful.py` | 🐍 Python | `2026-11-19 21:07` |
 | `2000-2999/2911. Minimum Changes to Make K Semi-palindromes.py` | 🐍 Python | `2026-11-17 22:37` |
@@ -74,8 +76,6 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | `3000-3999/3505. Minimum Operations to Make Elements Within K Subarrays Equal.py` | 🐍 Python | `2026-11-04 22:37` |
 | `400-499/462. Minimum Moves to Equal Array Elements II.py` | 🐍 Python | `2026-11-04 22:12` |
 | `3000-3999/3665. Twisted Mirror Path Count.py` | 🐍 Python | `2026-11-01 20:52` |
-| `400-499/453. Minimum Moves to Equal Array Elements.py` | 🐍 Python | `2026-11-01 20:51` |
-| `3000-3999/3970. Shortest Path With At Most K Consecutive Identical Characters.py` | 🐍 Python | `2026-10-30 22:14` |
 
 ---
 
@@ -133,7 +133,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 ## 🗂️ Interactive Solutions Index
 
 <details>
-<summary><b>🐍 Python Solutions (689 Files)</b></summary>
+<summary><b>🐍 Python Solutions (691 Files)</b></summary>
 
 <br>
 
@@ -682,6 +682,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `3000-3999/3014. Minimum Number of Pushes to Type Word I.py`
 - `3000-3999/3016. Minimum Number of Pushes to Type Word II.py`
 - `3000-3999/3020. Find the Maximum Number of Elements in Subset.py`
+- `3000-3999/3041. Maximize Consecutive Elements in an Array After Modification.py`
 - `3000-3999/3043. Find the Length of the Longest Common Prefix.py`
 - `3000-3999/3069. Distribute Elements Into Two Arrays I.py`
 - `3000-3999/3074. Apple Redistribution into Boxes.py`
@@ -706,6 +707,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `3000-3999/3310. Remove Methods From Project.py`
 - `3000-3999/3312. Sorted GCD Pair Queries.py`
 - `3000-3999/3318. Find X-Sum of All K-Long Subarrays I.py`
+- `3000-3999/3331. Find Subtree Sizes After Changes.py`
 - `3000-3999/3336. Find the Number of Subsequences With Equal GCD.py`
 - `3000-3999/3345. Smallest Divisible Digit Product I.py`
 - `3000-3999/3348. Smallest Divisible Digit Product II.py`
