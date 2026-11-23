@@ -25,11 +25,11 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Metric 📌 | Value 🔢 | Status ⚡ |
 | :--- | :---: | :---: |
-| 🐍 **Python Solutions** | `693` | Active 🟢 |
+| 🐍 **Python Solutions** | `692` | Active 🟢 |
 | ☕ **Java Solutions** | `3` | Active 🟢 |
 | 🛢️ **SQL Database Queries** | `25` | Active 🟢 |
 | 📄 **Text Notes & Misc** | `4` | Active 🟢 |
-| 📦 **Total Practice Files** | `725` | Maintained 🚀 |
+| 📦 **Total Practice Files** | `724` | Maintained 🚀 |
 | 📅 **Last Updated** | `2026-11-23` | Sync Complete 🔄 |
 | 📜 **License** | Proprietary | All Rights Reserved 🔒 |
 
@@ -45,7 +45,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | **300 - 399** | `60` | `█████░░░░░░░` |
 | **400 - 499** | `73` | `██████░░░░░░` |
 | **500 - 999** | `66` | `█████░░░░░░░` |
-| **1000 - 1999** | `69` | `██████░░░░░░` |
+| **1000 - 1999** | `68` | `██████░░░░░░` |
 | **2000 - 2999** | `76` | `██████░░░░░░` |
 | **3000 - 3999** | `145` | `████████████` |
 | **Specialized / Themed** | `16` | `█░░░░░░░░░░░` |
@@ -133,7 +133,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 ## 🗂️ Interactive Solutions Index
 
 <details>
-<summary><b>🐍 Python Solutions (693 Files)</b></summary>
+<summary><b>🐍 Python Solutions (692 Files)</b></summary>
 
 <br>
 
@@ -559,7 +559,6 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `1000-1999/1340. Jump Game V.py`
 - `1000-1999/1344. Angle Between Hands of a Clock.py`
 - `1000-1999/1345. Jump Game IV.py`
-- `1352. Product of the Last K Numbers.py`
 - `1000-1999/1358. Number of Substrings Containing All Three Characters.py`
 - `1000-1999/1385. Find the Distance Value Between Two Arrays.py`
 - `1000-1999/1386. Cinema Seat Allocation.py`
