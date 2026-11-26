@@ -25,11 +25,11 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Metric 📌 | Value 🔢 | Status ⚡ |
 | :--- | :---: | :---: |
-| 🐍 **Python Solutions** | `694` | Active 🟢 |
+| 🐍 **Python Solutions** | `696` | Active 🟢 |
 | ☕ **Java Solutions** | `3` | Active 🟢 |
 | 🛢️ **SQL Database Queries** | `25` | Active 🟢 |
 | 📄 **Text Notes & Misc** | `4` | Active 🟢 |
-| 📦 **Total Practice Files** | `726` | Maintained 🚀 |
+| 📦 **Total Practice Files** | `728` | Maintained 🚀 |
 | 📅 **Last Updated** | `2026-11-26` | Sync Complete 🔄 |
 | 📜 **License** | Proprietary | All Rights Reserved 🔒 |
 
@@ -47,7 +47,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | **500 - 999** | `66` | `█████░░░░░░░` |
 | **1000 - 1999** | `69` | `██████░░░░░░` |
 | **2000 - 2999** | `76` | `██████░░░░░░` |
-| **3000 - 3999** | `146` | `████████████` |
+| **3000 - 3999** | `148` | `████████████` |
 | **Specialized / Themed** | `16` | `█░░░░░░░░░░░` |
 
 ---
@@ -56,6 +56,8 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Solution File 📄 | Language 💻 | Last Modified ⏱️ |
 | :--- | :---: | :--- |
+| `3000-3999/3360. Stone Removal Game.py` | 🐍 Python | `2026-11-26 22:07` |
+| `3000-3999/3934. Smallest Unique Subarray.py` | 🐍 Python | `2026-11-26 22:07` |
 | `3000-3999/3411. Maximum Subarray With Equal Products.py` | 🐍 Python | `2026-11-26 21:58` |
 | `1000-1999/1352. Product of the Last K Numbers.py` | 🐍 Python | `2026-11-26 21:58` |
 | `2000-2999/2124. Check if All A's Appears Before All B's.py` | 🐍 Python | `2026-11-23 22:19` |
@@ -74,8 +76,6 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | `1000-1999/1606. Find Servers That Handled Most Number of Requests.py` | 🐍 Python | `2026-11-09 10:58` |
 | `1000-1999/1267. Count Servers that Communicate.py` | 🐍 Python | `2026-11-08 22:21` |
 | `1000-1999/1882. Process Tasks Using Servers.py` | 🐍 Python | `2026-11-07 22:03` |
-| `2000-2999/2747. Count Zero Request Servers.py` | 🐍 Python | `2026-11-06 22:41` |
-| `1000-1999/1385. Find the Distance Value Between Two Arrays.py` | 🐍 Python | `2026-11-05 22:21` |
 
 ---
 
@@ -133,7 +133,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 ## 🗂️ Interactive Solutions Index
 
 <details>
-<summary><b>🐍 Python Solutions (694 Files)</b></summary>
+<summary><b>🐍 Python Solutions (696 Files)</b></summary>
 
 <br>
 
@@ -714,6 +714,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `3000-3999/3345. Smallest Divisible Digit Product I.py`
 - `3000-3999/3348. Smallest Divisible Digit Product II.py`
 - `3000-3999/3354. Make Array Elements Equal to Zero.py`
+- `3000-3999/3360. Stone Removal Game.py`
 - `3000-3999/3364. Minimum Positive Sum Subarray.py`
 - `3000-3999/3370. Smallest Number With All Set Bits.py`
 - `3000-3999/3381. Maximum Subarray Sum With Length Divisible by K.py`
@@ -822,6 +823,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `3000-3999/3886. Sum of Sortable Integers.py`
 - `3000-3999/3903. Smallest Stable Index I.py`
 - `3000-3999/3904. Smallest Stable Index II.py`
+- `3000-3999/3934. Smallest Unique Subarray.py`
 - `3000-3999/3942. Minimum Operations to Sort a Permutation.py`
 - `3000-3999/3963. Create Grid With Exactly One Path.py`
 - `3000-3999/3970. Shortest Path With At Most K Consecutive Identical Characters.py`
