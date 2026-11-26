@@ -25,12 +25,12 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Metric 📌 | Value 🔢 | Status ⚡ |
 | :--- | :---: | :---: |
-| 🐍 **Python Solutions** | `692` | Active 🟢 |
+| 🐍 **Python Solutions** | `694` | Active 🟢 |
 | ☕ **Java Solutions** | `3` | Active 🟢 |
 | 🛢️ **SQL Database Queries** | `25` | Active 🟢 |
 | 📄 **Text Notes & Misc** | `4` | Active 🟢 |
-| 📦 **Total Practice Files** | `724` | Maintained 🚀 |
-| 📅 **Last Updated** | `2026-11-23` | Sync Complete 🔄 |
+| 📦 **Total Practice Files** | `726` | Maintained 🚀 |
+| 📅 **Last Updated** | `2026-11-26` | Sync Complete 🔄 |
 | 📜 **License** | Proprietary | All Rights Reserved 🔒 |
 
 ---
@@ -40,14 +40,14 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | Problem Range 🔢 | Solutions Solved 🧮 | Distribution Visual 📊 |
 | :--- | :---: | :--- |
 | **1 - 99** | `83` | `███████░░░░░` |
-| **100 - 199** | `79` | `███████░░░░░` |
+| **100 - 199** | `79` | `██████░░░░░░` |
 | **200 - 299** | `58` | `█████░░░░░░░` |
 | **300 - 399** | `60` | `█████░░░░░░░` |
 | **400 - 499** | `73` | `██████░░░░░░` |
 | **500 - 999** | `66` | `█████░░░░░░░` |
-| **1000 - 1999** | `68` | `██████░░░░░░` |
+| **1000 - 1999** | `69` | `██████░░░░░░` |
 | **2000 - 2999** | `76` | `██████░░░░░░` |
-| **3000 - 3999** | `145` | `████████████` |
+| **3000 - 3999** | `146` | `████████████` |
 | **Specialized / Themed** | `16` | `█░░░░░░░░░░░` |
 
 ---
@@ -56,6 +56,8 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 
 | Solution File 📄 | Language 💻 | Last Modified ⏱️ |
 | :--- | :---: | :--- |
+| `3000-3999/3411. Maximum Subarray With Equal Products.py` | 🐍 Python | `2026-11-26 21:58` |
+| `1000-1999/1352. Product of the Last K Numbers.py` | 🐍 Python | `2026-11-26 21:58` |
 | `2000-2999/2124. Check if All A's Appears Before All B's.py` | 🐍 Python | `2026-11-23 22:19` |
 | `3000-3999/3331. Find Subtree Sizes After Changes.py` | 🐍 Python | `2026-11-21 19:15` |
 | `3000-3999/3041. Maximize Consecutive Elements in an Array After Modification.py` | 🐍 Python | `2026-11-21 19:15` |
@@ -74,8 +76,6 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 | `1000-1999/1882. Process Tasks Using Servers.py` | 🐍 Python | `2026-11-07 22:03` |
 | `2000-2999/2747. Count Zero Request Servers.py` | 🐍 Python | `2026-11-06 22:41` |
 | `1000-1999/1385. Find the Distance Value Between Two Arrays.py` | 🐍 Python | `2026-11-05 22:21` |
-| `3000-3999/3505. Minimum Operations to Make Elements Within K Subarrays Equal.py` | 🐍 Python | `2026-11-04 22:37` |
-| `400-499/462. Minimum Moves to Equal Array Elements II.py` | 🐍 Python | `2026-11-04 22:12` |
 
 ---
 
@@ -133,7 +133,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 ## 🗂️ Interactive Solutions Index
 
 <details>
-<summary><b>🐍 Python Solutions (692 Files)</b></summary>
+<summary><b>🐍 Python Solutions (694 Files)</b></summary>
 
 <br>
 
@@ -559,6 +559,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `1000-1999/1340. Jump Game V.py`
 - `1000-1999/1344. Angle Between Hands of a Clock.py`
 - `1000-1999/1345. Jump Game IV.py`
+- `1000-1999/1352. Product of the Last K Numbers.py`
 - `1000-1999/1358. Number of Substrings Containing All Three Characters.py`
 - `1000-1999/1385. Find the Distance Value Between Two Arrays.py`
 - `1000-1999/1386. Cinema Seat Allocation.py`
@@ -716,6 +717,7 @@ Welcome to **LeetCode Practice Codes**! This repository serves as a personal arc
 - `3000-3999/3364. Minimum Positive Sum Subarray.py`
 - `3000-3999/3370. Smallest Number With All Set Bits.py`
 - `3000-3999/3381. Maximum Subarray Sum With Length Divisible by K.py`
+- `3000-3999/3411. Maximum Subarray With Equal Products.py`
 - `3000-3999/3414. Maximum Score of Non-overlapping Intervals.py`
 - `3000-3999/3418. Maximum Amount of Money Robot Can Earn.py`
 - `3000-3999/3420. Count Non-Decreasing Subarrays After K Operations.py`
